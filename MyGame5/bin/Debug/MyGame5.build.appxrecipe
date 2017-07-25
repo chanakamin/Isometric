@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>ZKNOBEL</Machine>
+    <WindowsUser>ציפי</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>ec59a2e4-3e98-4b22-b82f-fcc51c2dfe3e</PackageIdentityName>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך\MyGame5\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך\MyGame5\bin\Debug\MyGame5.exe">
+      <PackagePath>MyGame5.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך\packages\SharpDX.2.6.3\build\..\Bin\DirectX11_2-Signed-winrt\SharpDX.Direct2D1.dll">
+      <PackagePath>SharpDX.Direct2D1.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך\packages\SharpDX.2.6.3\build\..\Bin\DirectX11_2-Signed-winrt\SharpDX.Direct3D11.dll">
+      <PackagePath>SharpDX.Direct3D11.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך\packages\SharpDX.2.6.3\build\..\Bin\DirectX11_2-Signed-winrt\SharpDX.dll">
+      <PackagePath>SharpDX.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך\packages\SharpDX.2.6.3\build\..\Bin\DirectX11_2-Signed-winrt\SharpDX.DXGI.dll">
+      <PackagePath>SharpDX.DXGI.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך\packages\SharpDX.2.6.3\build\..\Bin\DirectX11_2-Signed-winrt\SharpDX.Toolkit.Audio.dll">
+      <PackagePath>SharpDX.Toolkit.Audio.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך\packages\SharpDX.2.6.3\build\..\Bin\DirectX11_2-Signed-winrt\SharpDX.Toolkit.dll">
+      <PackagePath>SharpDX.Toolkit.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך\packages\SharpDX.2.6.3\build\..\Bin\DirectX11_2-Signed-winrt\SharpDX.Toolkit.Game.dll">
+      <PackagePath>SharpDX.Toolkit.Game.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך\packages\SharpDX.2.6.3\build\..\Bin\DirectX11_2-Signed-winrt\SharpDX.Toolkit.Graphics.dll">
+      <PackagePath>SharpDX.Toolkit.Graphics.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך\packages\SharpDX.2.6.3\build\..\Bin\DirectX11_2-Signed-winrt\SharpDX.Toolkit.Input.dll">
+      <PackagePath>SharpDX.Toolkit.Input.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך\packages\SharpDX.2.6.3\build\..\Bin\DirectX11_2-Signed-winrt\SharpDX.XAudio2.dll">
+      <PackagePath>SharpDX.XAudio2.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך\MyGame5\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך\MyGame5\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך\MyGame5\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך\MyGame5\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך\MyGame5\obj\Debug\Content\Bloom.tkb">
+      <PackagePath>Content\Bloom.tkb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך\MyGame5\obj\Debug\Content\MetaTunnel.tkb">
+      <PackagePath>Content\MetaTunnel.tkb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך\MyGame5\obj\Debug\Content\Arial16.tkb">
+      <PackagePath>Content\Arial16.tkb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך\MyGame5\obj\Debug\Content\Ship.tkb">
+      <PackagePath>Content\Ship.tkb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך\MyGame5\obj\Debug\Content\Scene1.tkb">
+      <PackagePath>Content\Scene1.tkb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך\MyGame5\obj\Debug\Content\Cube.tkb">
+      <PackagePath>Content\Cube.tkb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך\MyGame5\obj\Debug\Content\ShipDiffuse.tkb">
+      <PackagePath>Content\ShipDiffuse.tkb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך\MyGame5\obj\Debug\Content\Glass.tkb">
+      <PackagePath>Content\Glass.tkb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך\MyGame5\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך\MyGame5\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך\MyGame5\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

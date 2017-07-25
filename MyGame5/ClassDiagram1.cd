@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Access">
+  <Class Name="Isometric._3DObjects.Arrows">
+    <Position X="9.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABQCEAAAAAAAAwEAAAAAAAAAAAAAAAAAAQhAAAAIAAQ=</HashCode>
+      <FileName>3DObjects\Arrows.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Isometric._3DObjects.Corner">
+    <Position X="0.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAACAAAgAAAAEAAAAAAAAAAAAAAAAAAAAAAAM=</HashCode>
+      <FileName>3DObjects\Corner.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Isometric._3DObjects.Cursor">
+    <Position X="2.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAgAAAAAAAAACAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>3DObjects\Cursor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Isometric._3DObjects.Draw3D">
+    <Position X="5.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABQCUEAAAQAAAwEAQAAAAAAAAAAQAAgHAwBAAICIAAQ=</HashCode>
+      <FileName>3DObjects\Draw3D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Isometric._3DObjects.EndLine">
+    <Position X="4.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>3DObjects\EndLine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Isometric._3DObjects.Line">
+    <Position X="7.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAgAAAEEAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>3DObjects\Line.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Isometric._3DObjects.Shape">
+    <Position X="3.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAABhAQAAAAA=</HashCode>
+      <FileName>3DObjects\Shape.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Isometric.App" Collapsed="true">
+    <Position X="6.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAQAAIAAA=</HashCode>
+      <FileName>App.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Isometric.ExercisePage" Collapsed="true">
+    <Position X="6" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAABcABAAQBAAAAAAgAAQCAIAAAARAQCQEAEEICGA=</HashCode>
+      <FileName>ExercisePage.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Isometric.Global" Collapsed="true">
+    <Position X="16.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAABAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>Global.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Isometric.ManagerGame">
+    <Position X="11.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAFgwAAAUMBAAARQQAAAAxAAQHAQAAAQAAiAA=</HashCode>
+      <FileName>ManagerGame.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Isometric.MatrixBase">
+    <Position X="13" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAUAAAAAAiAACAKIBAAAACACAAAA6AAAAAAA=</HashCode>
+      <FileName>MatrixBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Isometric.Program" Collapsed="true">
+    <Position X="16.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Isometric.StartPage" Collapsed="true">
+    <Position X="5.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAgAYAAAAAAAAAIBAAAAUABAAIAAQBACAEAAEAAEA=</HashCode>
+      <FileName>StartPage.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Isometric.Common.NavigationHelper" Collapsed="true">
+    <Position X="13.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAQAAAAUCAQAAAACAAIRAQAAAQAAAUAAAAAAAABAAk=</HashCode>
+      <FileName>Common\NavigationHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Isometric.Common.LoadStateEventArgs" Collapsed="true">
+    <Position X="16.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\NavigationHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Isometric.Common.SaveStateEventArgs">
+    <Position X="9.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\NavigationHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Isometric.Common.ObservableDictionary" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="15" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CCIAAABAAAAEABAQCAAABAQBAAAAAAAAAAAgAABQIAA=</HashCode>
+      <FileName>Common\ObservableDictionary.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Isometric.Common.RelayCommand" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="13.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQEACAAQAAECAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\RelayCommand.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Isometric.Common.SuspensionManager" Collapsed="true">
+    <Position X="13.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAaIAASCBEAAAICAAAAAIAAAAAAAAAAIAAAABA=</HashCode>
+      <FileName>Common\SuspensionManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Isometric.Common.SuspensionManagerException" Collapsed="true">
+    <Position X="15" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\SuspensionManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Isometric.Hints.Hint">
+    <Position X="10.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAJAAAAAAAAAAAAAAAAAAAQAAAACA=</HashCode>
+      <FileName>Hints\Hint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Isometric.Hints.ListHints">
+    <Position X="13.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAACAAAAAAAAEAAAAAAEAGAEAAAAAAAIA=</HashCode>
+      <FileName>Hints\ListHints.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Isometric.Projections.Projection" Collapsed="true">
+    <Position X="9.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EgsKowACBYAYgAGETQFIAAEHAggAICSgEEMAiAEAQig=</HashCode>
+      <FileName>Projections\Projection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Isometric.Projections.ProjectionsManager">
+    <Position X="8.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAABA0AACCAAIAAAABAAAAAAIABAAAABAAAAA=</HashCode>
+      <FileName>Projections\ProjectionsManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Isometric.SavedGame.ItemCollection" BaseTypeListCollapsed="true">
+    <Position X="6.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAABAAAAAgAAAAIAAAAAAEAAAAIAAAAAA=</HashCode>
+      <FileName>SavedGame\ItemCollection.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Isometric.SavedGame.GroupInfoList&lt;T&gt;">
+    <Position X="8.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SavedGame\ItemCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Isometric.SavedGame.SavedGameData" Collapsed="true">
+    <Position X="16.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAIAAAAAAAAQAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>SavedGame\ItemCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Isometric.SavedGame.SavedGame" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="15" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAIAAAAAAIAAAAAAAgAABACABAQAgAQEAAAA=</HashCode>
+      <FileName>SavedGame\SavedGame.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Struct Name="Isometric.Hints.TypePoint">
+    <Position X="9.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Hints\ListHints.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Enum Name="Isometric.eDimension" Collapsed="true">
+    <Position X="9.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYAE=</HashCode>
+      <FileName>Global.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Delegate Name="Isometric.OnExerciseEnd" Collapsed="true">
+    <Position X="15" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Global.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="Isometric.IncDec" Collapsed="true">
+    <Position X="11.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAAAAAAAAAEAAAACAAAAAAAAAA=</HashCode>
+      <FileName>ManagerGame.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="Isometric.CommandCube3d" Collapsed="true">
+    <Position X="9.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ManagerGame.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="Isometric.Common.LoadStateEventHandler" Collapsed="true">
+    <Position X="13.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Common\NavigationHelper.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="Isometric.Common.SaveStateEventHandler" Collapsed="true">
+    <Position X="16.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>Common\NavigationHelper.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

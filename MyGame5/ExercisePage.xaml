@@ -1,0 +1,562 @@
+﻿<Page
+    x:Name="pageRoot"
+    x:Class="Isometric.ExercisePage"
+    DataContext="{Binding DefaultViewModel, RelativeSource={RelativeSource Self}}"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Isometric"
+    xmlns:common="using:Isometric.Common"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    FlowDirection="RightToLeft"
+    KeyDown="pageRoot_KeyDown" RequestedTheme="Light">
+
+    <Page.Resources>
+        <!-- TODO: Delete this line if the key AppName is declared in App.xaml -->
+        <x:String x:Key="AppName">תרגיל</x:String>
+    </Page.Resources>
+    <Page.TopAppBar>
+        <AppBar RequestedTheme="Dark" Background="#333333">
+            <StackPanel >
+                <Rectangle Fill="#e71460" Height="9" Margin="-2"/>
+                <TextBlock Height="33" FontSize="15" Foreground="#8a8888" TextAlignment="Left" Style="{StaticResource TitleTextBlockStyle}" Width="1331"> איזומטריק- חשיבה בתוך הקופסה</TextBlock>
+                <StackPanel Orientation="Horizontal" Margin="10" Height="110" FlowDirection="RightToLeft">
+                    <StackPanel FlowDirection="LeftToRight" Name="buttonSP_Home" PointerMoved="buttonSP_PointerMoved" PointerExited="buttonSP_PointerExited" Margin="9,0" Width="150" Height="100" Background="#444444" Tapped="buttonSP_Tapped">
+                        <TextBlock FontSize="30" TextAlignment="Right" Text="&#x1F3e0;" FontFamily="Segoe UI Symbol" Height="40" Margin="10"></TextBlock>
+                        <TextBlock FontWeight="Bold" TextAlignment="Right" Height="16" Margin="10" TextTrimming="Clip" >דף הבית</TextBlock>
+                    </StackPanel>
+                    <StackPanel FlowDirection="LeftToRight" Name="buttonSP_Exp" PointerMoved="buttonSP_PointerMoved" PointerExited="buttonSP_PointerExited" Margin="9,0" Width="150" Height="100" Background="#444444"  Tapped="buttonSP_Tapped">
+                        <TextBlock FontSize="28" TextAlignment="Right" Text="&#xe152;" FontFamily="Segoe UI Symbol" Height="40" Margin="109,10,10,10" RenderTransformOrigin="0.5,0.5">
+                            <TextBlock.RenderTransform>
+                                <CompositeTransform Rotation="180"/>
+                            </TextBlock.RenderTransform></TextBlock>
+                        <TextBlock FontWeight="Bold" TextAlignment="Right" Height="16" Margin="10" TextTrimming="Clip" >התחל</TextBlock>
+                    </StackPanel >
+                    <StackPanel FlowDirection="LeftToRight" Name="buttonSP_Info" PointerMoved="buttonSP_PointerMoved" PointerExited="buttonSP_PointerExited" Margin="9,0" Width="150" Height="100" Background="#444444"  Tapped="buttonSP_Tapped">
+                        <TextBlock FontSize="28" TextAlignment="Right" Text="&#xE1D3;" FontFamily="Segoe UI Symbol" Height="40" Margin="10"></TextBlock>
+                        <TextBlock FontWeight="Bold" TextAlignment="Right" Height="16" Margin="10" TextTrimming="Clip" >מידע</TextBlock>
+                    </StackPanel>
+                    <StackPanel FlowDirection="LeftToRight" Name="buttonSP_Test" PointerMoved="buttonSP_PointerMoved" PointerExited="buttonSP_PointerExited" Margin="9,0" Width="150" Height="100" Background="#444444"  Tapped="buttonSP_Tapped">
+                        <TextBlock FontSize="28" TextAlignment="Right" Text="&#x1F557;" FontFamily="Segoe UI Symbol" Height="40" Margin="10"></TextBlock>
+                        <!--&#xe2ad;-->
+                        <TextBlock FontWeight="Bold" TextAlignment="Right" Height="16" Margin="10" TextTrimming="Clip" >טסט</TextBlock>
+                    </StackPanel>
+                </StackPanel>
+            </StackPanel>
+        </AppBar>
+    </Page.TopAppBar>
+    <Page.BottomAppBar>
+        <AppBar  RequestedTheme="Dark" Background="#191919" Height="100">
+            <StackPanel Orientation="Horizontal" >
+                <Button Name="_buttonShowArrowsKeys" AutomationProperties.Name="מקשי מימדים" Tapped="Button_Tapped" AutomationProperties.HelpText="&#xE0D0;" FontSize="20" FontFamily="Segoe UI Symbol" Content="&#xE1CF;"  Style="{StaticResource WhiteAppBarButtonStyle}" />
+                <Rectangle Width="77"></Rectangle>
+                <Button Name="newGame" AutomationProperties.Name="משחק חדש" Tapped="Button_Tapped" AutomationProperties.HelpText="&#xE1CF;" FontFamily="Segoe UI Symbol" Content="&#xE1CF;"  Style="{StaticResource WhiteAppBarButtonStyle}" />
+                <!-- <Button AutomationProperties.Name="שמור" AutomationProperties.HelpText="&#x1F511;" FontFamily="Segoe UI Symbol" Style="{StaticResource WhiteAppBarButtonStyle}" />-->
+
+                <Button AutomationProperties.Name="שמור" Name="saveGame" Tapped="Button_Tapped" AutomationProperties.HelpText="&#x1F4BE;" FontFamily="Segoe UI Symbol" Style="{StaticResource WhiteAppBarButtonStyle}" />
+                <!-- <AppBarButton  Tapped="Button_Tapped" AutomationProperties.LiveSetting="Assertive" AutomationProperties.Name="משחק חדש" Style="{StaticResource WhiteAppBarButtonStyle}"/>
+               <AppBarButton AutomationProperties.LiveSetting="Assertive" AutomationProperties.Name="שמור" Content="&#x1F511;" Style="{StaticResource SolidStarAppBarButtonStyle}"/>-->
+                <!-- <AppBarButton Name="saveGame" Tapped="Button_Tapped" AutomationProperties.LiveSetting="Assertive" AutomationProperties.Name="שמור" Content="&#x1F4BE;" Style="{StaticResource SolidStarAppBarButtonStyle}"/>
+               <Button Name="saveGame" Tapped="Button_Tapped">save game</Button>-->
+                <!--<Button Name="newGame" Tapped="Button_Tapped">new game</Button>-->
+            </StackPanel>
+        </AppBar>
+    </Page.BottomAppBar>
+    <Grid Background="WhiteSmoke" >
+        <Grid.ChildrenTransitions>
+            <TransitionCollection>
+                <EntranceThemeTransition/>
+            </TransitionCollection>
+        </Grid.ChildrenTransitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="70"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Back button and page title -->
+        <Grid Background="#CCCCCC" Margin="0" RequestedTheme="Dark" >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="120"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition Height="0"/>
+            </Grid.RowDefinitions>
+            <Button x:Name="backButton" Margin="40,16,0,0" Command="{Binding NavigationHelper.GoBackCommand, ElementName=pageRoot}"
+                        Style="{StaticResource NavigationBackButtonNormalStyle}"
+                        VerticalAlignment="Top"
+                        AutomationProperties.Name="Back"
+                        AutomationProperties.AutomationId="BackButton"
+                        AutomationProperties.ItemType="Navigation Button" Height="41" Width="41"/>
+            <TextBlock x:Name="pageTitle" Text="{StaticResource AppName}" Style="{StaticResource HeaderTextBlockStyle}" Grid.Column="1" 
+                        IsHitTestVisible="false" TextWrapping="NoWrap" VerticalAlignment="Top" Margin="0,13,30,0" Foreground="White" FontSize="40" FontWeight="Normal" Height="40"
+                        />
+        </Grid>
+        <Rectangle Fill="#F79420" HorizontalAlignment="Left" Height="6" Margin="0,66,0,0" VerticalAlignment="Top" Width="1366"/>
+        <Grid Grid.Row="1" Margin="0,19,0,-19" RequestedTheme="Dark">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="40*"/>
+                <RowDefinition Height="199*"/>
+                <RowDefinition Height="200*"/>
+                <RowDefinition Height="159"/>
+                <RowDefinition Height="100*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="96*"/>
+                <ColumnDefinition Width="0"/>
+                <ColumnDefinition Width="984.5"/>
+                <ColumnDefinition Width="136"/>
+                <ColumnDefinition Width="149*"/>
+            </Grid.ColumnDefinitions>
+            <SwapChainPanel KeyDown="pageRoot_KeyDown" Grid.RowSpan="3" Grid.Column="2" Name="panelCube" Margin="74.5,-1,210,24" Height="416" VerticalAlignment="Bottom" >
+                <SwapChainPanel.RenderTransform>
+                    <ScaleTransform  ScaleX="1.5" ScaleY="1.5"/>
+                </SwapChainPanel.RenderTransform>
+            </SwapChainPanel>
+            <Rectangle Name="OnSwapChainCubePanel" Grid.RowSpan="3" Grid.Column="2" Visibility="Collapsed" Fill="#000000" Opacity="0.6" Margin="74.5,-1,210,24" Height="416" VerticalAlignment="Bottom"  >
+                <Rectangle.RenderTransform>
+                    <ScaleTransform ScaleX="1.5" ScaleY="1.5"/>
+                </Rectangle.RenderTransform>
+            </Rectangle>
+            <Border BorderBrush="#bbbbbb" Name="Buttons3D" Grid.RowSpan="5" Grid.Column="4" Width="100" Margin="2,1,47,86" BorderThickness="1" Background="#333333">
+                <!--Margin="1236,5,29,55"-->
+                <StackPanel Background="#f1f1f1" VerticalAlignment="Top" Height="597" Margin="0,6,0,0">
+                    <StackPanel.RenderTransform>
+                        <CompositeTransform ScaleX="1" ScaleY="1"></CompositeTransform>
+                    </StackPanel.RenderTransform>
+                    <Button Name="isometric" TabIndex="1"  Tapped="Button_Tapped"
+        	HorizontalAlignment="Stretch"
+        	FontSize="30" Style="{StaticResource IsoAppBarButtonStyle}" Grid.Row="1" Height="84" />
+                    <Rectangle Margin="33,20" Height="1" Fill="#717171"/>
+                    <Button Name="move" TabIndex="2"  Tapped="Button_Tapped"
+            	HorizontalAlignment="Left"
+            	FontSize="30" Style="{StaticResource MoveAppBarButtonStyle}" Height="82" Width="100" />
+                    <Rectangle Margin="33,20" Height="1" Fill="#717171"/>
+                    <Button Name="create" TabIndex="2"  Tapped="Button_Tapped"
+        	HorizontalAlignment="Left"
+        	FontSize="37" Style="{StaticResource BuildAppBarButtonStyle}" Grid.Row="1" Height="85" Width="100" />
+                    <Rectangle Margin="33,20" Height="1" Fill="#717171"/>
+                    <Button  Name="delete" AutomationProperties.Name="מחק" TabIndex="4" Tapped="Button_Tapped"
+            	HorizontalAlignment="Left"
+            	FontSize="32" Style="{StaticResource DeleteAppBarButtonStyle}" />
+                    <Rectangle Margin="33,20" Height="1" Fill="#717171"/>
+                    <Button Name="getHint" TabIndex="5" Tapped="Button_Tapped"
+        	HorizontalAlignment="Left"
+        	FontSize="32" Style="{StaticResource HelpAppBarButtonStyle}" AutomationProperties.Name="הצג עזרה"  Margin="0,0,0,10" />
+                </StackPanel>
+            </Border>
+            <Border Visibility="Collapsed" BorderThickness="2" Margin="3,5,4,5" BorderBrush="#FFF02391" Grid.Row="3" Grid.Column="3" Grid.RowSpan="2" Grid.ColumnSpan="2">
+                <SwapChainPanel   Name="panelAroows" Margin="0,8,8,8" HorizontalAlignment="Right" Width="245"/>
+            </Border>
+            <StackPanel Grid.RowSpan="5" Grid.Column="2" Margin="1.5,-19,701,20">
+                <Grid Margin="5" Height="135" Name="Description_2D" Visibility="Collapsed" FlowDirection="LeftToRight">
+                    <!--Background="#f7931d"-->
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="3*"/>
+                        <RowDefinition Height="1*"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="70*" />
+                        <ColumnDefinition Width="201*" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.Background >
+                        <ImageBrush ImageSource="Images/Org4.jpg"  >
+                        </ImageBrush>
+                    </Grid.Background>
+                    <StackPanel Grid.ColumnSpan="2" FlowDirection="RightToLeft">
+                        <TextBlock Foreground="White" Margin="12,1,-10,1" Style="{StaticResource SubheaderTextStyle}" FontSize="32" Height="41">שרטוט היטלים</TextBlock>
+                        <TextBlock Foreground="White" FontSize="13" Style="{StaticResource BodyTextStyle}" Margin="13,0,61,0">
+                        	<Run Text="שרטט את שלשת היטלי המבנה שבתוך הקוביה."/>
+                        </TextBlock>
+                    </StackPanel>
+                    <Grid Grid.Row="1" Background="#97a219" >
+                        <Rectangle Fill="WhiteSmoke" Margin="1"/>
+                        <TextBlock Foreground="#f7931d" Name="LevelText2D" FontSize="13" Style="{StaticResource BodyTextStyle}" TextAlignment="Center" Margin="4,4,-1,4" >מתחיל</TextBlock>
+                    </Grid>
+                    <Grid Grid.Row="1" Grid.Column="1" Background="#f7931d" >
+                        <Rectangle Fill="#f7931d" Margin="1"/>
+                        <TextBlock Foreground="WhiteSmoke"  FontSize="13" Style="{StaticResource BodyTextBlockStyle}" Margin="7,4,7,2"  >:דרגת קושי</TextBlock>
+                    </Grid>
+                </Grid>
+                <Grid Margin="5" Height="135" Name="Description_3D" Visibility="Visible" FlowDirection="LeftToRight">
+                    <!--Background="#f7931d"-->
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="3*"/>
+                        <RowDefinition Height="1*"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="70*" />
+                        <ColumnDefinition Width="201*" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.Background >
+                        <ImageBrush ImageSource="Images/Org5.jpg"  >
+                        </ImageBrush>
+                    </Grid.Background>
+                    <StackPanel Grid.ColumnSpan="2" FlowDirection="RightToLeft">
+                        <TextBlock Foreground="White" Margin="12,1,-10,1" Style="{StaticResource SubheaderTextStyle}" FontSize="32" Height="41">בניה לפי היטלים</TextBlock>
+                        <TextBlock Foreground="White" FontSize="13" Style="{StaticResource BodyTextStyle}" Margin="13,0,61,0">
+                        	<Run Text="בנה צינור בתוך הקוביה בעזרת כלי הבניה."/>
+                        </TextBlock>
+                    </StackPanel>
+                    <Grid Grid.Row="1" Background="#97a219" >
+                        <Rectangle Fill="WhiteSmoke" Margin="1"/>
+                        <TextBlock Foreground="#f7931d" Name="LevelText3D" FontSize="13" Style="{StaticResource BodyTextStyle}" TextAlignment="Center" Margin="4,4,-1,4" >מתחיל</TextBlock>
+                    </Grid>
+                    <Grid Grid.Row="1" Grid.Column="1" Background="#f7931d" >
+                        <Rectangle Fill="#f7931d" Margin="1"/>
+                        <TextBlock Foreground="WhiteSmoke"  FontSize="13" Style="{StaticResource BodyTextBlockStyle}" Margin="7,4,7,2"  >:דרגת קושי</TextBlock>
+                    </Grid>
+                </Grid>
+                <Grid Height="260" Margin="5,0,5,0" Name="testPanel" Visibility="Collapsed">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="102*" />
+                        <ColumnDefinition Width="66*" />
+                        <ColumnDefinition Width="35*" />
+                        <ColumnDefinition Width="0" />
+                        <ColumnDefinition Width="68"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="86*" />
+                        <RowDefinition Height="44*" />
+                        <RowDefinition Height="99*" />
+                        <RowDefinition Height="31*" />
+                    </Grid.RowDefinitions>
+                    <Rectangle Fill="#FFffffff" Grid.ColumnSpan="5" Grid.RowSpan="4" RenderTransformOrigin="0.5,0.5" />
+                    <!--Fill="#F79420"-->
+                    <Rectangle Fill="#e71460" Opacity="0.2" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="5" Grid.RowSpan="4"/>
+                    <Rectangle Fill="#e02460" Opacity="0.6" Grid.Column="1" Grid.Row="0" Grid.RowSpan="4" Grid.ColumnSpan="2" Margin="35,-1,0,1" />
+                    <Rectangle Fill="#ffffff" Opacity="0.5" Grid.Column="4" Grid.RowSpan="4" Margin="0,0,33,0"/>
+                    <Rectangle Fill="#e71450" Opacity="0.25" Grid.Column="1" Grid.Row="3"/>
+                    <Rectangle Fill="#e71490" Opacity="0.5" Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="5" />
+                    <Rectangle Fill="#e74460" Opacity="0.1" Grid.Column="2" Grid.Row="3"/>
+                    <Rectangle Fill="#e71460" Opacity="0.3" Grid.Row="2" Grid.ColumnSpan="5"/>
+                    <Rectangle Fill="#ffffff" Opacity="0.4" Grid.Row="3"/>
+
+
+                    <!-- <StackPanel Visibility="Visible" Background="White"  Name="testPanel" Height="260" Margin="5,0,5,0" >
+                   <TextBlock Foreground="#e71460" Text="&#x23f3;" FontSize="40" Style="{StaticResource ResourceKey=HeaderTextBlockStyle}">
+                    </TextBlock>-->
+                    <!--e71460-->
+                    <TextBlock x:Name="textBlockTimer" Foreground="#e71460" FontSize="90" Margin="55,76,-2,7" Style="{StaticResource ResourceKey=HeaderTextBlockStyle}" Grid.ColumnSpan="5" Grid.RowSpan="2">
+                    	<Run Text="00:00"/>
+                    </TextBlock>
+                    <TextBlock x:Name="textBlockMark" Foreground="#ffffff"  FontSize="30" Style="{StaticResource ResourceKey=TitleTextStyle}" Margin="53,-3,15,79" Grid.Column="1" Grid.ColumnSpan="4" Grid.Row="2" >
+                    	<Run Text="100000"/>
+                    </TextBlock>
+                    <Rectangle Fill="#e71460" Opacity="0.2" Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="2" Margin="0,0,33,0" Grid.RowSpan="2"/>
+                    <Rectangle Fill="#ffffff" Opacity="0.4" Grid.Row="2" Grid.ColumnSpan="3" Margin="0,0,33,81"/>
+
+                </Grid>
+                <Grid Height="260" Margin="5,0,5,0" Name="getHintPanel" Visibility="Visible">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="68*" />
+                        <ColumnDefinition Width="68*" />
+                        <ColumnDefinition Width="69*" />
+                        <ColumnDefinition Width="68" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition />
+                        <RowDefinition />
+                        <RowDefinition />
+                        <RowDefinition />
+                    </Grid.RowDefinitions>
+                    <!--007f6a-->
+                    <Rectangle Fill="#e097a219" Grid.ColumnSpan="4" Tapped="Rectangle_Tapped"  Grid.RowSpan="4" RenderTransformOrigin="0.5,0.5" />
+                    <Rectangle Fill="#ffffff" Opacity="0.2" Tapped="Rectangle_Tapped"  Grid.Column="2" Grid.Row="2"/>
+                    <!--Fill="#F79420"-->
+                    <Rectangle Fill="#ffffff" Opacity="0.27" Tapped="Rectangle_Tapped"  Grid.Column="1" Grid.Row="3"/>
+                    <Rectangle Fill="#ffffff" Opacity="0.1" Tapped="Rectangle_Tapped"  Grid.Column="3" Grid.Row="1"/>
+                    <Rectangle Fill="#ffffff" Opacity="0.1" Tapped="Rectangle_Tapped"  Grid.Column="3" Grid.Row="0"/>
+                    <Rectangle Fill="#ffffff" Opacity="0.1" Tapped="Rectangle_Tapped" Grid.Column="2" Grid.Row="3"/>
+                    <Rectangle Fill="#ffffff" Opacity="0.3" Tapped="Rectangle_Tapped"  Grid.Column="3" Grid.Row="2"/>
+                    <Rectangle Fill="#ffffff" Opacity="0.55" Tapped="Rectangle_Tapped" Grid.Column="0" Grid.Row="2"/>
+                    <Rectangle Fill="#ffffff" Tapped="Rectangle_Tapped" Opacity="0.4" Grid.Row="3"/>
+                    <!--<TextBlock Foreground="White" Text="N" FontFamily="Webdings" FontSize="50" Grid.Column="3" Grid.Row="3" Margin="10,10,0,0"/>-->
+                    <Rectangle Fill="#ffffff" Opacity="0.5" PointerReleased="drawHint_PointerReleased" Grid.Column="3" Grid.Row="3" Name="drawHint" PointerPressed="drawHint_PointerPressed"/>
+                    <TextBlock Foreground="White" PointerPressed="TextBlock_PointerPressed" PointerReleased="TextBlock_PointerReleased" Text="&#xe18b;" FontFamily="Segoe UI Symbol" FontSize="30" Grid.Column="3" Grid.Row="3" Margin="15,12,15,18"/>
+                    <TextBlock x:Name="H_hint" Tapped="Rectangle_Tapped" Foreground="White" Grid.ColumnSpan="3" Grid.RowSpan="2"  FontSize="70" LineHeight="25"  Canvas.ZIndex="3" Margin="26,45,22,27" FontFamily="Segoe UI Light" Style="{StaticResource SubheaderTextStyle}">
+                		<Run Text="רמז"/>
+                    </TextBlock>
+                    <TextBlock Grid.Row="3" Tapped="Rectangle_Tapped" TextAlignment="Center" Foreground="White"  FontSize="12" LineHeight="25" FontFamily="Segoe UI Light" Margin="30,41,31,11" Grid.ColumnSpan="2"  >
+                		<Run FontStretch="ExtraExpanded" Text="הוצגו"/>
+                    </TextBlock>
+                    <!--<TextBlock Name="texthintCount" Grid.Row="2" Grid.Column="2" TextAlignment="Center" Foreground="White" Style="{StaticResource SubheaderTextStyle}"  FontSize="30" LineHeight="25" FontFamily="Segoe UI Light" Margin="1,10,-1,0" Height="27" VerticalAlignment="Top"  >
+                		<Run  FontStretch="ExtraExpanded" Text="0"/>
+                    </TextBlock>
+                    <TextBlock Grid.Row="2" Grid.Column="1" TextAlignment="Center" Foreground="White"  FontSize="12" LineHeight="25" FontFamily="Segoe UI Light" Margin="62,36,0,61" Grid.RowSpan="2" Grid.ColumnSpan="2"  >
+                		<Run FontStretch="ExtraExpanded" Text="הוצגו"/>
+                    </TextBlock>-->
+                    <TextBlock Name="texthintCount" Grid.ColumnSpan="2" Grid.Row="3" TextAlignment="Center" Foreground="White" Style="{StaticResource SubheaderTextStyle}"  FontSize="70" LineHeight="25" FontFamily="Segoe UI Light" Margin="1,8,-1,0" Height="27" VerticalAlignment="Top"  >
+                		<Run  FontStretch="ExtraExpanded" Text="0"/>
+                    </TextBlock>
+                    <TextBlock x:Name="textHint" Grid.Row="1" Tapped="Rectangle_Tapped" Grid.ColumnSpan="4" TextAlignment="Left" Foreground="White" Style="{StaticResource BodyTextStyle}" Margin="26,6,30,28" Grid.RowSpan="2" >
+                		<Run FontStretch="ExtraExpanded" Text="לחץ להצגת רמז"/>
+                    </TextBlock>
+
+                </Grid>
+                <Grid Height="270" Margin="5,5,5,0" x:Name="GridOfProjections" FlowDirection="LeftToRight" RenderTransformOrigin="0.5,0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition />
+                        <ColumnDefinition />
+                    </Grid.ColumnDefinitions>
+                    <!--PointerExited="ProjectionX_PointerExited"  PointerEntered="ProjectionX_PointerEntered"   &#x03c0;1-->
+                    <Grid x:Name="ProjectionX" ToolTipService.ToolTip="היטל פנים X" Style="{StaticResource PX_United}"  Background="#333333"  Width="134" Height="134" RenderTransformOrigin="0.5,0.5"/>
+                    <Grid x:Name="ProjectionY" ToolTipService.ToolTip="היטל על Y" Style="{StaticResource PY_United}" RenderTransformOrigin="0.5,0.5" Background="#333333"  Width="134" Height="134" />
+                    <Grid x:Name="ProjectionZ" ToolTipService.ToolTip="היטל צד Z" Style="{StaticResource PZ_United}" Width="134" Height="134" RenderTransformOrigin="0.5,0.5" Background="#333333" >
+                        <Grid.Resources>
+                            <Storyboard x:Name="IsoStoryboard">
+                                <DoubleAnimation x:Name="RotationAnimation"
+                                    Storyboard.TargetName="ProjectionZ"
+                                    Storyboard.TargetProperty="(Grid.RenderTransform).(CompositeTransform.Rotation)"
+                                    FillBehavior="HoldEnd" Completed="RotationAnimation_Completed" Duration="0:0:0.4">
+                                </DoubleAnimation>
+                            </Storyboard>
+                        </Grid.Resources>
+                    </Grid>
+                    <Grid x:Name="iso" Grid.Row="1" Width="133" Height="133" Grid.Column="1" Margin="2,2,0,0"  >
+                        <Canvas FlowDirection="RightToLeft" Name="IsometricShow" Visibility="Collapsed">
+                            <Line X2="0" X1="133" Y1="0" Y2="133" Stroke="DarkGray"  />
+                            <Line X2="6"  X1="6" Y1="0" Y2="128" Stroke="DarkGray"  />
+                            <Line X2="6"  X1="133" Y1="128" Y2="128" Stroke="DarkGray"  />
+                            <Line X2="65"  X1="133" Y1="68" Y2="68" Stroke="DarkGray"  />
+                            <Line X2="65"  X1="65" Y1="0" Y2="68" Stroke="DarkGray"  />
+                            <Line X2="126"  X1="133" Y1="6" Y2="6" Stroke="DarkGray"  />
+                            <Line X2="126"  X1="126" Y1="0" Y2="6" Stroke="DarkGray"  />
+                        </Canvas>
+                        <StackPanel Margin="100,101,0,1">
+                            <Button Name="noAttach" Visibility="Collapsed" Tapped="Button_Tapped" Style="{ThemeResource AppBarButtonStyle}" Width="30" >
+                                <Button.Template>
+                                    <ControlTemplate>
+                                        <StackPanel>
+                                            <Grid Width="32" Height="32">
+                                                <Grid.ColumnDefinitions>
+                                                    <ColumnDefinition />
+                                                    <ColumnDefinition />
+                                                </Grid.ColumnDefinitions>
+                                                <Grid.RowDefinitions>
+                                                    <RowDefinition />
+                                                    <RowDefinition />
+                                                </Grid.RowDefinitions>
+                                                <Grid Background="#555555" Margin="2" ></Grid>
+                                                <Rectangle Fill="#555555" Margin="2" Grid.Column="1"/>
+                                                <Rectangle Fill="#555555"  Margin="2" Grid.Row="1" />
+                                            </Grid>
+                                        </StackPanel>
+                                    </ControlTemplate>
+                                </Button.Template>
+                            </Button>
+                            <Button Name="attach" Visibility="Visible"  Tapped="Button_Tapped" Style="{ThemeResource AppBarButtonStyle}" Width="30" >
+                                <Button.Template>
+                                    <ControlTemplate>
+                                        <StackPanel>
+                                            <Grid Width="33" Height="30">
+                                                <Grid Background="#555555" Height="12" Width="12" Margin="6,22,14.01,-4" Style="{StaticResource PX_Attaching}" Grid.ColumnSpan="1" Grid.RowSpan="1" />
+                                                <Grid Background="#555555" Height="12.688" Margin="10.84,0,9.816,15.005" Style="{StaticResource PY_Attaching}" VerticalAlignment="Bottom" Grid.ColumnSpan="1" Grid.RowSpan="1" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" >
+
+                                                </Grid>
+                                                <Grid Background="#555555" Height="12" Width="12" Margin="28,22,-7,-4"  Style="{StaticResource PZ_Attaching}" Grid.ColumnSpan="1" Grid.RowSpan="1"/>
+                                            </Grid>
+                                        </StackPanel>
+                                    </ControlTemplate>
+                                </Button.Template>
+                            </Button>
+                        </StackPanel>
+                    </Grid>
+                </Grid>
+
+            </StackPanel>
+            <Button
+                    HorizontalAlignment="Left"
+                    Margin="666.5,0,0,199" 
+                    VerticalAlignment="Stretch" Width="142" 
+                    FontSize="25"  Style="{ThemeResource RotateAppBarButtonStyle }" Grid.Column="2" Grid.Row="1" />
+            <StackPanel Orientation="Horizontal" Grid.Row="4" VerticalAlignment="Top" Height="51" Width="84"  Grid.Column="3" HorizontalAlignment="Left" Margin="52,0,0,0">
+                <Button x:Name="rotate120" Tapped="Button_Tapped" Foreground="#555555" HorizontalAlignment="Left" Width="94"
+            		FontSize="35" Content="&#xE13F;"  Style="{ThemeResource RotateAppBarButtonStyle}" ToolTipService.ToolTip="יישור" Margin="0,-4,0,-16"/>
+                <Button Visibility="Collapsed" Foreground="#555555" Grid.Column="4" HorizontalAlignment="Left"  Height="56" Width="64"
+            		FontSize="25"  Style="{ThemeResource RotateAppBarButtonStyle}" ToolTipService.ToolTip="סיבוב חופשי" Margin="0,0,0,-5"/>
+            </StackPanel>
+            <!--120⁰<Button Content="save" Grid.Column="2" Click="Button_Click" HorizontalAlignment="Left" Margin="902,26,0,0" Grid.Row="4" VerticalAlignment="Top" Height="57" Width="83"/>-->
+        </Grid>
+        <Popup IsLightDismissEnabled="True" IsOpen="False" Name="_popupArrowsKeys" Margin="1028,369,221,163" Grid.Row="1"  >
+            <Grid Background="#424966" Height="157" >
+                <StackPanel Margin="10,5" >
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Style="{StaticResource BodyTextStyle}" Foreground="White" Width="46">מעלה</TextBlock >
+                        <TextBlock x:Name="textBox_Up" Style="{StaticResource TitleTextStyle}" TextAlignment="Center" FontWeight="SemiBold" FontSize="14" Foreground="White" Width="52"  />
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Style="{StaticResource BodyTextStyle}" Foreground="White" Width="46">מטה</TextBlock>
+                        <TextBlock x:Name="textBox_Down"  Style="{StaticResource TitleTextStyle}" TextAlignment="Center" FontWeight="SemiBold" FontSize="14" Foreground="White" Width="52"  />
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Style="{StaticResource BodyTextStyle}" Foreground="White" Width="46">ימין</TextBlock>
+                        <TextBlock  x:Name="textBox_Right"  Style="{StaticResource TitleTextStyle}" TextAlignment="Center" FontWeight="SemiBold" FontSize="14" Foreground="White" Width="52"  />
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Style="{StaticResource BodyTextStyle}" Foreground="White" Width="46">שמאל</TextBlock>
+                        <TextBlock  x:Name="textBox_Left" Style="{StaticResource TitleTextStyle}" TextAlignment="Center" FontWeight="SemiBold" FontSize="14" Foreground="White" Width="52"  />
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Style="{StaticResource BodyTextStyle}" Foreground="White" Width="46">פנים</TextBlock>
+                        <TextBlock  x:Name="textBox_Forward"  Style="{StaticResource TitleTextStyle}" TextAlignment="Center" FontWeight="SemiBold" FontSize="14" Foreground="White" Width="52"  />
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Style="{StaticResource BodyTextStyle}" Foreground="White" Width="46">אחור</TextBlock>
+                        <TextBlock x:Name="textBox_Backward"  Style="{StaticResource TitleTextStyle}" TextAlignment="Center" FontWeight="SemiBold" FontSize="14" Foreground="White" Width="52"  />
+                    </StackPanel>
+                </StackPanel>
+
+            </Grid>
+        </Popup>
+        <!--<Rectangle Grid.Row="1" Height="15" Fill="#7d7d93" Grid.ColumnSpan="2" Grid.Column="0" Margin="0"/>-->
+
+    </Grid>
+</Page>
+
+<!--<Page
+    x:Name="pageRoot"
+    x:Class="Isometric.ExercisePage"
+    DataContext="{Binding DefaultViewModel, RelativeSource={RelativeSource Self}}"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Isometric"
+    xmlns:common="using:Isometric.Common"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    FlowDirection="RightToLeft"
+     Margin="0,8,0,-8">
+    -->
+<!--KeyDown="pageRoot_KeyDown"-->
+<!--
+    <Page.Resources>
+        -->
+<!-- TODO: Delete this line if the key AppName is declared in App.xaml -->
+<!--
+        <x:String x:Key="AppName">Isometric</x:String>
+        -->
+<!--<x:Boolean x:Key="Type" >false</x:Boolean>-->
+<!--
+    </Page.Resources>
+
+    -->
+<!--
+        This grid acts as a root panel for the page that defines two rows:
+        * Row 0 contains the back button and page title
+        * Row 1 contains the rest of the page layout
+    -->
+<!--
+    <Page.BottomAppBar>
+        <AppBar>
+            <StackPanel Name="Buttons3D" Orientation="Horizontal" Grid.Row="1">
+                <Button  Name="saveGame"  Tapped="Button_Tapped">save game</Button>
+                <Button TabIndex="1" Name="create"  Tapped="AppBarButton_Tapped">יצירה</Button>
+                <Button TabIndex="2" Name="delete"  Tapped="AppBarButton_Tapped" >מחיקה</Button>
+                <Button TabIndex="3"  Name="move"  Tapped="AppBarButton_Tapped" >תזוזה</Button>
+                <Button Name="getHint"  Tapped="AppBarButton_Tapped">רמז</Button>
+                <Button Name="_buttonShowArrowsKeys" Tapped="AppBarButton_Tapped">הגדרות מקשים</Button>
+            </StackPanel>
+        </AppBar>
+    </Page.BottomAppBar>
+    <Grid Background="WhiteSmoke" 
+    KeyDown="pageRoot_KeyDown">
+        -->
+<!--="#FFFF5252" {ThemeResource ApplicationPageBackgroundThemeBrush}-->
+<!--
+        <Grid.ChildrenTransitions>
+            <TransitionCollection>
+                <EntranceThemeTransition/>
+            </TransitionCollection>
+        </Grid.ChildrenTransitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="140"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        -->
+<!-- Back button and page title -->
+<!--
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="120"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Button x:Name="backButton" Margin="39,59,39,0" Command="{Binding NavigationHelper.GoBackCommand, ElementName=pageRoot}"
+                        Style="{StaticResource NavigationBackButtonNormalStyle}"
+                        VerticalAlignment="Top"
+                        AutomationProperties.Name="Back"
+                        AutomationProperties.AutomationId="BackButton"
+                        AutomationProperties.ItemType="Navigation Button"/>
+            <TextBlock x:Name="pageTitle" Text="{StaticResource AppName}" Style="{StaticResource HeaderTextBlockStyle}" Grid.Column="1" 
+                        IsHitTestVisible="false" TextWrapping="NoWrap" VerticalAlignment="Bottom" Margin="0,0,30,40"/>
+        </Grid>
+        <Grid Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition Height="10*"/>
+                <RowDefinition Height="6*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="4*"/>
+                <ColumnDefinition Width="3*"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+            <SwapChainPanel Grid.RowSpan="2" Grid.Column="1" Name="panelCube" >
+
+            </SwapChainPanel>
+            <SwapChainPanel Grid.Row="2" Grid.Column="2"  Name="panelAroows">
+
+            </SwapChainPanel>
+            <TextBlock Name="texthint1" Grid.Row="2" Foreground="Black" FontSize="20"  Style="{StaticResource HeaderTextBlockStyle}" Grid.Column="1" TextTrimming="None" LineHeight="25" 
+                         >nnnnnnניייי</TextBlock>
+            <TextBlock Foreground="Red" FontSize="30" Name="textBlockMark">jhhhhhhhhh</TextBlock>
+            <TimePicker  Grid.Row="5" Name="timepi"></TimePicker>
+            -->
+<!--Visibility="{Binding Type}"-->
+<!--
+            <Grid Grid.RowSpan="2" Grid.Row="1" Background="LightGray" Margin="0,10,10,0">
+
+                <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="556" Margin="749,186,0,0" VerticalAlignment="Top" Width="572" Background="LightGray"/>
+                <Grid Name="ProjectionX" Style="{StaticResource PX_United}" Background="White" Height="230" Width="230" Margin="330,313,123,48" />
+                <Grid Name="ProjectionY" Style="{StaticResource PY_United}" Background="White" Height="230" Width="230" Margin="330,284,123,77" />
+                <Grid Name="ProjectionZ" Style="{StaticResource PZ_United}" Background="White" Height="230" Width="230" Margin="73,58,380,303" />
+            </Grid>
+            <Popup IsLightDismissEnabled="True"  IsOpen="False" Name="_popupArrowsKeys" Grid.Column="1" Margin="212,304,0,95" Grid.Row="1" Grid.RowSpan="2"  >
+                <StackPanel Background="DarkMagenta" Width="200" >
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock>למעלה</TextBlock>
+                        <TextBlock x:Name="textBox_Up" />
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock>למטה</TextBlock>
+                        <TextBlock  x:Name="textBox_Down" />
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock>ימין</TextBlock>
+                        <TextBlock  x:Name="textBox_Right" />
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock>שמאל</TextBlock>
+                        <TextBlock  x:Name="textBox_Left"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock>אחורה</TextBlock>
+                        <TextBlock  x:Name="textBox_Backward"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock>קדימה </TextBlock>
+                        <TextBlock  x:Name="textBox_Forward" />
+                    </StackPanel>
+                </StackPanel>
+            </Popup>
+        </Grid>
+
+    </Grid>
+</Page>-->

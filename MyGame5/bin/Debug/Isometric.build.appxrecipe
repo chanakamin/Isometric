@@ -1,0 +1,353 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>ZKNOBEL</Machine>
+    <WindowsUser>ציפי</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>ec59a2e4-3e98-4b22-b82f-fcc51c2dfe3e</PackageIdentityName>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\bin\Debug\Isometric.exe">
+      <PackagePath>Isometric.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\packages\SharpDX.2.6.3\build\..\Bin\DirectX11_2-Signed-winrt\SharpDX.Direct2D1.dll">
+      <PackagePath>SharpDX.Direct2D1.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\packages\SharpDX.2.6.3\build\..\Bin\DirectX11_2-Signed-winrt\SharpDX.Direct3D11.dll">
+      <PackagePath>SharpDX.Direct3D11.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\packages\SharpDX.2.6.3\build\..\Bin\DirectX11_2-Signed-winrt\SharpDX.dll">
+      <PackagePath>SharpDX.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\packages\SharpDX.2.6.3\build\..\Bin\DirectX11_2-Signed-winrt\SharpDX.DXGI.dll">
+      <PackagePath>SharpDX.DXGI.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\packages\SharpDX.2.6.3\build\..\Bin\DirectX11_2-Signed-winrt\SharpDX.Toolkit.Audio.dll">
+      <PackagePath>SharpDX.Toolkit.Audio.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\packages\SharpDX.2.6.3\build\..\Bin\DirectX11_2-Signed-winrt\SharpDX.Toolkit.dll">
+      <PackagePath>SharpDX.Toolkit.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\packages\SharpDX.2.6.3\build\..\Bin\DirectX11_2-Signed-winrt\SharpDX.Toolkit.Game.dll">
+      <PackagePath>SharpDX.Toolkit.Game.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\packages\SharpDX.2.6.3\build\..\Bin\DirectX11_2-Signed-winrt\SharpDX.Toolkit.Graphics.dll">
+      <PackagePath>SharpDX.Toolkit.Graphics.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\packages\SharpDX.2.6.3\build\..\Bin\DirectX11_2-Signed-winrt\SharpDX.Toolkit.Input.dll">
+      <PackagePath>SharpDX.Toolkit.Input.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\packages\SharpDX.2.6.3\build\..\Bin\DirectX11_2-Signed-winrt\SharpDX.XAudio2.dll">
+      <PackagePath>SharpDX.XAudio2.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\Assets\BadgeLogo.scale-100.png">
+      <PackagePath>Assets\BadgeLogo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\Assets\BadgeLogo.scale-140.png">
+      <PackagePath>Assets\BadgeLogo.scale-140.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\Assets\BadgeLogo.scale-180.png">
+      <PackagePath>Assets\BadgeLogo.scale-180.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\Assets\iso.png">
+      <PackagePath>Assets\iso.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\Assets\isoo.png">
+      <PackagePath>Assets\isoo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\Assets\Logo.scale-140.png">
+      <PackagePath>Assets\Logo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\Assets\Logo.scale-180.png">
+      <PackagePath>Assets\Logo.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\Assets\Logo.scale-80.png">
+      <PackagePath>Assets\Logo.scale-80.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\Assets\Logo_.png">
+      <PackagePath>Assets\Logo_.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\Assets\r - Copy.png">
+      <PackagePath>Assets\r - Copy.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\Assets\SmallLogo.scale-80.png">
+      <PackagePath>Assets\SmallLogo.scale-80.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\Assets\SplashScreen.scale-140.png">
+      <PackagePath>Assets\SplashScreen.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\Assets\SplashScreen.scale-180.png">
+      <PackagePath>Assets\SplashScreen.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\Assets\Square150x150Logo.scale-100.png">
+      <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\Assets\Square150x150Logo.scale-140.png">
+      <PackagePath>Assets\Square150x150Logo.scale-140.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\Assets\Square150x150Logo.scale-180.png">
+      <PackagePath>Assets\Square150x150Logo.scale-180.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\Assets\Square150x150Logo.scale-80.png">
+      <PackagePath>Assets\Square150x150Logo.scale-80.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\Assets\Square310x310Logo.scale-100.png">
+      <PackagePath>Assets\Square310x310Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\Assets\Square310x310Logo.scale-140.png">
+      <PackagePath>Assets\Square310x310Logo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\Assets\Square310x310Logo.scale-180.png">
+      <PackagePath>Assets\Square310x310Logo.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\Assets\Square310x310Logo.scale-80.png">
+      <PackagePath>Assets\Square310x310Logo.scale-80.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\Assets\Square70x70Logo.scale-100.png">
+      <PackagePath>Assets\Square70x70Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\Assets\StoreLogo.scale-140.png">
+      <PackagePath>Assets\StoreLogo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\Assets\StoreLogo.scale-180.png">
+      <PackagePath>Assets\StoreLogo.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\Assets\Wide310x150Logo.scale-100.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\Assets\Wide310x150Logo.scale-140.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\Assets\Wide310x150Logo.scale-180.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\Assets\Wide310x150Logo.scale-80.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-80.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\Images\Clock.png">
+      <PackagePath>Images\Clock.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\Images\clock1.png">
+      <PackagePath>Images\clock1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\Images\Org4.png">
+      <PackagePath>Images\Org4.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\Images\Square310x310Logo.png">
+      <PackagePath>Images\Square310x310Logo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\InfoImage\1.png">
+      <PackagePath>InfoImage\1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\InfoImage\2.png">
+      <PackagePath>InfoImage\2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\InfoImage\451.png">
+      <PackagePath>InfoImage\451.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\InfoImage\As0.png">
+      <PackagePath>InfoImage\As0.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\InfoImage\As1.png">
+      <PackagePath>InfoImage\As1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\InfoImage\DelPoi.png">
+      <PackagePath>InfoImage\DelPoi.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\InfoImage\DrawPoi.png">
+      <PackagePath>InfoImage\DrawPoi.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\InfoImage\MovePoi.png">
+      <PackagePath>InfoImage\MovePoi.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\InfoImage\pr0.png">
+      <PackagePath>InfoImage\pr0.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\InfoImage\pr1.png">
+      <PackagePath>InfoImage\pr1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\InfoImage\pr2.png">
+      <PackagePath>InfoImage\pr2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\Images\r - Copy.png">
+      <PackagePath>Images\r - Copy.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\Common\ReadMe.txt">
+      <PackagePath>Common\ReadMe.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\Images\categoryA.jpg">
+      <PackagePath>Images\categoryA.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\Images\CategoryB.jpg">
+      <PackagePath>Images\CategoryB.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\Images\GrayBackGround.jpg">
+      <PackagePath>Images\GrayBackGround.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\Images\Org2.jpg">
+      <PackagePath>Images\Org2.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\Images\Org4.jpg">
+      <PackagePath>Images\Org4.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\Images\Org5.jpg">
+      <PackagePath>Images\Org5.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\InfoImage\0.jpg">
+      <PackagePath>InfoImage\0.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\InfoImage\45 %282%29.jpg">
+      <PackagePath>InfoImage\45 %282%29.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\InfoImage\45.jpg">
+      <PackagePath>InfoImage\45.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\InfoImage\450.jpg">
+      <PackagePath>InfoImage\450.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\InfoImage\452.jpg">
+      <PackagePath>InfoImage\452.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\InfoImage\453.jpg">
+      <PackagePath>InfoImage\453.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\InfoImage\454.jpg">
+      <PackagePath>InfoImage\454.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\InfoImage\Iso1.jpg">
+      <PackagePath>InfoImage\Iso1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\InfoImage\Iso2.jpg">
+      <PackagePath>InfoImage\Iso2.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\InfoImage\Iso3.jpg">
+      <PackagePath>InfoImage\Iso3.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\InfoImage\Iso4.jpg">
+      <PackagePath>InfoImage\Iso4.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\InfoImage\Iso5.jpg">
+      <PackagePath>InfoImage\Iso5.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\InfoImage\Pro1 %282%29.jpg">
+      <PackagePath>InfoImage\Pro1 %282%29.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\InfoImage\pro10 %282%29.jpg">
+      <PackagePath>InfoImage\pro10 %282%29.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\InfoImage\pro10.jpg">
+      <PackagePath>InfoImage\pro10.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\InfoImage\Pro2.jpg">
+      <PackagePath>InfoImage\Pro2.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\InfoImage\Pro3.jpg">
+      <PackagePath>InfoImage\Pro3.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\InfoImage\pro6.jpg">
+      <PackagePath>InfoImage\pro6.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\InfoImage\pro7.jpg">
+      <PackagePath>InfoImage\pro7.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\InfoImage\pro8 %282%29.jpg">
+      <PackagePath>InfoImage\pro8 %282%29.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\InfoImage\pro8.jpg">
+      <PackagePath>InfoImage\pro8.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\InfoImage\pro9.jpg">
+      <PackagePath>InfoImage\pro9.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\Images\Org3.jpg">
+      <PackagePath>Images\Org3.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\obj\Debug\Content\bsd.tkb">
+      <PackagePath>Content\bsd.tkb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\obj\Debug\Content\mat.tkb">
+      <PackagePath>Content\mat.tkb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\bin\Debug\About.xbf">
+      <PackagePath>About.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\bin\Debug\InformationPage.xbf">
+      <PackagePath>InformationPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\bin\Debug\Dictionary.xbf">
+      <PackagePath>Dictionary.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\bin\Debug\ExercisePage.xbf">
+      <PackagePath>ExercisePage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\bin\Debug\OpensvedGamePage.xbf">
+      <PackagePath>OpensvedGamePage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\bin\Debug\SaveGameMessageDialog.xbf">
+      <PackagePath>SaveGameMessageDialog.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\bin\Debug\Settings.xbf">
+      <PackagePath>Settings.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\bin\Debug\StandardStyles.xbf">
+      <PackagePath>StandardStyles.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\bin\Debug\StartPage.xbf">
+      <PackagePath>StartPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\bin\Debug\StatisticsPage.xbf">
+      <PackagePath>StatisticsPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\bin\Debug\SuccessedPage.xbf">
+      <PackagePath>SuccessedPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

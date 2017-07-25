@@ -1,0 +1,350 @@
+F:\פרוייקט\פרוייקט\ניסויים\MyGame5\MyGame5\obj\Debug\App.g.i.cs
+F:\פרוייקט\פרוייקט\ניסויים\MyGame5\MyGame5\obj\Debug\App.g.cs
+F:\פרוייקט\פרוייקט\ניסויים\MyGame5\MyGame5\obj\Debug\MainPage.g.i.cs
+F:\פרוייקט\פרוייקט\ניסויים\MyGame5\MyGame5\obj\Debug\MainPage.g.cs
+F:\פרוייקט\פרוייקט\ניסויים\MyGame5\MyGame5\obj\Debug\XamlTypeInfo.g.cs
+F:\פרוייקט\פרוייקט\ניסויים\MyGame5\MyGame5\obj\Debug\App.xaml
+F:\פרוייקט\פרוייקט\ניסויים\MyGame5\MyGame5\obj\Debug\MainPage.xaml
+F:\פרוייקט\פרוייקט\ניסויים\MyGame5\MyGame5\obj\Debug\MyGame5.csprojResolveAssemblyReference.cache
+F:\פרוייקט\פרוייקט\ניסויים\MyGame5\MyGame5\obj\Debug\App.xbf
+F:\פרוייקט\פרוייקט\ניסויים\MyGame5\MyGame5\obj\Debug\MainPage.xbf
+F:\פרוייקט\פרוייקט\ניסויים\MyGame5\MyGame5\obj\Debug\XamlSaveStateFile.xml
+F:\פרוייקט\פרוייקט\ניסויים\MyGame5\MyGame5\bin\Debug\Content\Bloom.tkb
+F:\פרוייקט\פרוייקט\ניסויים\MyGame5\MyGame5\bin\Debug\Content\Arial16.tkb
+F:\פרוייקט\פרוייקט\ניסויים\MyGame5\MyGame5\bin\Debug\Content\Ship.tkb
+F:\פרוייקט\פרוייקט\ניסויים\MyGame5\MyGame5\bin\Debug\Content\ShipDiffuse.tkb
+F:\פרוייקט\פרוייקט\ניסויים\MyGame5\MyGame5\bin\Debug\App.xbf
+F:\פרוייקט\פרוייקט\ניסויים\MyGame5\MyGame5\bin\Debug\MainPage.xbf
+F:\פרוייקט\פרוייקט\ניסויים\MyGame5\MyGame5\bin\Debug\MyGame5.exe
+F:\פרוייקט\פרוייקט\ניסויים\MyGame5\MyGame5\bin\Debug\MyGame5.pdb
+F:\פרוייקט\פרוייקט\ניסויים\MyGame5\MyGame5\bin\Debug\resources.pri
+F:\פרוייקט\פרוייקט\ניסויים\MyGame5\MyGame5\bin\Debug\AppxManifest.xml
+F:\פרוייקט\פרוייקט\ניסויים\MyGame5\MyGame5\bin\Debug\MyGame5.build.appxrecipe
+F:\פרוייקט\פרוייקט\ניסויים\MyGame5\MyGame5\bin\Debug\SharpDX.Direct2D1.dll
+F:\פרוייקט\פרוייקט\ניסויים\MyGame5\MyGame5\bin\Debug\SharpDX.Direct3D11.dll
+F:\פרוייקט\פרוייקט\ניסויים\MyGame5\MyGame5\bin\Debug\SharpDX.dll
+F:\פרוייקט\פרוייקט\ניסויים\MyGame5\MyGame5\bin\Debug\SharpDX.DXGI.dll
+F:\פרוייקט\פרוייקט\ניסויים\MyGame5\MyGame5\bin\Debug\SharpDX.Toolkit.Audio.dll
+F:\פרוייקט\פרוייקט\ניסויים\MyGame5\MyGame5\bin\Debug\SharpDX.Toolkit.dll
+F:\פרוייקט\פרוייקט\ניסויים\MyGame5\MyGame5\bin\Debug\SharpDX.Toolkit.Game.dll
+F:\פרוייקט\פרוייקט\ניסויים\MyGame5\MyGame5\bin\Debug\SharpDX.Toolkit.Graphics.dll
+F:\פרוייקט\פרוייקט\ניסויים\MyGame5\MyGame5\bin\Debug\SharpDX.Toolkit.Input.dll
+F:\פרוייקט\פרוייקט\ניסויים\MyGame5\MyGame5\bin\Debug\SharpDX.XAudio2.dll
+F:\פרוייקט\פרוייקט\ניסויים\MyGame5\MyGame5\bin\Debug\SharpDX.xml
+F:\פרוייקט\פרוייקט\ניסויים\MyGame5\MyGame5\bin\Debug\SharpDX.Direct3D11.xml
+F:\פרוייקט\פרוייקט\ניסויים\MyGame5\MyGame5\bin\Debug\SharpDX.DXGI.xml
+F:\פרוייקט\פרוייקט\ניסויים\MyGame5\MyGame5\bin\Debug\SharpDX.Toolkit.xml
+F:\פרוייקט\פרוייקט\ניסויים\MyGame5\MyGame5\bin\Debug\SharpDX.Toolkit.Audio.xml
+F:\פרוייקט\פרוייקט\ניסויים\MyGame5\MyGame5\bin\Debug\SharpDX.Toolkit.Game.xml
+F:\פרוייקט\פרוייקט\ניסויים\MyGame5\MyGame5\bin\Debug\SharpDX.Toolkit.Graphics.xml
+F:\פרוייקט\פרוייקט\ניסויים\MyGame5\MyGame5\bin\Debug\SharpDX.Toolkit.Input.xml
+F:\פרוייקט\פרוייקט\ניסויים\MyGame5\MyGame5\bin\Debug\SharpDX.XAudio2.xml
+F:\פרוייקט\פרוייקט\ניסויים\MyGame5\MyGame5\bin\Debug\SharpDX.Direct2D1.xml
+F:\פרוייקט\פרוייקט\ניסויים\MyGame5\MyGame5\obj\Debug\MyGame5.exe
+F:\פרוייקט\פרוייקט\ניסויים\MyGame5\MyGame5\obj\Debug\MyGame5.pdb
+F:\פרוייקט\פרוייקט\ניסויים\MyGame5\MyGame5\obj\Debug\SharpDX\en-us\SharpDX.Properties.Resources.resw
+F:\פרוייקט\פרוייקט\ניסויים\MyGame5\MyGame5\obj\Debug\MyGame5.csproj.GenerateResource.Cache
+F:\פרוייקט\פרוייקט\ניסויים\MyGame5\MyGame5\obj\Debug\SharpDX\layout.resfiles
+F:\פרוייקט\פרוייקט\ניסויים\MyGame5\MyGame5\obj\Debug\SharpDX\layout.resfiles.intermediate
+F:\פרוייקט\פרוייקט\ניסויים\MyGame5\MyGame5\obj\Debug\SharpDX\Resources.resfiles
+F:\פרוייקט\פרוייקט\ניסויים\MyGame5\MyGame5\obj\Debug\SharpDX\Resources.resfiles.intermediate
+F:\פרוייקט\פרוייקט\ניסויים\MyGame5\MyGame5\obj\Debug\SharpDX\pri.resfiles
+F:\פרוייקט\פרוייקט\ניסויים\MyGame5\MyGame5\obj\Debug\SharpDX\pri.resfiles.intermediate
+F:\פרוייקט\פרוייקט\ניסויים\MyGame5\MyGame5\obj\Debug\SharpDX\priconfig.xml
+F:\פרוייקט\פרוייקט\ניסויים\MyGame5\MyGame5\obj\Debug\SharpDX\priconfig.xml.intermediate
+F:\פרוייקט\פרוייקט\ניסויים\MyGame5\MyGame5\obj\Debug\SharpDX.pri
+F:\פרוייקט\פרוייקט\ניסויים\MyGame5\MyGame5\obj\Debug\SharpDX\qualifiers.txt
+F:\פרוייקט\פרוייקט\ניסויים\MyGame5\MyGame5\obj\Debug\priconfig.xml
+F:\פרוייקט\פרוייקט\ניסויים\MyGame5\MyGame5\obj\Debug\priconfig.xml.intermediate
+F:\פרוייקט\פרוייקט\ניסויים\MyGame5\MyGame5\obj\Debug\layout.resfiles
+F:\פרוייקט\פרוייקט\ניסויים\MyGame5\MyGame5\obj\Debug\layout.resfiles.intermediate
+F:\פרוייקט\פרוייקט\ניסויים\MyGame5\MyGame5\obj\Debug\resources.resfiles
+F:\פרוייקט\פרוייקט\ניסויים\MyGame5\MyGame5\obj\Debug\resources.resfiles.intermediate
+F:\פרוייקט\פרוייקט\ניסויים\MyGame5\MyGame5\obj\Debug\pri.resfiles
+F:\פרוייקט\פרוייקט\ניסויים\MyGame5\MyGame5\obj\Debug\pri.resfiles.intermediate
+F:\פרוייקט\פרוייקט\ניסויים\MyGame5\MyGame5\obj\Debug\qualifiers.txt
+F:\פרוייקט\פרוייקט\ניסויים\MyGame5\MyGame5\obj\Debug\qualifiers.txt.intermediate
+F:\פרוייקט\פרוייקט\ניסויים\MyGame5\MyGame5\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+F:\פרוייקט\פרוייקט\ניסויים\MyGame5\MyGame5\obj\Debug\ProjectArchitectures.txt
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work\MyGame5\obj\Debug\MyGame5.csprojResolveAssemblyReference.cache
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work\MyGame5\obj\Debug\App.g.i.cs
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work\MyGame5\obj\Debug\App.g.cs
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work\MyGame5\obj\Debug\MainPage.g.i.cs
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work\MyGame5\obj\Debug\MainPage.g.cs
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work\MyGame5\obj\Debug\XamlTypeInfo.g.cs
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work\MyGame5\obj\Debug\App.xaml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work\MyGame5\obj\Debug\MainPage.xaml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work\MyGame5\obj\Debug\App.xbf
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work\MyGame5\obj\Debug\MainPage.xbf
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work\MyGame5\obj\Debug\XamlSaveStateFile.xml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work\MyGame5\obj\Debug\MyGame5.exe
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work\MyGame5\obj\Debug\MyGame5.pdb
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work\MyGame5\bin\Debug\Content\ShipDiffuse.tkb
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work\MyGame5\bin\Debug\Content\Bloom.tkb
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work\MyGame5\bin\Debug\Content\Arial16.tkb
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work\MyGame5\bin\Debug\Content\Ship.tkb
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work\MyGame5\bin\Debug\App.xbf
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work\MyGame5\bin\Debug\MainPage.xbf
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work\MyGame5\bin\Debug\MyGame5.exe
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work\MyGame5\bin\Debug\MyGame5.pdb
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work\MyGame5\bin\Debug\resources.pri
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work\MyGame5\bin\Debug\AppxManifest.xml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work\MyGame5\bin\Debug\MyGame5.build.appxrecipe
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work\MyGame5\bin\Debug\SharpDX.Direct2D1.dll
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work\MyGame5\bin\Debug\SharpDX.Direct3D11.dll
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work\MyGame5\bin\Debug\SharpDX.dll
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work\MyGame5\bin\Debug\SharpDX.DXGI.dll
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work\MyGame5\bin\Debug\SharpDX.Toolkit.Audio.dll
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work\MyGame5\bin\Debug\SharpDX.Toolkit.dll
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work\MyGame5\bin\Debug\SharpDX.Toolkit.Game.dll
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work\MyGame5\bin\Debug\SharpDX.Toolkit.Graphics.dll
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work\MyGame5\bin\Debug\SharpDX.Toolkit.Input.dll
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work\MyGame5\bin\Debug\SharpDX.XAudio2.dll
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work\MyGame5\bin\Debug\SharpDX.xml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work\MyGame5\bin\Debug\SharpDX.Direct3D11.xml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work\MyGame5\bin\Debug\SharpDX.DXGI.xml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work\MyGame5\bin\Debug\SharpDX.Toolkit.xml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work\MyGame5\bin\Debug\SharpDX.Toolkit.Audio.xml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work\MyGame5\bin\Debug\SharpDX.Toolkit.Game.xml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work\MyGame5\bin\Debug\SharpDX.Toolkit.Graphics.xml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work\MyGame5\bin\Debug\SharpDX.Toolkit.Input.xml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work\MyGame5\bin\Debug\SharpDX.XAudio2.xml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work\MyGame5\bin\Debug\SharpDX.Direct2D1.xml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work\MyGame5\obj\Debug\SharpDX\en-us\SharpDX.Properties.Resources.resw
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work\MyGame5\obj\Debug\MyGame5.csproj.GenerateResource.Cache
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work\MyGame5\obj\Debug\SharpDX.pri
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work\MyGame5\obj\Debug\SharpDX\qualifiers.txt
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work\MyGame5\obj\Debug\priconfig.xml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work\MyGame5\obj\Debug\priconfig.xml.intermediate
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work\MyGame5\obj\Debug\layout.resfiles
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work\MyGame5\obj\Debug\layout.resfiles.intermediate
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work\MyGame5\obj\Debug\resources.resfiles
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work\MyGame5\obj\Debug\resources.resfiles.intermediate
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work\MyGame5\obj\Debug\pri.resfiles
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work\MyGame5\obj\Debug\pri.resfiles.intermediate
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work\MyGame5\obj\Debug\qualifiers.txt
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work\MyGame5\obj\Debug\qualifiers.txt.intermediate
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work\MyGame5\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work\MyGame5\obj\Debug\ProjectArchitectures.txt
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work\MyGame5\bin\Debug\Content\Scene1.tkb
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work\MyGame5\obj\Debug\SharpDX\layout.resfiles
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work\MyGame5\obj\Debug\SharpDX\layout.resfiles.intermediate
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work\MyGame5\obj\Debug\SharpDX\Resources.resfiles
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work\MyGame5\obj\Debug\SharpDX\Resources.resfiles.intermediate
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work\MyGame5\obj\Debug\SharpDX\pri.resfiles
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work\MyGame5\obj\Debug\SharpDX\pri.resfiles.intermediate
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work\MyGame5\obj\Debug\SharpDX\priconfig.xml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work\MyGame5\obj\Debug\SharpDX\priconfig.xml.intermediate
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work - עותק\MyGame5\obj\Debug\MyGame5.csprojResolveAssemblyReference.cache
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work - עותק\MyGame5\obj\Debug\App.g.i.cs
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work - עותק\MyGame5\obj\Debug\App.g.cs
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work - עותק\MyGame5\obj\Debug\MainPage.g.i.cs
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work - עותק\MyGame5\obj\Debug\MainPage.g.cs
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work - עותק\MyGame5\obj\Debug\XamlTypeInfo.g.cs
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work - עותק\MyGame5\obj\Debug\App.xaml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work - עותק\MyGame5\obj\Debug\MainPage.xaml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work - עותק\MyGame5\obj\Debug\App.xbf
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work - עותק\MyGame5\obj\Debug\MainPage.xbf
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work - עותק\MyGame5\obj\Debug\XamlSaveStateFile.xml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work - עותק\MyGame5\obj\Debug\MyGame5.exe
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work - עותק\MyGame5\obj\Debug\MyGame5.pdb
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work - עותק\MyGame5\bin\Debug\Content\Bloom.tkb
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work - עותק\MyGame5\bin\Debug\Content\Arial16.tkb
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work - עותק\MyGame5\bin\Debug\Content\Ship.tkb
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work - עותק\MyGame5\bin\Debug\Content\Scene1.tkb
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work - עותק\MyGame5\bin\Debug\Content\ShipDiffuse.tkb
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work - עותק\MyGame5\bin\Debug\App.xbf
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work - עותק\MyGame5\bin\Debug\MainPage.xbf
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work - עותק\MyGame5\bin\Debug\MyGame5.exe
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work - עותק\MyGame5\bin\Debug\MyGame5.pdb
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work - עותק\MyGame5\bin\Debug\resources.pri
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work - עותק\MyGame5\bin\Debug\AppxManifest.xml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work - עותק\MyGame5\bin\Debug\MyGame5.build.appxrecipe
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work - עותק\MyGame5\bin\Debug\SharpDX.Direct2D1.dll
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work - עותק\MyGame5\bin\Debug\SharpDX.Direct3D11.dll
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work - עותק\MyGame5\bin\Debug\SharpDX.dll
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work - עותק\MyGame5\bin\Debug\SharpDX.DXGI.dll
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work - עותק\MyGame5\bin\Debug\SharpDX.Toolkit.Audio.dll
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work - עותק\MyGame5\bin\Debug\SharpDX.Toolkit.dll
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work - עותק\MyGame5\bin\Debug\SharpDX.Toolkit.Game.dll
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work - עותק\MyGame5\bin\Debug\SharpDX.Toolkit.Graphics.dll
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work - עותק\MyGame5\bin\Debug\SharpDX.Toolkit.Input.dll
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work - עותק\MyGame5\bin\Debug\SharpDX.XAudio2.dll
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work - עותק\MyGame5\bin\Debug\SharpDX.xml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work - עותק\MyGame5\bin\Debug\SharpDX.Direct3D11.xml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work - עותק\MyGame5\bin\Debug\SharpDX.DXGI.xml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work - עותק\MyGame5\bin\Debug\SharpDX.Toolkit.xml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work - עותק\MyGame5\bin\Debug\SharpDX.Toolkit.Audio.xml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work - עותק\MyGame5\bin\Debug\SharpDX.Toolkit.Game.xml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work - עותק\MyGame5\bin\Debug\SharpDX.Toolkit.Graphics.xml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work - עותק\MyGame5\bin\Debug\SharpDX.Toolkit.Input.xml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work - עותק\MyGame5\bin\Debug\SharpDX.XAudio2.xml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work - עותק\MyGame5\bin\Debug\SharpDX.Direct2D1.xml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work - עותק\MyGame5\obj\Debug\SharpDX\en-us\SharpDX.Properties.Resources.resw
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work - עותק\MyGame5\obj\Debug\MyGame5.csproj.GenerateResource.Cache
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work - עותק\MyGame5\obj\Debug\SharpDX.pri
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work - עותק\MyGame5\obj\Debug\SharpDX\qualifiers.txt
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work - עותק\MyGame5\obj\Debug\priconfig.xml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work - עותק\MyGame5\obj\Debug\priconfig.xml.intermediate
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work - עותק\MyGame5\obj\Debug\layout.resfiles
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work - עותק\MyGame5\obj\Debug\layout.resfiles.intermediate
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work - עותק\MyGame5\obj\Debug\resources.resfiles
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work - עותק\MyGame5\obj\Debug\resources.resfiles.intermediate
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work - עותק\MyGame5\obj\Debug\pri.resfiles
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work - עותק\MyGame5\obj\Debug\pri.resfiles.intermediate
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work - עותק\MyGame5\obj\Debug\qualifiers.txt
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work - עותק\MyGame5\obj\Debug\qualifiers.txt.intermediate
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work - עותק\MyGame5\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work - עותק\MyGame5\obj\Debug\ProjectArchitectures.txt
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work - עותק\MyGame5\bin\Debug\Content\MetaTunnel.tkb
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work - עותק\MyGame5\obj\Debug\SharpDX\layout.resfiles
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work - עותק\MyGame5\obj\Debug\SharpDX\layout.resfiles.intermediate
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work - עותק\MyGame5\obj\Debug\SharpDX\Resources.resfiles
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work - עותק\MyGame5\obj\Debug\SharpDX\Resources.resfiles.intermediate
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work - עותק\MyGame5\obj\Debug\SharpDX\pri.resfiles
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work - עותק\MyGame5\obj\Debug\SharpDX\pri.resfiles.intermediate
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work - עותק\MyGame5\obj\Debug\SharpDX\priconfig.xml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Win8_1_work - עותק\MyGame5\obj\Debug\SharpDX\priconfig.xml.intermediate
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\אפקט fx - עותק\MyGame5\obj\Debug\MyGame5.csprojResolveAssemblyReference.cache
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\אפקט fx - עותק\MyGame5\obj\Debug\App.g.i.cs
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\אפקט fx - עותק\MyGame5\obj\Debug\App.g.cs
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\אפקט fx - עותק\MyGame5\obj\Debug\MainPage.g.i.cs
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\אפקט fx - עותק\MyGame5\obj\Debug\MainPage.g.cs
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\אפקט fx - עותק\MyGame5\obj\Debug\XamlTypeInfo.g.cs
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\אפקט fx - עותק\MyGame5\obj\Debug\App.xaml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\אפקט fx - עותק\MyGame5\obj\Debug\MainPage.xaml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\אפקט fx - עותק\MyGame5\obj\Debug\App.xbf
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\אפקט fx - עותק\MyGame5\obj\Debug\MainPage.xbf
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\אפקט fx - עותק\MyGame5\obj\Debug\XamlSaveStateFile.xml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\אפקט fx - עותק\MyGame5\obj\Debug\MyGame5.exe
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\אפקט fx - עותק\MyGame5\obj\Debug\MyGame5.pdb
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\אפקט fx - עותק\MyGame5\bin\Debug\Content\ShipDiffuse.tkb
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\אפקט fx - עותק\MyGame5\bin\Debug\Content\Bloom.tkb
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\אפקט fx - עותק\MyGame5\bin\Debug\Content\MetaTunnel.tkb
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\אפקט fx - עותק\MyGame5\bin\Debug\Content\Arial16.tkb
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\אפקט fx - עותק\MyGame5\bin\Debug\Content\Ship.tkb
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\אפקט fx - עותק\MyGame5\bin\Debug\Content\Scene1.tkb
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\אפקט fx - עותק\MyGame5\bin\Debug\App.xbf
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\אפקט fx - עותק\MyGame5\bin\Debug\MainPage.xbf
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\אפקט fx - עותק\MyGame5\bin\Debug\MyGame5.exe
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\אפקט fx - עותק\MyGame5\bin\Debug\MyGame5.pdb
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\אפקט fx - עותק\MyGame5\bin\Debug\resources.pri
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\אפקט fx - עותק\MyGame5\bin\Debug\AppxManifest.xml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\אפקט fx - עותק\MyGame5\bin\Debug\MyGame5.build.appxrecipe
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\אפקט fx - עותק\MyGame5\bin\Debug\SharpDX.Direct2D1.dll
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\אפקט fx - עותק\MyGame5\bin\Debug\SharpDX.Direct3D11.dll
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\אפקט fx - עותק\MyGame5\bin\Debug\SharpDX.dll
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\אפקט fx - עותק\MyGame5\bin\Debug\SharpDX.DXGI.dll
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\אפקט fx - עותק\MyGame5\bin\Debug\SharpDX.Toolkit.Audio.dll
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\אפקט fx - עותק\MyGame5\bin\Debug\SharpDX.Toolkit.dll
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\אפקט fx - עותק\MyGame5\bin\Debug\SharpDX.Toolkit.Game.dll
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\אפקט fx - עותק\MyGame5\bin\Debug\SharpDX.Toolkit.Graphics.dll
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\אפקט fx - עותק\MyGame5\bin\Debug\SharpDX.Toolkit.Input.dll
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\אפקט fx - עותק\MyGame5\bin\Debug\SharpDX.XAudio2.dll
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\אפקט fx - עותק\MyGame5\bin\Debug\SharpDX.xml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\אפקט fx - עותק\MyGame5\bin\Debug\SharpDX.Direct3D11.xml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\אפקט fx - עותק\MyGame5\bin\Debug\SharpDX.DXGI.xml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\אפקט fx - עותק\MyGame5\bin\Debug\SharpDX.Toolkit.xml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\אפקט fx - עותק\MyGame5\bin\Debug\SharpDX.Toolkit.Audio.xml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\אפקט fx - עותק\MyGame5\bin\Debug\SharpDX.Toolkit.Game.xml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\אפקט fx - עותק\MyGame5\bin\Debug\SharpDX.Toolkit.Graphics.xml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\אפקט fx - עותק\MyGame5\bin\Debug\SharpDX.Toolkit.Input.xml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\אפקט fx - עותק\MyGame5\bin\Debug\SharpDX.XAudio2.xml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\אפקט fx - עותק\MyGame5\bin\Debug\SharpDX.Direct2D1.xml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\אפקט fx - עותק\MyGame5\obj\Debug\SharpDX\en-us\SharpDX.Properties.Resources.resw
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\אפקט fx - עותק\MyGame5\obj\Debug\MyGame5.csproj.GenerateResource.Cache
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\אפקט fx - עותק\MyGame5\obj\Debug\SharpDX.pri
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\אפקט fx - עותק\MyGame5\obj\Debug\SharpDX\qualifiers.txt
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\אפקט fx - עותק\MyGame5\obj\Debug\priconfig.xml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\אפקט fx - עותק\MyGame5\obj\Debug\priconfig.xml.intermediate
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\אפקט fx - עותק\MyGame5\obj\Debug\layout.resfiles
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\אפקט fx - עותק\MyGame5\obj\Debug\layout.resfiles.intermediate
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\אפקט fx - עותק\MyGame5\obj\Debug\resources.resfiles
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\אפקט fx - עותק\MyGame5\obj\Debug\resources.resfiles.intermediate
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\אפקט fx - עותק\MyGame5\obj\Debug\pri.resfiles
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\אפקט fx - עותק\MyGame5\obj\Debug\pri.resfiles.intermediate
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\אפקט fx - עותק\MyGame5\obj\Debug\qualifiers.txt
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\אפקט fx - עותק\MyGame5\obj\Debug\qualifiers.txt.intermediate
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\אפקט fx - עותק\MyGame5\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\אפקט fx - עותק\MyGame5\obj\Debug\ProjectArchitectures.txt
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\אפקט fx - עותק\MyGame5\bin\Debug\Content\Glass.tkb
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\אפקט fx - עותק\MyGame5\obj\Debug\SharpDX\layout.resfiles
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\אפקט fx - עותק\MyGame5\obj\Debug\SharpDX\layout.resfiles.intermediate
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\אפקט fx - עותק\MyGame5\obj\Debug\SharpDX\Resources.resfiles
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\אפקט fx - עותק\MyGame5\obj\Debug\SharpDX\Resources.resfiles.intermediate
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\אפקט fx - עותק\MyGame5\obj\Debug\SharpDX\pri.resfiles
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\אפקט fx - עותק\MyGame5\obj\Debug\SharpDX\pri.resfiles.intermediate
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\אפקט fx - עותק\MyGame5\obj\Debug\SharpDX\priconfig.xml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\אפקט fx - עותק\MyGame5\obj\Debug\SharpDX\priconfig.xml.intermediate
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך\MyGame5\bin\Debug\App.xbf
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך\MyGame5\bin\Debug\MainPage.xbf
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך\MyGame5\bin\Debug\MyGame5.exe
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך\MyGame5\bin\Debug\MyGame5.pdb
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך\MyGame5\bin\Debug\resources.pri
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך\MyGame5\bin\Debug\AppxManifest.xml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך\MyGame5\bin\Debug\MyGame5.build.appxrecipe
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך\MyGame5\bin\Debug\SharpDX.Direct2D1.dll
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך\MyGame5\bin\Debug\SharpDX.xml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך\MyGame5\bin\Debug\SharpDX.Direct3D11.xml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך\MyGame5\bin\Debug\SharpDX.DXGI.xml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך\MyGame5\bin\Debug\SharpDX.Toolkit.xml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך\MyGame5\bin\Debug\SharpDX.Toolkit.Audio.xml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך\MyGame5\bin\Debug\SharpDX.Toolkit.Game.xml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך\MyGame5\bin\Debug\SharpDX.Toolkit.Graphics.xml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך\MyGame5\bin\Debug\SharpDX.Toolkit.Input.xml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך\MyGame5\bin\Debug\SharpDX.XAudio2.xml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך\MyGame5\bin\Debug\SharpDX.Direct2D1.xml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך\MyGame5\obj\Debug\MyGame5.csprojResolveAssemblyReference.cache
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך\MyGame5\obj\Debug\App.g.i.cs
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך\MyGame5\obj\Debug\App.g.cs
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך\MyGame5\obj\Debug\MainPage.g.i.cs
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך\MyGame5\obj\Debug\MainPage.g.cs
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך\MyGame5\obj\Debug\XamlTypeInfo.g.cs
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך\MyGame5\obj\Debug\App.xaml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך\MyGame5\obj\Debug\MainPage.xaml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך\MyGame5\obj\Debug\App.xbf
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך\MyGame5\obj\Debug\MainPage.xbf
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך\MyGame5\obj\Debug\XamlSaveStateFile.xml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך\MyGame5\obj\Debug\MyGame5.exe
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך\MyGame5\obj\Debug\MyGame5.pdb
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך\MyGame5\obj\Debug\SharpDX\en-us\SharpDX.Properties.Resources.resw
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך\MyGame5\obj\Debug\MyGame5.csproj.GenerateResource.Cache
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך\MyGame5\obj\Debug\SharpDX\layout.resfiles
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך\MyGame5\obj\Debug\SharpDX\layout.resfiles.intermediate
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך\MyGame5\obj\Debug\SharpDX\Resources.resfiles
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך\MyGame5\obj\Debug\SharpDX\Resources.resfiles.intermediate
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך\MyGame5\obj\Debug\SharpDX\pri.resfiles
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך\MyGame5\obj\Debug\SharpDX\pri.resfiles.intermediate
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך\MyGame5\obj\Debug\SharpDX\priconfig.xml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך\MyGame5\obj\Debug\SharpDX\priconfig.xml.intermediate
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך\MyGame5\obj\Debug\SharpDX.pri
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך\MyGame5\obj\Debug\SharpDX\qualifiers.txt
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך\MyGame5\obj\Debug\priconfig.xml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך\MyGame5\obj\Debug\priconfig.xml.intermediate
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך\MyGame5\obj\Debug\layout.resfiles
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך\MyGame5\obj\Debug\layout.resfiles.intermediate
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך\MyGame5\obj\Debug\resources.resfiles
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך\MyGame5\obj\Debug\resources.resfiles.intermediate
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך\MyGame5\obj\Debug\pri.resfiles
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך\MyGame5\obj\Debug\pri.resfiles.intermediate
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך\MyGame5\obj\Debug\qualifiers.txt
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך\MyGame5\obj\Debug\qualifiers.txt.intermediate
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך\MyGame5\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך\MyGame5\obj\Debug\ProjectArchitectures.txt
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך\MyGame5\bin\Debug\Content\Bloom.tkb
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך\MyGame5\bin\Debug\Content\MetaTunnel.tkb
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך\MyGame5\bin\Debug\Content\Arial16.tkb
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך\MyGame5\bin\Debug\Content\Ship.tkb
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך\MyGame5\bin\Debug\Content\Scene1.tkb
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך\MyGame5\bin\Debug\Content\Cube.tkb
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך\MyGame5\bin\Debug\Content\ShipDiffuse.tkb
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך\MyGame5\bin\Debug\Content\Glass.tkb
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך\MyGame5\bin\Debug\SharpDX.Direct3D11.dll
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך\MyGame5\bin\Debug\SharpDX.dll
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך\MyGame5\bin\Debug\SharpDX.DXGI.dll
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך\MyGame5\bin\Debug\SharpDX.Toolkit.Audio.dll
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך\MyGame5\bin\Debug\SharpDX.Toolkit.dll
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך\MyGame5\bin\Debug\SharpDX.Toolkit.Game.dll
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך\MyGame5\bin\Debug\SharpDX.Toolkit.Graphics.dll
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך\MyGame5\bin\Debug\SharpDX.Toolkit.Input.dll
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך\MyGame5\bin\Debug\SharpDX.XAudio2.dll

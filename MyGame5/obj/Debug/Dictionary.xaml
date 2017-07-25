@@ -1,0 +1,1927 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Isometric">
+    <Style x:Key="WhiteAppBarButtonStyle" TargetType="Button">
+        <Setter Property="Foreground" Value="{ThemeResource AppBarItemForegroundThemeBrush}"/>
+        <Setter Property="VerticalAlignment" Value="Top"/>
+        <Setter Property="HorizontalAlignment" Value="Left"/>
+        <Setter Property="FontFamily" Value="{ThemeResource ContentControlThemeFontFamily}"/>
+        <Setter Property="FontWeight" Value="Normal"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate  >
+                    <Grid Background="Transparent" x:Name="RootGrid" Height="80" Width="100">
+                        <VisualStateManager.VisualStateGroups>
+                            <VisualStateGroup x:Name="CommonStates">
+                                <VisualState x:Name="Normal"/>
+                                <VisualState x:Name="PointerOver">
+                                    <Storyboard>
+                                        <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Fill" Storyboard.TargetName="Ellipse">
+                                            <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource AppBarItemPointerOverBackgroundThemeBrush}"/>
+                                        </ObjectAnimationUsingKeyFrames>
+                                        <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Foreground" Storyboard.TargetName="Content">
+                                            <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource AppBarItemPointerOverForegroundThemeBrush}"/>
+                                        </ObjectAnimationUsingKeyFrames>
+                                    </Storyboard>
+                                </VisualState>
+                                <VisualState x:Name="Pressed">
+                                    <Storyboard>
+                                        <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Stroke" Storyboard.TargetName="Ellipse">
+                                            <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource AppBarItemForegroundThemeBrush}"/>
+                                        </ObjectAnimationUsingKeyFrames>
+                                        <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Fill" Storyboard.TargetName="Ellipse">
+                                            <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource AppBarItemForegroundThemeBrush}"/>
+                                        </ObjectAnimationUsingKeyFrames>
+                                        <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Foreground" Storyboard.TargetName="Content">
+                                            <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource AppBarItemPressedForegroundThemeBrush}"/>
+                                        </ObjectAnimationUsingKeyFrames>
+                                    </Storyboard>
+                                </VisualState>
+                                <VisualState x:Name="Disabled">
+                                    <Storyboard>
+                                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="RootGrid" Storyboard.TargetProperty="Visibility">
+                                            <DiscreteObjectKeyFrame KeyTime="0" Value="Collapsed"/>
+                                        </ObjectAnimationUsingKeyFrames>
+                                    </Storyboard>
+                                </VisualState>
+                            </VisualStateGroup>
+                            <VisualStateGroup x:Name="FocusStates">
+                                <VisualState x:Name="Focused">
+                                    <Storyboard>
+                                        <DoubleAnimation Duration="0" To="1" Storyboard.TargetProperty="Opacity" Storyboard.TargetName="FocusVisualWhite"/>
+                                        <DoubleAnimation Duration="0" To="1" Storyboard.TargetProperty="Opacity" Storyboard.TargetName="FocusVisualBlack"/>
+                                    </Storyboard>
+                                </VisualState>
+                                <VisualState x:Name="Unfocused"/>
+                                <VisualState x:Name="PointerFocused"/>
+                            </VisualStateGroup>
+                        </VisualStateManager.VisualStateGroups>
+                        <!--<StackPanel VerticalAlignment="Top" Margin="0,12,0,11">-->
+                        <!--</StackPanel>-->
+                        <Grid Margin="9,8,9,23"
+                            Height="41" 
+                            Width="41">
+                            <Ellipse 
+                                x:Name="Ellipse"
+                                Fill="{ThemeResource AppBarItemBackgroundThemeBrush}"
+                                Stroke="{ThemeResource AppBarItemForegroundThemeBrush}"
+                                StrokeThickness="2"
+                                UseLayoutRounding="False" />
+                            <ContentPresenter 
+                                x:Name="Content" 
+                                Foreground="{TemplateBinding Foreground}" 
+                                HorizontalAlignment="Stretch" 
+                                VerticalAlignment="Stretch">
+                                <!--Text="{TemplateBinding AutomationProperties.HelpText}"-->
+                                <TextBlock x:Name="Content_" Text="{TemplateBinding AutomationProperties.HelpText}" FontSize="20" Margin="0,5" TextAlignment="Center" FontFamily="Segoe UI Symbol"></TextBlock>
+                            </ContentPresenter>
+                        </Grid>
+                        <Grid Height="80" >
+                            <!--<TextBlock Margin="0,52,0,0" TextAlignment="Center" FontSize="12">yyyyy</TextBlock>-->
+                            <TextBlock
+                                x:Name="TextLabel"
+                                Text="{TemplateBinding AutomationProperties.Name}"
+                                Foreground="#ffffff"
+                                FontSize="12"
+                                TextAlignment="Center"
+                                MaxHeight="32"
+                                TextTrimming="WordEllipsis"
+                                Style="{StaticResource BodyTextStyle}" Margin="0,51,0,0"/>
+                        </Grid>
+
+                        <Rectangle x:Name="FocusVisualWhite" IsHitTestVisible="False" Opacity="0" StrokeDashOffset="1.5" StrokeEndLineCap="Square" Stroke="{ThemeResource FocusVisualWhiteStrokeThemeBrush}" StrokeDashArray="1,1"/>
+                        <Rectangle x:Name="FocusVisualBlack" IsHitTestVisible="False" Opacity="0" StrokeDashOffset="0.5" StrokeEndLineCap="Square" Stroke="{ThemeResource FocusVisualBlackStrokeThemeBrush}" StrokeDashArray="1,1"/>
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style x:Key="LevelAppBarButtonStyle" TargetType="ButtonBase" BasedOn="{StaticResource AppBarButtonStyle}">
+        <Setter Property="AutomationProperties.AutomationId" Value="BuildAppBarButton"/>
+        <Setter Property="AutomationProperties.Name" Value="רמה"/>
+        <Setter Property="Content" Value="&#x26f3;"/>
+    </Style>
+    <Style x:Key="SaveGameAppBarButtonStyle" TargetType="ButtonBase" BasedOn="{StaticResource AppBarButtonStyle}">
+        <Setter Property="AutomationProperties.AutomationId" Value="BuildAppBarButton"/>
+        <Setter Property="AutomationProperties.Name" Value="שמור משחק"/>
+        <Setter Property="FontFamily" Value="Segoe UI Symbol"/>
+        <Setter Property="Content" Value="&#xE105;"/> 
+    </Style>
+    <Style x:Key="OpenSavedGameAppBarButtonStyle" TargetType="ButtonBase" BasedOn="{StaticResource AppBarButtonStyle}">
+        <Setter Property="AutomationProperties.AutomationId" Value="BuildAppBarButton"/>
+        <Setter Property="FontFamily" Value="Segoe UI Symbol"/>
+         <Setter Property="AutomationProperties.Name" Value="פתח משחק שמור"/>
+        <Setter Property="Content" Value="&#xE131;"/>
+    </Style>
+
+
+    <Style x:Key="TextOurButtonStyle" TargetType="ButtonBase">
+        <Setter Property="MinWidth" Value="0"/>
+        <Setter Property="MinHeight" Value="0"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="ButtonBase">
+                    <Grid Background="Transparent">
+                        <ContentPresenter x:Name="Text" Content="{TemplateBinding Content}" />
+                        <Ellipse
+                            x:Name="FocusVisualWhite"
+                            IsHitTestVisible="true"
+                            Stroke="{StaticResource FocusVisualWhiteStrokeThemeBrush}"
+                            StrokeEndLineCap="Square"
+                            StrokeDashArray="1,1"
+                            Opacity="1"
+                            StrokeDashOffset="1.5"/>
+                        <Ellipse
+                            x:Name="FocusVisualBlack"
+                            IsHitTestVisible="True"
+                            Stroke="{StaticResource FocusVisualBlackStrokeThemeBrush}"
+                            StrokeThickness="5"
+                            Opacity="0.7"
+                            />
+                        <VisualStateManager.VisualStateGroups>
+                            <VisualStateGroup x:Name="CommonStates">
+                                <VisualState x:Name="Normal"/>
+                                <VisualState x:Name="PointerOver">
+                                    <Storyboard>
+                                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="Text" Storyboard.TargetProperty="Foreground">
+                                            <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource ApplicationPointerOverForegroundThemeBrush}"/>
+                                        </ObjectAnimationUsingKeyFrames>
+                                    </Storyboard>
+                                </VisualState>
+                                <VisualState x:Name="Pressed">
+                                    <Storyboard>
+                                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="Text" Storyboard.TargetProperty="Foreground">
+                                            <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource ApplicationPressedForegroundThemeBrush}"/>
+                                        </ObjectAnimationUsingKeyFrames>
+                                    </Storyboard>
+                                </VisualState>
+                                <VisualState x:Name="Disabled">
+                                    <Storyboard>
+                                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="Text" Storyboard.TargetProperty="Foreground">
+                                            <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource ApplicationPressedForegroundThemeBrush}"/>
+                                        </ObjectAnimationUsingKeyFrames>
+                                    </Storyboard>
+                                </VisualState>
+                            </VisualStateGroup>
+                            <VisualStateGroup x:Name="FocusStates">
+                                <VisualState x:Name="Focused">
+                                    <Storyboard>
+                                        <DoubleAnimation Duration="0" To="1" Storyboard.TargetName="FocusVisualWhite" Storyboard.TargetProperty="Opacity"/>
+                                        <DoubleAnimation Duration="0" To="1" Storyboard.TargetName="FocusVisualBlack" Storyboard.TargetProperty="Opacity"/>
+                                    </Storyboard>
+                                </VisualState>
+                                <VisualState x:Name="Unfocused"/>
+                            </VisualStateGroup>
+                            <VisualStateGroup x:Name="CheckStates">
+                                <VisualState x:Name="Checked"/>
+                                <VisualState x:Name="Unchecked">
+                                    <Storyboard>
+                                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="Text" Storyboard.TargetProperty="Foreground">
+                                            <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource ApplicationSecondaryForegroundThemeBrush}"/>
+                                        </ObjectAnimationUsingKeyFrames>
+                                    </Storyboard>
+                                </VisualState>
+                                <VisualState x:Name="Indeterminate"/>
+                            </VisualStateGroup>
+                        </VisualStateManager.VisualStateGroups>
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <Style x:Key="BuildAppBarButtonStyle" TargetType="ButtonBase" BasedOn="{StaticResource AppBarButtonStyle}">
+        <Setter Property="AutomationProperties.AutomationId" Value="BuildAppBarButton"/>
+        <Setter Property="AutomationProperties.Name" Value="צור"/>
+        <Setter Property="Content" Value="&#x1F30C;"/>
+    </Style>
+
+    <!-- <Style x:Key="BuildAppBarButtonStyle" TargetType="ButtonBase" BasedOn="{StaticResource AppBarButtonStyle}">
+        <Setter Property="AutomationProperties.AutomationId" Value="BuildAppBarButton"/>
+        <Setter Property="AutomationProperties.Name" Value="צור"/>
+        <Setter Property="Content" Value="&#x2728;"/>
+    </Style>
+    <Style x:Key="BuildAppBarButtonStyle" TargetType="ButtonBase" BasedOn="{StaticResource AppBarButtonStyle}">
+        <Setter Property="AutomationProperties.AutomationId" Value="BuildAppBarButton"/>
+        <Setter Property="AutomationProperties.Name" Value="צור"/>
+        <Setter Property="Content" Value="&#x1F527;"/>
+    </Style>-->
+    <Style x:Key="BigAppBarButtonStyle" TargetType="ButtonBase" BasedOn="{StaticResource AppBarButtonStyle}">
+        <Setter Property="AutomationProperties.AutomationId" Value="IsoAppBarButton"/>
+        <Setter Property="AutomationProperties.Name" Value="איזומטריה"/>
+        <Setter Property="Content" Value="&#x1F4D0;"/>
+    </Style>
+    <Style x:Key="IsoAppBarButtonStyle" TargetType="ButtonBase" BasedOn="{StaticResource AppBarButtonStyle}">
+        <Setter Property="AutomationProperties.AutomationId" Value="IsoAppBarButton"/>
+        <Setter Property="AutomationProperties.Name" Value="השלכת קוים"/>
+        <Setter Property="Content" Value="&#x1F4D0;"/>
+    </Style>
+    <Style x:Key="MoveAppBarButtonStyle" TargetType="ButtonBase" BasedOn="{StaticResource AppBarButtonStyle}">
+        <Setter Property="AutomationProperties.AutomationId" Value="MoveAppBarButton"/>
+        <Setter Property="AutomationProperties.Name" Value="עבור"/>
+        <Setter Property="Content" Value="&#xe1d9;"/>
+        <!--2070-->
+
+    </Style>
+    <Style x:Key="BaseAttach" TargetType="Grid" >
+        <Setter Property="RenderTransform" >
+            <Setter.Value>
+                <CompositeTransform >
+                    <CompositeTransform.SkewX>-30</CompositeTransform.SkewX>
+                    <CompositeTransform.ScaleX>0.9</CompositeTransform.ScaleX>
+                    <CompositeTransform.ScaleY>0.8</CompositeTransform.ScaleY>
+                </CompositeTransform>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style x:Key="PX_Attaching" TargetType="Grid" BasedOn="{StaticResource BaseAttach}">
+        <Setter Property="Margin" Value ="14,107,125,29" />
+        <Setter Property="Grid.RowSpan" Value="2"/>
+        <Setter Property="Grid.ColumnSpan" Value="2"/>
+        <Setter Property="RenderTransform" >
+            <Setter.Value>
+                <CompositeTransform >
+                    <CompositeTransform.SkewX>-30</CompositeTransform.SkewX>
+                    <CompositeTransform.ScaleX>0.9</CompositeTransform.ScaleX>
+                    <CompositeTransform.ScaleY>0.8</CompositeTransform.ScaleY>
+                    <CompositeTransform.Rotation>-90</CompositeTransform.Rotation>
+                </CompositeTransform>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <Style x:Key="PY_Attaching" TargetType="Grid">
+        <Setter Property="Margin" Value="70,11,69,125"  />
+        <Setter Property="Grid.RowSpan" Value="2"/>
+        <Setter Property="Grid.ColumnSpan" Value="2"/>
+        <Setter Property="Grid.Column" Value="0"/>
+        <Setter Property="RenderTransform" >
+            <Setter.Value>
+                <CompositeTransform >
+                    <CompositeTransform.SkewX>-30</CompositeTransform.SkewX>
+                    <CompositeTransform.ScaleX>0.92</CompositeTransform.ScaleX>
+                    <CompositeTransform.ScaleY>0.8</CompositeTransform.ScaleY>
+                    <CompositeTransform.Rotation>30</CompositeTransform.Rotation>
+                </CompositeTransform>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <Style x:Key="PZ_Attaching" TargetType="Grid">
+        <Setter Property="Margin" Value="126,107,13,29"/>
+        <Setter Property="Grid.RowSpan" Value="2"/>
+        <Setter Property="Grid.ColumnSpan" Value="2"/>
+        <Setter Property="RenderTransform" >
+            <Setter.Value>
+                <CompositeTransform >
+                    <CompositeTransform.SkewX>-30</CompositeTransform.SkewX>
+                    <CompositeTransform.ScaleX>0.9</CompositeTransform.ScaleX>
+                    <CompositeTransform.ScaleY>0.78</CompositeTransform.ScaleY>
+                    <CompositeTransform.Rotation>150</CompositeTransform.Rotation>
+                </CompositeTransform>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style x:Key="PX_UnitedSkew" TargetType="Grid">
+        <Setter Property="Margin" Value="0,3,2,-1" />
+        <Setter Property="Grid.Column" Value="0" />
+        <Setter Property="Grid.Row" Value="1" />
+        <Setter Property="RenderTransform">
+            <Setter.Value>
+                <CompositeTransform>
+                    <CompositeTransform.Rotation>-90</CompositeTransform.Rotation>
+                    <CompositeTransform.ScaleX>1.3</CompositeTransform.ScaleX>
+                    <CompositeTransform.ScaleY>1.3</CompositeTransform.ScaleY>
+                </CompositeTransform>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <Style x:Key="PY_UnitedSkew" TargetType="Grid">
+        <Setter Property="Margin" Value="3,0,0,2.5"/>
+        <Setter Property="RenderTransform">
+            <Setter.Value>
+                <CompositeTransform>
+                    <CompositeTransform.ScaleX>1.3</CompositeTransform.ScaleX>
+                    <CompositeTransform.ScaleY>1.3</CompositeTransform.ScaleY>
+                </CompositeTransform>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <Style x:Key="PZ_UnitedSkew" TargetType="Grid" >
+        <!--<Setter Property="Stroke" Value="DimGray"/>
+                <Setter Property="StrokeThickness" Value="7"/>-->
+        <Setter Property="Grid.Column" Value="1" />
+        <Setter Property="Margin" Value="0,0,2.5,2.5" />
+        <Setter Property="RenderTransform" >
+            <Setter.Value>
+                <CompositeTransform>
+                    <CompositeTransform.Rotation>180</CompositeTransform.Rotation>
+                    <CompositeTransform.ScaleX>1.3</CompositeTransform.ScaleX>
+                    <CompositeTransform.ScaleY>1.3</CompositeTransform.ScaleY>
+                </CompositeTransform>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <Style x:Key="SkewGrid" TargetType="Grid" >
+       <Setter Property="RenderTransform" >
+            <Setter.Value>
+                <CompositeTransform>
+                    <CompositeTransform.ScaleX>1.5</CompositeTransform.ScaleX>
+                    <CompositeTransform.ScaleY>1.5</CompositeTransform.ScaleY>
+                </CompositeTransform>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style x:Key="PX_United" TargetType="Grid">
+        <Setter Property="Margin" Value="0,3,3,-2"/>
+        <Setter Property="Grid.Column" Value="0" />
+        <Setter Property="Grid.Row" Value="1" />
+        <Setter Property="RenderTransform">
+            <Setter.Value>
+                <CompositeTransform>
+                    <CompositeTransform.Rotation>-90</CompositeTransform.Rotation>
+                </CompositeTransform>
+            </Setter.Value>
+        </Setter>
+        <Setter Property="Background" Value="#FFE71460"/>
+    </Style>
+    <Style x:Key="PY_United" TargetType="Grid">
+        <Setter Property="Margin" Value="0,-1,3,2" />
+    </Style>
+    <Style x:Key="PZ_United" TargetType="Grid">
+        <!--<Setter Property="Stroke" Value="DimGray"/>
+                <Setter Property="StrokeThickness" Value="7"/>-->
+        <Setter Property="Grid.Column" Value="1" />
+        <Setter Property="Margin" Value="2,-1,0,2"/>
+        <Setter Property="RenderTransform" >
+            <Setter.Value>
+                <CompositeTransform>
+                    <CompositeTransform.Rotation>180</CompositeTransform.Rotation>
+                </CompositeTransform>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <!--<Style x:Key="PZ_UnitedIso" TargetType="Grid">
+        --><!--<Setter Property="Stroke" Value="DimGray"/>
+                <Setter Property="StrokeThickness" Value="7"/>--><!--
+        <Setter Property="Grid.Column" Value="1" />
+        <Setter Property="Margin" Value="3,-1,0,4"/>
+        <Setter Property="RenderTransform" >
+            <Setter.Value>
+                <CompositeTransform>
+                    <CompositeTransform.Rotation>90</CompositeTransform.Rotation>
+                </CompositeTransform>
+            </Setter.Value>
+        </Setter>
+    </Style>-->
+
+
+    <!--<Style x:Key="PX_Attaching" TargetType="Grid">
+        <Setter Property="Margin" Value="101,119,-101,-119" />
+        <Setter Property="RenderTransform" >
+            <Setter.Value>
+                <CompositeTransform >
+                    <CompositeTransform.SkewY>30</CompositeTransform.SkewY>
+                    <CompositeTransform.ScaleX>0.3</CompositeTransform.ScaleX>
+                    <CompositeTransform.ScaleY>0.4</CompositeTransform.ScaleY>
+                </CompositeTransform>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <Style x:Key="PY_Attaching" TargetType="Grid">
+        <Setter Property="Margin" Value="105,108,-105,-108"  />
+        <Setter Property="RenderTransform" >
+            <Setter.Value>
+                <CompositeTransform >
+                    <CompositeTransform.SkewX>30</CompositeTransform.SkewX>
+                    <CompositeTransform.ScaleY>0.35</CompositeTransform.ScaleY>
+                    <CompositeTransform.ScaleX>0.35</CompositeTransform.ScaleX>
+                    <CompositeTransform.Rotation>-30</CompositeTransform.Rotation>
+                </CompositeTransform>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <Style x:Key="PZ_Attaching" TargetType="Grid">
+        <Setter Property="Margin" Value="243,195,-243,-195"/>
+        <Setter Property="RenderTransform" >
+            <Setter.Value>
+                <CompositeTransform >
+                    <CompositeTransform.SkewY>-30</CompositeTransform.SkewY>
+                    <CompositeTransform.ScaleX>0.3</CompositeTransform.ScaleX>
+                    <CompositeTransform.ScaleY>0.4</CompositeTransform.ScaleY>
+                </CompositeTransform>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style x:Key="PX_United" TargetType="Grid">
+        <Setter Property="Height" Value="230"/>
+        <Setter Property="Margin" Value="89,20,113,132"  />
+        <Setter Property="Width" Value="230"/>
+        <Setter Property="RenderTransform" >
+            <Setter.Value>
+                <CompositeTransform ScaleX="0.65" ScaleY="0.65"/>
+            </Setter.Value>
+        </Setter>
+        
+    </Style>
+    <Style x:Key="PY_United" TargetType="Grid">
+        <Setter Property="Height" Value="230"/>
+        <Setter Property="Width" Value="230"/>
+        <Setter Property="Margin" Value="259,169,-57,-17"/>
+        <Setter Property="RenderTransform" >
+            <Setter.Value>
+                <CompositeTransform ScaleX="0.65" ScaleY="0.65" Rotation="-90"/>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <Style x:Key="PZ_United" TargetType="Grid">
+        <Setter Property="Height" Value="230"/>
+        <Setter Property="Margin" Value="30"/>
+        <Setter Property="Width" Value="230"/>
+        <Setter Property="Margin" Value="260,192,-58,-40"/>
+        <Setter Property="RenderTransform" >
+            <Setter.Value>
+                <CompositeTransform ScaleX="0.65" ScaleY="0.65"/>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style x:Key="Elli_United" TargetType="Ellipse">
+        <Setter Property="Fill">
+            <Setter.Value>
+                <ImageBrush  ImageSource="Images/p_Attaching.png"></ImageBrush>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <Style x:Key="Elli_Attached" TargetType="Ellipse">
+        <Setter Property="Fill">
+            <Setter.Value>
+                <ImageBrush ImageSource="Images/p_United.png"></ImageBrush>
+            </Setter.Value>
+        </Setter>
+    </Style>-->
+
+    <Style x:Key="Del_Pointer" TargetType="Ellipse">
+        <Setter Property="Height" Value="30"/>
+        <Setter Property="Width" Value="30"/>
+        <Setter Property="Stroke" Value="#FF06128B" />
+        <Setter Property="Fill">
+            <Setter.Value>
+                <LinearGradientBrush Opacity="0.7" >
+                    <GradientStopCollection>
+                        <GradientStop Color="#FF362DF9" Offset="0.063"/>
+                        <GradientStop Color="#FF0D005F" Offset="0.506"/>
+                        <GradientStop Color="#FF0C0CCD" Offset="0.253"/>
+                        <GradientStop Color="#FF635DF5" Offset="0.954"/>
+                        <GradientStop Color="#FFDBD9FF" Offset="0.84"/>
+                        <GradientStop Color="#FFB3B3F5" Offset="0.81"/>
+                        <GradientStop Color="#FF4B41BB" Offset="0.616"/>
+                    </GradientStopCollection>
+                </LinearGradientBrush>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <Style x:Key="Draw_Pointer" TargetType="Ellipse">
+        <Setter Property="Height" Value="20"/>
+        <Setter Property="Width" Value="20"/>
+        <Setter Property="Stroke" Value="#FFB90E0E" />
+        <Setter Property="Fill">
+            <Setter.Value>
+                <LinearGradientBrush Opacity="0.85" >
+                    <GradientStopCollection>
+                        <GradientStop Color="#FFFD1F1F" Offset="0.063"/>
+                        <GradientStop Color="#FFFBCEC8" Offset="0.895"/>
+                        <GradientStop Color="#FF9E0606" Offset="0.506"/>
+                        <GradientStop Color="#FFCD0C0C" Offset="0.253"/>
+                        <GradientStop Color="#FFF1897F" Offset="1"/>
+                        <GradientStop Color="#FFF7C3BF" Offset="0.895"/>
+
+                    </GradientStopCollection>
+                </LinearGradientBrush>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style x:Key="CategoryRadioButton" TargetType="RadioButton"  >
+        <Setter Property="Height" Value="40"/>
+        <Setter Property="Width" Value="120"/>
+        <!--<Setter Property="FontSize" Value="13"/>-->
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="RadioButton">
+                    <Grid >
+                        <Rectangle x:Name="rect" Fill="#fcbb75" Opacity="0.8"></Rectangle>
+                        <ContentPresenter x:Name="text" 
+                            Foreground="White" 
+                            FontSize="{TemplateBinding FontSize }" 
+                            VerticalAlignment="Center" 
+                            HorizontalAlignment="Center"
+                           />
+                        <VisualStateManager.VisualStateGroups>
+                            <VisualStateGroup x:Name="CheckStates">
+                                <VisualState x:Name="Checked">
+                                    <Storyboard>
+                                        <!--<DoubleAnimation Duration="0" To="0" Storyboard.TargetName="OutlineGlyph" Storyboard.TargetProperty="Opacity"/>-->
+                                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="rect" Storyboard.TargetProperty="Fill">
+                                            <DiscreteObjectKeyFrame KeyTime="0" Value="#eeeeee"/>
+                                            <!--lightGray-->
+                                        </ObjectAnimationUsingKeyFrames>
+                                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="text" Storyboard.TargetProperty="Foreground">
+                                            <DiscreteObjectKeyFrame KeyTime="0" Value="#f7931d"/>
+                                            <!--Orange-->
+                                        </ObjectAnimationUsingKeyFrames>
+                                    </Storyboard>
+                                </VisualState>
+                                <VisualState x:Name="Unchecked"/>
+                                <VisualState x:Name="Indeterminate"/>
+                            </VisualStateGroup>
+                        </VisualStateManager.VisualStateGroups>
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <!--<Style x:Key="DescreptionCategory" BasedOn="{StaticResource BaseTextBlockStyle}" TargetType="TextBlock">
+        <Setter Property="FontWeight" Value="SemiLight"/>
+    </Style>
+    <Style x:Key="CategoryButton" TargetType="Button">
+        <Setter Property="MinWidth" Value="0"/>
+        <Setter Property="MinHeight" Value="0"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="ButtonBase">
+                    <Grid Background="Transparent">
+                        <VisualStateManager.VisualStateGroups>
+                            <VisualStateGroup x:Name="CommonStates">
+                                <VisualState x:Name="Normal"/>
+                                <VisualState x:Name="PointerOver">
+                                    <Storyboard>
+                                        <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Foreground" Storyboard.TargetName="Text">
+                                            <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource ApplicationPointerOverForegroundThemeBrush}"/>
+                                        </ObjectAnimationUsingKeyFrames>
+                                    </Storyboard>
+                                </VisualState>
+                                <VisualState x:Name="Pressed">
+                                    <Storyboard>
+                                        <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Foreground" Storyboard.TargetName="Text">
+                                            <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource ApplicationPressedForegroundThemeBrush}"/>
+                                        </ObjectAnimationUsingKeyFrames>
+                                    </Storyboard>
+                                </VisualState>
+                                <VisualState x:Name="Disabled">
+                                    <Storyboard>
+                                        <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Foreground" Storyboard.TargetName="Text">
+                                            <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource ApplicationPressedForegroundThemeBrush}"/>
+                                        </ObjectAnimationUsingKeyFrames>
+                                    </Storyboard>
+                                </VisualState>
+                            </VisualStateGroup>
+                            <VisualStateGroup x:Name="FocusStates">
+                                <VisualState x:Name="Focused">
+                                    <Storyboard>
+                                        <DoubleAnimation Duration="0" To="1" Storyboard.TargetProperty="Opacity" Storyboard.TargetName="FocusVisualWhite"/>
+                                        <DoubleAnimation Duration="0" To="1" Storyboard.TargetProperty="Opacity" Storyboard.TargetName="FocusVisualBlack"/>
+                                    </Storyboard>
+                                </VisualState>
+                                <VisualState x:Name="Unfocused"/>
+                            </VisualStateGroup>
+                            <VisualStateGroup x:Name="CheckStates">
+                                <VisualState x:Name="Checked"/>
+                                <VisualState x:Name="Unchecked">
+                                    <Storyboard>
+                                        <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Foreground" Storyboard.TargetName="Text">
+                                            <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource ApplicationSecondaryForegroundThemeBrush}"/>
+                                        </ObjectAnimationUsingKeyFrames>
+                                    </Storyboard>
+                                </VisualState>
+                                <VisualState x:Name="Indeterminate"/>
+                            </VisualStateGroup>
+                        </VisualStateManager.VisualStateGroups>
+                        <ContentPresenter x:Name="Text" Content="{TemplateBinding Content}"/>
+                        <Rectangle x:Name="FocusVisualWhite" IsHitTestVisible="False" Opacity="0" StrokeDashOffset="1.5" StrokeEndLineCap="Square" Stroke="{ThemeResource FocusVisualWhiteStrokeThemeBrush}" StrokeDashArray="1,1"/>
+                        <Rectangle x:Name="FocusVisualBlack" IsHitTestVisible="False" Opacity="0" StrokeDashOffset="0.5" StrokeEndLineCap="Square" Stroke="{ThemeResource FocusVisualBlackStrokeThemeBrush}" StrokeDashArray="1,1"/>
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>-->
+
+    <Style x:Key="GridConseptStyle" TargetType="Grid">
+        <Setter Property="Height" Value="467"/>
+        <Setter Property="Width" Value="889"/>
+    </Style>
+    <Style x:Key="RectConseptStyle" TargetType="Rectangle">
+        <Setter Property="Opacity" Value="0.6"/>
+    </Style>
+    <Style x:Key="ConceptNameStyle" TargetType="TextBlock">
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontSize" Value="20"/>
+        <Setter Property="Margin" Value="0,20,40,19"/>
+        <Setter Property="HorizontalAlignment" Value="Right"/>
+        <Setter Property="Width" Value="145"/>
+        <Setter Property="Style" Value="{StaticResource TitleTextBlockStyle}"/>
+    </Style>
+        <Style x:Key="ButtonTitleConceptStyle" TargetType="Button">
+        <Setter Property="Width" Value="100"/>
+        <Setter Property="Height" Value="500"/>
+        <!--<Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="ButtonBase">
+                    <Grid Background="{TemplateBinding Background}" x:Name="grid">
+                        <VisualStateManager.VisualStateGroups>
+                            <VisualStateGroup x:Name="CommonStates">
+                                <VisualState x:Name="Normal"/>
+                                <VisualState x:Name="PointerOver">
+                                    <Storyboard>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Foreground" Storyboard.TargetName="Text">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{CustomResource   Background}"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Background"  Storyboard.TargetName="grid" >
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="#c6c8ca"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                </VisualState>
+                                <VisualState x:Name="Pressed">
+                                    <Storyboard>
+                                        <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Foreground" Storyboard.TargetName="Text">
+                                            <DiscreteObjectKeyFrame KeyTime="0" Value="{TemplateBinding Background }"/>
+                                        </ObjectAnimationUsingKeyFrames>
+                                        <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Opacity"  Storyboard.TargetName="grid" >
+                                            <DiscreteObjectKeyFrame KeyTime="0" Value="1"/>
+                                        </ObjectAnimationUsingKeyFrames>
+                                    </Storyboard>
+                                </VisualState>
+                                <VisualState x:Name="Disabled">
+                                    <Storyboard>
+                                        <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Foreground" Storyboard.TargetName="Text">
+                                            <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource ApplicationPressedForegroundThemeBrush}"/>
+                                        </ObjectAnimationUsingKeyFrames>
+                                    </Storyboard>
+                                </VisualState>
+                            </VisualStateGroup>
+                            <VisualStateGroup x:Name="FocusStates">
+                                <VisualState x:Name="Focused">
+                                    <Storyboard>
+                                        <DoubleAnimation Duration="0" To="1" Storyboard.TargetProperty="Opacity" Storyboard.TargetName="FocusVisualWhite"/>
+                                        <DoubleAnimation Duration="0" To="1" Storyboard.TargetProperty="Opacity" Storyboard.TargetName="FocusVisualBlack"/>
+                                    </Storyboard>
+                                </VisualState>
+                                <VisualState x:Name="Unfocused"/>
+                            </VisualStateGroup>
+                            <VisualStateGroup x:Name="CheckStates">
+                                <VisualState x:Name="Checked"/>
+                                <VisualState x:Name="Unchecked">
+                                    <Storyboard>
+                                        <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Foreground" Storyboard.TargetName="Text">
+                                            <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource ApplicationSecondaryForegroundThemeBrush}"/>
+                                        </ObjectAnimationUsingKeyFrames>
+                                    </Storyboard>
+                                </VisualState>
+                                <VisualState x:Name="Indeterminate"/>
+                            </VisualStateGroup>
+                        </VisualStateManager.VisualStateGroups>
+                        <ContentPresenter x:Name="Text" Content="{TemplateBinding Content}"/>
+                        <Rectangle x:Name="FocusVisualWhite" IsHitTestVisible="False" Opacity="0" StrokeDashOffset="1.5" StrokeEndLineCap="Square" Stroke="{ThemeResource FocusVisualWhiteStrokeThemeBrush}" StrokeDashArray="1,1"/>
+                        <Rectangle x:Name="FocusVisualBlack" IsHitTestVisible="False" Opacity="0" StrokeDashOffset="0.5" StrokeEndLineCap="Square" Stroke="{ThemeResource FocusVisualBlackStrokeThemeBrush}" StrokeDashArray="1,1"/>
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>-->
+    </Style>
+
+    <Style x:Key="RectConceptStyle" TargetType="Grid">
+        <Setter Property="Width" Value="215"/>
+        <Setter Property="Height" Value="60"/>
+       <Setter Property="Margin" Value="5"/>
+</Style>
+        <Style x:Key="ButtonConceptStyle" TargetType="Button">
+        <Setter Property="Width" Value="220"/>
+        <Setter Property="Height" Value="60"/>
+        <Setter Property="FontSize" Value="20"/>
+        <Setter Property="Opacity" Value="0.7"/>
+        <Setter Property="Foreground" Value="White"/>
+        <Setter Property="Margin" Value="2"/>
+    </Style>
+</ResourceDictionary>
+<!--<Setter Property="ClickMode" Value="Press"/>-->
+        <!--<Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="ButtonBase">
+                    <Grid Background="{TemplateBinding Background}" x:Name="grid">
+                        <VisualStateManager.VisualStateGroups>
+                            <VisualStateGroup x:Name="CommonStates">
+                                <VisualState x:Name="Normal"/>
+                                <VisualState x:Name="PointerOver">
+                                    <Storyboard>
+                                        <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Foreground" Storyboard.TargetName="Text">
+                                            <DiscreteObjectKeyFrame KeyTime="2" Value="{CustomResource   Background}"/>
+                                        </ObjectAnimationUsingKeyFrames>
+                                        <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Background"  Storyboard.TargetName="grid" >
+                                            <DiscreteObjectKeyFrame KeyTime="30" Value="#c6c8ca"/>
+                                        </ObjectAnimationUsingKeyFrames>
+                                    </Storyboard>
+
+                                </VisualState>
+                                <VisualState x:Name="Pressed">
+                                    <Storyboard>
+                                        <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Foreground" Storyboard.TargetName="Text">
+                                            <DiscreteObjectKeyFrame KeyTime="0" Value="{TemplateBinding Background}"/>
+                                        </ObjectAnimationUsingKeyFrames>
+                                        <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Background"  Storyboard.TargetName="grid" >
+                                            <DiscreteObjectKeyFrame KeyTime="0" Value="#ffffff"/>
+                                        </ObjectAnimationUsingKeyFrames>
+                                    </Storyboard>
+                                </VisualState>
+                            </VisualStateGroup>
+                        </VisualStateManager.VisualStateGroups>
+                    </Grid>
+                </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>-->
+                <!--    <VisualState x:Name="Disabled">
+                                    <Storyboard>
+                                        <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Foreground" Storyboard.TargetName="Text">
+                                            <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource ApplicationPressedForegroundThemeBrush}"/>
+                                        </ObjectAnimationUsingKeyFrames>
+                                    </Storyboard>
+                                </VisualState>
+                            </VisualStateGroup>
+                            <VisualStateGroup x:Name="FocusStates">
+                                <VisualState x:Name="Focused">
+                                    <Storyboard>
+                                        <DoubleAnimation Duration="0" To="1" Storyboard.TargetProperty="Opacity" Storyboard.TargetName="FocusVisualWhite"/>
+                                        <DoubleAnimation Duration="0" To="1" Storyboard.TargetProperty="Opacity" Storyboard.TargetName="FocusVisualBlack"/>
+                                    </Storyboard>
+                                </VisualState>
+                                <VisualState x:Name="Unfocused"/>
+                            </VisualStateGroup>
+                            <VisualStateGroup x:Name="CheckStates">
+                                <VisualState x:Name="Checked"/>
+                                <VisualState x:Name="Unchecked">
+                                    <Storyboard>
+                                        <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Foreground" Storyboard.TargetName="Text">
+                                            <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource ApplicationSecondaryForegroundThemeBrush}"/>
+                                        </ObjectAnimationUsingKeyFrames>
+                                    </Storyboard>
+                                </VisualState>
+                                <VisualState x:Name="Indeterminate"/>
+                            </VisualStateGroup>
+                        </VisualStateManager.VisualStateGroups>
+                        <ContentPresenter x:Name="Text" Content="{TemplateBinding Content}"/>
+                        <Rectangle x:Name="FocusVisualWhite" IsHitTestVisible="False" Opacity="0" StrokeDashOffset="1.5" StrokeEndLineCap="Square" Stroke="{ThemeResource FocusVisualWhiteStrokeThemeBrush}" StrokeDashArray="1,1"/>
+                        <Rectangle x:Name="FocusVisualBlack" IsHitTestVisible="False" Opacity="0" StrokeDashOffset="0.5" StrokeEndLineCap="Square" Stroke="{ThemeResource FocusVisualBlackStrokeThemeBrush}" StrokeDashArray="1,1"/>
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>-->
+   
+
+<!--<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Isometric">
+    --><!--<Style x:Key="CategoryButton" TargetType="Button">
+        <Setter Property="MinWidth" Value="0"/>
+        <Setter Property="MinHeight" Value="0"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="ButtonBase">
+                    <Grid Background="Transparent">
+                        <VisualStateManager.VisualStateGroups>
+                            <VisualStateGroup x:Name="CommonStates">
+                                <VisualState x:Name="Normal"/>
+                                <VisualState x:Name="PointerOver">
+                                    <Storyboard>
+                                        <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Foreground" Storyboard.TargetName="Text">
+                                            <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource ApplicationPointerOverForegroundThemeBrush}"/>
+                                        </ObjectAnimationUsingKeyFrames>
+                                    </Storyboard>
+                                </VisualState>
+                                <VisualState x:Name="Pressed">
+                                    <Storyboard>
+                                        <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Foreground" Storyboard.TargetName="Text">
+                                            <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource ApplicationPressedForegroundThemeBrush}"/>
+                                        </ObjectAnimationUsingKeyFrames>
+                                    </Storyboard>
+                                </VisualState>
+                                <VisualState x:Name="Disabled">
+                                    <Storyboard>
+                                        <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Foreground" Storyboard.TargetName="Text">
+                                            <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource ApplicationPressedForegroundThemeBrush}"/>
+                                        </ObjectAnimationUsingKeyFrames>
+                                    </Storyboard>
+                                </VisualState>
+                            </VisualStateGroup>
+                            <VisualStateGroup x:Name="FocusStates">
+                                <VisualState x:Name="Focused">
+                                    <Storyboard>
+                                        <DoubleAnimation Duration="0" To="1" Storyboard.TargetProperty="Opacity" Storyboard.TargetName="FocusVisualWhite"/>
+                                        <DoubleAnimation Duration="0" To="1" Storyboard.TargetProperty="Opacity" Storyboard.TargetName="FocusVisualBlack"/>
+                                    </Storyboard>
+                                </VisualState>
+                                <VisualState x:Name="Unfocused"/>
+                            </VisualStateGroup>
+                            <VisualStateGroup x:Name="CheckStates">
+                                <VisualState x:Name="Checked"/>
+                                <VisualState x:Name="Unchecked">
+                                    <Storyboard>
+                                        <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Foreground" Storyboard.TargetName="Text">
+                                            <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource ApplicationSecondaryForegroundThemeBrush}"/>
+                                        </ObjectAnimationUsingKeyFrames>
+                                    </Storyboard>
+                                </VisualState>
+                                <VisualState x:Name="Indeterminate"/>
+                            </VisualStateGroup>
+                        </VisualStateManager.VisualStateGroups>
+                        <ContentPresenter x:Name="Text" Content="{TemplateBinding Content}"/>
+                        <Rectangle x:Name="FocusVisualWhite" IsHitTestVisible="False" Opacity="0" StrokeDashOffset="1.5" StrokeEndLineCap="Square" Stroke="{ThemeResource FocusVisualWhiteStrokeThemeBrush}" StrokeDashArray="1,1"/>
+                        <Rectangle x:Name="FocusVisualBlack" IsHitTestVisible="False" Opacity="0" StrokeDashOffset="0.5" StrokeEndLineCap="Square" Stroke="{ThemeResource FocusVisualBlackStrokeThemeBrush}" StrokeDashArray="1,1"/>
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+        <Setter Property="FontFamily" Value="Global User Interface"/>
+    </Style>--><!--
+
+
+
+
+
+
+
+
+    <Style x:Key="TextOurButtonStyle" TargetType="ButtonBase">
+        <Setter Property="MinWidth" Value="0"/>
+        <Setter Property="MinHeight" Value="0"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="ButtonBase">
+                    <Grid Background="Transparent">
+                        <ContentPresenter x:Name="Text" Content="{TemplateBinding Content}" />
+                        <Ellipse
+                            x:Name="FocusVisualWhite"
+                            IsHitTestVisible="true"
+                            Stroke="{StaticResource FocusVisualWhiteStrokeThemeBrush}"
+                            StrokeEndLineCap="Square"
+                            StrokeDashArray="1,1"
+                            Opacity="1"
+                            StrokeDashOffset="1.5"/>
+                        <Ellipse
+                            x:Name="FocusVisualBlack"
+                            IsHitTestVisible="True"
+                            Stroke="{StaticResource FocusVisualBlackStrokeThemeBrush}"
+                            StrokeThickness="5"
+                            Opacity="0.7"
+                            />
+                        <VisualStateManager.VisualStateGroups>
+                            <VisualStateGroup x:Name="CommonStates">
+                                <VisualState x:Name="Normal"/>
+                                <VisualState x:Name="PointerOver">
+                                    <Storyboard>
+                                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="Text" Storyboard.TargetProperty="Foreground">
+                                            <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource ApplicationPointerOverForegroundThemeBrush}"/>
+                                        </ObjectAnimationUsingKeyFrames>
+                                    </Storyboard>
+                                </VisualState>
+                                <VisualState x:Name="Pressed">
+                                    <Storyboard>
+                                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="Text" Storyboard.TargetProperty="Foreground">
+                                            <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource ApplicationPressedForegroundThemeBrush}"/>
+                                        </ObjectAnimationUsingKeyFrames>
+                                    </Storyboard>
+                                </VisualState>
+                                <VisualState x:Name="Disabled">
+                                    <Storyboard>
+                                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="Text" Storyboard.TargetProperty="Foreground">
+                                            <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource ApplicationPressedForegroundThemeBrush}"/>
+                                        </ObjectAnimationUsingKeyFrames>
+                                    </Storyboard>
+                                </VisualState>
+                            </VisualStateGroup>
+                            <VisualStateGroup x:Name="FocusStates">
+                                <VisualState x:Name="Focused">
+                                    <Storyboard>
+                                        <DoubleAnimation Duration="0" To="1" Storyboard.TargetName="FocusVisualWhite" Storyboard.TargetProperty="Opacity"/>
+                                        <DoubleAnimation Duration="0" To="1" Storyboard.TargetName="FocusVisualBlack" Storyboard.TargetProperty="Opacity"/>
+                                    </Storyboard>
+                                </VisualState>
+                                <VisualState x:Name="Unfocused"/>
+                            </VisualStateGroup>
+                            <VisualStateGroup x:Name="CheckStates">
+                                <VisualState x:Name="Checked"/>
+                                <VisualState x:Name="Unchecked">
+                                    <Storyboard>
+                                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="Text" Storyboard.TargetProperty="Foreground">
+                                            <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource ApplicationSecondaryForegroundThemeBrush}"/>
+                                        </ObjectAnimationUsingKeyFrames>
+                                    </Storyboard>
+                                </VisualState>
+                                <VisualState x:Name="Indeterminate"/>
+                            </VisualStateGroup>
+                        </VisualStateManager.VisualStateGroups>
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style x:Key="BaseAttach" TargetType="Grid" >
+        <Setter Property="RenderTransform" >
+            <Setter.Value>
+                <CompositeTransform >
+                    <CompositeTransform.SkewX>-30</CompositeTransform.SkewX>
+                    <CompositeTransform.ScaleX>0.9</CompositeTransform.ScaleX>
+                    <CompositeTransform.ScaleY>0.8</CompositeTransform.ScaleY>
+                </CompositeTransform>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style x:Key="PX_Attaching" TargetType="Grid" BasedOn="{StaticResource BaseAttach}">
+        <Setter Property="Margin" Value="12,102,125,35"  />
+        <Setter Property="Grid.RowSpan" Value="2"/>
+        <Setter Property="Grid.ColumnSpan" Value="2"/>
+        <Setter Property="RenderTransform" >
+            <Setter.Value>
+                <CompositeTransform >
+                    <CompositeTransform.SkewX>-30</CompositeTransform.SkewX>
+                    <CompositeTransform.ScaleX>0.9</CompositeTransform.ScaleX>
+                    <CompositeTransform.ScaleY>0.8</CompositeTransform.ScaleY>
+                    <CompositeTransform.Rotation>-90</CompositeTransform.Rotation>
+                </CompositeTransform>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <Style x:Key="PY_Attaching" TargetType="Grid">
+        <Setter Property="Margin" Value="2,12,0,125" />
+        <Setter Property="Grid.RowSpan" Value="2"/>
+        <Setter Property="Grid.Column" Value="1"/>
+        <Setter Property="RenderTransform" >
+            <Setter.Value>
+                <CompositeTransform >
+                    <CompositeTransform.SkewX>-30</CompositeTransform.SkewX>
+                    <CompositeTransform.ScaleX>0.9</CompositeTransform.ScaleX>
+                    <CompositeTransform.ScaleY>0.8</CompositeTransform.ScaleY>
+                    <CompositeTransform.Rotation>30</CompositeTransform.Rotation>
+                </CompositeTransform>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <Style x:Key="PZ_Attaching" TargetType="Grid">
+        <Setter Property="Margin" Value="124,102,13,35"/>
+        <Setter Property="Grid.RowSpan" Value="2"/>
+        <Setter Property="Grid.ColumnSpan" Value="2"/>
+        <Setter Property="RenderTransform" >
+            <Setter.Value>
+                <CompositeTransform >
+                    <CompositeTransform.SkewX>-30</CompositeTransform.SkewX>
+                    <CompositeTransform.ScaleX>0.9</CompositeTransform.ScaleX>
+                    <CompositeTransform.ScaleY>0.8</CompositeTransform.ScaleY>
+                    <CompositeTransform.Rotation>150</CompositeTransform.Rotation>
+                </CompositeTransform>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style x:Key="PX_United" TargetType="Grid">
+        <Setter Property="Margin" Value="0,3,2,-1" />
+        <Setter Property="Grid.Column" Value="0" />
+        <Setter Property="Grid.Row" Value="1" />
+        <Setter Property="RenderTransform">
+            <Setter.Value>
+                <CompositeTransform>
+                    <CompositeTransform.Rotation>-90</CompositeTransform.Rotation>
+                </CompositeTransform>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <Style x:Key="PY_United" TargetType="Grid">
+        <Setter Property="Margin" Value="3,0,0,2.5"/>
+
+    </Style>
+    <Style x:Key="PZ_United" TargetType="Grid">
+        --><!--<Setter Property="Stroke" Value="DimGray"/>
+                <Setter Property="StrokeThickness" Value="7"/>--><!--
+        <Setter Property="Grid.Column" Value="1" />
+        <Setter Property="Margin" Value="0,0,2.5,2.5" />
+        <Setter Property="RenderTransform" >
+            <Setter.Value>
+                <CompositeTransform>
+                    <CompositeTransform.Rotation>90</CompositeTransform.Rotation>
+                </CompositeTransform>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+
+    <Style x:Key="B-PX_Attaching" TargetType="Border" >
+        <Setter Property="Margin" Value="23,198,113,-63"  />
+        <Setter Property="Grid.RowSpan" Value="2"/>
+        <Setter Property="Grid.ColumnSpan" Value="2"/>
+        <Setter Property="RenderTransform" >
+            <Setter.Value>
+                <CompositeTransform >
+                    <CompositeTransform.SkewX>-30</CompositeTransform.SkewX>
+                    <CompositeTransform.ScaleX>0.9</CompositeTransform.ScaleX>
+                    <CompositeTransform.ScaleY>0.8</CompositeTransform.ScaleY>
+                    <CompositeTransform.Rotation>-90</CompositeTransform.Rotation>
+                </CompositeTransform>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <Style x:Key="B-PY_Attaching" TargetType="Border">
+        <Setter Property="Margin" Value="139,12,-3,123" />
+        <Setter Property="Grid.RowSpan" Value="2"/>
+        <Setter Property="Grid.ColumnSpan" Value="2"/>
+        <Setter Property="Grid.Column" Value="0"/>
+        <Setter Property="RenderTransform" >
+            <Setter.Value>
+                <CompositeTransform >
+                    <CompositeTransform.SkewX>-30</CompositeTransform.SkewX>
+                    <CompositeTransform.ScaleX>0.9</CompositeTransform.ScaleX>
+                    <CompositeTransform.ScaleY>0.8</CompositeTransform.ScaleY>
+                    <CompositeTransform.Rotation>30</CompositeTransform.Rotation>
+                </CompositeTransform>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <Style x:Key="B-PZ_Attaching" TargetType="Border">
+        <Setter Property="Margin" Value="243,201,-243,-66"/>
+        <Setter Property="Grid.RowSpan" Value="2"/>
+        <Setter Property="Grid.ColumnSpan" Value="2"/>
+        <Setter Property="RenderTransform" >
+            <Setter.Value>
+                <CompositeTransform >
+                    <CompositeTransform.SkewX>-30</CompositeTransform.SkewX>
+                    <CompositeTransform.ScaleX>0.9</CompositeTransform.ScaleX>
+                    <CompositeTransform.ScaleY>0.8</CompositeTransform.ScaleY>
+                    <CompositeTransform.Rotation>150</CompositeTransform.Rotation>
+                </CompositeTransform>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style x:Key="B-PX_United" TargetType="Border">
+        <Setter Property="Margin" Value="0" />
+        <Setter Property="Grid.Column" Value="0" />
+        <Setter Property="Grid.Row" Value="1" />
+
+    </Style>
+    <Style x:Key="B-PY_United" TargetType="Border">
+        <Setter Property="Margin" Value="0"/>
+
+    </Style>
+    <Style x:Key="B-PZ_United" TargetType="Border">
+        --><!--<Setter Property="Stroke" Value="DimGray"/>
+                <Setter Property="StrokeThickness" Value="7"/>--><!--
+        <Setter Property="Grid.Column" Value="1" />
+        <Setter Property="Margin" Value="0" />
+    </Style>
+
+    <Style x:Key="Elli_United" TargetType="Ellipse">
+        <Setter Property="Fill">
+            <Setter.Value>
+                <ImageBrush  ImageSource="Assets\p_Attaching.png"></ImageBrush>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <Style x:Key="Elli_Attached" TargetType="Ellipse">
+        <Setter Property="Fill">
+            <Setter.Value>
+                <ImageBrush  ImageSource="Assets\p_United.png"></ImageBrush>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    --><!--<Style x:Key="PX_Attaching" TargetType="Grid">
+        <Setter Property="Margin" Value="101,119,-101,-119" />
+        <Setter Property="RenderTransform" >
+            <Setter.Value>
+                <CompositeTransform >
+                    <CompositeTransform.SkewY>30</CompositeTransform.SkewY>
+                    <CompositeTransform.ScaleX>0.3</CompositeTransform.ScaleX>
+                    <CompositeTransform.ScaleY>0.4</CompositeTransform.ScaleY>
+                </CompositeTransform>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <Style x:Key="PY_Attaching" TargetType="Grid">
+        <Setter Property="Margin" Value="105,108,-105,-108"  />
+        <Setter Property="RenderTransform" >
+            <Setter.Value>
+                <CompositeTransform >
+                    <CompositeTransform.SkewX>30</CompositeTransform.SkewX>
+                    <CompositeTransform.ScaleY>0.35</CompositeTransform.ScaleY>
+                    <CompositeTransform.ScaleX>0.35</CompositeTransform.ScaleX>
+                    <CompositeTransform.Rotation>-30</CompositeTransform.Rotation>
+                </CompositeTransform>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <Style x:Key="PZ_Attaching" TargetType="Grid">
+        <Setter Property="Margin" Value="243,195,-243,-195"/>
+        <Setter Property="RenderTransform" >
+            <Setter.Value>
+                <CompositeTransform >
+                    <CompositeTransform.SkewY>-30</CompositeTransform.SkewY>
+                    <CompositeTransform.ScaleX>0.3</CompositeTransform.ScaleX>
+                    <CompositeTransform.ScaleY>0.4</CompositeTransform.ScaleY>
+                </CompositeTransform>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style x:Key="PX_United" TargetType="Grid">
+        <Setter Property="Height" Value="230"/>
+        <Setter Property="Margin" Value="89,20,113,132"  />
+        <Setter Property="Width" Value="230"/>
+        <Setter Property="RenderTransform" >
+            <Setter.Value>
+                <CompositeTransform ScaleX="0.65" ScaleY="0.65"/>
+            </Setter.Value>
+        </Setter>
+        
+    </Style>
+    <Style x:Key="PY_United" TargetType="Grid">
+        <Setter Property="Height" Value="230"/>
+        <Setter Property="Width" Value="230"/>
+        <Setter Property="Margin" Value="259,169,-57,-17"/>
+        <Setter Property="RenderTransform" >
+            <Setter.Value>
+                <CompositeTransform ScaleX="0.65" ScaleY="0.65" Rotation="-90"/>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <Style x:Key="PZ_United" TargetType="Grid">
+        <Setter Property="Height" Value="230"/>
+        <Setter Property="Margin" Value="30"/>
+        <Setter Property="Width" Value="230"/>
+        <Setter Property="Margin" Value="260,192,-58,-40"/>
+        <Setter Property="RenderTransform" >
+            <Setter.Value>
+                <CompositeTransform ScaleX="0.65" ScaleY="0.65"/>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style x:Key="Elli_United" TargetType="Ellipse">
+        <Setter Property="Fill">
+            <Setter.Value>
+                <ImageBrush  ImageSource="Images/p_Attaching.png"></ImageBrush>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <Style x:Key="Elli_Attached" TargetType="Ellipse">
+        <Setter Property="Fill">
+            <Setter.Value>
+                <ImageBrush ImageSource="Images/p_United.png"></ImageBrush>
+            </Setter.Value>
+        </Setter>
+    </Style>--><!--
+
+    <Style x:Key="Del_Pointer" TargetType="Ellipse">
+        <Setter Property="Height" Value="50"/>
+        <Setter Property="Width" Value="50"/>
+        <Setter Property="Fill">
+            <Setter.Value>
+                <LinearGradientBrush Opacity="0.7" >
+                    <GradientStopCollection>
+                        <GradientStop Offset="0.8" Color="Wheat"/>
+                        <GradientStop Offset="0.3" Color="Blue"/>
+                    </GradientStopCollection>
+                </LinearGradientBrush>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <Style x:Key="Draw_Pointer" TargetType="Ellipse">
+        <Setter Property="Height" Value="40"/>
+        <Setter Property="Width" Value="40"/>
+        <Setter Property="Fill">
+            <Setter.Value>
+                <LinearGradientBrush Opacity="0.85" >
+                    <GradientStopCollection>
+                        <GradientStop Offset="0.3" Color="Red"/>
+                        <GradientStop Offset="0.8" Color="Wheat"/>
+                    </GradientStopCollection>
+                </LinearGradientBrush>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <Style x:Key="CategoryRadioButton" TargetType="RadioButton"  >
+        <Setter Property="Height" Value="280"/>
+        <Setter Property="Margin" Value="2"/>
+        <Setter Property="FontSize" Value="30"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="RadioButton">
+                    <Grid >
+                        --><!--<Grid.Background>איך עושים ויזואל בראש 
+                        </Grid.Background>-->
+                        <!--<Button Style="{StaticResource StartButton}"
+                            Background="LightGray"
+                            Foreground="Red"
+                            FontSize="{TemplateBinding FontSize }" 
+                            FontFamily="Global User Interface">
+                            <ContentPresenter FontFamily="Global User Interface"/>
+                        </Button>--><!--
+                        <Rectangle x:Name="rect" Fill="FloralWhite"></Rectangle>
+                        <ContentPresenter x:Name="text" 
+                            Foreground="CadetBlue" 
+                            FontSize="{TemplateBinding FontSize }" 
+                            VerticalAlignment="Center" 
+                            HorizontalAlignment="Center"
+                           />
+                        <VisualStateManager.VisualStateGroups>
+                            <VisualStateGroup x:Name="CheckStates">
+                                <VisualState x:Name="Checked">
+                                    <Storyboard>
+                                        --><!--<DoubleAnimation Duration="0" To="0" Storyboard.TargetName="OutlineGlyph" Storyboard.TargetProperty="Opacity"/>--><!--
+                                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="rect" Storyboard.TargetProperty="Fill">
+                                            <DiscreteObjectKeyFrame KeyTime="0" Value="LightGray"/>
+                                        </ObjectAnimationUsingKeyFrames>
+                                        <ObjectAnimationUsingKeyFrames Storyboard.TargetName="text" Storyboard.TargetProperty="Foreground">
+                                            <DiscreteObjectKeyFrame KeyTime="0" Value="WhiteSmoke"/>
+                                        </ObjectAnimationUsingKeyFrames>
+                                        --><!--<ObjectAnimationUsingKeyFrames Storyboard.TargetName="BackgroundCheckedGlyph" Storyboard.TargetProperty="Visibility">
+                                        <DiscreteObjectKeyFrame KeyTime="0" Value="Visible"/>
+                                    </ObjectAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="Content" Storyboard.TargetProperty="Foreground">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource AppBarItemPressedForegroundThemeBrush}"/>
+                                            </ObjectAnimationUsingKeyFrames>--><!--
+                                    </Storyboard>
+                                </VisualState>
+                                <VisualState x:Name="Unchecked"/>
+                                <VisualState x:Name="Indeterminate"/>
+                            </VisualStateGroup>
+                        </VisualStateManager.VisualStateGroups>
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    --><!--<Style x:Key="DescreptionCategory" BasedOn="{StaticResource BaseTextBlockStyle}" TargetType="TextBlock">
+        <Setter Property="FontWeight" Value="SemiLight"/>
+    </Style>
+    <Style x:Key="CategoryButton" TargetType="Button">
+        <Setter Property="MinWidth" Value="0"/>
+        <Setter Property="MinHeight" Value="0"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="ButtonBase">
+                    <Grid Background="Transparent">
+                        <VisualStateManager.VisualStateGroups>
+                            <VisualStateGroup x:Name="CommonStates">
+                                <VisualState x:Name="Normal"/>
+                                <VisualState x:Name="PointerOver">
+                                    <Storyboard>
+                                        <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Foreground" Storyboard.TargetName="Text">
+                                            <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource ApplicationPointerOverForegroundThemeBrush}"/>
+                                        </ObjectAnimationUsingKeyFrames>
+                                    </Storyboard>
+                                </VisualState>
+                                <VisualState x:Name="Pressed">
+                                    <Storyboard>
+                                        <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Foreground" Storyboard.TargetName="Text">
+                                            <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource ApplicationPressedForegroundThemeBrush}"/>
+                                        </ObjectAnimationUsingKeyFrames>
+                                    </Storyboard>
+                                </VisualState>
+                                <VisualState x:Name="Disabled">
+                                    <Storyboard>
+                                        <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Foreground" Storyboard.TargetName="Text">
+                                            <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource ApplicationPressedForegroundThemeBrush}"/>
+                                        </ObjectAnimationUsingKeyFrames>
+                                    </Storyboard>
+                                </VisualState>
+                            </VisualStateGroup>
+                            <VisualStateGroup x:Name="FocusStates">
+                                <VisualState x:Name="Focused">
+                                    <Storyboard>
+                                        <DoubleAnimation Duration="0" To="1" Storyboard.TargetProperty="Opacity" Storyboard.TargetName="FocusVisualWhite"/>
+                                        <DoubleAnimation Duration="0" To="1" Storyboard.TargetProperty="Opacity" Storyboard.TargetName="FocusVisualBlack"/>
+                                    </Storyboard>
+                                </VisualState>
+                                <VisualState x:Name="Unfocused"/>
+                            </VisualStateGroup>
+                            <VisualStateGroup x:Name="CheckStates">
+                                <VisualState x:Name="Checked"/>
+                                <VisualState x:Name="Unchecked">
+                                    <Storyboard>
+                                        <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Foreground" Storyboard.TargetName="Text">
+                                            <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource ApplicationSecondaryForegroundThemeBrush}"/>
+                                        </ObjectAnimationUsingKeyFrames>
+                                    </Storyboard>
+                                </VisualState>
+                                <VisualState x:Name="Indeterminate"/>
+                            </VisualStateGroup>
+                        </VisualStateManager.VisualStateGroups>
+                        <ContentPresenter x:Name="Text" Content="{TemplateBinding Content}"/>
+                        <Rectangle x:Name="FocusVisualWhite" IsHitTestVisible="False" Opacity="0" StrokeDashOffset="1.5" StrokeEndLineCap="Square" Stroke="{ThemeResource FocusVisualWhiteStrokeThemeBrush}" StrokeDashArray="1,1"/>
+                        <Rectangle x:Name="FocusVisualBlack" IsHitTestVisible="False" Opacity="0" StrokeDashOffset="0.5" StrokeEndLineCap="Square" Stroke="{ThemeResource FocusVisualBlackStrokeThemeBrush}" StrokeDashArray="1,1"/>
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>--><!--
+
+</ResourceDictionary>
+
+--><!--<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Isometric">
+    <Style x:Key="CategoryButton" TargetType="Button">
+        <Setter Property="MinWidth" Value="0"/>
+        <Setter Property="MinHeight" Value="0"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="ButtonBase">
+                    <Grid Background="Transparent">
+                        <VisualStateManager.VisualStateGroups>
+                            <VisualStateGroup x:Name="CommonStates">
+                                <VisualState x:Name="Normal"/>
+                                <VisualState x:Name="PointerOver">
+                                    <Storyboard>
+                                        <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Foreground" Storyboard.TargetName="Text">
+                                            <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource ApplicationPointerOverForegroundThemeBrush}"/>
+                                        </ObjectAnimationUsingKeyFrames>
+                                    </Storyboard>
+                                </VisualState>
+                                <VisualState x:Name="Pressed">
+                                    <Storyboard>
+                                        <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Foreground" Storyboard.TargetName="Text">
+                                            <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource ApplicationPressedForegroundThemeBrush}"/>
+                                        </ObjectAnimationUsingKeyFrames>
+                                    </Storyboard>
+                                </VisualState>
+                                <VisualState x:Name="Disabled">
+                                    <Storyboard>
+                                        <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Foreground" Storyboard.TargetName="Text">
+                                            <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource ApplicationPressedForegroundThemeBrush}"/>
+                                        </ObjectAnimationUsingKeyFrames>
+                                    </Storyboard>
+                                </VisualState>
+                            </VisualStateGroup>
+                            <VisualStateGroup x:Name="FocusStates">
+                                <VisualState x:Name="Focused">
+                                    <Storyboard>
+                                        <DoubleAnimation Duration="0" To="1" Storyboard.TargetProperty="Opacity" Storyboard.TargetName="FocusVisualWhite"/>
+                                        <DoubleAnimation Duration="0" To="1" Storyboard.TargetProperty="Opacity" Storyboard.TargetName="FocusVisualBlack"/>
+                                    </Storyboard>
+                                </VisualState>
+                                <VisualState x:Name="Unfocused"/>
+                            </VisualStateGroup>
+                            <VisualStateGroup x:Name="CheckStates">
+                                <VisualState x:Name="Checked"/>
+                                <VisualState x:Name="Unchecked">
+                                    <Storyboard>
+                                        <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Foreground" Storyboard.TargetName="Text">
+                                            <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource ApplicationSecondaryForegroundThemeBrush}"/>
+                                        </ObjectAnimationUsingKeyFrames>
+                                    </Storyboard>
+                                </VisualState>
+                                <VisualState x:Name="Indeterminate"/>
+                            </VisualStateGroup>
+                        </VisualStateManager.VisualStateGroups>
+                        <ContentPresenter x:Name="Text" Content="{TemplateBinding Content}"/>
+                        <Rectangle x:Name="FocusVisualWhite" IsHitTestVisible="False" Opacity="0" StrokeDashOffset="1.5" StrokeEndLineCap="Square" Stroke="{ThemeResource FocusVisualWhiteStrokeThemeBrush}" StrokeDashArray="1,1"/>
+                        <Rectangle x:Name="FocusVisualBlack" IsHitTestVisible="False" Opacity="0" StrokeDashOffset="0.5" StrokeEndLineCap="Square" Stroke="{ThemeResource FocusVisualBlackStrokeThemeBrush}" StrokeDashArray="1,1"/>
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+        <Setter Property="FontFamily" Value="Global User Interface"/>
+    </Style>
+    <Style x:Key="PX_Attaching" TargetType="Grid">
+        <Setter Property="Margin" Value="837,350,299,188"/>
+        <Setter Property="RenderTransform" >
+            <Setter.Value>
+                <CompositeTransform >
+                    <CompositeTransform.SkewY>30</CompositeTransform.SkewY>
+                    <CompositeTransform.ScaleX>0.8</CompositeTransform.ScaleX>
+                    <CompositeTransform.ScaleY>0.92</CompositeTransform.ScaleY>
+                </CompositeTransform>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <Style x:Key="PY_Attaching" TargetType="Grid">
+        <Setter Property="Margin" Value="835,328,281,190"/>
+        <Setter Property="RenderTransform" >
+            <Setter.Value>
+                <CompositeTransform >
+                    <CompositeTransform.SkewX>30</CompositeTransform.SkewX>
+                    <CompositeTransform.ScaleY>0.8</CompositeTransform.ScaleY>
+                    <CompositeTransform.ScaleX>0.9</CompositeTransform.ScaleX>
+                    <CompositeTransform.Rotation>-30</CompositeTransform.Rotation>
+                </CompositeTransform>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <Style x:Key="PZ_Attaching" TargetType="Grid">
+        <Setter Property="Margin" Value="1035,457,101,81"  />
+        <Setter Property="RenderTransform" >
+            <Setter.Value>
+                <CompositeTransform >
+                    <CompositeTransform.SkewY>-30</CompositeTransform.SkewY>
+                    <CompositeTransform.ScaleX>0.8</CompositeTransform.ScaleX>
+                    <CompositeTransform.ScaleY>0.9</CompositeTransform.ScaleY>
+                </CompositeTransform>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style x:Key="PX_United" TargetType="Grid">
+        --><!--<Setter Property="Stroke" Value="DimGray"/>
+                <Setter Property="StrokeThickness" Value="7"/>--><!--
+        <Setter Property="Margin" Value="778,457,358,81"/>
+    </Style>
+    <Style x:Key="PY_United" TargetType="Grid">
+        <Setter Property="Margin" Value="778,440,358,98"/>
+        <Setter Property="RenderTransform" >
+            <Setter.Value>
+                <CompositeTransform>
+                    <CompositeTransform.Rotation>-90</CompositeTransform.Rotation>
+                </CompositeTransform>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <Style x:Key="PZ_United" TargetType="Grid">
+        --><!--<Setter Property="Stroke" Value="DimGray"/>
+                <Setter Property="StrokeThickness" Value="7"/>--><!--
+        <Setter Property="Margin" Value="1025,210,111,328"/>
+    </Style>
+
+    <Style x:Key="Elli_United" TargetType="Ellipse">
+        <Setter Property="Fill">
+            <Setter.Value>
+                <ImageBrush  ImageSource="Assets\p_Attaching.png"></ImageBrush>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <Style x:Key="Elli_Attached" TargetType="Ellipse">
+        <Setter Property="Fill">
+            <Setter.Value>
+                <ImageBrush  ImageSource="Assets\p_United.png"></ImageBrush>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style x:Key="Del_Pointer" TargetType="Ellipse">
+        <Setter Property="Height" Value="50"/>
+        <Setter Property="Width" Value="50"/>
+        <Setter Property="Fill">
+            <Setter.Value>
+                <LinearGradientBrush Opacity="0.7" >
+                    <GradientStopCollection>
+                        <GradientStop Offset="0.8" Color="Wheat"/>
+                        <GradientStop Offset="0.3" Color="Blue"/>
+                    </GradientStopCollection>
+                </LinearGradientBrush>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <Style x:Key="Draw_Pointer" TargetType="Ellipse">
+        <Setter Property="Height" Value="40"/>
+        <Setter Property="Width" Value="40"/>
+        <Setter Property="Fill">
+            <Setter.Value>
+                <LinearGradientBrush Opacity="0.85" >
+                    <GradientStopCollection>
+                        <GradientStop Offset="0.3" Color="Red"/>
+                        <GradientStop Offset="0.8" Color="Wheat"/>
+                    </GradientStopCollection>
+                </LinearGradientBrush>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <Style x:Key="ButtonConceptStyle" TargetType="Button">
+        <Setter Property="Width" Value="100"/>
+        <Setter Property="Height" Value="0"/>
+        --><!--<Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="ButtonBase">
+                    <Grid Background="Transparent">
+                        <VisualStateManager.VisualStateGroups>
+                            <VisualStateGroup x:Name="CommonStates">
+                                <VisualState x:Name="Normal"/>
+                                <VisualState x:Name="PointerOver">
+                                    <Storyboard>
+                                        <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Foreground" Storyboard.TargetName="Text">
+                                            <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource ApplicationPointerOverForegroundThemeBrush}"/>
+                                        </ObjectAnimationUsingKeyFrames>
+                                    </Storyboard>
+                                </VisualState>
+                                <VisualState x:Name="Pressed">
+                                    <Storyboard>
+                                        <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Foreground" Storyboard.TargetName="Text">
+                                            <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource ApplicationPressedForegroundThemeBrush}"/>
+                                        </ObjectAnimationUsingKeyFrames>
+                                    </Storyboard>
+                                </VisualState>
+                                <VisualState x:Name="Disabled">
+                                    <Storyboard>
+                                        <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Foreground" Storyboard.TargetName="Text">
+                                            <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource ApplicationPressedForegroundThemeBrush}"/>
+                                        </ObjectAnimationUsingKeyFrames>
+                                    </Storyboard>
+                                </VisualState>
+                            </VisualStateGroup>
+                            <VisualStateGroup x:Name="FocusStates">
+                                <VisualState x:Name="Focused">
+                                    <Storyboard>
+                                        <DoubleAnimation Duration="0" To="1" Storyboard.TargetProperty="Opacity" Storyboard.TargetName="FocusVisualWhite"/>
+                                        <DoubleAnimation Duration="0" To="1" Storyboard.TargetProperty="Opacity" Storyboard.TargetName="FocusVisualBlack"/>
+                                    </Storyboard>
+                                </VisualState>
+                                <VisualState x:Name="Unfocused"/>
+                            </VisualStateGroup>
+                            <VisualStateGroup x:Name="CheckStates">
+                                <VisualState x:Name="Checked"/>
+                                <VisualState x:Name="Unchecked">
+                                    <Storyboard>
+                                        <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Foreground" Storyboard.TargetName="Text">
+                                            <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource ApplicationSecondaryForegroundThemeBrush}"/>
+                                        </ObjectAnimationUsingKeyFrames>
+                                    </Storyboard>
+                                </VisualState>
+                                <VisualState x:Name="Indeterminate"/>
+                            </VisualStateGroup>
+                        </VisualStateManager.VisualStateGroups>
+                        <ContentPresenter x:Name="Text" Content="{TemplateBinding Content}"/>
+                        <Rectangle x:Name="FocusVisualWhite" IsHitTestVisible="False" Opacity="0" StrokeDashOffset="1.5" StrokeEndLineCap="Square" Stroke="{ThemeResource FocusVisualWhiteStrokeThemeBrush}" StrokeDashArray="1,1"/>
+                        <Rectangle x:Name="FocusVisualBlack" IsHitTestVisible="False" Opacity="0" StrokeDashOffset="0.5" StrokeEndLineCap="Square" Stroke="{ThemeResource FocusVisualBlackStrokeThemeBrush}" StrokeDashArray="1,1"/>
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>--><!--
+    </Style>
+
+    --><!--<Style x:Key="DescreptionCategory" BasedOn="{StaticResource BaseTextBlockStyle}" TargetType="TextBlock">
+        <Setter Property="FontWeight" Value="SemiLight"/>
+    </Style>
+    <Style x:Key="CategoryButton" TargetType="Button">
+        <Setter Property="MinWidth" Value="0"/>
+        <Setter Property="MinHeight" Value="0"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="ButtonBase">
+                    <Grid Background="Transparent">
+                        <VisualStateManager.VisualStateGroups>
+                            <VisualStateGroup x:Name="CommonStates">
+                                <VisualState x:Name="Normal"/>
+                                <VisualState x:Name="PointerOver">
+                                    <Storyboard>
+                                        <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Foreground" Storyboard.TargetName="Text">
+                                            <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource ApplicationPointerOverForegroundThemeBrush}"/>
+                                        </ObjectAnimationUsingKeyFrames>
+                                    </Storyboard>
+                                </VisualState>
+                                <VisualState x:Name="Pressed">
+                                    <Storyboard>
+                                        <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Foreground" Storyboard.TargetName="Text">
+                                            <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource ApplicationPressedForegroundThemeBrush}"/>
+                                        </ObjectAnimationUsingKeyFrames>
+                                    </Storyboard>
+                                </VisualState>
+                                <VisualState x:Name="Disabled">
+                                    <Storyboard>
+                                        <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Foreground" Storyboard.TargetName="Text">
+                                            <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource ApplicationPressedForegroundThemeBrush}"/>
+                                        </ObjectAnimationUsingKeyFrames>
+                                    </Storyboard>
+                                </VisualState>
+                            </VisualStateGroup>
+                            <VisualStateGroup x:Name="FocusStates">
+                                <VisualState x:Name="Focused">
+                                    <Storyboard>
+                                        <DoubleAnimation Duration="0" To="1" Storyboard.TargetProperty="Opacity" Storyboard.TargetName="FocusVisualWhite"/>
+                                        <DoubleAnimation Duration="0" To="1" Storyboard.TargetProperty="Opacity" Storyboard.TargetName="FocusVisualBlack"/>
+                                    </Storyboard>
+                                </VisualState>
+                                <VisualState x:Name="Unfocused"/>
+                            </VisualStateGroup>
+                            <VisualStateGroup x:Name="CheckStates">
+                                <VisualState x:Name="Checked"/>
+                                <VisualState x:Name="Unchecked">
+                                    <Storyboard>
+                                        <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Foreground" Storyboard.TargetName="Text">
+                                            <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource ApplicationSecondaryForegroundThemeBrush}"/>
+                                        </ObjectAnimationUsingKeyFrames>
+                                    </Storyboard>
+                                </VisualState>
+                                <VisualState x:Name="Indeterminate"/>
+                            </VisualStateGroup>
+                        </VisualStateManager.VisualStateGroups>
+                        <ContentPresenter x:Name="Text" Content="{TemplateBinding Content}"/>
+                        <Rectangle x:Name="FocusVisualWhite" IsHitTestVisible="False" Opacity="0" StrokeDashOffset="1.5" StrokeEndLineCap="Square" Stroke="{ThemeResource FocusVisualWhiteStrokeThemeBrush}" StrokeDashArray="1,1"/>
+                        <Rectangle x:Name="FocusVisualBlack" IsHitTestVisible="False" Opacity="0" StrokeDashOffset="0.5" StrokeEndLineCap="Square" Stroke="{ThemeResource FocusVisualBlackStrokeThemeBrush}" StrokeDashArray="1,1"/>
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    --><!--
+
+</ResourceDictionary>
+
+    
+    --><!--<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Isometric">
+    <Style x:Key="CategoryButton" TargetType="Button">
+        <Setter Property="MinWidth" Value="0"/>
+        <Setter Property="MinHeight" Value="0"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="ButtonBase">
+                    <Grid Background="Transparent">
+                        <VisualStateManager.VisualStateGroups>
+                            <VisualStateGroup x:Name="CommonStates">
+                                <VisualState x:Name="Normal"/>
+                                <VisualState x:Name="PointerOver">
+                                    <Storyboard>
+                                        <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Foreground" Storyboard.TargetName="Text">
+                                            <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource ApplicationPointerOverForegroundThemeBrush}"/>
+                                        </ObjectAnimationUsingKeyFrames>
+                                    </Storyboard>
+                                </VisualState>
+                                <VisualState x:Name="Pressed">
+                                    <Storyboard>
+                                        <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Foreground" Storyboard.TargetName="Text">
+                                            <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource ApplicationPressedForegroundThemeBrush}"/>
+                                        </ObjectAnimationUsingKeyFrames>
+                                    </Storyboard>
+                                </VisualState>
+                                <VisualState x:Name="Disabled">
+                                    <Storyboard>
+                                        <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Foreground" Storyboard.TargetName="Text">
+                                            <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource ApplicationPressedForegroundThemeBrush}"/>
+                                        </ObjectAnimationUsingKeyFrames>
+                                    </Storyboard>
+                                </VisualState>
+                            </VisualStateGroup>
+                            <VisualStateGroup x:Name="FocusStates">
+                                <VisualState x:Name="Focused">
+                                    <Storyboard>
+                                        <DoubleAnimation Duration="0" To="1" Storyboard.TargetProperty="Opacity" Storyboard.TargetName="FocusVisualWhite"/>
+                                        <DoubleAnimation Duration="0" To="1" Storyboard.TargetProperty="Opacity" Storyboard.TargetName="FocusVisualBlack"/>
+                                    </Storyboard>
+                                </VisualState>
+                                <VisualState x:Name="Unfocused"/>
+                            </VisualStateGroup>
+                            <VisualStateGroup x:Name="CheckStates">
+                                <VisualState x:Name="Checked"/>
+                                <VisualState x:Name="Unchecked">
+                                    <Storyboard>
+                                        <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Foreground" Storyboard.TargetName="Text">
+                                            <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource ApplicationSecondaryForegroundThemeBrush}"/>
+                                        </ObjectAnimationUsingKeyFrames>
+                                    </Storyboard>
+                                </VisualState>
+                                <VisualState x:Name="Indeterminate"/>
+                            </VisualStateGroup>
+                        </VisualStateManager.VisualStateGroups>
+                        <ContentPresenter x:Name="Text" Content="{TemplateBinding Content}"/>
+                        <Rectangle x:Name="FocusVisualWhite" IsHitTestVisible="False" Opacity="0" StrokeDashOffset="1.5" StrokeEndLineCap="Square" Stroke="{ThemeResource FocusVisualWhiteStrokeThemeBrush}" StrokeDashArray="1,1"/>
+                        <Rectangle x:Name="FocusVisualBlack" IsHitTestVisible="False" Opacity="0" StrokeDashOffset="0.5" StrokeEndLineCap="Square" Stroke="{ThemeResource FocusVisualBlackStrokeThemeBrush}" StrokeDashArray="1,1"/>
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+        <Setter Property="FontFamily" Value="Global User Interface"/>
+    </Style>
+    <Style x:Key="PX_Attaching" TargetType="Grid">
+        <Setter Property="Margin" Value="837,350,299,188"/>
+        <Setter Property="RenderTransform" >
+            <Setter.Value>
+                <CompositeTransform >
+                    <CompositeTransform.SkewY>30</CompositeTransform.SkewY>
+                    <CompositeTransform.ScaleX>0.8</CompositeTransform.ScaleX>
+                    <CompositeTransform.ScaleY>0.92</CompositeTransform.ScaleY>
+                </CompositeTransform>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <Style x:Key="PY_Attaching" TargetType="Grid">
+        <Setter Property="Margin" Value="835,328,281,190"/>
+        <Setter Property="RenderTransform" >
+            <Setter.Value>
+                <CompositeTransform >
+                    <CompositeTransform.SkewX>30</CompositeTransform.SkewX>
+                    <CompositeTransform.ScaleY>0.8</CompositeTransform.ScaleY>
+                    <CompositeTransform.ScaleX>0.9</CompositeTransform.ScaleX>
+                    <CompositeTransform.Rotation>-30</CompositeTransform.Rotation>
+                </CompositeTransform>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <Style x:Key="PZ_Attaching" TargetType="Grid">
+        <Setter Property="Margin" Value="1035,457,101,81"  />
+        <Setter Property="RenderTransform" >
+            <Setter.Value>
+                <CompositeTransform >
+                    <CompositeTransform.SkewY>-30</CompositeTransform.SkewY>
+                    <CompositeTransform.ScaleX>0.8</CompositeTransform.ScaleX>
+                    <CompositeTransform.ScaleY>0.9</CompositeTransform.ScaleY>
+                </CompositeTransform>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style x:Key="PX_United" TargetType="Grid">
+        --><!--<Setter Property="Stroke" Value="DimGray"/>
+                <Setter Property="StrokeThickness" Value="7"/>--><!--
+        <Setter Property="Margin" Value="778,457,358,81"/>
+    </Style>
+    <Style x:Key="PY_United" TargetType="Grid">
+        <Setter Property="Margin" Value="778,440,358,98"/>
+        <Setter Property="RenderTransform" >
+            <Setter.Value>
+                <CompositeTransform>
+                    <CompositeTransform.Rotation>-90</CompositeTransform.Rotation>
+                </CompositeTransform>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <Style x:Key="PZ_United" TargetType="Grid">
+        --><!--<Setter Property="Stroke" Value="DimGray"/>
+                <Setter Property="StrokeThickness" Value="7"/>--><!--
+        <Setter Property="Margin" Value="1025,210,111,328"/>
+    </Style>
+
+    <Style x:Key="Elli_United" TargetType="Ellipse">
+        <Setter Property="Fill">
+            <Setter.Value>
+                <ImageBrush  ImageSource="Assets\p_Attaching.png"></ImageBrush>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <Style x:Key="Elli_Attached" TargetType="Ellipse">
+        <Setter Property="Fill">
+            <Setter.Value>
+                <ImageBrush  ImageSource="Assets\p_United.png"></ImageBrush>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style x:Key="Del_Pointer" TargetType="Ellipse">
+        <Setter Property="Height" Value="50"/>
+        <Setter Property="Width" Value="50"/>
+        <Setter Property="Fill">
+            <Setter.Value>
+                <LinearGradientBrush Opacity="0.7" >
+                    <GradientStopCollection>
+                        <GradientStop Offset="0.8" Color="Wheat"/>
+                        <GradientStop Offset="0.3" Color="Blue"/>
+                    </GradientStopCollection>
+                </LinearGradientBrush>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <Style x:Key="Draw_Pointer" TargetType="Ellipse">
+        <Setter Property="Height" Value="40"/>
+        <Setter Property="Width" Value="40"/>
+        <Setter Property="Fill">
+            <Setter.Value>
+                <LinearGradientBrush Opacity="0.85" >
+                    <GradientStopCollection>
+                        <GradientStop Offset="0.3" Color="Red"/>
+                        <GradientStop Offset="0.8" Color="Wheat"/>
+                    </GradientStopCollection>
+                </LinearGradientBrush>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <Style x:Key="ButtonConceptStyle" TargetType="Button">
+        <Setter Property="Width" Value="100"/>
+        <Setter Property="Height" Value="0"/>
+        --><!--<Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="ButtonBase">
+                    <Grid Background="Transparent">
+                        <VisualStateManager.VisualStateGroups>
+                            <VisualStateGroup x:Name="CommonStates">
+                                <VisualState x:Name="Normal"/>
+                                <VisualState x:Name="PointerOver">
+                                    <Storyboard>
+                                        <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Foreground" Storyboard.TargetName="Text">
+                                            <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource ApplicationPointerOverForegroundThemeBrush}"/>
+                                        </ObjectAnimationUsingKeyFrames>
+                                    </Storyboard>
+                                </VisualState>
+                                <VisualState x:Name="Pressed">
+                                    <Storyboard>
+                                        <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Foreground" Storyboard.TargetName="Text">
+                                            <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource ApplicationPressedForegroundThemeBrush}"/>
+                                        </ObjectAnimationUsingKeyFrames>
+                                    </Storyboard>
+                                </VisualState>
+                                <VisualState x:Name="Disabled">
+                                    <Storyboard>
+                                        <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Foreground" Storyboard.TargetName="Text">
+                                            <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource ApplicationPressedForegroundThemeBrush}"/>
+                                        </ObjectAnimationUsingKeyFrames>
+                                    </Storyboard>
+                                </VisualState>
+                            </VisualStateGroup>
+                            <VisualStateGroup x:Name="FocusStates">
+                                <VisualState x:Name="Focused">
+                                    <Storyboard>
+                                        <DoubleAnimation Duration="0" To="1" Storyboard.TargetProperty="Opacity" Storyboard.TargetName="FocusVisualWhite"/>
+                                        <DoubleAnimation Duration="0" To="1" Storyboard.TargetProperty="Opacity" Storyboard.TargetName="FocusVisualBlack"/>
+                                    </Storyboard>
+                                </VisualState>
+                                <VisualState x:Name="Unfocused"/>
+                            </VisualStateGroup>
+                            <VisualStateGroup x:Name="CheckStates">
+                                <VisualState x:Name="Checked"/>
+                                <VisualState x:Name="Unchecked">
+                                    <Storyboard>
+                                        <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Foreground" Storyboard.TargetName="Text">
+                                            <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource ApplicationSecondaryForegroundThemeBrush}"/>
+                                        </ObjectAnimationUsingKeyFrames>
+                                    </Storyboard>
+                                </VisualState>
+                                <VisualState x:Name="Indeterminate"/>
+                            </VisualStateGroup>
+                        </VisualStateManager.VisualStateGroups>
+                        <ContentPresenter x:Name="Text" Content="{TemplateBinding Content}"/>
+                        <Rectangle x:Name="FocusVisualWhite" IsHitTestVisible="False" Opacity="0" StrokeDashOffset="1.5" StrokeEndLineCap="Square" Stroke="{ThemeResource FocusVisualWhiteStrokeThemeBrush}" StrokeDashArray="1,1"/>
+                        <Rectangle x:Name="FocusVisualBlack" IsHitTestVisible="False" Opacity="0" StrokeDashOffset="0.5" StrokeEndLineCap="Square" Stroke="{ThemeResource FocusVisualBlackStrokeThemeBrush}" StrokeDashArray="1,1"/>
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>--><!--
+    </Style>
+
+    --><!--<Style x:Key="DescreptionCategory" BasedOn="{StaticResource BaseTextBlockStyle}" TargetType="TextBlock">
+        <Setter Property="FontWeight" Value="SemiLight"/>
+    </Style>
+    <Style x:Key="CategoryButton" TargetType="Button">
+        <Setter Property="MinWidth" Value="0"/>
+        <Setter Property="MinHeight" Value="0"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="ButtonBase">
+                    <Grid Background="Transparent">
+                        <VisualStateManager.VisualStateGroups>
+                            <VisualStateGroup x:Name="CommonStates">
+                                <VisualState x:Name="Normal"/>
+                                <VisualState x:Name="PointerOver">
+                                    <Storyboard>
+                                        <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Foreground" Storyboard.TargetName="Text">
+                                            <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource ApplicationPointerOverForegroundThemeBrush}"/>
+                                        </ObjectAnimationUsingKeyFrames>
+                                    </Storyboard>
+                                </VisualState>
+                                <VisualState x:Name="Pressed">
+                                    <Storyboard>
+                                        <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Foreground" Storyboard.TargetName="Text">
+                                            <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource ApplicationPressedForegroundThemeBrush}"/>
+                                        </ObjectAnimationUsingKeyFrames>
+                                    </Storyboard>
+                                </VisualState>
+                                <VisualState x:Name="Disabled">
+                                    <Storyboard>
+                                        <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Foreground" Storyboard.TargetName="Text">
+                                            <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource ApplicationPressedForegroundThemeBrush}"/>
+                                        </ObjectAnimationUsingKeyFrames>
+                                    </Storyboard>
+                                </VisualState>
+                            </VisualStateGroup>
+                            <VisualStateGroup x:Name="FocusStates">
+                                <VisualState x:Name="Focused">
+                                    <Storyboard>
+                                        <DoubleAnimation Duration="0" To="1" Storyboard.TargetProperty="Opacity" Storyboard.TargetName="FocusVisualWhite"/>
+                                        <DoubleAnimation Duration="0" To="1" Storyboard.TargetProperty="Opacity" Storyboard.TargetName="FocusVisualBlack"/>
+                                    </Storyboard>
+                                </VisualState>
+                                <VisualState x:Name="Unfocused"/>
+                            </VisualStateGroup>
+                            <VisualStateGroup x:Name="CheckStates">
+                                <VisualState x:Name="Checked"/>
+                                <VisualState x:Name="Unchecked">
+                                    <Storyboard>
+                                        <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Foreground" Storyboard.TargetName="Text">
+                                            <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource ApplicationSecondaryForegroundThemeBrush}"/>
+                                        </ObjectAnimationUsingKeyFrames>
+                                    </Storyboard>
+                                </VisualState>
+                                <VisualState x:Name="Indeterminate"/>
+                            </VisualStateGroup>
+                        </VisualStateManager.VisualStateGroups>
+                        <ContentPresenter x:Name="Text" Content="{TemplateBinding Content}"/>
+                        <Rectangle x:Name="FocusVisualWhite" IsHitTestVisible="False" Opacity="0" StrokeDashOffset="1.5" StrokeEndLineCap="Square" Stroke="{ThemeResource FocusVisualWhiteStrokeThemeBrush}" StrokeDashArray="1,1"/>
+                        <Rectangle x:Name="FocusVisualBlack" IsHitTestVisible="False" Opacity="0" StrokeDashOffset="0.5" StrokeEndLineCap="Square" Stroke="{ThemeResource FocusVisualBlackStrokeThemeBrush}" StrokeDashArray="1,1"/>
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    --><!--
+
+</ResourceDictionary>-->
+

@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>ZKNOBEL</Machine>
+    <WindowsUser>ציפי</WindowsUser>
+    <SolutionConfiguration>Release|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>ec59a2e4-3e98-4b22-b82f-fcc51c2dfe3e</PackageIdentityName>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\bin\Release\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\bin\Release\Isometric.exe">
+      <PackagePath>Isometric.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\packages\SharpDX.2.6.3\build\..\Bin\DirectX11_2-Signed-winrt\SharpDX.Direct2D1.dll">
+      <PackagePath>SharpDX.Direct2D1.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\packages\SharpDX.2.6.3\build\..\Bin\DirectX11_2-Signed-winrt\SharpDX.Direct3D11.dll">
+      <PackagePath>SharpDX.Direct3D11.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\packages\SharpDX.2.6.3\build\..\Bin\DirectX11_2-Signed-winrt\SharpDX.dll">
+      <PackagePath>SharpDX.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\packages\SharpDX.2.6.3\build\..\Bin\DirectX11_2-Signed-winrt\SharpDX.DXGI.dll">
+      <PackagePath>SharpDX.DXGI.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\packages\SharpDX.2.6.3\build\..\Bin\DirectX11_2-Signed-winrt\SharpDX.Toolkit.Audio.dll">
+      <PackagePath>SharpDX.Toolkit.Audio.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\packages\SharpDX.2.6.3\build\..\Bin\DirectX11_2-Signed-winrt\SharpDX.Toolkit.dll">
+      <PackagePath>SharpDX.Toolkit.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\packages\SharpDX.2.6.3\build\..\Bin\DirectX11_2-Signed-winrt\SharpDX.Toolkit.Game.dll">
+      <PackagePath>SharpDX.Toolkit.Game.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\packages\SharpDX.2.6.3\build\..\Bin\DirectX11_2-Signed-winrt\SharpDX.Toolkit.Graphics.dll">
+      <PackagePath>SharpDX.Toolkit.Graphics.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\packages\SharpDX.2.6.3\build\..\Bin\DirectX11_2-Signed-winrt\SharpDX.Toolkit.Input.dll">
+      <PackagePath>SharpDX.Toolkit.Input.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\packages\SharpDX.2.6.3\build\..\Bin\DirectX11_2-Signed-winrt\SharpDX.XAudio2.dll">
+      <PackagePath>SharpDX.XAudio2.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\Assets\isometric.png">
+      <PackagePath>Assets\isometric.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\Content\isometric.png">
+      <PackagePath>Content\isometric.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\Images\isometric.png">
+      <PackagePath>Images\isometric.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\Assets\Start.jpg">
+      <PackagePath>Assets\Start.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\Content\Start.jpg">
+      <PackagePath>Content\Start.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\Images\Start.jpg">
+      <PackagePath>Images\Start.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\Common\ReadMe.txt">
+      <PackagePath>Common\ReadMe.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Release\Content\Bloom.tkb">
+      <PackagePath>Content\Bloom.tkb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Release\Content\Scene3.tkb">
+      <PackagePath>Content\Scene3.tkb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Release\Content\MetaTunnel.tkb">
+      <PackagePath>Content\MetaTunnel.tkb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Release\Content\Arial16.tkb">
+      <PackagePath>Content\Arial16.tkb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Release\Content\1Ship.tkb">
+      <PackagePath>Content\1Ship.tkb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Release\Content\Scene1.tkb">
+      <PackagePath>Content\Scene1.tkb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Release\Content\Cube.tkb">
+      <PackagePath>Content\Cube.tkb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Release\Content\lightCube.tkb">
+      <PackagePath>Content\lightCube.tkb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Release\Content\Untitled.tkb">
+      <PackagePath>Content\Untitled.tkb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Release\Content\Untitled1.tkb">
+      <PackagePath>Content\Untitled1.tkb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Release\Content\Scene2.tkb">
+      <PackagePath>Content\Scene2.tkb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Release\Content\bsdd.tkb">
+      <PackagePath>Content\bsdd.tkb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Release\Content\womm.tkb">
+      <PackagePath>Content\womm.tkb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Release\Content\metal_glass_table.tkb">
+      <PackagePath>Content\metal_glass_table.tkb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Release\Content\smallGlass.tkb">
+      <PackagePath>Content\smallGlass.tkb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Release\Content\Ship.tkb">
+      <PackagePath>Content\Ship.tkb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Release\Content\Rubik%27s Cube.tkb">
+      <PackagePath>Content\Rubik%27s Cube.tkb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Release\Content\texturableBox.tkb">
+      <PackagePath>Content\texturableBox.tkb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Release\Content\verreEau.tkb">
+      <PackagePath>Content\verreEau.tkb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Release\Content\ShipDiffuse.tkb">
+      <PackagePath>Content\ShipDiffuse.tkb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Release\Content\bsd.tkb">
+      <PackagePath>Content\bsd.tkb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Release\Content\bsd1.tkb">
+      <PackagePath>Content\bsd1.tkb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Release\Content\blueCursor.tkb">
+      <PackagePath>Content\blueCursor.tkb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Release\Content\GreenCursor.tkb">
+      <PackagePath>Content\GreenCursor.tkb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Release\Content\JustTransparents.tkb">
+      <PackagePath>Content\JustTransparents.tkb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Release\Content\RedCursor.tkb">
+      <PackagePath>Content\RedCursor.tkb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Release\Content\mat.tkb">
+      <PackagePath>Content\mat.tkb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Release\Content\תמונה1.tkb">
+      <PackagePath>Content\תמונה1.tkb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Release\Content\Glass.tkb">
+      <PackagePath>Content\Glass.tkb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\bin\Release\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\bin\Release\ConceptesPage.xbf">
+      <PackagePath>ConceptesPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\bin\Release\Dictionary.xbf">
+      <PackagePath>Dictionary.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\bin\Release\ExercisePage.xbf">
+      <PackagePath>ExercisePage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\bin\Release\OpensvedGamePage.xbf">
+      <PackagePath>OpensvedGamePage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\bin\Release\SaveGameMessageDialog.xbf">
+      <PackagePath>SaveGameMessageDialog.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\bin\Release\Settings.xbf">
+      <PackagePath>Settings.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\bin\Release\StartPage.xbf">
+      <PackagePath>StartPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\bin\Release\StatisticsPage.xbf">
+      <PackagePath>StatisticsPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\bin\Release\Themes\Generic.xbf">
+      <PackagePath>Themes\Generic.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\bin\Release\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,963 @@
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך - עותק\MyGame5\bin\Debug\Content\Bloom.tkb
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך - עותק\MyGame5\bin\Debug\Content\MetaTunnel.tkb
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך - עותק\MyGame5\bin\Debug\Content\Arial16.tkb
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך - עותק\MyGame5\bin\Debug\Content\Ship.tkb
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך - עותק\MyGame5\bin\Debug\Content\Scene1.tkb
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך - עותק\MyGame5\bin\Debug\Content\Cube.tkb
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך - עותק\MyGame5\bin\Debug\Content\ShipDiffuse.tkb
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך - עותק\MyGame5\bin\Debug\Content\Glass.tkb
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך - עותק\MyGame5\bin\Debug\App.xbf
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך - עותק\MyGame5\bin\Debug\MainPage.xbf
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך - עותק\MyGame5\bin\Debug\MyGame5.exe
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך - עותק\MyGame5\bin\Debug\MyGame5.pdb
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך - עותק\MyGame5\bin\Debug\resources.pri
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך - עותק\MyGame5\bin\Debug\AppxManifest.xml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך - עותק\MyGame5\bin\Debug\Isometric.build.appxrecipe
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך - עותק\MyGame5\bin\Debug\SharpDX.Direct2D1.dll
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך - עותק\MyGame5\bin\Debug\SharpDX.Direct3D11.dll
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך - עותק\MyGame5\bin\Debug\SharpDX.dll
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך - עותק\MyGame5\bin\Debug\SharpDX.DXGI.dll
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך - עותק\MyGame5\bin\Debug\SharpDX.Toolkit.Audio.dll
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך - עותק\MyGame5\bin\Debug\SharpDX.Toolkit.dll
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך - עותק\MyGame5\bin\Debug\SharpDX.Toolkit.Game.dll
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך - עותק\MyGame5\bin\Debug\SharpDX.Toolkit.Graphics.dll
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך - עותק\MyGame5\bin\Debug\SharpDX.Toolkit.Input.dll
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך - עותק\MyGame5\bin\Debug\SharpDX.XAudio2.dll
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך - עותק\MyGame5\bin\Debug\SharpDX.xml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך - עותק\MyGame5\bin\Debug\SharpDX.Direct3D11.xml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך - עותק\MyGame5\bin\Debug\SharpDX.DXGI.xml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך - עותק\MyGame5\bin\Debug\SharpDX.Toolkit.xml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך - עותק\MyGame5\bin\Debug\SharpDX.Toolkit.Audio.xml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך - עותק\MyGame5\bin\Debug\SharpDX.Toolkit.Game.xml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך - עותק\MyGame5\bin\Debug\SharpDX.Toolkit.Graphics.xml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך - עותק\MyGame5\bin\Debug\SharpDX.Toolkit.Input.xml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך - עותק\MyGame5\bin\Debug\SharpDX.XAudio2.xml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך - עותק\MyGame5\bin\Debug\SharpDX.Direct2D1.xml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך - עותק\MyGame5\obj\Debug\Isometric.csprojResolveAssemblyReference.cache
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך - עותק\MyGame5\obj\Debug\App.g.i.cs
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך - עותק\MyGame5\obj\Debug\App.g.cs
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך - עותק\MyGame5\obj\Debug\MainPage.g.i.cs
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך - עותק\MyGame5\obj\Debug\MainPage.g.cs
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך - עותק\MyGame5\obj\Debug\XamlTypeInfo.g.cs
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך - עותק\MyGame5\obj\Debug\XamlSaveStateFile.xml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך - עותק\MyGame5\obj\Debug\App.xaml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך - עותק\MyGame5\obj\Debug\MainPage.xaml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך - עותק\MyGame5\obj\Debug\App.xbf
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך - עותק\MyGame5\obj\Debug\MainPage.xbf
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך - עותק\MyGame5\obj\Debug\MyGame5.exe
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך - עותק\MyGame5\obj\Debug\MyGame5.pdb
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך - עותק\MyGame5\obj\Debug\SharpDX\en-us\SharpDX.Properties.Resources.resw
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך - עותק\MyGame5\obj\Debug\Isometric.csproj.GenerateResource.Cache
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך - עותק\MyGame5\obj\Debug\SharpDX\layout.resfiles
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך - עותק\MyGame5\obj\Debug\SharpDX\layout.resfiles.intermediate
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך - עותק\MyGame5\obj\Debug\SharpDX\Resources.resfiles
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך - עותק\MyGame5\obj\Debug\SharpDX\Resources.resfiles.intermediate
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך - עותק\MyGame5\obj\Debug\SharpDX\pri.resfiles
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך - עותק\MyGame5\obj\Debug\SharpDX\pri.resfiles.intermediate
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך - עותק\MyGame5\obj\Debug\SharpDX\priconfig.xml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך - עותק\MyGame5\obj\Debug\SharpDX\priconfig.xml.intermediate
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך - עותק\MyGame5\obj\Debug\SharpDX.pri
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך - עותק\MyGame5\obj\Debug\SharpDX\qualifiers.txt
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך - עותק\MyGame5\obj\Debug\priconfig.xml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך - עותק\MyGame5\obj\Debug\priconfig.xml.intermediate
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך - עותק\MyGame5\obj\Debug\layout.resfiles
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך - עותק\MyGame5\obj\Debug\layout.resfiles.intermediate
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך - עותק\MyGame5\obj\Debug\resources.resfiles
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך - עותק\MyGame5\obj\Debug\resources.resfiles.intermediate
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך - עותק\MyGame5\obj\Debug\pri.resfiles
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך - עותק\MyGame5\obj\Debug\pri.resfiles.intermediate
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך - עותק\MyGame5\obj\Debug\qualifiers.txt
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך - עותק\MyGame5\obj\Debug\qualifiers.txt.intermediate
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך - עותק\MyGame5\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\גליל עם טקסטורה גרפיק דוייס וצילום מסך - עותק\MyGame5\obj\Debug\ProjectArchitectures.txt
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\bin\Debug\App.xbf
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\bin\Debug\resources.pri
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\bin\Debug\AppxManifest.xml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\bin\Debug\Isometric.build.appxrecipe
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\bin\Debug\SharpDX.Direct2D1.dll
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\bin\Debug\SharpDX.Direct3D11.dll
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\bin\Debug\SharpDX.dll
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\bin\Debug\SharpDX.DXGI.dll
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\bin\Debug\SharpDX.Toolkit.Audio.dll
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\bin\Debug\SharpDX.Toolkit.dll
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\bin\Debug\SharpDX.Toolkit.Game.dll
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\bin\Debug\SharpDX.Toolkit.Graphics.dll
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\bin\Debug\SharpDX.Toolkit.Input.dll
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\bin\Debug\SharpDX.XAudio2.dll
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\bin\Debug\SharpDX.xml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\bin\Debug\SharpDX.Direct3D11.xml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\bin\Debug\SharpDX.DXGI.xml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\bin\Debug\SharpDX.Toolkit.xml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\bin\Debug\SharpDX.Toolkit.Audio.xml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\bin\Debug\SharpDX.Toolkit.Game.xml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\bin\Debug\SharpDX.Toolkit.Graphics.xml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\bin\Debug\SharpDX.Toolkit.Input.xml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\bin\Debug\SharpDX.XAudio2.xml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\bin\Debug\SharpDX.Direct2D1.xml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Debug\App.g.i.cs
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Debug\App.g.cs
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Debug\XamlTypeInfo.g.cs
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Debug\App.xaml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Debug\App.xbf
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Debug\XamlSaveStateFile.xml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Debug\SharpDX\en-us\SharpDX.Properties.Resources.resw
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Debug\Isometric.csproj.GenerateResource.Cache
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Debug\SharpDX.pri
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Debug\SharpDX\qualifiers.txt
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Debug\priconfig.xml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Debug\priconfig.xml.intermediate
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Debug\layout.resfiles
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Debug\layout.resfiles.intermediate
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Debug\resources.resfiles
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Debug\resources.resfiles.intermediate
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Debug\pri.resfiles
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Debug\pri.resfiles.intermediate
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Debug\qualifiers.txt
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Debug\qualifiers.txt.intermediate
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Debug\ProjectArchitectures.txt
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\bin\Debug\Dictionary.xbf
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Debug\Dictionary.g.i.cs
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Debug\Dictionary.g.cs
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Debug\Dictionary.xaml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Debug\StartPage.g.i.cs
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Debug\StartPage.g.cs
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Debug\StartPage.xaml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Debug\StartPage.xbf
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\bin\Debug\StartPage.xbf
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\bin\Debug\Isometric.exe
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\bin\Debug\Isometric.pdb
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Debug\Isometric.exe
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Debug\Isometric.pdb
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\bin\Debug\ExercisePage.xbf
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Debug\ExercisePage.g.i.cs
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Debug\ExercisePage.g.cs
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Debug\ExercisePage.xaml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Debug\ExercisePage.xbf
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\bin\Debug\Content\bsd.tkb
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Debug\OpensvedGamePage.g.i.cs
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Debug\OpensvedGamePage.g.cs
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Debug\OpensvedGamePage.xaml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Debug\OpensvedGamePage.xbf
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\bin\Debug\OpensvedGamePage.xbf
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\bin\Debug\Content\mat.tkb
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\bin\Debug\SaveGameMessageDialog.xbf
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Debug\SaveGameMessageDialog.g.i.cs
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Debug\SaveGameMessageDialog.g.cs
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Debug\SaveGameMessageDialog.xaml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Debug\SaveGameMessageDialog.xbf
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Debug\StatisticsPage.g.i.cs
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Debug\StatisticsPage.g.cs
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Debug\StatisticsPage.xaml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Debug\StatisticsPage.xbf
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\bin\Debug\StatisticsPage.xbf
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Debug\Settings.g.i.cs
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Debug\Settings.g.cs
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\bin\Debug\Settings.xbf
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Debug\Settings.xaml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Debug\Settings.xbf
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Debug\StandardStyles.g.i.cs
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Debug\StandardStyles.g.cs
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Debug\StandardStyles.xaml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Debug\StandardStyles.xbf
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\bin\Debug\StandardStyles.xbf
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Debug\SuccessedPage.g.i.cs
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Debug\SuccessedPage.g.cs
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Debug\SuccessedPage.xaml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Debug\SuccessedPage.xbf
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\bin\Debug\SuccessedPage.xbf
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Debug\Isometric.csprojResolveAssemblyReference.cache
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\bin\Debug\InformationPage.xbf
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Debug\InformationPage.g.i.cs
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Debug\InformationPage.g.cs
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Debug\InformationPage.xaml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Debug\InformationPage.xbf
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Debug\Dictionary.xbf
+D:\Isometric\MyGame5\bin\Debug\Content\bsd.tkb
+D:\Isometric\MyGame5\bin\Debug\Content\mat.tkb
+D:\Isometric\MyGame5\bin\Debug\App.xbf
+D:\Isometric\MyGame5\bin\Debug\InformationPage.xbf
+D:\Isometric\MyGame5\bin\Debug\Dictionary.xbf
+D:\Isometric\MyGame5\bin\Debug\ExercisePage.xbf
+D:\Isometric\MyGame5\bin\Debug\OpensvedGamePage.xbf
+D:\Isometric\MyGame5\bin\Debug\SaveGameMessageDialog.xbf
+D:\Isometric\MyGame5\bin\Debug\Settings.xbf
+D:\Isometric\MyGame5\bin\Debug\StandardStyles.xbf
+D:\Isometric\MyGame5\bin\Debug\StartPage.xbf
+D:\Isometric\MyGame5\bin\Debug\StatisticsPage.xbf
+D:\Isometric\MyGame5\bin\Debug\SuccessedPage.xbf
+D:\Isometric\MyGame5\bin\Debug\Isometric.xr.xml
+D:\Isometric\MyGame5\bin\Debug\Isometric.exe
+D:\Isometric\MyGame5\bin\Debug\Isometric.pdb
+D:\Isometric\MyGame5\bin\Debug\resources.pri
+D:\Isometric\MyGame5\bin\Debug\AppxManifest.xml
+D:\Isometric\MyGame5\bin\Debug\Isometric.build.appxrecipe
+D:\Isometric\MyGame5\bin\Debug\SharpDX.Direct2D1.dll
+D:\Isometric\MyGame5\bin\Debug\SharpDX.Direct3D11.dll
+D:\Isometric\MyGame5\bin\Debug\SharpDX.dll
+D:\Isometric\MyGame5\bin\Debug\SharpDX.DXGI.dll
+D:\Isometric\MyGame5\bin\Debug\SharpDX.Toolkit.Audio.dll
+D:\Isometric\MyGame5\bin\Debug\SharpDX.Toolkit.dll
+D:\Isometric\MyGame5\bin\Debug\SharpDX.Toolkit.Game.dll
+D:\Isometric\MyGame5\bin\Debug\SharpDX.Toolkit.Graphics.dll
+D:\Isometric\MyGame5\bin\Debug\SharpDX.Toolkit.Input.dll
+D:\Isometric\MyGame5\bin\Debug\SharpDX.XAudio2.dll
+D:\Isometric\MyGame5\bin\Debug\SharpDX.xml
+D:\Isometric\MyGame5\bin\Debug\SharpDX.Direct3D11.xml
+D:\Isometric\MyGame5\bin\Debug\SharpDX.DXGI.xml
+D:\Isometric\MyGame5\bin\Debug\SharpDX.Toolkit.xml
+D:\Isometric\MyGame5\bin\Debug\SharpDX.Toolkit.Audio.xml
+D:\Isometric\MyGame5\bin\Debug\SharpDX.Toolkit.Game.xml
+D:\Isometric\MyGame5\bin\Debug\SharpDX.Toolkit.Graphics.xml
+D:\Isometric\MyGame5\bin\Debug\SharpDX.Toolkit.Input.xml
+D:\Isometric\MyGame5\bin\Debug\SharpDX.XAudio2.xml
+D:\Isometric\MyGame5\bin\Debug\SharpDX.Direct2D1.xml
+D:\Isometric\MyGame5\obj\Debug\Isometric.csprojResolveAssemblyReference.cache
+D:\Isometric\MyGame5\obj\Debug\App.g.i.cs
+D:\Isometric\MyGame5\obj\Debug\App.g.cs
+D:\Isometric\MyGame5\obj\Debug\InformationPage.g.i.cs
+D:\Isometric\MyGame5\obj\Debug\InformationPage.g.cs
+D:\Isometric\MyGame5\obj\Debug\Dictionary.g.i.cs
+D:\Isometric\MyGame5\obj\Debug\Dictionary.g.cs
+D:\Isometric\MyGame5\obj\Debug\ExercisePage.g.i.cs
+D:\Isometric\MyGame5\obj\Debug\ExercisePage.g.cs
+D:\Isometric\MyGame5\obj\Debug\OpensvedGamePage.g.i.cs
+D:\Isometric\MyGame5\obj\Debug\OpensvedGamePage.g.cs
+D:\Isometric\MyGame5\obj\Debug\SaveGameMessageDialog.g.i.cs
+D:\Isometric\MyGame5\obj\Debug\SaveGameMessageDialog.g.cs
+D:\Isometric\MyGame5\obj\Debug\Settings.g.i.cs
+D:\Isometric\MyGame5\obj\Debug\Settings.g.cs
+D:\Isometric\MyGame5\obj\Debug\StandardStyles.g.i.cs
+D:\Isometric\MyGame5\obj\Debug\StandardStyles.g.cs
+D:\Isometric\MyGame5\obj\Debug\StartPage.g.i.cs
+D:\Isometric\MyGame5\obj\Debug\StartPage.g.cs
+D:\Isometric\MyGame5\obj\Debug\StatisticsPage.g.i.cs
+D:\Isometric\MyGame5\obj\Debug\StatisticsPage.g.cs
+D:\Isometric\MyGame5\obj\Debug\SuccessedPage.g.i.cs
+D:\Isometric\MyGame5\obj\Debug\SuccessedPage.g.cs
+D:\Isometric\MyGame5\obj\Debug\XamlTypeInfo.g.cs
+D:\Isometric\MyGame5\obj\Debug\App.xaml
+D:\Isometric\MyGame5\obj\Debug\InformationPage.xaml
+D:\Isometric\MyGame5\obj\Debug\Dictionary.xaml
+D:\Isometric\MyGame5\obj\Debug\ExercisePage.xaml
+D:\Isometric\MyGame5\obj\Debug\OpensvedGamePage.xaml
+D:\Isometric\MyGame5\obj\Debug\SaveGameMessageDialog.xaml
+D:\Isometric\MyGame5\obj\Debug\Settings.xaml
+D:\Isometric\MyGame5\obj\Debug\StandardStyles.xaml
+D:\Isometric\MyGame5\obj\Debug\StartPage.xaml
+D:\Isometric\MyGame5\obj\Debug\StatisticsPage.xaml
+D:\Isometric\MyGame5\obj\Debug\SuccessedPage.xaml
+D:\Isometric\MyGame5\obj\Debug\App.xbf
+D:\Isometric\MyGame5\obj\Debug\InformationPage.xbf
+D:\Isometric\MyGame5\obj\Debug\ExercisePage.xbf
+D:\Isometric\MyGame5\obj\Debug\OpensvedGamePage.xbf
+D:\Isometric\MyGame5\obj\Debug\SaveGameMessageDialog.xbf
+D:\Isometric\MyGame5\obj\Debug\Settings.xbf
+D:\Isometric\MyGame5\obj\Debug\StartPage.xbf
+D:\Isometric\MyGame5\obj\Debug\StatisticsPage.xbf
+D:\Isometric\MyGame5\obj\Debug\SuccessedPage.xbf
+D:\Isometric\MyGame5\obj\Debug\XamlSaveStateFile.xml
+D:\Isometric\MyGame5\obj\Debug\Isometric.exe
+D:\Isometric\MyGame5\obj\Debug\Isometric.pdb
+D:\Isometric\MyGame5\obj\Debug\SharpDX\en-us\SharpDX.Properties.Resources.resw
+D:\Isometric\MyGame5\obj\Debug\Isometric.csproj.GenerateResource.Cache
+D:\Isometric\MyGame5\obj\Debug\SharpDX.pri
+D:\Isometric\MyGame5\obj\Debug\SharpDX\qualifiers.txt
+D:\Isometric\MyGame5\obj\Debug\priconfig.xml
+D:\Isometric\MyGame5\obj\Debug\priconfig.xml.intermediate
+D:\Isometric\MyGame5\obj\Debug\layout.resfiles
+D:\Isometric\MyGame5\obj\Debug\layout.resfiles.intermediate
+D:\Isometric\MyGame5\obj\Debug\resources.resfiles
+D:\Isometric\MyGame5\obj\Debug\resources.resfiles.intermediate
+D:\Isometric\MyGame5\obj\Debug\pri.resfiles
+D:\Isometric\MyGame5\obj\Debug\pri.resfiles.intermediate
+D:\Isometric\MyGame5\obj\Debug\qualifiers.txt
+D:\Isometric\MyGame5\obj\Debug\qualifiers.txt.intermediate
+D:\Isometric\MyGame5\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+D:\Isometric\MyGame5\obj\Debug\ProjectArchitectures.txt
+D:\Isometric\MyGame5\obj\Debug\StandardStyles.xbf
+D:\Isometric\MyGame5\obj\Debug\Dictionary.xbf
+I:\אין עליך!!!\Isometric\MyGame5\bin\Debug\Content\bsd.tkb
+I:\אין עליך!!!\Isometric\MyGame5\bin\Debug\Content\mat.tkb
+I:\אין עליך!!!\Isometric\MyGame5\bin\Debug\App.xbf
+I:\אין עליך!!!\Isometric\MyGame5\bin\Debug\InformationPage.xbf
+I:\אין עליך!!!\Isometric\MyGame5\bin\Debug\Dictionary.xbf
+I:\אין עליך!!!\Isometric\MyGame5\bin\Debug\ExercisePage.xbf
+I:\אין עליך!!!\Isometric\MyGame5\bin\Debug\OpensvedGamePage.xbf
+I:\אין עליך!!!\Isometric\MyGame5\bin\Debug\SaveGameMessageDialog.xbf
+I:\אין עליך!!!\Isometric\MyGame5\bin\Debug\Settings.xbf
+I:\אין עליך!!!\Isometric\MyGame5\bin\Debug\StandardStyles.xbf
+I:\אין עליך!!!\Isometric\MyGame5\bin\Debug\StartPage.xbf
+I:\אין עליך!!!\Isometric\MyGame5\bin\Debug\StatisticsPage.xbf
+I:\אין עליך!!!\Isometric\MyGame5\bin\Debug\SuccessedPage.xbf
+I:\אין עליך!!!\Isometric\MyGame5\bin\Debug\Isometric.exe
+I:\אין עליך!!!\Isometric\MyGame5\bin\Debug\Isometric.pdb
+I:\אין עליך!!!\Isometric\MyGame5\bin\Debug\resources.pri
+I:\אין עליך!!!\Isometric\MyGame5\bin\Debug\AppxManifest.xml
+I:\אין עליך!!!\Isometric\MyGame5\bin\Debug\Isometric.build.appxrecipe
+I:\אין עליך!!!\Isometric\MyGame5\bin\Debug\SharpDX.Direct2D1.dll
+I:\אין עליך!!!\Isometric\MyGame5\bin\Debug\SharpDX.Direct3D11.dll
+I:\אין עליך!!!\Isometric\MyGame5\bin\Debug\SharpDX.dll
+I:\אין עליך!!!\Isometric\MyGame5\bin\Debug\SharpDX.DXGI.dll
+I:\אין עליך!!!\Isometric\MyGame5\bin\Debug\SharpDX.Toolkit.Audio.dll
+I:\אין עליך!!!\Isometric\MyGame5\bin\Debug\SharpDX.Toolkit.dll
+I:\אין עליך!!!\Isometric\MyGame5\bin\Debug\SharpDX.Toolkit.Game.dll
+I:\אין עליך!!!\Isometric\MyGame5\bin\Debug\SharpDX.Toolkit.Graphics.dll
+I:\אין עליך!!!\Isometric\MyGame5\bin\Debug\SharpDX.Toolkit.Input.dll
+I:\אין עליך!!!\Isometric\MyGame5\bin\Debug\SharpDX.XAudio2.dll
+I:\אין עליך!!!\Isometric\MyGame5\bin\Debug\SharpDX.xml
+I:\אין עליך!!!\Isometric\MyGame5\bin\Debug\SharpDX.Direct3D11.xml
+I:\אין עליך!!!\Isometric\MyGame5\bin\Debug\SharpDX.DXGI.xml
+I:\אין עליך!!!\Isometric\MyGame5\bin\Debug\SharpDX.Toolkit.xml
+I:\אין עליך!!!\Isometric\MyGame5\bin\Debug\SharpDX.Toolkit.Audio.xml
+I:\אין עליך!!!\Isometric\MyGame5\bin\Debug\SharpDX.Toolkit.Game.xml
+I:\אין עליך!!!\Isometric\MyGame5\bin\Debug\SharpDX.Toolkit.Graphics.xml
+I:\אין עליך!!!\Isometric\MyGame5\bin\Debug\SharpDX.Toolkit.Input.xml
+I:\אין עליך!!!\Isometric\MyGame5\bin\Debug\SharpDX.XAudio2.xml
+I:\אין עליך!!!\Isometric\MyGame5\bin\Debug\SharpDX.Direct2D1.xml
+I:\אין עליך!!!\Isometric\MyGame5\obj\Debug\Isometric.csprojResolveAssemblyReference.cache
+I:\אין עליך!!!\Isometric\MyGame5\obj\Debug\App.g.i.cs
+I:\אין עליך!!!\Isometric\MyGame5\obj\Debug\App.g.cs
+I:\אין עליך!!!\Isometric\MyGame5\obj\Debug\InformationPage.g.i.cs
+I:\אין עליך!!!\Isometric\MyGame5\obj\Debug\InformationPage.g.cs
+I:\אין עליך!!!\Isometric\MyGame5\obj\Debug\Dictionary.g.i.cs
+I:\אין עליך!!!\Isometric\MyGame5\obj\Debug\Dictionary.g.cs
+I:\אין עליך!!!\Isometric\MyGame5\obj\Debug\ExercisePage.g.i.cs
+I:\אין עליך!!!\Isometric\MyGame5\obj\Debug\ExercisePage.g.cs
+I:\אין עליך!!!\Isometric\MyGame5\obj\Debug\OpensvedGamePage.g.i.cs
+I:\אין עליך!!!\Isometric\MyGame5\obj\Debug\OpensvedGamePage.g.cs
+I:\אין עליך!!!\Isometric\MyGame5\obj\Debug\SaveGameMessageDialog.g.i.cs
+I:\אין עליך!!!\Isometric\MyGame5\obj\Debug\SaveGameMessageDialog.g.cs
+I:\אין עליך!!!\Isometric\MyGame5\obj\Debug\Settings.g.i.cs
+I:\אין עליך!!!\Isometric\MyGame5\obj\Debug\Settings.g.cs
+I:\אין עליך!!!\Isometric\MyGame5\obj\Debug\StandardStyles.g.i.cs
+I:\אין עליך!!!\Isometric\MyGame5\obj\Debug\StandardStyles.g.cs
+I:\אין עליך!!!\Isometric\MyGame5\obj\Debug\StartPage.g.i.cs
+I:\אין עליך!!!\Isometric\MyGame5\obj\Debug\StartPage.g.cs
+I:\אין עליך!!!\Isometric\MyGame5\obj\Debug\StatisticsPage.g.i.cs
+I:\אין עליך!!!\Isometric\MyGame5\obj\Debug\StatisticsPage.g.cs
+I:\אין עליך!!!\Isometric\MyGame5\obj\Debug\SuccessedPage.g.i.cs
+I:\אין עליך!!!\Isometric\MyGame5\obj\Debug\SuccessedPage.g.cs
+I:\אין עליך!!!\Isometric\MyGame5\obj\Debug\XamlTypeInfo.g.cs
+I:\אין עליך!!!\Isometric\MyGame5\obj\Debug\App.xaml
+I:\אין עליך!!!\Isometric\MyGame5\obj\Debug\InformationPage.xaml
+I:\אין עליך!!!\Isometric\MyGame5\obj\Debug\Dictionary.xaml
+I:\אין עליך!!!\Isometric\MyGame5\obj\Debug\ExercisePage.xaml
+I:\אין עליך!!!\Isometric\MyGame5\obj\Debug\OpensvedGamePage.xaml
+I:\אין עליך!!!\Isometric\MyGame5\obj\Debug\SaveGameMessageDialog.xaml
+I:\אין עליך!!!\Isometric\MyGame5\obj\Debug\Settings.xaml
+I:\אין עליך!!!\Isometric\MyGame5\obj\Debug\StandardStyles.xaml
+I:\אין עליך!!!\Isometric\MyGame5\obj\Debug\StartPage.xaml
+I:\אין עליך!!!\Isometric\MyGame5\obj\Debug\StatisticsPage.xaml
+I:\אין עליך!!!\Isometric\MyGame5\obj\Debug\SuccessedPage.xaml
+I:\אין עליך!!!\Isometric\MyGame5\obj\Debug\App.xbf
+I:\אין עליך!!!\Isometric\MyGame5\obj\Debug\InformationPage.xbf
+I:\אין עליך!!!\Isometric\MyGame5\obj\Debug\Dictionary.xbf
+I:\אין עליך!!!\Isometric\MyGame5\obj\Debug\ExercisePage.xbf
+I:\אין עליך!!!\Isometric\MyGame5\obj\Debug\OpensvedGamePage.xbf
+I:\אין עליך!!!\Isometric\MyGame5\obj\Debug\SaveGameMessageDialog.xbf
+I:\אין עליך!!!\Isometric\MyGame5\obj\Debug\Settings.xbf
+I:\אין עליך!!!\Isometric\MyGame5\obj\Debug\StandardStyles.xbf
+I:\אין עליך!!!\Isometric\MyGame5\obj\Debug\StartPage.xbf
+I:\אין עליך!!!\Isometric\MyGame5\obj\Debug\StatisticsPage.xbf
+I:\אין עליך!!!\Isometric\MyGame5\obj\Debug\SuccessedPage.xbf
+I:\אין עליך!!!\Isometric\MyGame5\obj\Debug\XamlSaveStateFile.xml
+I:\אין עליך!!!\Isometric\MyGame5\obj\Debug\Isometric.exe
+I:\אין עליך!!!\Isometric\MyGame5\obj\Debug\Isometric.pdb
+I:\אין עליך!!!\Isometric\MyGame5\obj\Debug\SharpDX\en-us\SharpDX.Properties.Resources.resw
+I:\אין עליך!!!\Isometric\MyGame5\obj\Debug\Isometric.csproj.GenerateResource.Cache
+I:\אין עליך!!!\Isometric\MyGame5\obj\Debug\SharpDX.pri
+I:\אין עליך!!!\Isometric\MyGame5\obj\Debug\SharpDX\qualifiers.txt
+I:\אין עליך!!!\Isometric\MyGame5\obj\Debug\priconfig.xml
+I:\אין עליך!!!\Isometric\MyGame5\obj\Debug\priconfig.xml.intermediate
+I:\אין עליך!!!\Isometric\MyGame5\obj\Debug\layout.resfiles
+I:\אין עליך!!!\Isometric\MyGame5\obj\Debug\layout.resfiles.intermediate
+I:\אין עליך!!!\Isometric\MyGame5\obj\Debug\resources.resfiles
+I:\אין עליך!!!\Isometric\MyGame5\obj\Debug\resources.resfiles.intermediate
+I:\אין עליך!!!\Isometric\MyGame5\obj\Debug\pri.resfiles
+I:\אין עליך!!!\Isometric\MyGame5\obj\Debug\pri.resfiles.intermediate
+I:\אין עליך!!!\Isometric\MyGame5\obj\Debug\qualifiers.txt
+I:\אין עליך!!!\Isometric\MyGame5\obj\Debug\qualifiers.txt.intermediate
+I:\אין עליך!!!\Isometric\MyGame5\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+I:\אין עליך!!!\Isometric\MyGame5\obj\Debug\ProjectArchitectures.txt
+C:\Users\ציפי\Desktop\Isometric\MyGame5\bin\Debug\Content\bsd.tkb
+C:\Users\ציפי\Desktop\Isometric\MyGame5\bin\Debug\Content\mat.tkb
+C:\Users\ציפי\Desktop\Isometric\MyGame5\bin\Debug\App.xbf
+C:\Users\ציפי\Desktop\Isometric\MyGame5\bin\Debug\InformationPage.xbf
+C:\Users\ציפי\Desktop\Isometric\MyGame5\bin\Debug\Dictionary.xbf
+C:\Users\ציפי\Desktop\Isometric\MyGame5\bin\Debug\ExercisePage.xbf
+C:\Users\ציפי\Desktop\Isometric\MyGame5\bin\Debug\OpensvedGamePage.xbf
+C:\Users\ציפי\Desktop\Isometric\MyGame5\bin\Debug\SaveGameMessageDialog.xbf
+C:\Users\ציפי\Desktop\Isometric\MyGame5\bin\Debug\Settings.xbf
+C:\Users\ציפי\Desktop\Isometric\MyGame5\bin\Debug\StandardStyles.xbf
+C:\Users\ציפי\Desktop\Isometric\MyGame5\bin\Debug\StartPage.xbf
+C:\Users\ציפי\Desktop\Isometric\MyGame5\bin\Debug\StatisticsPage.xbf
+C:\Users\ציפי\Desktop\Isometric\MyGame5\bin\Debug\SuccessedPage.xbf
+C:\Users\ציפי\Desktop\Isometric\MyGame5\bin\Debug\Isometric.exe
+C:\Users\ציפי\Desktop\Isometric\MyGame5\bin\Debug\Isometric.pdb
+C:\Users\ציפי\Desktop\Isometric\MyGame5\bin\Debug\resources.pri
+C:\Users\ציפי\Desktop\Isometric\MyGame5\bin\Debug\AppxManifest.xml
+C:\Users\ציפי\Desktop\Isometric\MyGame5\bin\Debug\Isometric.build.appxrecipe
+C:\Users\ציפי\Desktop\Isometric\MyGame5\bin\Debug\SharpDX.Direct2D1.dll
+C:\Users\ציפי\Desktop\Isometric\MyGame5\bin\Debug\SharpDX.Direct3D11.dll
+C:\Users\ציפי\Desktop\Isometric\MyGame5\bin\Debug\SharpDX.dll
+C:\Users\ציפי\Desktop\Isometric\MyGame5\bin\Debug\SharpDX.DXGI.dll
+C:\Users\ציפי\Desktop\Isometric\MyGame5\bin\Debug\SharpDX.Toolkit.Audio.dll
+C:\Users\ציפי\Desktop\Isometric\MyGame5\bin\Debug\SharpDX.Toolkit.dll
+C:\Users\ציפי\Desktop\Isometric\MyGame5\bin\Debug\SharpDX.Toolkit.Game.dll
+C:\Users\ציפי\Desktop\Isometric\MyGame5\bin\Debug\SharpDX.Toolkit.Graphics.dll
+C:\Users\ציפי\Desktop\Isometric\MyGame5\bin\Debug\SharpDX.Toolkit.Input.dll
+C:\Users\ציפי\Desktop\Isometric\MyGame5\bin\Debug\SharpDX.XAudio2.dll
+C:\Users\ציפי\Desktop\Isometric\MyGame5\bin\Debug\SharpDX.xml
+C:\Users\ציפי\Desktop\Isometric\MyGame5\bin\Debug\SharpDX.Direct3D11.xml
+C:\Users\ציפי\Desktop\Isometric\MyGame5\bin\Debug\SharpDX.DXGI.xml
+C:\Users\ציפי\Desktop\Isometric\MyGame5\bin\Debug\SharpDX.Toolkit.xml
+C:\Users\ציפי\Desktop\Isometric\MyGame5\bin\Debug\SharpDX.Toolkit.Audio.xml
+C:\Users\ציפי\Desktop\Isometric\MyGame5\bin\Debug\SharpDX.Toolkit.Game.xml
+C:\Users\ציפי\Desktop\Isometric\MyGame5\bin\Debug\SharpDX.Toolkit.Graphics.xml
+C:\Users\ציפי\Desktop\Isometric\MyGame5\bin\Debug\SharpDX.Toolkit.Input.xml
+C:\Users\ציפי\Desktop\Isometric\MyGame5\bin\Debug\SharpDX.XAudio2.xml
+C:\Users\ציפי\Desktop\Isometric\MyGame5\bin\Debug\SharpDX.Direct2D1.xml
+C:\Users\ציפי\Desktop\Isometric\MyGame5\obj\Debug\Isometric.csprojResolveAssemblyReference.cache
+C:\Users\ציפי\Desktop\Isometric\MyGame5\obj\Debug\App.g.i.cs
+C:\Users\ציפי\Desktop\Isometric\MyGame5\obj\Debug\App.g.cs
+C:\Users\ציפי\Desktop\Isometric\MyGame5\obj\Debug\InformationPage.g.i.cs
+C:\Users\ציפי\Desktop\Isometric\MyGame5\obj\Debug\InformationPage.g.cs
+C:\Users\ציפי\Desktop\Isometric\MyGame5\obj\Debug\Dictionary.g.i.cs
+C:\Users\ציפי\Desktop\Isometric\MyGame5\obj\Debug\Dictionary.g.cs
+C:\Users\ציפי\Desktop\Isometric\MyGame5\obj\Debug\ExercisePage.g.i.cs
+C:\Users\ציפי\Desktop\Isometric\MyGame5\obj\Debug\ExercisePage.g.cs
+C:\Users\ציפי\Desktop\Isometric\MyGame5\obj\Debug\OpensvedGamePage.g.i.cs
+C:\Users\ציפי\Desktop\Isometric\MyGame5\obj\Debug\OpensvedGamePage.g.cs
+C:\Users\ציפי\Desktop\Isometric\MyGame5\obj\Debug\SaveGameMessageDialog.g.i.cs
+C:\Users\ציפי\Desktop\Isometric\MyGame5\obj\Debug\SaveGameMessageDialog.g.cs
+C:\Users\ציפי\Desktop\Isometric\MyGame5\obj\Debug\Settings.g.i.cs
+C:\Users\ציפי\Desktop\Isometric\MyGame5\obj\Debug\Settings.g.cs
+C:\Users\ציפי\Desktop\Isometric\MyGame5\obj\Debug\StandardStyles.g.i.cs
+C:\Users\ציפי\Desktop\Isometric\MyGame5\obj\Debug\StandardStyles.g.cs
+C:\Users\ציפי\Desktop\Isometric\MyGame5\obj\Debug\StartPage.g.i.cs
+C:\Users\ציפי\Desktop\Isometric\MyGame5\obj\Debug\StartPage.g.cs
+C:\Users\ציפי\Desktop\Isometric\MyGame5\obj\Debug\StatisticsPage.g.i.cs
+C:\Users\ציפי\Desktop\Isometric\MyGame5\obj\Debug\StatisticsPage.g.cs
+C:\Users\ציפי\Desktop\Isometric\MyGame5\obj\Debug\SuccessedPage.g.i.cs
+C:\Users\ציפי\Desktop\Isometric\MyGame5\obj\Debug\SuccessedPage.g.cs
+C:\Users\ציפי\Desktop\Isometric\MyGame5\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\ציפי\Desktop\Isometric\MyGame5\obj\Debug\App.xaml
+C:\Users\ציפי\Desktop\Isometric\MyGame5\obj\Debug\InformationPage.xaml
+C:\Users\ציפי\Desktop\Isometric\MyGame5\obj\Debug\Dictionary.xaml
+C:\Users\ציפי\Desktop\Isometric\MyGame5\obj\Debug\ExercisePage.xaml
+C:\Users\ציפי\Desktop\Isometric\MyGame5\obj\Debug\OpensvedGamePage.xaml
+C:\Users\ציפי\Desktop\Isometric\MyGame5\obj\Debug\SaveGameMessageDialog.xaml
+C:\Users\ציפי\Desktop\Isometric\MyGame5\obj\Debug\Settings.xaml
+C:\Users\ציפי\Desktop\Isometric\MyGame5\obj\Debug\StandardStyles.xaml
+C:\Users\ציפי\Desktop\Isometric\MyGame5\obj\Debug\StatisticsPage.xaml
+C:\Users\ציפי\Desktop\Isometric\MyGame5\obj\Debug\SuccessedPage.xaml
+C:\Users\ציפי\Desktop\Isometric\MyGame5\obj\Debug\App.xbf
+C:\Users\ציפי\Desktop\Isometric\MyGame5\obj\Debug\InformationPage.xbf
+C:\Users\ציפי\Desktop\Isometric\MyGame5\obj\Debug\ExercisePage.xbf
+C:\Users\ציפי\Desktop\Isometric\MyGame5\obj\Debug\OpensvedGamePage.xbf
+C:\Users\ציפי\Desktop\Isometric\MyGame5\obj\Debug\SaveGameMessageDialog.xbf
+C:\Users\ציפי\Desktop\Isometric\MyGame5\obj\Debug\Settings.xbf
+C:\Users\ציפי\Desktop\Isometric\MyGame5\obj\Debug\StatisticsPage.xbf
+C:\Users\ציפי\Desktop\Isometric\MyGame5\obj\Debug\SuccessedPage.xbf
+C:\Users\ציפי\Desktop\Isometric\MyGame5\obj\Debug\XamlSaveStateFile.xml
+C:\Users\ציפי\Desktop\Isometric\MyGame5\obj\Debug\StartPage.xaml
+C:\Users\ציפי\Desktop\Isometric\MyGame5\obj\Debug\StartPage.xbf
+C:\Users\ציפי\Desktop\Isometric\MyGame5\obj\Debug\Isometric.exe
+C:\Users\ציפי\Desktop\Isometric\MyGame5\obj\Debug\Isometric.pdb
+C:\Users\ציפי\Desktop\Isometric\MyGame5\obj\Debug\SharpDX\en-us\SharpDX.Properties.Resources.resw
+C:\Users\ציפי\Desktop\Isometric\MyGame5\obj\Debug\Isometric.csproj.GenerateResource.Cache
+C:\Users\ציפי\Desktop\Isometric\MyGame5\obj\Debug\SharpDX.pri
+C:\Users\ציפי\Desktop\Isometric\MyGame5\obj\Debug\SharpDX\qualifiers.txt
+C:\Users\ציפי\Desktop\Isometric\MyGame5\obj\Debug\priconfig.xml
+C:\Users\ציפי\Desktop\Isometric\MyGame5\obj\Debug\priconfig.xml.intermediate
+C:\Users\ציפי\Desktop\Isometric\MyGame5\obj\Debug\layout.resfiles
+C:\Users\ציפי\Desktop\Isometric\MyGame5\obj\Debug\layout.resfiles.intermediate
+C:\Users\ציפי\Desktop\Isometric\MyGame5\obj\Debug\resources.resfiles
+C:\Users\ציפי\Desktop\Isometric\MyGame5\obj\Debug\resources.resfiles.intermediate
+C:\Users\ציפי\Desktop\Isometric\MyGame5\obj\Debug\pri.resfiles
+C:\Users\ציפי\Desktop\Isometric\MyGame5\obj\Debug\pri.resfiles.intermediate
+C:\Users\ציפי\Desktop\Isometric\MyGame5\obj\Debug\qualifiers.txt
+C:\Users\ציפי\Desktop\Isometric\MyGame5\obj\Debug\qualifiers.txt.intermediate
+C:\Users\ציפי\Desktop\Isometric\MyGame5\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\ציפי\Desktop\Isometric\MyGame5\obj\Debug\ProjectArchitectures.txt
+C:\Users\ציפי\Desktop\Isometric\MyGame5\bin\Debug\About.xbf
+C:\Users\ציפי\Desktop\Isometric\MyGame5\obj\Debug\About.g.i.cs
+C:\Users\ציפי\Desktop\Isometric\MyGame5\obj\Debug\About.g.cs
+C:\Users\ציפי\Desktop\Isometric\MyGame5\obj\Debug\About.xaml
+C:\Users\ציפי\Desktop\Isometric\MyGame5\obj\Debug\About.xbf
+C:\Users\ציפי\Desktop\Isometric\MyGame5\obj\Debug\StandardStyles.xbf
+C:\Users\ציפי\Desktop\Isometric\MyGame5\obj\Debug\Dictionary.xbf
+C:\Users\ציפי\Desktop\Isometric\MyGame5\obj\Debug\SharpDX\layout.resfiles
+C:\Users\ציפי\Desktop\Isometric\MyGame5\obj\Debug\SharpDX\layout.resfiles.intermediate
+C:\Users\ציפי\Desktop\Isometric\MyGame5\obj\Debug\SharpDX\Resources.resfiles
+C:\Users\ציפי\Desktop\Isometric\MyGame5\obj\Debug\SharpDX\Resources.resfiles.intermediate
+C:\Users\ציפי\Desktop\Isometric\MyGame5\obj\Debug\SharpDX\pri.resfiles
+C:\Users\ציפי\Desktop\Isometric\MyGame5\obj\Debug\SharpDX\pri.resfiles.intermediate
+C:\Users\ציפי\Desktop\Isometric\MyGame5\obj\Debug\SharpDX\priconfig.xml
+C:\Users\ציפי\Desktop\Isometric\MyGame5\obj\Debug\SharpDX\priconfig.xml.intermediate
+C:\Users\1\Desktop\Isometric\MyGame5\bin\Debug\Content\bsd.tkb
+C:\Users\1\Desktop\Isometric\MyGame5\bin\Debug\Content\mat.tkb
+C:\Users\1\Desktop\Isometric\MyGame5\bin\Debug\App.xbf
+C:\Users\1\Desktop\Isometric\MyGame5\bin\Debug\About.xbf
+C:\Users\1\Desktop\Isometric\MyGame5\bin\Debug\InformationPage.xbf
+C:\Users\1\Desktop\Isometric\MyGame5\bin\Debug\Dictionary.xbf
+C:\Users\1\Desktop\Isometric\MyGame5\bin\Debug\ExercisePage.xbf
+C:\Users\1\Desktop\Isometric\MyGame5\bin\Debug\OpensvedGamePage.xbf
+C:\Users\1\Desktop\Isometric\MyGame5\bin\Debug\SaveGameMessageDialog.xbf
+C:\Users\1\Desktop\Isometric\MyGame5\bin\Debug\Settings.xbf
+C:\Users\1\Desktop\Isometric\MyGame5\bin\Debug\StandardStyles.xbf
+C:\Users\1\Desktop\Isometric\MyGame5\bin\Debug\StartPage.xbf
+C:\Users\1\Desktop\Isometric\MyGame5\bin\Debug\StatisticsPage.xbf
+C:\Users\1\Desktop\Isometric\MyGame5\bin\Debug\SuccessedPage.xbf
+C:\Users\1\Desktop\Isometric\MyGame5\bin\Debug\Isometric.xr.xml
+C:\Users\1\Desktop\Isometric\MyGame5\bin\Debug\Isometric.exe
+C:\Users\1\Desktop\Isometric\MyGame5\bin\Debug\Isometric.pdb
+C:\Users\1\Desktop\Isometric\MyGame5\bin\Debug\resources.pri
+C:\Users\1\Desktop\Isometric\MyGame5\bin\Debug\AppxManifest.xml
+C:\Users\1\Desktop\Isometric\MyGame5\bin\Debug\Isometric.build.appxrecipe
+C:\Users\1\Desktop\Isometric\MyGame5\bin\Debug\SharpDX.Direct2D1.dll
+C:\Users\1\Desktop\Isometric\MyGame5\bin\Debug\SharpDX.Direct3D11.dll
+C:\Users\1\Desktop\Isometric\MyGame5\bin\Debug\SharpDX.dll
+C:\Users\1\Desktop\Isometric\MyGame5\bin\Debug\SharpDX.DXGI.dll
+C:\Users\1\Desktop\Isometric\MyGame5\bin\Debug\SharpDX.Toolkit.Audio.dll
+C:\Users\1\Desktop\Isometric\MyGame5\bin\Debug\SharpDX.Toolkit.dll
+C:\Users\1\Desktop\Isometric\MyGame5\bin\Debug\SharpDX.Toolkit.Game.dll
+C:\Users\1\Desktop\Isometric\MyGame5\bin\Debug\SharpDX.Toolkit.Graphics.dll
+C:\Users\1\Desktop\Isometric\MyGame5\bin\Debug\SharpDX.Toolkit.Input.dll
+C:\Users\1\Desktop\Isometric\MyGame5\bin\Debug\SharpDX.XAudio2.dll
+C:\Users\1\Desktop\Isometric\MyGame5\bin\Debug\SharpDX.xml
+C:\Users\1\Desktop\Isometric\MyGame5\bin\Debug\SharpDX.Direct3D11.xml
+C:\Users\1\Desktop\Isometric\MyGame5\bin\Debug\SharpDX.DXGI.xml
+C:\Users\1\Desktop\Isometric\MyGame5\bin\Debug\SharpDX.Toolkit.xml
+C:\Users\1\Desktop\Isometric\MyGame5\bin\Debug\SharpDX.Toolkit.Audio.xml
+C:\Users\1\Desktop\Isometric\MyGame5\bin\Debug\SharpDX.Toolkit.Game.xml
+C:\Users\1\Desktop\Isometric\MyGame5\bin\Debug\SharpDX.Toolkit.Graphics.xml
+C:\Users\1\Desktop\Isometric\MyGame5\bin\Debug\SharpDX.Toolkit.Input.xml
+C:\Users\1\Desktop\Isometric\MyGame5\bin\Debug\SharpDX.XAudio2.xml
+C:\Users\1\Desktop\Isometric\MyGame5\bin\Debug\SharpDX.Direct2D1.xml
+C:\Users\1\Desktop\Isometric\MyGame5\obj\Debug\Isometric.csprojResolveAssemblyReference.cache
+C:\Users\1\Desktop\Isometric\MyGame5\obj\Debug\App.g.i.cs
+C:\Users\1\Desktop\Isometric\MyGame5\obj\Debug\App.g.cs
+C:\Users\1\Desktop\Isometric\MyGame5\obj\Debug\About.g.i.cs
+C:\Users\1\Desktop\Isometric\MyGame5\obj\Debug\About.g.cs
+C:\Users\1\Desktop\Isometric\MyGame5\obj\Debug\InformationPage.g.i.cs
+C:\Users\1\Desktop\Isometric\MyGame5\obj\Debug\InformationPage.g.cs
+C:\Users\1\Desktop\Isometric\MyGame5\obj\Debug\Dictionary.g.i.cs
+C:\Users\1\Desktop\Isometric\MyGame5\obj\Debug\Dictionary.g.cs
+C:\Users\1\Desktop\Isometric\MyGame5\obj\Debug\ExercisePage.g.i.cs
+C:\Users\1\Desktop\Isometric\MyGame5\obj\Debug\ExercisePage.g.cs
+C:\Users\1\Desktop\Isometric\MyGame5\obj\Debug\OpensvedGamePage.g.i.cs
+C:\Users\1\Desktop\Isometric\MyGame5\obj\Debug\OpensvedGamePage.g.cs
+C:\Users\1\Desktop\Isometric\MyGame5\obj\Debug\SaveGameMessageDialog.g.i.cs
+C:\Users\1\Desktop\Isometric\MyGame5\obj\Debug\SaveGameMessageDialog.g.cs
+C:\Users\1\Desktop\Isometric\MyGame5\obj\Debug\Settings.g.i.cs
+C:\Users\1\Desktop\Isometric\MyGame5\obj\Debug\Settings.g.cs
+C:\Users\1\Desktop\Isometric\MyGame5\obj\Debug\StandardStyles.g.i.cs
+C:\Users\1\Desktop\Isometric\MyGame5\obj\Debug\StandardStyles.g.cs
+C:\Users\1\Desktop\Isometric\MyGame5\obj\Debug\StartPage.g.i.cs
+C:\Users\1\Desktop\Isometric\MyGame5\obj\Debug\StartPage.g.cs
+C:\Users\1\Desktop\Isometric\MyGame5\obj\Debug\StatisticsPage.g.i.cs
+C:\Users\1\Desktop\Isometric\MyGame5\obj\Debug\StatisticsPage.g.cs
+C:\Users\1\Desktop\Isometric\MyGame5\obj\Debug\SuccessedPage.g.i.cs
+C:\Users\1\Desktop\Isometric\MyGame5\obj\Debug\SuccessedPage.g.cs
+C:\Users\1\Desktop\Isometric\MyGame5\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\1\Desktop\Isometric\MyGame5\obj\Debug\App.xaml
+C:\Users\1\Desktop\Isometric\MyGame5\obj\Debug\About.xaml
+C:\Users\1\Desktop\Isometric\MyGame5\obj\Debug\InformationPage.xaml
+C:\Users\1\Desktop\Isometric\MyGame5\obj\Debug\Dictionary.xaml
+C:\Users\1\Desktop\Isometric\MyGame5\obj\Debug\ExercisePage.xaml
+C:\Users\1\Desktop\Isometric\MyGame5\obj\Debug\OpensvedGamePage.xaml
+C:\Users\1\Desktop\Isometric\MyGame5\obj\Debug\SaveGameMessageDialog.xaml
+C:\Users\1\Desktop\Isometric\MyGame5\obj\Debug\Settings.xaml
+C:\Users\1\Desktop\Isometric\MyGame5\obj\Debug\StandardStyles.xaml
+C:\Users\1\Desktop\Isometric\MyGame5\obj\Debug\StartPage.xaml
+C:\Users\1\Desktop\Isometric\MyGame5\obj\Debug\StatisticsPage.xaml
+C:\Users\1\Desktop\Isometric\MyGame5\obj\Debug\SuccessedPage.xaml
+C:\Users\1\Desktop\Isometric\MyGame5\obj\Debug\App.xbf
+C:\Users\1\Desktop\Isometric\MyGame5\obj\Debug\About.xbf
+C:\Users\1\Desktop\Isometric\MyGame5\obj\Debug\InformationPage.xbf
+C:\Users\1\Desktop\Isometric\MyGame5\obj\Debug\ExercisePage.xbf
+C:\Users\1\Desktop\Isometric\MyGame5\obj\Debug\OpensvedGamePage.xbf
+C:\Users\1\Desktop\Isometric\MyGame5\obj\Debug\SaveGameMessageDialog.xbf
+C:\Users\1\Desktop\Isometric\MyGame5\obj\Debug\Settings.xbf
+C:\Users\1\Desktop\Isometric\MyGame5\obj\Debug\StandardStyles.xbf
+C:\Users\1\Desktop\Isometric\MyGame5\obj\Debug\StartPage.xbf
+C:\Users\1\Desktop\Isometric\MyGame5\obj\Debug\StatisticsPage.xbf
+C:\Users\1\Desktop\Isometric\MyGame5\obj\Debug\SuccessedPage.xbf
+C:\Users\1\Desktop\Isometric\MyGame5\obj\Debug\XamlSaveStateFile.xml
+C:\Users\1\Desktop\Isometric\MyGame5\obj\Debug\Isometric.exe
+C:\Users\1\Desktop\Isometric\MyGame5\obj\Debug\Isometric.pdb
+C:\Users\1\Desktop\Isometric\MyGame5\obj\Debug\SharpDX\en-us\SharpDX.Properties.Resources.resw
+C:\Users\1\Desktop\Isometric\MyGame5\obj\Debug\Isometric.csproj.GenerateResource.Cache
+C:\Users\1\Desktop\Isometric\MyGame5\obj\Debug\SharpDX.pri
+C:\Users\1\Desktop\Isometric\MyGame5\obj\Debug\SharpDX\qualifiers.txt
+C:\Users\1\Desktop\Isometric\MyGame5\obj\Debug\priconfig.xml
+C:\Users\1\Desktop\Isometric\MyGame5\obj\Debug\priconfig.xml.intermediate
+C:\Users\1\Desktop\Isometric\MyGame5\obj\Debug\layout.resfiles
+C:\Users\1\Desktop\Isometric\MyGame5\obj\Debug\layout.resfiles.intermediate
+C:\Users\1\Desktop\Isometric\MyGame5\obj\Debug\resources.resfiles
+C:\Users\1\Desktop\Isometric\MyGame5\obj\Debug\resources.resfiles.intermediate
+C:\Users\1\Desktop\Isometric\MyGame5\obj\Debug\pri.resfiles
+C:\Users\1\Desktop\Isometric\MyGame5\obj\Debug\pri.resfiles.intermediate
+C:\Users\1\Desktop\Isometric\MyGame5\obj\Debug\qualifiers.txt
+C:\Users\1\Desktop\Isometric\MyGame5\obj\Debug\qualifiers.txt.intermediate
+C:\Users\1\Desktop\Isometric\MyGame5\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\1\Desktop\Isometric\MyGame5\obj\Debug\ProjectArchitectures.txt
+C:\Users\1\Desktop\Isometric\MyGame5\obj\Debug\Dictionary.xbf
+C:\Users\1\Desktop\Isometric\MyGame5\obj\Debug\SharpDX\layout.resfiles
+C:\Users\1\Desktop\Isometric\MyGame5\obj\Debug\SharpDX\layout.resfiles.intermediate
+C:\Users\1\Desktop\Isometric\MyGame5\obj\Debug\SharpDX\Resources.resfiles
+C:\Users\1\Desktop\Isometric\MyGame5\obj\Debug\SharpDX\Resources.resfiles.intermediate
+C:\Users\1\Desktop\Isometric\MyGame5\obj\Debug\SharpDX\pri.resfiles
+C:\Users\1\Desktop\Isometric\MyGame5\obj\Debug\SharpDX\pri.resfiles.intermediate
+C:\Users\1\Desktop\Isometric\MyGame5\obj\Debug\SharpDX\priconfig.xml
+C:\Users\1\Desktop\Isometric\MyGame5\obj\Debug\SharpDX\priconfig.xml.intermediate
+C:\Users\ציפי\Desktop\הההפרוייקט ברוך השם\Isometric\MyGame5\bin\Debug\Content\bsd.tkb
+C:\Users\ציפי\Desktop\הההפרוייקט ברוך השם\Isometric\MyGame5\bin\Debug\Content\mat.tkb
+C:\Users\ציפי\Desktop\הההפרוייקט ברוך השם\Isometric\MyGame5\bin\Debug\App.xbf
+C:\Users\ציפי\Desktop\הההפרוייקט ברוך השם\Isometric\MyGame5\bin\Debug\About.xbf
+C:\Users\ציפי\Desktop\הההפרוייקט ברוך השם\Isometric\MyGame5\bin\Debug\InformationPage.xbf
+C:\Users\ציפי\Desktop\הההפרוייקט ברוך השם\Isometric\MyGame5\bin\Debug\Dictionary.xbf
+C:\Users\ציפי\Desktop\הההפרוייקט ברוך השם\Isometric\MyGame5\bin\Debug\ExercisePage.xbf
+C:\Users\ציפי\Desktop\הההפרוייקט ברוך השם\Isometric\MyGame5\bin\Debug\OpensvedGamePage.xbf
+C:\Users\ציפי\Desktop\הההפרוייקט ברוך השם\Isometric\MyGame5\bin\Debug\SaveGameMessageDialog.xbf
+C:\Users\ציפי\Desktop\הההפרוייקט ברוך השם\Isometric\MyGame5\bin\Debug\Settings.xbf
+C:\Users\ציפי\Desktop\הההפרוייקט ברוך השם\Isometric\MyGame5\bin\Debug\StandardStyles.xbf
+C:\Users\ציפי\Desktop\הההפרוייקט ברוך השם\Isometric\MyGame5\bin\Debug\StartPage.xbf
+C:\Users\ציפי\Desktop\הההפרוייקט ברוך השם\Isometric\MyGame5\bin\Debug\StatisticsPage.xbf
+C:\Users\ציפי\Desktop\הההפרוייקט ברוך השם\Isometric\MyGame5\bin\Debug\SuccessedPage.xbf
+C:\Users\ציפי\Desktop\הההפרוייקט ברוך השם\Isometric\MyGame5\bin\Debug\Isometric.exe
+C:\Users\ציפי\Desktop\הההפרוייקט ברוך השם\Isometric\MyGame5\bin\Debug\Isometric.pdb
+C:\Users\ציפי\Desktop\הההפרוייקט ברוך השם\Isometric\MyGame5\bin\Debug\resources.pri
+C:\Users\ציפי\Desktop\הההפרוייקט ברוך השם\Isometric\MyGame5\bin\Debug\AppxManifest.xml
+C:\Users\ציפי\Desktop\הההפרוייקט ברוך השם\Isometric\MyGame5\bin\Debug\Isometric.build.appxrecipe
+C:\Users\ציפי\Desktop\הההפרוייקט ברוך השם\Isometric\MyGame5\bin\Debug\SharpDX.Direct2D1.dll
+C:\Users\ציפי\Desktop\הההפרוייקט ברוך השם\Isometric\MyGame5\bin\Debug\SharpDX.Direct3D11.dll
+C:\Users\ציפי\Desktop\הההפרוייקט ברוך השם\Isometric\MyGame5\bin\Debug\SharpDX.dll
+C:\Users\ציפי\Desktop\הההפרוייקט ברוך השם\Isometric\MyGame5\bin\Debug\SharpDX.DXGI.dll
+C:\Users\ציפי\Desktop\הההפרוייקט ברוך השם\Isometric\MyGame5\bin\Debug\SharpDX.Toolkit.Audio.dll
+C:\Users\ציפי\Desktop\הההפרוייקט ברוך השם\Isometric\MyGame5\bin\Debug\SharpDX.Toolkit.dll
+C:\Users\ציפי\Desktop\הההפרוייקט ברוך השם\Isometric\MyGame5\bin\Debug\SharpDX.Toolkit.Game.dll
+C:\Users\ציפי\Desktop\הההפרוייקט ברוך השם\Isometric\MyGame5\bin\Debug\SharpDX.Toolkit.Graphics.dll
+C:\Users\ציפי\Desktop\הההפרוייקט ברוך השם\Isometric\MyGame5\bin\Debug\SharpDX.Toolkit.Input.dll
+C:\Users\ציפי\Desktop\הההפרוייקט ברוך השם\Isometric\MyGame5\bin\Debug\SharpDX.XAudio2.dll
+C:\Users\ציפי\Desktop\הההפרוייקט ברוך השם\Isometric\MyGame5\bin\Debug\SharpDX.xml
+C:\Users\ציפי\Desktop\הההפרוייקט ברוך השם\Isometric\MyGame5\bin\Debug\SharpDX.Direct3D11.xml
+C:\Users\ציפי\Desktop\הההפרוייקט ברוך השם\Isometric\MyGame5\bin\Debug\SharpDX.DXGI.xml
+C:\Users\ציפי\Desktop\הההפרוייקט ברוך השם\Isometric\MyGame5\bin\Debug\SharpDX.Toolkit.xml
+C:\Users\ציפי\Desktop\הההפרוייקט ברוך השם\Isometric\MyGame5\bin\Debug\SharpDX.Toolkit.Audio.xml
+C:\Users\ציפי\Desktop\הההפרוייקט ברוך השם\Isometric\MyGame5\bin\Debug\SharpDX.Toolkit.Game.xml
+C:\Users\ציפי\Desktop\הההפרוייקט ברוך השם\Isometric\MyGame5\bin\Debug\SharpDX.Toolkit.Graphics.xml
+C:\Users\ציפי\Desktop\הההפרוייקט ברוך השם\Isometric\MyGame5\bin\Debug\SharpDX.Toolkit.Input.xml
+C:\Users\ציפי\Desktop\הההפרוייקט ברוך השם\Isometric\MyGame5\bin\Debug\SharpDX.XAudio2.xml
+C:\Users\ציפי\Desktop\הההפרוייקט ברוך השם\Isometric\MyGame5\bin\Debug\SharpDX.Direct2D1.xml
+C:\Users\ציפי\Desktop\הההפרוייקט ברוך השם\Isometric\MyGame5\obj\Debug\Isometric.csprojResolveAssemblyReference.cache
+C:\Users\ציפי\Desktop\הההפרוייקט ברוך השם\Isometric\MyGame5\obj\Debug\App.g.i.cs
+C:\Users\ציפי\Desktop\הההפרוייקט ברוך השם\Isometric\MyGame5\obj\Debug\App.g.cs
+C:\Users\ציפי\Desktop\הההפרוייקט ברוך השם\Isometric\MyGame5\obj\Debug\About.g.i.cs
+C:\Users\ציפי\Desktop\הההפרוייקט ברוך השם\Isometric\MyGame5\obj\Debug\About.g.cs
+C:\Users\ציפי\Desktop\הההפרוייקט ברוך השם\Isometric\MyGame5\obj\Debug\InformationPage.g.i.cs
+C:\Users\ציפי\Desktop\הההפרוייקט ברוך השם\Isometric\MyGame5\obj\Debug\InformationPage.g.cs
+C:\Users\ציפי\Desktop\הההפרוייקט ברוך השם\Isometric\MyGame5\obj\Debug\Dictionary.g.i.cs
+C:\Users\ציפי\Desktop\הההפרוייקט ברוך השם\Isometric\MyGame5\obj\Debug\Dictionary.g.cs
+C:\Users\ציפי\Desktop\הההפרוייקט ברוך השם\Isometric\MyGame5\obj\Debug\ExercisePage.g.i.cs
+C:\Users\ציפי\Desktop\הההפרוייקט ברוך השם\Isometric\MyGame5\obj\Debug\ExercisePage.g.cs
+C:\Users\ציפי\Desktop\הההפרוייקט ברוך השם\Isometric\MyGame5\obj\Debug\OpensvedGamePage.g.i.cs
+C:\Users\ציפי\Desktop\הההפרוייקט ברוך השם\Isometric\MyGame5\obj\Debug\OpensvedGamePage.g.cs
+C:\Users\ציפי\Desktop\הההפרוייקט ברוך השם\Isometric\MyGame5\obj\Debug\SaveGameMessageDialog.g.i.cs
+C:\Users\ציפי\Desktop\הההפרוייקט ברוך השם\Isometric\MyGame5\obj\Debug\SaveGameMessageDialog.g.cs
+C:\Users\ציפי\Desktop\הההפרוייקט ברוך השם\Isometric\MyGame5\obj\Debug\Settings.g.i.cs
+C:\Users\ציפי\Desktop\הההפרוייקט ברוך השם\Isometric\MyGame5\obj\Debug\Settings.g.cs
+C:\Users\ציפי\Desktop\הההפרוייקט ברוך השם\Isometric\MyGame5\obj\Debug\StandardStyles.g.i.cs
+C:\Users\ציפי\Desktop\הההפרוייקט ברוך השם\Isometric\MyGame5\obj\Debug\StandardStyles.g.cs
+C:\Users\ציפי\Desktop\הההפרוייקט ברוך השם\Isometric\MyGame5\obj\Debug\StartPage.g.i.cs
+C:\Users\ציפי\Desktop\הההפרוייקט ברוך השם\Isometric\MyGame5\obj\Debug\StartPage.g.cs
+C:\Users\ציפי\Desktop\הההפרוייקט ברוך השם\Isometric\MyGame5\obj\Debug\StatisticsPage.g.i.cs
+C:\Users\ציפי\Desktop\הההפרוייקט ברוך השם\Isometric\MyGame5\obj\Debug\StatisticsPage.g.cs
+C:\Users\ציפי\Desktop\הההפרוייקט ברוך השם\Isometric\MyGame5\obj\Debug\SuccessedPage.g.i.cs
+C:\Users\ציפי\Desktop\הההפרוייקט ברוך השם\Isometric\MyGame5\obj\Debug\SuccessedPage.g.cs
+C:\Users\ציפי\Desktop\הההפרוייקט ברוך השם\Isometric\MyGame5\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\ציפי\Desktop\הההפרוייקט ברוך השם\Isometric\MyGame5\obj\Debug\App.xaml
+C:\Users\ציפי\Desktop\הההפרוייקט ברוך השם\Isometric\MyGame5\obj\Debug\About.xaml
+C:\Users\ציפי\Desktop\הההפרוייקט ברוך השם\Isometric\MyGame5\obj\Debug\InformationPage.xaml
+C:\Users\ציפי\Desktop\הההפרוייקט ברוך השם\Isometric\MyGame5\obj\Debug\Dictionary.xaml
+C:\Users\ציפי\Desktop\הההפרוייקט ברוך השם\Isometric\MyGame5\obj\Debug\ExercisePage.xaml
+C:\Users\ציפי\Desktop\הההפרוייקט ברוך השם\Isometric\MyGame5\obj\Debug\OpensvedGamePage.xaml
+C:\Users\ציפי\Desktop\הההפרוייקט ברוך השם\Isometric\MyGame5\obj\Debug\SaveGameMessageDialog.xaml
+C:\Users\ציפי\Desktop\הההפרוייקט ברוך השם\Isometric\MyGame5\obj\Debug\Settings.xaml
+C:\Users\ציפי\Desktop\הההפרוייקט ברוך השם\Isometric\MyGame5\obj\Debug\StandardStyles.xaml
+C:\Users\ציפי\Desktop\הההפרוייקט ברוך השם\Isometric\MyGame5\obj\Debug\StartPage.xaml
+C:\Users\ציפי\Desktop\הההפרוייקט ברוך השם\Isometric\MyGame5\obj\Debug\StatisticsPage.xaml
+C:\Users\ציפי\Desktop\הההפרוייקט ברוך השם\Isometric\MyGame5\obj\Debug\SuccessedPage.xaml
+C:\Users\ציפי\Desktop\הההפרוייקט ברוך השם\Isometric\MyGame5\obj\Debug\App.xbf
+C:\Users\ציפי\Desktop\הההפרוייקט ברוך השם\Isometric\MyGame5\obj\Debug\About.xbf
+C:\Users\ציפי\Desktop\הההפרוייקט ברוך השם\Isometric\MyGame5\obj\Debug\InformationPage.xbf
+C:\Users\ציפי\Desktop\הההפרוייקט ברוך השם\Isometric\MyGame5\obj\Debug\Dictionary.xbf
+C:\Users\ציפי\Desktop\הההפרוייקט ברוך השם\Isometric\MyGame5\obj\Debug\ExercisePage.xbf
+C:\Users\ציפי\Desktop\הההפרוייקט ברוך השם\Isometric\MyGame5\obj\Debug\OpensvedGamePage.xbf
+C:\Users\ציפי\Desktop\הההפרוייקט ברוך השם\Isometric\MyGame5\obj\Debug\SaveGameMessageDialog.xbf
+C:\Users\ציפי\Desktop\הההפרוייקט ברוך השם\Isometric\MyGame5\obj\Debug\Settings.xbf
+C:\Users\ציפי\Desktop\הההפרוייקט ברוך השם\Isometric\MyGame5\obj\Debug\StandardStyles.xbf
+C:\Users\ציפי\Desktop\הההפרוייקט ברוך השם\Isometric\MyGame5\obj\Debug\StartPage.xbf
+C:\Users\ציפי\Desktop\הההפרוייקט ברוך השם\Isometric\MyGame5\obj\Debug\StatisticsPage.xbf
+C:\Users\ציפי\Desktop\הההפרוייקט ברוך השם\Isometric\MyGame5\obj\Debug\SuccessedPage.xbf
+C:\Users\ציפי\Desktop\הההפרוייקט ברוך השם\Isometric\MyGame5\obj\Debug\XamlSaveStateFile.xml
+C:\Users\ציפי\Desktop\הההפרוייקט ברוך השם\Isometric\MyGame5\obj\Debug\Isometric.exe
+C:\Users\ציפי\Desktop\הההפרוייקט ברוך השם\Isometric\MyGame5\obj\Debug\Isometric.pdb
+C:\Users\ציפי\Desktop\הההפרוייקט ברוך השם\Isometric\MyGame5\obj\Debug\SharpDX\en-us\SharpDX.Properties.Resources.resw
+C:\Users\ציפי\Desktop\הההפרוייקט ברוך השם\Isometric\MyGame5\obj\Debug\Isometric.csproj.GenerateResource.Cache
+C:\Users\ציפי\Desktop\הההפרוייקט ברוך השם\Isometric\MyGame5\obj\Debug\SharpDX\layout.resfiles
+C:\Users\ציפי\Desktop\הההפרוייקט ברוך השם\Isometric\MyGame5\obj\Debug\SharpDX\layout.resfiles.intermediate
+C:\Users\ציפי\Desktop\הההפרוייקט ברוך השם\Isometric\MyGame5\obj\Debug\SharpDX\Resources.resfiles
+C:\Users\ציפי\Desktop\הההפרוייקט ברוך השם\Isometric\MyGame5\obj\Debug\SharpDX\Resources.resfiles.intermediate
+C:\Users\ציפי\Desktop\הההפרוייקט ברוך השם\Isometric\MyGame5\obj\Debug\SharpDX\pri.resfiles
+C:\Users\ציפי\Desktop\הההפרוייקט ברוך השם\Isometric\MyGame5\obj\Debug\SharpDX\pri.resfiles.intermediate
+C:\Users\ציפי\Desktop\הההפרוייקט ברוך השם\Isometric\MyGame5\obj\Debug\SharpDX\priconfig.xml
+C:\Users\ציפי\Desktop\הההפרוייקט ברוך השם\Isometric\MyGame5\obj\Debug\SharpDX\priconfig.xml.intermediate
+C:\Users\ציפי\Desktop\הההפרוייקט ברוך השם\Isometric\MyGame5\obj\Debug\SharpDX.pri
+C:\Users\ציפי\Desktop\הההפרוייקט ברוך השם\Isometric\MyGame5\obj\Debug\SharpDX\qualifiers.txt
+C:\Users\ציפי\Desktop\הההפרוייקט ברוך השם\Isometric\MyGame5\obj\Debug\priconfig.xml
+C:\Users\ציפי\Desktop\הההפרוייקט ברוך השם\Isometric\MyGame5\obj\Debug\priconfig.xml.intermediate
+C:\Users\ציפי\Desktop\הההפרוייקט ברוך השם\Isometric\MyGame5\obj\Debug\layout.resfiles
+C:\Users\ציפי\Desktop\הההפרוייקט ברוך השם\Isometric\MyGame5\obj\Debug\layout.resfiles.intermediate
+C:\Users\ציפי\Desktop\הההפרוייקט ברוך השם\Isometric\MyGame5\obj\Debug\resources.resfiles
+C:\Users\ציפי\Desktop\הההפרוייקט ברוך השם\Isometric\MyGame5\obj\Debug\resources.resfiles.intermediate
+C:\Users\ציפי\Desktop\הההפרוייקט ברוך השם\Isometric\MyGame5\obj\Debug\pri.resfiles
+C:\Users\ציפי\Desktop\הההפרוייקט ברוך השם\Isometric\MyGame5\obj\Debug\pri.resfiles.intermediate
+C:\Users\ציפי\Desktop\הההפרוייקט ברוך השם\Isometric\MyGame5\obj\Debug\qualifiers.txt
+C:\Users\ציפי\Desktop\הההפרוייקט ברוך השם\Isometric\MyGame5\obj\Debug\qualifiers.txt.intermediate
+C:\Users\ציפי\Desktop\הההפרוייקט ברוך השם\Isometric\MyGame5\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\ציפי\Desktop\הההפרוייקט ברוך השם\Isometric\MyGame5\obj\Debug\ProjectArchitectures.txt
+F:\פרוייקט\פרוייקט\הפרוייקט שלנו\הגשה חיצונית\Isometric\MyGame5\bin\Debug\Content\bsd.tkb
+F:\פרוייקט\פרוייקט\הפרוייקט שלנו\הגשה חיצונית\Isometric\MyGame5\bin\Debug\Content\mat.tkb
+F:\פרוייקט\פרוייקט\הפרוייקט שלנו\הגשה חיצונית\Isometric\MyGame5\bin\Debug\App.xbf
+F:\פרוייקט\פרוייקט\הפרוייקט שלנו\הגשה חיצונית\Isometric\MyGame5\bin\Debug\About.xbf
+F:\פרוייקט\פרוייקט\הפרוייקט שלנו\הגשה חיצונית\Isometric\MyGame5\bin\Debug\InformationPage.xbf
+F:\פרוייקט\פרוייקט\הפרוייקט שלנו\הגשה חיצונית\Isometric\MyGame5\bin\Debug\Dictionary.xbf
+F:\פרוייקט\פרוייקט\הפרוייקט שלנו\הגשה חיצונית\Isometric\MyGame5\bin\Debug\ExercisePage.xbf
+F:\פרוייקט\פרוייקט\הפרוייקט שלנו\הגשה חיצונית\Isometric\MyGame5\bin\Debug\OpensvedGamePage.xbf
+F:\פרוייקט\פרוייקט\הפרוייקט שלנו\הגשה חיצונית\Isometric\MyGame5\bin\Debug\SaveGameMessageDialog.xbf
+F:\פרוייקט\פרוייקט\הפרוייקט שלנו\הגשה חיצונית\Isometric\MyGame5\bin\Debug\Settings.xbf
+F:\פרוייקט\פרוייקט\הפרוייקט שלנו\הגשה חיצונית\Isometric\MyGame5\bin\Debug\StandardStyles.xbf
+F:\פרוייקט\פרוייקט\הפרוייקט שלנו\הגשה חיצונית\Isometric\MyGame5\bin\Debug\StartPage.xbf
+F:\פרוייקט\פרוייקט\הפרוייקט שלנו\הגשה חיצונית\Isometric\MyGame5\bin\Debug\StatisticsPage.xbf
+F:\פרוייקט\פרוייקט\הפרוייקט שלנו\הגשה חיצונית\Isometric\MyGame5\bin\Debug\SuccessedPage.xbf
+F:\פרוייקט\פרוייקט\הפרוייקט שלנו\הגשה חיצונית\Isometric\MyGame5\bin\Debug\Isometric.exe
+F:\פרוייקט\פרוייקט\הפרוייקט שלנו\הגשה חיצונית\Isometric\MyGame5\bin\Debug\Isometric.pdb
+F:\פרוייקט\פרוייקט\הפרוייקט שלנו\הגשה חיצונית\Isometric\MyGame5\bin\Debug\resources.pri
+F:\פרוייקט\פרוייקט\הפרוייקט שלנו\הגשה חיצונית\Isometric\MyGame5\bin\Debug\AppxManifest.xml
+F:\פרוייקט\פרוייקט\הפרוייקט שלנו\הגשה חיצונית\Isometric\MyGame5\bin\Debug\Isometric.build.appxrecipe
+F:\פרוייקט\פרוייקט\הפרוייקט שלנו\הגשה חיצונית\Isometric\MyGame5\bin\Debug\SharpDX.Direct2D1.dll
+F:\פרוייקט\פרוייקט\הפרוייקט שלנו\הגשה חיצונית\Isometric\MyGame5\bin\Debug\SharpDX.Direct3D11.dll
+F:\פרוייקט\פרוייקט\הפרוייקט שלנו\הגשה חיצונית\Isometric\MyGame5\bin\Debug\SharpDX.dll
+F:\פרוייקט\פרוייקט\הפרוייקט שלנו\הגשה חיצונית\Isometric\MyGame5\bin\Debug\SharpDX.DXGI.dll
+F:\פרוייקט\פרוייקט\הפרוייקט שלנו\הגשה חיצונית\Isometric\MyGame5\bin\Debug\SharpDX.Toolkit.Audio.dll
+F:\פרוייקט\פרוייקט\הפרוייקט שלנו\הגשה חיצונית\Isometric\MyGame5\bin\Debug\SharpDX.Toolkit.dll
+F:\פרוייקט\פרוייקט\הפרוייקט שלנו\הגשה חיצונית\Isometric\MyGame5\bin\Debug\SharpDX.Toolkit.Game.dll
+F:\פרוייקט\פרוייקט\הפרוייקט שלנו\הגשה חיצונית\Isometric\MyGame5\bin\Debug\SharpDX.Toolkit.Graphics.dll
+F:\פרוייקט\פרוייקט\הפרוייקט שלנו\הגשה חיצונית\Isometric\MyGame5\bin\Debug\SharpDX.Toolkit.Input.dll
+F:\פרוייקט\פרוייקט\הפרוייקט שלנו\הגשה חיצונית\Isometric\MyGame5\bin\Debug\SharpDX.XAudio2.dll
+F:\פרוייקט\פרוייקט\הפרוייקט שלנו\הגשה חיצונית\Isometric\MyGame5\bin\Debug\SharpDX.xml
+F:\פרוייקט\פרוייקט\הפרוייקט שלנו\הגשה חיצונית\Isometric\MyGame5\bin\Debug\SharpDX.Direct3D11.xml
+F:\פרוייקט\פרוייקט\הפרוייקט שלנו\הגשה חיצונית\Isometric\MyGame5\bin\Debug\SharpDX.DXGI.xml
+F:\פרוייקט\פרוייקט\הפרוייקט שלנו\הגשה חיצונית\Isometric\MyGame5\bin\Debug\SharpDX.Toolkit.xml
+F:\פרוייקט\פרוייקט\הפרוייקט שלנו\הגשה חיצונית\Isometric\MyGame5\bin\Debug\SharpDX.Toolkit.Audio.xml
+F:\פרוייקט\פרוייקט\הפרוייקט שלנו\הגשה חיצונית\Isometric\MyGame5\bin\Debug\SharpDX.Toolkit.Game.xml
+F:\פרוייקט\פרוייקט\הפרוייקט שלנו\הגשה חיצונית\Isometric\MyGame5\bin\Debug\SharpDX.Toolkit.Graphics.xml
+F:\פרוייקט\פרוייקט\הפרוייקט שלנו\הגשה חיצונית\Isometric\MyGame5\bin\Debug\SharpDX.Toolkit.Input.xml
+F:\פרוייקט\פרוייקט\הפרוייקט שלנו\הגשה חיצונית\Isometric\MyGame5\bin\Debug\SharpDX.XAudio2.xml
+F:\פרוייקט\פרוייקט\הפרוייקט שלנו\הגשה חיצונית\Isometric\MyGame5\bin\Debug\SharpDX.Direct2D1.xml
+F:\פרוייקט\פרוייקט\הפרוייקט שלנו\הגשה חיצונית\Isometric\MyGame5\obj\Debug\Isometric.csprojResolveAssemblyReference.cache
+F:\פרוייקט\פרוייקט\הפרוייקט שלנו\הגשה חיצונית\Isometric\MyGame5\obj\Debug\App.g.i.cs
+F:\פרוייקט\פרוייקט\הפרוייקט שלנו\הגשה חיצונית\Isometric\MyGame5\obj\Debug\App.g.cs
+F:\פרוייקט\פרוייקט\הפרוייקט שלנו\הגשה חיצונית\Isometric\MyGame5\obj\Debug\About.g.i.cs
+F:\פרוייקט\פרוייקט\הפרוייקט שלנו\הגשה חיצונית\Isometric\MyGame5\obj\Debug\About.g.cs
+F:\פרוייקט\פרוייקט\הפרוייקט שלנו\הגשה חיצונית\Isometric\MyGame5\obj\Debug\InformationPage.g.i.cs
+F:\פרוייקט\פרוייקט\הפרוייקט שלנו\הגשה חיצונית\Isometric\MyGame5\obj\Debug\InformationPage.g.cs
+F:\פרוייקט\פרוייקט\הפרוייקט שלנו\הגשה חיצונית\Isometric\MyGame5\obj\Debug\Dictionary.g.i.cs
+F:\פרוייקט\פרוייקט\הפרוייקט שלנו\הגשה חיצונית\Isometric\MyGame5\obj\Debug\Dictionary.g.cs
+F:\פרוייקט\פרוייקט\הפרוייקט שלנו\הגשה חיצונית\Isometric\MyGame5\obj\Debug\ExercisePage.g.i.cs
+F:\פרוייקט\פרוייקט\הפרוייקט שלנו\הגשה חיצונית\Isometric\MyGame5\obj\Debug\ExercisePage.g.cs
+F:\פרוייקט\פרוייקט\הפרוייקט שלנו\הגשה חיצונית\Isometric\MyGame5\obj\Debug\OpensvedGamePage.g.i.cs
+F:\פרוייקט\פרוייקט\הפרוייקט שלנו\הגשה חיצונית\Isometric\MyGame5\obj\Debug\OpensvedGamePage.g.cs
+F:\פרוייקט\פרוייקט\הפרוייקט שלנו\הגשה חיצונית\Isometric\MyGame5\obj\Debug\SaveGameMessageDialog.g.i.cs
+F:\פרוייקט\פרוייקט\הפרוייקט שלנו\הגשה חיצונית\Isometric\MyGame5\obj\Debug\SaveGameMessageDialog.g.cs
+F:\פרוייקט\פרוייקט\הפרוייקט שלנו\הגשה חיצונית\Isometric\MyGame5\obj\Debug\Settings.g.i.cs
+F:\פרוייקט\פרוייקט\הפרוייקט שלנו\הגשה חיצונית\Isometric\MyGame5\obj\Debug\Settings.g.cs
+F:\פרוייקט\פרוייקט\הפרוייקט שלנו\הגשה חיצונית\Isometric\MyGame5\obj\Debug\StandardStyles.g.i.cs
+F:\פרוייקט\פרוייקט\הפרוייקט שלנו\הגשה חיצונית\Isometric\MyGame5\obj\Debug\StandardStyles.g.cs
+F:\פרוייקט\פרוייקט\הפרוייקט שלנו\הגשה חיצונית\Isometric\MyGame5\obj\Debug\StartPage.g.i.cs
+F:\פרוייקט\פרוייקט\הפרוייקט שלנו\הגשה חיצונית\Isometric\MyGame5\obj\Debug\StartPage.g.cs
+F:\פרוייקט\פרוייקט\הפרוייקט שלנו\הגשה חיצונית\Isometric\MyGame5\obj\Debug\StatisticsPage.g.i.cs
+F:\פרוייקט\פרוייקט\הפרוייקט שלנו\הגשה חיצונית\Isometric\MyGame5\obj\Debug\StatisticsPage.g.cs
+F:\פרוייקט\פרוייקט\הפרוייקט שלנו\הגשה חיצונית\Isometric\MyGame5\obj\Debug\SuccessedPage.g.i.cs
+F:\פרוייקט\פרוייקט\הפרוייקט שלנו\הגשה חיצונית\Isometric\MyGame5\obj\Debug\SuccessedPage.g.cs
+F:\פרוייקט\פרוייקט\הפרוייקט שלנו\הגשה חיצונית\Isometric\MyGame5\obj\Debug\XamlTypeInfo.g.cs
+F:\פרוייקט\פרוייקט\הפרוייקט שלנו\הגשה חיצונית\Isometric\MyGame5\obj\Debug\App.xaml
+F:\פרוייקט\פרוייקט\הפרוייקט שלנו\הגשה חיצונית\Isometric\MyGame5\obj\Debug\About.xaml
+F:\פרוייקט\פרוייקט\הפרוייקט שלנו\הגשה חיצונית\Isometric\MyGame5\obj\Debug\InformationPage.xaml
+F:\פרוייקט\פרוייקט\הפרוייקט שלנו\הגשה חיצונית\Isometric\MyGame5\obj\Debug\Dictionary.xaml
+F:\פרוייקט\פרוייקט\הפרוייקט שלנו\הגשה חיצונית\Isometric\MyGame5\obj\Debug\ExercisePage.xaml
+F:\פרוייקט\פרוייקט\הפרוייקט שלנו\הגשה חיצונית\Isometric\MyGame5\obj\Debug\OpensvedGamePage.xaml
+F:\פרוייקט\פרוייקט\הפרוייקט שלנו\הגשה חיצונית\Isometric\MyGame5\obj\Debug\SaveGameMessageDialog.xaml
+F:\פרוייקט\פרוייקט\הפרוייקט שלנו\הגשה חיצונית\Isometric\MyGame5\obj\Debug\Settings.xaml
+F:\פרוייקט\פרוייקט\הפרוייקט שלנו\הגשה חיצונית\Isometric\MyGame5\obj\Debug\StandardStyles.xaml
+F:\פרוייקט\פרוייקט\הפרוייקט שלנו\הגשה חיצונית\Isometric\MyGame5\obj\Debug\StartPage.xaml
+F:\פרוייקט\פרוייקט\הפרוייקט שלנו\הגשה חיצונית\Isometric\MyGame5\obj\Debug\StatisticsPage.xaml
+F:\פרוייקט\פרוייקט\הפרוייקט שלנו\הגשה חיצונית\Isometric\MyGame5\obj\Debug\SuccessedPage.xaml
+F:\פרוייקט\פרוייקט\הפרוייקט שלנו\הגשה חיצונית\Isometric\MyGame5\obj\Debug\App.xbf
+F:\פרוייקט\פרוייקט\הפרוייקט שלנו\הגשה חיצונית\Isometric\MyGame5\obj\Debug\About.xbf
+F:\פרוייקט\פרוייקט\הפרוייקט שלנו\הגשה חיצונית\Isometric\MyGame5\obj\Debug\InformationPage.xbf
+F:\פרוייקט\פרוייקט\הפרוייקט שלנו\הגשה חיצונית\Isometric\MyGame5\obj\Debug\Dictionary.xbf
+F:\פרוייקט\פרוייקט\הפרוייקט שלנו\הגשה חיצונית\Isometric\MyGame5\obj\Debug\ExercisePage.xbf
+F:\פרוייקט\פרוייקט\הפרוייקט שלנו\הגשה חיצונית\Isometric\MyGame5\obj\Debug\OpensvedGamePage.xbf
+F:\פרוייקט\פרוייקט\הפרוייקט שלנו\הגשה חיצונית\Isometric\MyGame5\obj\Debug\SaveGameMessageDialog.xbf
+F:\פרוייקט\פרוייקט\הפרוייקט שלנו\הגשה חיצונית\Isometric\MyGame5\obj\Debug\Settings.xbf
+F:\פרוייקט\פרוייקט\הפרוייקט שלנו\הגשה חיצונית\Isometric\MyGame5\obj\Debug\StandardStyles.xbf
+F:\פרוייקט\פרוייקט\הפרוייקט שלנו\הגשה חיצונית\Isometric\MyGame5\obj\Debug\StartPage.xbf
+F:\פרוייקט\פרוייקט\הפרוייקט שלנו\הגשה חיצונית\Isometric\MyGame5\obj\Debug\StatisticsPage.xbf
+F:\פרוייקט\פרוייקט\הפרוייקט שלנו\הגשה חיצונית\Isometric\MyGame5\obj\Debug\SuccessedPage.xbf
+F:\פרוייקט\פרוייקט\הפרוייקט שלנו\הגשה חיצונית\Isometric\MyGame5\obj\Debug\XamlSaveStateFile.xml
+F:\פרוייקט\פרוייקט\הפרוייקט שלנו\הגשה חיצונית\Isometric\MyGame5\obj\Debug\Isometric.exe
+F:\פרוייקט\פרוייקט\הפרוייקט שלנו\הגשה חיצונית\Isometric\MyGame5\obj\Debug\Isometric.pdb
+F:\פרוייקט\פרוייקט\הפרוייקט שלנו\הגשה חיצונית\Isometric\MyGame5\obj\Debug\SharpDX\en-us\SharpDX.Properties.Resources.resw
+F:\פרוייקט\פרוייקט\הפרוייקט שלנו\הגשה חיצונית\Isometric\MyGame5\obj\Debug\Isometric.csproj.GenerateResource.Cache
+F:\פרוייקט\פרוייקט\הפרוייקט שלנו\הגשה חיצונית\Isometric\MyGame5\obj\Debug\SharpDX\layout.resfiles
+F:\פרוייקט\פרוייקט\הפרוייקט שלנו\הגשה חיצונית\Isometric\MyGame5\obj\Debug\SharpDX\layout.resfiles.intermediate
+F:\פרוייקט\פרוייקט\הפרוייקט שלנו\הגשה חיצונית\Isometric\MyGame5\obj\Debug\SharpDX\Resources.resfiles
+F:\פרוייקט\פרוייקט\הפרוייקט שלנו\הגשה חיצונית\Isometric\MyGame5\obj\Debug\SharpDX\Resources.resfiles.intermediate
+F:\פרוייקט\פרוייקט\הפרוייקט שלנו\הגשה חיצונית\Isometric\MyGame5\obj\Debug\SharpDX\pri.resfiles
+F:\פרוייקט\פרוייקט\הפרוייקט שלנו\הגשה חיצונית\Isometric\MyGame5\obj\Debug\SharpDX\pri.resfiles.intermediate
+F:\פרוייקט\פרוייקט\הפרוייקט שלנו\הגשה חיצונית\Isometric\MyGame5\obj\Debug\SharpDX\priconfig.xml
+F:\פרוייקט\פרוייקט\הפרוייקט שלנו\הגשה חיצונית\Isometric\MyGame5\obj\Debug\SharpDX\priconfig.xml.intermediate
+F:\פרוייקט\פרוייקט\הפרוייקט שלנו\הגשה חיצונית\Isometric\MyGame5\obj\Debug\SharpDX.pri
+F:\פרוייקט\פרוייקט\הפרוייקט שלנו\הגשה חיצונית\Isometric\MyGame5\obj\Debug\SharpDX\qualifiers.txt
+F:\פרוייקט\פרוייקט\הפרוייקט שלנו\הגשה חיצונית\Isometric\MyGame5\obj\Debug\priconfig.xml
+F:\פרוייקט\פרוייקט\הפרוייקט שלנו\הגשה חיצונית\Isometric\MyGame5\obj\Debug\priconfig.xml.intermediate
+F:\פרוייקט\פרוייקט\הפרוייקט שלנו\הגשה חיצונית\Isometric\MyGame5\obj\Debug\layout.resfiles
+F:\פרוייקט\פרוייקט\הפרוייקט שלנו\הגשה חיצונית\Isometric\MyGame5\obj\Debug\layout.resfiles.intermediate
+F:\פרוייקט\פרוייקט\הפרוייקט שלנו\הגשה חיצונית\Isometric\MyGame5\obj\Debug\resources.resfiles
+F:\פרוייקט\פרוייקט\הפרוייקט שלנו\הגשה חיצונית\Isometric\MyGame5\obj\Debug\resources.resfiles.intermediate
+F:\פרוייקט\פרוייקט\הפרוייקט שלנו\הגשה חיצונית\Isometric\MyGame5\obj\Debug\pri.resfiles
+F:\פרוייקט\פרוייקט\הפרוייקט שלנו\הגשה חיצונית\Isometric\MyGame5\obj\Debug\pri.resfiles.intermediate
+F:\פרוייקט\פרוייקט\הפרוייקט שלנו\הגשה חיצונית\Isometric\MyGame5\obj\Debug\qualifiers.txt
+F:\פרוייקט\פרוייקט\הפרוייקט שלנו\הגשה חיצונית\Isometric\MyGame5\obj\Debug\qualifiers.txt.intermediate
+F:\פרוייקט\פרוייקט\הפרוייקט שלנו\הגשה חיצונית\Isometric\MyGame5\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+F:\פרוייקט\פרוייקט\הפרוייקט שלנו\הגשה חיצונית\Isometric\MyGame5\obj\Debug\ProjectArchitectures.txt
+I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\bin\Debug\Content\bsd.tkb
+I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\bin\Debug\Content\mat.tkb
+I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\bin\Debug\App.xbf
+I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\bin\Debug\About.xbf
+I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\bin\Debug\InformationPage.xbf
+I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\bin\Debug\Dictionary.xbf
+I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\bin\Debug\ExercisePage.xbf
+I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\bin\Debug\OpensvedGamePage.xbf
+I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\bin\Debug\SaveGameMessageDialog.xbf
+I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\bin\Debug\Settings.xbf
+I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\bin\Debug\StandardStyles.xbf
+I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\bin\Debug\StartPage.xbf
+I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\bin\Debug\StatisticsPage.xbf
+I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\bin\Debug\SuccessedPage.xbf
+I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\bin\Debug\Isometric.exe
+I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\bin\Debug\Isometric.pdb
+I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\bin\Debug\resources.pri
+I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\bin\Debug\AppxManifest.xml
+I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\bin\Debug\Isometric.build.appxrecipe
+I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\bin\Debug\SharpDX.Direct2D1.dll
+I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\bin\Debug\SharpDX.Direct3D11.dll
+I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\bin\Debug\SharpDX.dll
+I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\bin\Debug\SharpDX.DXGI.dll
+I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\bin\Debug\SharpDX.Toolkit.Audio.dll
+I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\bin\Debug\SharpDX.Toolkit.dll
+I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\bin\Debug\SharpDX.Toolkit.Game.dll
+I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\bin\Debug\SharpDX.Toolkit.Graphics.dll
+I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\bin\Debug\SharpDX.Toolkit.Input.dll
+I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\bin\Debug\SharpDX.XAudio2.dll
+I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\bin\Debug\SharpDX.xml
+I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\bin\Debug\SharpDX.Direct3D11.xml
+I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\bin\Debug\SharpDX.DXGI.xml
+I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\bin\Debug\SharpDX.Toolkit.xml
+I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\bin\Debug\SharpDX.Toolkit.Audio.xml
+I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\bin\Debug\SharpDX.Toolkit.Game.xml
+I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\bin\Debug\SharpDX.Toolkit.Graphics.xml
+I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\bin\Debug\SharpDX.Toolkit.Input.xml
+I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\bin\Debug\SharpDX.XAudio2.xml
+I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\bin\Debug\SharpDX.Direct2D1.xml
+I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\obj\Debug\Isometric.csprojResolveAssemblyReference.cache
+I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\obj\Debug\App.g.i.cs
+I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\obj\Debug\App.g.cs
+I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\obj\Debug\About.g.i.cs
+I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\obj\Debug\About.g.cs
+I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\obj\Debug\InformationPage.g.i.cs
+I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\obj\Debug\InformationPage.g.cs
+I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\obj\Debug\Dictionary.g.i.cs
+I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\obj\Debug\Dictionary.g.cs
+I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\obj\Debug\ExercisePage.g.i.cs
+I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\obj\Debug\ExercisePage.g.cs
+I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\obj\Debug\OpensvedGamePage.g.i.cs
+I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\obj\Debug\OpensvedGamePage.g.cs
+I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\obj\Debug\SaveGameMessageDialog.g.i.cs
+I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\obj\Debug\SaveGameMessageDialog.g.cs
+I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\obj\Debug\Settings.g.i.cs
+I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\obj\Debug\Settings.g.cs
+I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\obj\Debug\StandardStyles.g.i.cs
+I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\obj\Debug\StandardStyles.g.cs
+I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\obj\Debug\StartPage.g.i.cs
+I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\obj\Debug\StartPage.g.cs
+I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\obj\Debug\StatisticsPage.g.i.cs
+I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\obj\Debug\StatisticsPage.g.cs
+I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\obj\Debug\SuccessedPage.g.i.cs
+I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\obj\Debug\SuccessedPage.g.cs
+I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\obj\Debug\XamlTypeInfo.g.cs
+I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\obj\Debug\App.xaml
+I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\obj\Debug\About.xaml
+I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\obj\Debug\InformationPage.xaml
+I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\obj\Debug\Dictionary.xaml
+I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\obj\Debug\ExercisePage.xaml
+I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\obj\Debug\OpensvedGamePage.xaml
+I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\obj\Debug\SaveGameMessageDialog.xaml
+I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\obj\Debug\Settings.xaml
+I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\obj\Debug\StandardStyles.xaml
+I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\obj\Debug\StartPage.xaml
+I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\obj\Debug\StatisticsPage.xaml
+I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\obj\Debug\SuccessedPage.xaml
+I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\obj\Debug\App.xbf
+I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\obj\Debug\About.xbf
+I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\obj\Debug\InformationPage.xbf
+I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\obj\Debug\Dictionary.xbf
+I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\obj\Debug\ExercisePage.xbf
+I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\obj\Debug\OpensvedGamePage.xbf
+I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\obj\Debug\SaveGameMessageDialog.xbf
+I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\obj\Debug\Settings.xbf
+I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\obj\Debug\StandardStyles.xbf
+I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\obj\Debug\StartPage.xbf
+I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\obj\Debug\StatisticsPage.xbf
+I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\obj\Debug\SuccessedPage.xbf
+I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\obj\Debug\XamlSaveStateFile.xml
+I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\obj\Debug\Isometric.exe
+I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\obj\Debug\Isometric.pdb
+I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\obj\Debug\SharpDX\en-us\SharpDX.Properties.Resources.resw
+I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\obj\Debug\Isometric.csproj.GenerateResource.Cache
+I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\obj\Debug\SharpDX.pri
+I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\obj\Debug\SharpDX\qualifiers.txt
+I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\obj\Debug\priconfig.xml
+I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\obj\Debug\priconfig.xml.intermediate
+I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\obj\Debug\layout.resfiles
+I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\obj\Debug\layout.resfiles.intermediate
+I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\obj\Debug\resources.resfiles
+I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\obj\Debug\resources.resfiles.intermediate
+I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\obj\Debug\pri.resfiles
+I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\obj\Debug\pri.resfiles.intermediate
+I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\obj\Debug\qualifiers.txt
+I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\obj\Debug\qualifiers.txt.intermediate
+I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\obj\Debug\ProjectArchitectures.txt
+I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\obj\Debug\SharpDX\layout.resfiles
+I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\obj\Debug\SharpDX\layout.resfiles.intermediate
+I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\obj\Debug\SharpDX\Resources.resfiles
+I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\obj\Debug\SharpDX\Resources.resfiles.intermediate
+I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\obj\Debug\SharpDX\pri.resfiles
+I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\obj\Debug\SharpDX\pri.resfiles.intermediate
+I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\obj\Debug\SharpDX\priconfig.xml
+I:\מסלול\פרוייקט\הגשה חיצונית\Isometric\MyGame5\obj\Debug\SharpDX\priconfig.xml.intermediate

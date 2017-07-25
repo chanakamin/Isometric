@@ -1,0 +1,487 @@
+﻿<Page
+    x:Name="pageRoot"
+    x:Class="Isometric.StartPage"
+    DataContext="{Binding DefaultViewModel, RelativeSource={RelativeSource Self}}"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Isometric"
+    xmlns:common="using:Isometric.Common"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    FlowDirection="RightToLeft" RequestedTheme="Light">
+
+    <Page.Resources>
+        <!-- TODO: Delete this line if the key AppName is declared in App.xaml -->
+        <x:String x:Key="AppName">Isometric</x:String>
+        <Style x:Key="MyAppBarButtonStyle" TargetType="ButtonBase">
+            <Setter Property="Foreground" Value="{StaticResource AppBarItemForegroundThemeBrush}"/>
+            <Setter Property="VerticalAlignment" Value="Stretch"/>
+            <Setter Property="FontFamily" Value="Segoe UI Symbol"/>
+            <Setter Property="FontWeight" Value="Normal"/>
+            <Setter Property="FontSize" Value="20"/>
+            <Setter Property="AutomationProperties.ItemType" Value="App Bar Button"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="ButtonBase">
+                        <Grid x:Name="RootGrid" Width="100" Background="Transparent">
+                            <StackPanel VerticalAlignment="Top" Margin="0,12,0,11">
+                                <Grid Width="40" Height="40" Margin="0,0,0,5" HorizontalAlignment="Center">
+                                    <TextBlock x:Name="BackgroundGlyph" Text="&#xE0A8;" FontFamily="Segoe UI Symbol" FontSize="53.333" Margin="-4,-19,0,0" Foreground="{StaticResource AppBarItemBackgroundThemeBrush}"/>
+                                    <TextBlock x:Name="OutlineGlyph" Text="&#xE0A7;" FontFamily="Segoe UI Symbol" FontSize="53.333" Margin="-4,-19,0,0"/>
+                                    <ContentPresenter x:Name="Content" HorizontalAlignment="Center" Margin="-1,-1,0,0" VerticalAlignment="Center"/>
+                                </Grid>
+                                <TextBlock
+                                x:Name="TextLabel"
+                                Text="{TemplateBinding AutomationProperties.Name}"
+                                Foreground="{StaticResource AppBarItemForegroundThemeBrush}"
+                                Margin="0,0,2,0"
+                                FontSize="12"
+                                TextAlignment="Center"
+                                Width="88"
+                                MaxHeight="32"
+                                TextTrimming="WordEllipsis"
+                                Style="{StaticResource BasicTextStyle}"/>
+                            </StackPanel>
+                            <Rectangle
+                                x:Name="FocusVisualWhite"
+                                IsHitTestVisible="False"
+                                Stroke="{StaticResource FocusVisualWhiteStrokeThemeBrush}"
+                                StrokeEndLineCap="Square"
+                                StrokeDashArray="1,1"
+                                Opacity="0"
+                                StrokeDashOffset="1.5"/>
+                            <Rectangle
+                                x:Name="FocusVisualBlack"
+                                IsHitTestVisible="False"
+                                Stroke="{StaticResource FocusVisualBlackStrokeThemeBrush}"
+                                StrokeEndLineCap="Square"
+                                StrokeDashArray="1,1"
+                                Opacity="0"
+                                StrokeDashOffset="0.5"/>
+
+                            <VisualStateManager.VisualStateGroups>
+                                <VisualStateGroup x:Name="ApplicationViewStates">
+                                    <VisualState x:Name="FullScreenLandscape"/>
+                                    <VisualState x:Name="Filled"/>
+                                    <VisualState x:Name="FullScreenPortrait">
+                                        <Storyboard>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="TextLabel" Storyboard.TargetProperty="Visibility">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="Collapsed"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="RootGrid" Storyboard.TargetProperty="Width">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="60"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </VisualState>
+                                    <VisualState x:Name="Snapped">
+                                        <Storyboard>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="TextLabel" Storyboard.TargetProperty="Visibility">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="Collapsed"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="RootGrid" Storyboard.TargetProperty="Width">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="60"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </VisualState>
+                                </VisualStateGroup>
+                                <VisualStateGroup x:Name="CommonStates">
+                                    <VisualState x:Name="Normal"/>
+                                    <VisualState x:Name="PointerOver">
+                                        <Storyboard>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="BackgroundGlyph" Storyboard.TargetProperty="Foreground">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource AppBarItemPointerOverBackgroundThemeBrush}"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="Content" Storyboard.TargetProperty="Foreground">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource AppBarItemPointerOverForegroundThemeBrush}"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </VisualState>
+                                    <VisualState x:Name="Pressed">
+                                        <Storyboard>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="OutlineGlyph" Storyboard.TargetProperty="Foreground">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource AppBarItemForegroundThemeBrush}"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="BackgroundGlyph" Storyboard.TargetProperty="Foreground">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource AppBarItemForegroundThemeBrush}"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="Content" Storyboard.TargetProperty="Foreground">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource AppBarItemPressedForegroundThemeBrush}"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </VisualState>
+                                    <VisualState x:Name="Disabled">
+                                        <Storyboard>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="OutlineGlyph" Storyboard.TargetProperty="Foreground">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource AppBarItemDisabledForegroundThemeBrush}"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="Content" Storyboard.TargetProperty="Foreground">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource AppBarItemDisabledForegroundThemeBrush}"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="TextLabel" Storyboard.TargetProperty="Foreground">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource AppBarItemDisabledForegroundThemeBrush}"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </VisualState>
+                                </VisualStateGroup>
+                                <VisualStateGroup x:Name="FocusStates">
+                                    <VisualState x:Name="Focused">
+                                        <Storyboard>
+                                            <DoubleAnimation
+                                                Storyboard.TargetName="FocusVisualWhite"
+                                                Storyboard.TargetProperty="Opacity"
+                                                To="1"
+                                                Duration="0"/>
+                                            <DoubleAnimation
+                                                Storyboard.TargetName="FocusVisualBlack"
+                                                Storyboard.TargetProperty="Opacity"
+                                                To="1"
+                                                Duration="0"/>
+                                        </Storyboard>
+                                    </VisualState>
+                                    <VisualState x:Name="Unfocused" />
+                                    <VisualState x:Name="PointerFocused" />
+                                </VisualStateGroup>
+                                <VisualStateGroup x:Name="CheckStates">
+                                    <VisualState x:Name="Checked">
+                                        <Storyboard>
+                                            <DoubleAnimation Duration="0" To="0" Storyboard.TargetName="OutlineGlyph" Storyboard.TargetProperty="Opacity"/>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="BackgroundGlyph" Storyboard.TargetProperty="Foreground">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource AppBarItemForegroundThemeBrush}"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="BackgroundCheckedGlyph" Storyboard.TargetProperty="Visibility">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="Visible"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="Content" Storyboard.TargetProperty="Foreground">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{StaticResource AppBarItemPressedForegroundThemeBrush}"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </VisualState>
+                                    <VisualState x:Name="Unchecked"/>
+                                    <VisualState x:Name="Indeterminate"/>
+                                </VisualStateGroup>
+                            </VisualStateManager.VisualStateGroups>
+                        </Grid>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Page.Resources>
+    <Page.BottomAppBar>
+        <AppBar  FlowDirection="RightToLeft" RequestedTheme="Dark" Background="#191919" Height="100">
+            <StackPanel >
+                <StackPanel Orientation="Horizontal" >
+                    <!--<AppBarButton Style="{StaticResource AppBarButtonStyle}" >jjjjjjjjjjjjjjjjjjjjjjj</AppBarButton>-->
+                    <Button Tapped="AppBarButton_Tapped" Name="AppBar_Level" AutomationProperties.Name="רמה" AutomationProperties.HelpText="&#x26f3;" FontSize="20" FontFamily="Segoe UI Symbol" Style="{StaticResource WhiteAppBarButtonStyle}" />
+                    <Button Tapped="AppBarButton_Tapped" AutomationProperties.Name="הישגים" Name="AppBar_Marks" AutomationProperties.HelpText="&#x1f3c6;" FontSize="20" FontFamily="Segoe UI Symbol" Style="{StaticResource WhiteAppBarButtonStyle}" />
+                    <Button Tapped="AppBarButton_Tapped"  AutomationProperties.Name="פתח משחק שמור" x:Name="AppBar_OpenSavedGame" AutomationProperties.HelpText="&#xE131;" FontSize="20" FontFamily="Segoe UI Symbol" Style="{StaticResource WhiteAppBarButtonStyle}" Width="99" />
+
+                    <Rectangle Width="77"></Rectangle>
+                    <!-- <AppBarButton  Style="{StaticResource LevelAppBarButtonStyle}" />
+                    <Button
+            	HorizontalAlignment="Left"
+            	VerticalAlignment="Stretch" Width="142" 
+            	FontSize="25"  Style="{ThemeResource ShowResultsAppBarButtonStyle}" Grid.Column="1" />
+                    <AppBarButton Tapped="AppBarButton_Tapped" Name="AppBar_Leve" Style="{ThemeResource ShowResultsAppBarButtonStyle}" />
+                    <Button Tapped="AppBarButton_Tapped" Name="AppBar_Level1" Style="{StaticResource LevelAppBarButtonStyle}" Content="&#x2e19;"/>-->
+                    <!--<Button
+        	HorizontalAlignment="Left"
+        	VerticalAlignment="Stretch" 
+        	 Style="{StaticResource SolidStarAppBarButtonStyle}" Grid.Row="1" />-->
+                    <!--<AppBarButton Tapped="AppBarButton_Tapped" x:Name="AppBar_Level_Copy1" Style="{StaticResource SaveGameAppBarButtonStyle}" />
+                    <AppBarButton Tapped="AppBarButton_Tapped" x:Name="AppBar_Level_Copy2" Style="{StaticResource SaveGameAppBarButtonStyle}" Content="&#xE192;"/>-->
+                </StackPanel>
+            </StackPanel>
+        </AppBar>
+    </Page.BottomAppBar>
+    <Page.TopAppBar>
+        <AppBar RequestedTheme="Dark" Background="#333333">
+            <StackPanel >
+                <Rectangle Fill="#e71460" Height="9" Margin="-2"/>
+                <TextBlock Height="33" FontSize="15" Foreground="#8a8888" TextAlignment="Left" Style="{StaticResource TitleTextBlockStyle}" Width="1331"> איזומטריק- חשיבה בתוך הקופסה</TextBlock>
+                <StackPanel Orientation="Horizontal" Margin="10" Height="110" FlowDirection="RightToLeft">
+                    <StackPanel FlowDirection="LeftToRight" Name="buttonSP_Home" PointerMoved="buttonSP_PointerMoved" PointerExited="buttonSP_PointerExited" Margin="9,0" Width="150" Height="100" Background="#444444" Tapped="buttonSP_Tapped">
+                        <TextBlock FontSize="30" TextAlignment="Right" Text="&#x1F3e0;" FontFamily="Segoe UI Symbol" Height="40" Margin="10"></TextBlock>
+                        <TextBlock FontWeight="Bold" TextAlignment="Right" Height="16" Margin="10" TextTrimming="Clip" >דף הבית</TextBlock>
+                    </StackPanel>
+                    <StackPanel FlowDirection="LeftToRight" Name="buttonSP_Exp" PointerMoved="buttonSP_PointerMoved" PointerExited="buttonSP_PointerExited" Margin="9,0" Width="150" Height="100" Background="#444444"  Tapped="buttonSP_Tapped">
+                        <TextBlock FontSize="28" TextAlignment="Right" Text="&#xe152;" FontFamily="Segoe UI Symbol" Height="40" Margin="109,10,10,10" RenderTransformOrigin="0.5,0.5">
+                            <TextBlock.RenderTransform>
+                                <CompositeTransform Rotation="180"/>
+                            </TextBlock.RenderTransform></TextBlock>
+                        <TextBlock FontWeight="Bold" TextAlignment="Right" Height="16" Margin="10" TextTrimming="Clip" >התחל</TextBlock>
+                    </StackPanel >
+                    <StackPanel FlowDirection="LeftToRight" Name="buttonSP_Info" PointerMoved="buttonSP_PointerMoved" PointerExited="buttonSP_PointerExited" Margin="9,0" Width="150" Height="100" Background="#444444"  Tapped="buttonSP_Tapped">
+                        <TextBlock FontSize="28" TextAlignment="Right" Text="&#xE1D3;" FontFamily="Segoe UI Symbol" Height="40" Margin="10"></TextBlock>
+                        <TextBlock FontWeight="Bold" TextAlignment="Right" Height="16" Margin="10" TextTrimming="Clip" >מידע</TextBlock>
+                    </StackPanel>
+                    <StackPanel FlowDirection="LeftToRight" Name="buttonSP_Test" PointerMoved="buttonSP_PointerMoved" PointerExited="buttonSP_PointerExited" Margin="9,0" Width="150" Height="100" Background="#444444"  Tapped="buttonSP_Tapped">
+                        <TextBlock FontSize="28" TextAlignment="Right" Text="&#x1F557;" FontFamily="Segoe UI Symbol" Height="40" Margin="10"></TextBlock>
+                        <!--&#xe2ad;-->
+                        <TextBlock FontWeight="Bold" TextAlignment="Right" Height="16" Margin="10" TextTrimming="Clip" >טסט</TextBlock>
+                    </StackPanel>
+                </StackPanel>
+            </StackPanel>
+        </AppBar>
+    </Page.TopAppBar>
+    <!--
+        This grid acts as a root panel for the page that defines two rows:
+        * Row 0 contains the back button and page title
+        * Row 1 contains the rest of the page layout
+    -->
+    <Grid Background="WhiteSmoke">
+        <!-- Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        -->
+
+        <!--<Grid.Background>
+            <ImageBrush ImageSource="Images\isometric.png" Opacity="0.6">
+                <ImageBrush.Transform>
+                    <CompositeTransform TranslateX="1"/>
+                </ImageBrush.Transform>
+            </ImageBrush>
+        </Grid.Background>-->
+        <Grid.ChildrenTransitions>
+            <TransitionCollection>
+                <EntranceThemeTransition/>
+            </TransitionCollection>
+        </Grid.ChildrenTransitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="64"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <!-- Back button and page title -->
+        <Grid Margin="0,0,0,0" >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="120"/>
+                <ColumnDefinition Width="250"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <!--<Grid.Background>
+                <ImageBrush ImageSource="Images/BG_.png">
+                </ImageBrush>
+            </Grid.Background>-->
+            <TextBlock x:Name="pageTitle" Foreground="#222222" Text="התחל" Style="{StaticResource TitleTextBlockStyle}" FontSize="28" 
+                        IsHitTestVisible="false" TextWrapping="NoWrap" VerticalAlignment="Bottom" Margin="90,0,0,0" Grid.ColumnSpan="2" />
+            <!--<Image Source="Images/logoIso.png" Grid.Column="1"></Image>
+            <Button PointerReleased="Button_PointerReleased_1" ></Button>-->
+        </Grid>
+        <StackPanel Orientation="Horizontal" Margin="0,0,0,36" Grid.Row="1">
+            <StackPanel   Margin="90,20,30,20" Orientation="Vertical" Width="299">
+                <TextBlock Text="תרגיל" Foreground="#222222" Margin="0,0,0,20" Style="{StaticResource ResourceKey=TitleTextStyle}" FontSize="18" />
+                <Border BorderThickness="1" BorderBrush="#d0d0d0" >
+                    <Grid Width="300" Height="590" >
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="4" />
+                            <RowDefinition Height="215*"/>
+                            <RowDefinition Height="316*"/>
+                            <RowDefinition Height="50"/>
+                        </Grid.RowDefinitions>
+                        <Rectangle  Name="ButtonStartGame" Tapped="StackPanel_PointerReleased" Fill="White" Grid.RowSpan="4"/>
+                        <Rectangle Fill="#f7931d" Grid.Row="0" />
+                        <StackPanel Grid.Row="1" Grid.RowSpan="3">
+                            <TextBlock Margin="20,15,20,0" Foreground="#f7931d" FontSize="25" Style="{StaticResource SubheaderTextBlockStyle}" Text="שכלל את התמצאותך במרחב." FlowDirection="RightToLeft" Width="230" Tapped="TextBlock_SelectionChanged"/>
+                            <TextBlock Margin="20,15,20,0"  Style="{StaticResource BodyTextBlockStyle}" Text="חדד יכולות ופתח אוריינטציה מרחבית באמצעות האפליקציה." FlowDirection="RightToLeft" Width="230" Tapped="TextBlock_SelectionChanged"/>
+                            <TextBlock Margin="35,15,35,158"  Style="{StaticResource BodyTextBlockStyle}" Text="לאחר שתסיים בהצלחה שרטוט היטלים, עבור לבניה אמיתית בתלת ממד!" FlowDirection="RightToLeft" Width="230" Tapped="TextBlock_SelectionChanged"/>
+                        </StackPanel>
+                        <Grid Margin="30" Grid.Row="1" Grid.RowSpan="2" >
+                            <Grid.RowDefinitions>
+                                <RowDefinition  Height="369"/>
+                                <RowDefinition />
+                            </Grid.RowDefinitions>
+                            <TextBlock Margin="0,230,0,7" Style="{StaticResource TitleTextBlockStyle}" Foreground="#f7931d" Tapped="TextBlock_SelectionChanged">סוג תרגיל</TextBlock>
+                            <Image x:Name="ImageA" Source="Images/categoryA.jpg" Margin="0,273,0,38" Visibility="Collapsed" Grid.RowSpan="2"/>
+                            <Image x:Name="ImageB" Source="Images/categoryB.jpg" Margin="0,273,0,56" Opacity="0.55" Visibility="Visible" Grid.RowSpan="2"/>
+                            <StackPanel x:Name="CategoriesStackPanel" Orientation="Horizontal" Grid.Row="1" Margin="0,74,0,-21">
+                                <!--<TextBlock  Text="בחר סוג תרגיל" FontSize="30" Width="4" />-->
+                                <RadioButton Checked="Category_Checked"  x:Name="A_Category" Style="{StaticResource CategoryRadioButton}" Content="רישום ב 2D"  IsChecked="True"/>
+                                <RadioButton Checked="Category_Checked" x:Name="B_Category"  Style="{StaticResource CategoryRadioButton}" Content="בניית 3D"  />
+                            </StackPanel>
+                        </Grid>
+                        <Grid Grid.Row="3">
+                            <Rectangle Fill="#f7931d" />
+                            <TextBlock  Style="{StaticResource BodyTextBlockStyle}" Foreground="White" Text="התחל" FlowDirection="RightToLeft" Width="250" Margin="25,7,25,3" Tapped="TextBlock_SelectionChanged"/>
+                            <TextBlock  Foreground="White" Text="&gt;" FlowDirection="RightToLeft" Margin="256,11,13,13" FontWeight="ExtraBold" FontFamily="Segoe UI Black" FontSize="18" FontStretch="ExtraCondensed" RenderTransformOrigin="0.5,0.5" >
+                                <TextBlock.RenderTransform>
+                                    <CompositeTransform ScaleY="-1"/>
+                                </TextBlock.RenderTransform>
+                            </TextBlock>
+                        </Grid>
+
+                    </Grid>
+                </Border>
+            </StackPanel>
+
+            <StackPanel Name="ButtonLearn" Tapped="StackPanel_PointerReleased" Margin="90,20,30,20" Orientation="Vertical" Width="299">
+                <TextBlock Text="מידע" Foreground="#222222" Margin="0,0,0,20" Style="{StaticResource ResourceKey=TitleTextStyle}" FontSize="18" />
+                <Border BorderThickness="1" BorderBrush="#d0d0d0" >
+                    <StackPanel Background="White" Width="300">
+                        <Rectangle Fill="#424966" Height="4"/>
+                        <TextBlock Margin="35,15,35,0" Foreground="#7d7d93" FontSize="25" Style="{StaticResource SubheaderTextBlockStyle}" Text="העמק את הבנתך ולמד מושגים חדשים." FlowDirection="RightToLeft" Width="230"/>
+                        <TextBlock Margin="20,15,20,0"  Style="{StaticResource BodyTextBlockStyle}" Text="התחל מההתחלה...
+                                   העשר את ידיעותיך ובסס את יכולתך הלוגית – צורנית.
+" FlowDirection="RightToLeft" Width="230"/>
+                        <TextBlock Margin="20,15,20,0"  Style="{StaticResource BodyTextBlockStyle}" Text="למד דרכים קלות ו''טיפים'' לפתרון תרגילים." FlowDirection="RightToLeft" Width="230"/>
+                        <Grid  Height="268">
+                            <TextBlock Margin="33,52,51,100" Style="{StaticResource TitleTextBlockStyle}" Foreground="#FF344AA4" RenderTransformOrigin="0.5,0.5">מידע</TextBlock>
+
+                            <TextBlock FontSize="120" TextAlignment="Right" Text="&#xE1D3;"  FontFamily="Segoe UI Symbol" Margin="52,144,35,-21" RenderTransformOrigin="0.5,0.5" FontWeight="Bold" Foreground="#FFE2DCDE">
+                                <TextBlock.RenderTransform>
+                                    <CompositeTransform ScaleX="-1"/>
+                                </TextBlock.RenderTransform>
+                            </TextBlock>
+                            <Rectangle Fill="#97a219" Opacity="0.5" Margin="46,291,40,-24" RenderTransformOrigin="0.5,0.5"/>
+                        </Grid>
+                        <Grid Margin="0,-20,0,0" >
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="80"/>
+                                <RowDefinition />
+                            </Grid.RowDefinitions>
+                            <Rectangle Fill="#424966" Grid.Row="1" />
+                            <TextBlock Margin="35,10,17,20" Grid.Row="1" Style="{StaticResource BodyTextBlockStyle}" Foreground="White" Text="לימוד" FlowDirection="RightToLeft" Width="250" Grid.RowSpan="2"/>
+                            <TextBlock Margin="266,14,10,8" Grid.Row="1" Foreground="White" Text="&gt;" FlowDirection="RightToLeft" FontWeight="ExtraBold" FontFamily="Segoe UI Black" FontSize="18" FontStretch="ExtraCondensed" Grid.RowSpan="2"/>
+                        </Grid>
+                    </StackPanel>
+                </Border>
+            </StackPanel>
+
+
+            <StackPanel Name="ButtonTest" Tapped="StackPanel_PointerReleased" Margin="90,20,30,20" Orientation="Vertical" Width="299">
+                <TextBlock Foreground="#222222" Text="טסט" Margin="0,0,0,20" Style="{StaticResource ResourceKey=TitleTextStyle}" FontSize="18" />
+                <Border BorderThickness="1" BorderBrush="#d0d0d0" >
+                    <StackPanel Background="White" Width="300">
+                        <Rectangle Fill="#007f6a" Height="4"/>
+                        <TextBlock Margin="35,15,35,0" Foreground="#007f6a" FontSize="25" Style="{StaticResource SubheaderTextBlockStyle}" Text="בחן את יכולותיך
+." FlowDirection="RightToLeft" Width="230"/>
+                        <TextBlock Margin="20,15,20,0"  Style="{StaticResource BodyTextBlockStyle}" Text="התנסה בפענוח צורה בפרק זמן מוגבל.
+
+" FlowDirection="RightToLeft" Width="230"/>
+                        <TextBlock Margin="20,15,20,0"  Style="{StaticResource BodyTextBlockStyle}" Text="בחן את השגיך לעומת השגי החברים!
+ובדוק את קצב התקדמותך.
+" FlowDirection="RightToLeft" Width="230"/>
+                        <Grid Height="200"  Margin="30">
+                            <TextBlock Margin="0,68,0,-64" Style="{StaticResource TitleTextBlockStyle}" Foreground="#007f6a" RenderTransformOrigin="0.5,0.5">ניקוד</TextBlock>
+                            <Image Source="Images/clock1.png" Opacity="0.8" Width="150" Margin="45,145,45,-111"></Image>
+                            <TextBlock FontSize="18" Foreground="#888888" FontWeight="Bold" Margin="153,311,12,-131">100,000</TextBlock>
+                            <TextBlock FontSize="18" Foreground="#e71460" FontWeight="ExtraBold" Margin="221,311,5,-131">$</TextBlock>
+                        </Grid>
+                        <Grid Margin="0,-10,0,0" Height="178" >
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="129"/>
+                                <RowDefinition />
+                            </Grid.RowDefinitions>
+                            <Rectangle Fill="#007f6a" Grid.Row="1" />
+                            <TextBlock Margin="35,9,15,11" Grid.Row="1" Style="{StaticResource BodyTextBlockStyle}" Foreground="White" Text="מבחן" FlowDirection="RightToLeft"/>
+                            <TextBlock Margin="266,13,10,9" Grid.Row="1" Foreground="White" Text="&gt;" FlowDirection="RightToLeft" FontWeight="ExtraBold" FontFamily="Segoe UI Black" FontSize="18" FontStretch="ExtraCondensed"/>
+                        </Grid>
+                    </StackPanel>
+                </Border>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Page>
+
+
+<!--<Page
+    x:Name="pageRoot"
+    x:Class="Isometric.StartPage"
+    DataContext="{Binding DefaultViewModel, RelativeSource={RelativeSource Self}}"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Isometric"
+    xmlns:common="using:Isometric.Common"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    FlowDirection="RightToLeft">
+
+    <Page.Resources>
+        -->
+<!-- TODO: Delete this line if the key AppName is declared in App.xaml -->
+<!--
+        <x:String x:Key="AppName">Isometric</x:String>
+    </Page.Resources>
+    <Page.BottomAppBar>
+        <AppBar>
+            <StackPanel Orientation="Horizontal" >
+                <Button  Tapped="AppBarButton_Tapped" Name="AppBar_Marks" AutomationProperties.Name="הישגים">🏆</Button>
+                <Button  Tapped="AppBarButton_Tapped" Name="AppBar_OpenSavedGame" AutomationProperties.Name="פתח" >🔒</Button>
+                <Button  Tapped="AppBarButton_Tapped" Name="AppBar_Level" AutomationProperties.Name="רמה" >⛳</Button>
+            </StackPanel>
+        </AppBar>
+    </Page.BottomAppBar>
+    -->
+<!--
+        This grid acts as a root panel for the page that defines two rows:
+        * Row 0 contains the back button and page title
+        * Row 1 contains the rest of the page layout
+    -->
+<!--
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">-->
+<!---->
+
+        <!--<Grid.Background>
+            <ImageBrush ImageSource="Images\isometric.png" Opacity="0.6">
+                <ImageBrush.Transform>
+                    <CompositeTransform TranslateX="1"/>
+                </ImageBrush.Transform>
+            </ImageBrush>
+        </Grid.Background>-->
+<!--
+        <Grid.ChildrenTransitions>
+            <TransitionCollection>
+                <EntranceThemeTransition/>
+            </TransitionCollection>
+        </Grid.ChildrenTransitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="140"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        -->
+<!-- Back button and page title -->
+<!--
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="120"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Button x:Name="backButton" Margin="39,59,39,0" Command="{Binding NavigationHelper.GoBackCommand, ElementName=pageRoot}"
+                        Style="{StaticResource NavigationBackButtonNormalStyle}"
+                        VerticalAlignment="Top"
+                        AutomationProperties.Name="Back"
+                        AutomationProperties.AutomationId="BackButton"
+                        AutomationProperties.ItemType="Navigation Button"/>
+            <TextBlock x:Name="pageTitle" Text="{StaticResource AppName}" Style="{StaticResource HeaderTextBlockStyle}" Grid.Column="1" 
+                        IsHitTestVisible="false" TextWrapping="NoWrap" VerticalAlignment="Bottom" Margin="0,0,30,40" SelectionChanged="pageTitle_SelectionChanged"/>
+        </Grid>
+        <StackPanel Grid.Row="1" Orientation="Horizontal">
+            <Button x:Name="ButtonStartGame"   Click="Button_Click" Height="400" Margin="30" Width="200">
+                <StackPanel>
+                    <ToggleSwitch Name="toggleSwitchType" OffContent="3D" OnContent="2D" Toggled="toggleSwitchType_Toggled"   >בחר סוג</ToggleSwitch>
+                </StackPanel>
+            </Button>
+            <Button x:Name="ButtonLearn"   Click="Button_Click" Height="400" Margin="30" Width="200" >
+            learn
+            </Button>
+            <Button x:Name="ButtonTest"  Click="Button_Click" Height="400" Margin="30" Width="200">
+            test   
+            </Button>
+
+            -->
+<!--<Button x:Name="ButtonStartGame" Style="{StaticResource CategoryButton}"  Click="Button_Click" Height="400" Margin="30" Width="200">
+                <Image Source="Assets\Start.jpg"/>
+            </Button>
+            <Button x:Name="ButtonLearn" Style="{StaticResource CategoryButton}"  Click="Button_Click" Height="400" Margin="30" Width="200" >
+
+                <Image Source="Assets\Start.jpg"/>
+            </Button>
+            <Button x:Name="ButtonTest" Style="{StaticResource CategoryButton}"  Click="Button_Click" Height="400" Margin="30" Width="200">
+                <Image Source="Assets\Start.jpg"/>
+            </Button>-->
+<!--
+
+
+        </StackPanel>
+    </Grid>
+</Page>-->

@@ -1,0 +1,95 @@
+﻿<Page
+    x:Name="pageRoot"
+    x:Class="Isometric.SrartPage"
+    DataContext="{Binding DefaultViewModel, RelativeSource={RelativeSource Self}}"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Isometric"
+    xmlns:common="using:Isometric.Common"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    FlowDirection="RightToLeft" Background="Red" >
+    <!--<Page.Background>
+        <SolidColorBrush>red</SolidColorBrush>
+        --><!--<ImageBrush ImageSource="F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\Assets\isometric.png"/>--><!--
+    </Page.Background>-->
+
+    <Page.Resources>
+        <!-- TODO: Delete this line if the key AppName is declared in App.xaml -->
+        <x:String x:Key="AppName">My Application</x:String>
+        <!--<Style x:Key="CategoryTitle" BasedOn="{StaticResource BaseTextBlockStyle}" TargetType="TextBlock">
+            <Setter Property="FontWeight" Value="SemiBold"/>
+            <Setter Property="FontSize" Value="25"/>
+            <Setter Property="FontStretch" Value="Normal"/>
+        </Style>-->
+    </Page.Resources>
+    <common:LayoutAwarePage.BottomAppBar>
+        <AppBar>
+            <StackPanel Orientation="Horizontal" >
+                <Button x:ConnectionId='0'                               Name="AppBar_Marks" AutomationProperties.Name="הישגים" Style="{StaticResource AppBarButtonStyle}">🏆</Button>
+                <Button x:ConnectionId='0'                               Name="AppBar_OpenSavedGame" AutomationProperties.Name="פתח" Style="{StaticResource AppBarButtonStyle}">🔒</Button>
+                <Button x:ConnectionId='0'                               Name="AppBar_Level" AutomationProperties.Name="רמה" Style="{StaticResource AppBarButtonStyle}">⛳</Button>
+
+            </StackPanel>
+        </AppBar>
+    </common:LayoutAwarePage.BottomAppBar>
+    <!--
+        This grid acts as a root panel for the page that defines two rows:
+        * Row 0 contains the back button and page title
+        * Row 1 contains the rest of the page layout
+    -->
+    <Grid CacheMode="BitmapCache" >
+        <Grid.Background>
+            <ImageBrush ImageSource="MyGame5\Assets\isometric.png" Opacity="0.6">
+                <ImageBrush.Transform>
+                    <CompositeTransform TranslateX="1"/>
+                </ImageBrush.Transform>
+            </ImageBrush>
+        </Grid.Background>
+        <Grid.ChildrenTransitions>
+            <TransitionCollection>
+                
+                <EntranceThemeTransition/>
+            </TransitionCollection>
+        </Grid.ChildrenTransitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="140"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Back button and page title -->
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="120"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Button x:Name="backButton" Margin="39,59,39,0" Command="{Binding NavigationHelper.GoBackCommand, ElementName=pageRoot}"
+                        Style="{StaticResource NavigationBackButtonNormalStyle}"
+                        VerticalAlignment="Top"
+                        AutomationProperties.Name="Back"
+                        AutomationProperties.AutomationId="BackButton"
+                        AutomationProperties.ItemType="Navigation Button"/>
+            <TextBlock x:Name="pageTitle" Text="{StaticResource AppName}" Style="{StaticResource HeaderTextBlockStyle}" Grid.Column="1" 
+                        IsHitTestVisible="false" TextWrapping="NoWrap" VerticalAlignment="Bottom" Margin="0,0,30,40"/>
+        </Grid>
+        <StackPanel Grid.Row="1" Orientation="Horizontal">
+            <Button x:ConnectionId='0' x:Name="ButtonStartGame" Style="{StaticResource CategoryButton}"                      >התחל משחק</Button>
+            <Button x:ConnectionId='0' x:Name="ButtonLearn" Style="{StaticResource CategoryButton}"                       >לימוד</Button>
+            <Button x:ConnectionId='0' x:Name="ButtonTest" Style="{StaticResource CategoryButton}"                      >מבחן</Button>
+
+            <!--<Grid Background="WhiteSmoke" Width="300" Margin="20">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="1*"/>
+                    <RowDefinition Height="3*"/>
+                    <RowDefinition Height="1*"/>
+                </Grid.RowDefinitions>
+                <TextBlock Style="{StaticResource CategoryTitle}">שכלל את התמצאותך במרחב.
+                </TextBlock>
+                <TextBlock Grid.Row="1" Style="{StaticResource DescreptionCategory}" Foreground="#FFC91D1D" >חדד יכולות ופתח אוריינטציה מרחבית כעת!לאחר שתסיים בהצלחה שרטוט היטלים, עבור לבנייה אמיתית בתלת ממד!</TextBlock>
+                <Button Background="Red" Height="45" Grid.Row="2" Style="{StaticResource CategoryButton}" >התחל</Button>
+            </Grid>-->
+        </StackPanel>
+    </Grid>
+</Page>
+

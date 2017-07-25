@@ -1,0 +1,15 @@
+<XamlCompilerSaveState>
+  <ReferenceAssemblyList>
+    <LocalAssembly PathName="f:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\isometric\mygame5\obj\release\intermediatexaml\isometric.exe" HashGuid="ac48d7ce-63b6-d110-59fc-0d274b6c3aed" />
+    <ReferenceAssembly PathName="d:\isometric\packages\sharpdx.2.6.3\bin\directx11_2-signed-winrt\sharpdx.direct2d1.dll" HashGuid="119138f8-22f4-8379-6598-95ebed02a661" />
+    <ReferenceAssembly PathName="d:\isometric\packages\sharpdx.2.6.3\bin\directx11_2-signed-winrt\sharpdx.direct3d11.dll" HashGuid="4c05a799-608d-c868-eb22-a8f88fe41ea6" />
+    <ReferenceAssembly PathName="d:\isometric\packages\sharpdx.2.6.3\bin\directx11_2-signed-winrt\sharpdx.dll" HashGuid="18f0ba77-7a50-8253-fe85-9750ea670c58" />
+    <ReferenceAssembly PathName="d:\isometric\packages\sharpdx.2.6.3\bin\directx11_2-signed-winrt\sharpdx.dxgi.dll" HashGuid="be2c2291-5ada-cf76-cff4-7ac0d0e6682d" />
+    <ReferenceAssembly PathName="d:\isometric\packages\sharpdx.2.6.3\bin\directx11_2-signed-winrt\sharpdx.toolkit.audio.dll" HashGuid="11b0bee2-aad8-11c6-d471-b922ab736ec1" />
+    <ReferenceAssembly PathName="d:\isometric\packages\sharpdx.2.6.3\bin\directx11_2-signed-winrt\sharpdx.toolkit.dll" HashGuid="f4c9fd2d-a75c-1075-70d8-88f6fb182b68" />
+    <ReferenceAssembly PathName="d:\isometric\packages\sharpdx.2.6.3\bin\directx11_2-signed-winrt\sharpdx.toolkit.game.dll" HashGuid="4d7421c5-f686-fac1-96b2-119449f3236d" />
+    <ReferenceAssembly PathName="d:\isometric\packages\sharpdx.2.6.3\bin\directx11_2-signed-winrt\sharpdx.toolkit.graphics.dll" HashGuid="3d49f192-de86-8607-3bbf-1a528694e9ff" />
+    <ReferenceAssembly PathName="d:\isometric\packages\sharpdx.2.6.3\bin\directx11_2-signed-winrt\sharpdx.toolkit.input.dll" HashGuid="23ebad42-158d-ee21-e318-09d72c7173fa" />
+    <ReferenceAssembly PathName="d:\isometric\packages\sharpdx.2.6.3\bin\directx11_2-signed-winrt\sharpdx.xaudio2.dll" HashGuid="3813b90d-04d3-f95c-96a2-801ca40c84b5" />
+  </ReferenceAssemblyList>
+</XamlCompilerSaveState>

@@ -1,0 +1,78 @@
+﻿<Page
+    x:Class="Isometric.SaveGameMessageDialog"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Isometric"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" Width="451" Height="600"
+    FlowDirection="RightToLeft" RequestedTheme="Light" Foreground="#424966">
+
+    <StackPanel Background="#f9eeff"  HorizontalAlignment="Right" Margin="0,0,0,19"  >
+        <StackPanel.RenderTransform>
+            <CompositeTransform ScaleX="0.7" ScaleY="0.7"/>
+        </StackPanel.RenderTransform>
+        <Rectangle Fill="#424966" Height="10"/>
+        <TextBlock Name="header" Style="{StaticResource HeaderTextBlockStyle}"  TextAlignment="Left" Margin="20" >שמור משחק</TextBlock>
+
+        <TextBlock  Style="{StaticResource TitleTextBlockStyle}" FontSize="22" TextAlignment="Left" Margin="25,50,30,12" >
+        	<Run Text="שם משתמש:"/>
+        </TextBlock>
+        <Border  BorderThickness="2" Margin="30,5">
+            <TextBox   x:Name="_textBoxUserName"  FontSize="26" PlaceholderText="הזן שם" Tag="חסר שם משתמש \n"/>
+        </Border>
+        <TextBlock  Style="{StaticResource TitleTextBlockStyle}" FontSize="22" TextAlignment="Left" Margin="25,50,30,12" >
+        	<Run Text="שם משחק:"/>
+        </TextBlock>
+        <Border  BorderThickness="2" Grid.Row="2" Margin="30,5">
+            <TextBox  Name="_textBoxGameName"  FontSize="26"  PlaceholderText="הזן שם משחק" Tag="חסר שם משחק"/>
+        </Border>
+        <!--#e71460-->
+        <TextBlock Name="error" Visibility="Visible" Grid.Row="4" Foreground="Red" FontSize="20" Margin="40,25,40,70"></TextBlock>
+        <Grid Margin="316,0,0,6" Height="47">
+            <Button x:ConnectionId='1' FontSize="20" Width="98" x:Name="_buttonSave"                            Content="שמור" Margin="-36,-1,31,7" HorizontalAlignment="Right"  />
+        </Grid>
+    </StackPanel>
+</Page>
+<!--<Page
+    x:Class="Isometric.SaveGameMessageDialog"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Isometric"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" Width="600" Height="400"
+    FlowDirection="RightToLeft">
+    -->
+<!--<Grid.Background>
+        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0" SpreadMethod="Reflect">
+            <LinearGradientBrush.RelativeTransform>
+                <CompositeTransform CenterY="0.5" CenterX="0.5" Rotation="7.595"/>
+            </LinearGradientBrush.RelativeTransform>
+            <GradientStop Color="#B2E2CE50" Offset="0.013"/>
+            <GradientStop Color="White" Offset="1"/>
+            <GradientStop Color="#FF4D4D4D" Offset="0.218"/>
+            <GradientStop Color="#FFA2CD12" Offset="0.556"/>
+            <GradientStop Color="#FF8D8B81" Offset="0.126"/>
+        </LinearGradientBrush>
+    </Grid.Background>-->
+<!--
+    <Grid Background="#FF299709">
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <TextBlock Name="header"  Style="{StaticResource HeaderTextBlockStyle}" Margin="10,20,30,0">שמור משחק</TextBlock>
+        <TextBox Name="_textBoxUserName" Grid.Row="1" Margin="30,5" FontSize="30" PlaceholderText="שם המשתמש"/>
+        <TextBox Name="_textBoxGameName" Grid.Row="2" Margin="30,5" FontSize="30"  PlaceholderText="שם המשחק"/>
+        -->
+<!--<TextBox Name="_textBoxDesription" Grid.Row="3" Margin="30,5" FontSize="30" PlaceholderText="הצעד הבא שלי (אופציאונאלי)"/>-->
+<!--
+        <Button Grid.Row="4" Margin="30,5" FontSize="30"  Width="370" Name="_buttonSave"  Click="_buttonSave_Click" >שמור</Button>
+        <TextBlock Name="error" Visibility="Collapsed" Grid.Row="4" Foreground="Red"  Margin="400,20,0,0">נא למלא את כל הפרטים</TextBlock>
+    </Grid>
+</Page>-->
+

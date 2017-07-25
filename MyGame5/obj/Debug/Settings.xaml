@@ -1,0 +1,131 @@
+﻿<SettingsFlyout
+    x:Class="Isometric.Settings"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Isometric"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Foreground="#e71460"
+    IconSource="Assets/SmallLogo.png"
+    Title="הגדרות"
+    d:DesignWidth="346"
+     FlowDirection="RightToLeft" Height="auto" >
+
+    <!-- This StackPanel acts as a root panel for vertical layout of the content sections -->
+    <StackPanel VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Height="433" >
+
+        <!-- The StackPanel(s) below define individual content sections -->
+
+        <!-- Content Section 1-->
+        <StackPanel Style="{StaticResource SettingsFlyoutSectionStyle}">
+
+            <!-- Section 1 header -->
+            <TextBlock Style="{StaticResource TitleTextBlockStyle}" Text="שינוי הגדרות" />
+
+            <!-- Section 1 body -->
+            <TextBlock Style="{StaticResource BodyTextBlockStyle}" Margin="0,0,0,25" TextWrapping="Wrap">
+                <TextBlock.Text>
+                    שינו מקשי תזוזת הסמן בתוך הקוביה.
+                </TextBlock.Text>
+            </TextBlock>
+
+        </StackPanel>
+
+        <!-- Define more Content Sections below as necessary -->
+        <StackPanel Orientation="Horizontal">
+            <StackPanel >
+                <TextBlock Margin="10">למעלה</TextBlock>
+                <TextBlock Margin="10">למטה</TextBlock>
+                <TextBlock Margin="10">ימין</TextBlock>
+                <TextBlock Margin="10">שמאל</TextBlock>
+                <TextBlock Margin="10">אחורה</TextBlock>
+                <TextBlock Margin="10">קדימה</TextBlock>
+            </StackPanel>
+            <StackPanel Name="_stackPanelArrowsKeys" FlowDirection="LeftToRight">
+                <TextBox x:ConnectionId='1' Margin="1" PlaceholderText=" Y + " ToolTipService.ToolTip=" Y + " x:Name="textBlock_Up"                          />
+                <TextBox x:ConnectionId='2' Margin="1" PlaceholderText=" Y - " ToolTipService.ToolTip=" Y - " Name="textBlock_Down"                          ></TextBox>
+                <TextBox x:ConnectionId='3' Margin="1" PlaceholderText=" X + " ToolTipService.ToolTip=" X + " x:Name="textBlock_Right"                          />
+                <TextBox x:ConnectionId='4' Margin="1" PlaceholderText=" X - " ToolTipService.ToolTip=" X - " Name="textBlock_Left"                          ></TextBox>
+                <TextBox x:ConnectionId='5' Margin="1" PlaceholderText=" Z + " ToolTipService.ToolTip=" Z + " Name="textBlock_Backward"                          ></TextBox>
+                <TextBox x:ConnectionId='6' Margin="1" PlaceholderText=" Z - " ToolTipService.ToolTip=" Z - " Name="textBlock_Forward"                          ></TextBox>
+            </StackPanel>
+        </StackPanel>
+        <StackPanel Height="111">
+            <!--<Button Content="לחצני ברירת מחדל" Height="30" Width="160" Margin="40"/>-->
+        </StackPanel>
+    </StackPanel>
+
+
+</SettingsFlyout>
+
+<!--<SettingsFlyout
+    x:Class="Isometric.Settings"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Isometric"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    IconSource="Assets/SmallLogo.png"
+    Title="SettingsFlyout"
+    d:DesignWidth="346"
+     FlowDirection="RightToLeft" Height="auto">
+ 
+    --><!-- This StackPanel acts as a root panel for vertical layout of the content sections --><!--
+    <StackPanel VerticalAlignment="Stretch" HorizontalAlignment="Stretch" >
+
+        --><!-- The StackPanel(s) below define individual content sections -->
+
+        <!-- Content Section 1--><!--
+        <StackPanel Style="{StaticResource SettingsFlyoutSectionStyle}">
+
+            --><!-- Section 1 header --><!--
+            <TextBlock Style="{StaticResource TitleTextBlockStyle}" Text="Lorem ipsum" />
+
+            --><!-- Section 1 body --><!--
+            <TextBlock Style="{StaticResource BodyTextBlockStyle}" Margin="0,0,0,25" TextWrapping="Wrap">
+                <TextBlock.Text>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </TextBlock.Text>
+            </TextBlock>
+
+        </StackPanel>
+
+        --><!-- Define more Content Sections below as necessary --><!--
+        <StackPanel Name="_stackPanelArrowsKeys">
+            <StackPanel Orientation="Horizontal">
+                <TextBlock>למעלה</TextBlock>
+                <TextBox PlaceholderText="הקש תו" Name="textBlock_Up" KeyDown="TextBox_KeyDown"></TextBox>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock>למטה</TextBlock>
+                <TextBox PlaceholderText="הקש תו" Name="textBlock_Down" KeyDown="TextBox_KeyDown"></TextBox>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock>ימין</TextBlock>
+                <TextBox PlaceholderText="הקש תו" Name="textBlock_Right" KeyDown="TextBox_KeyDown"></TextBox>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock>שמאל</TextBlock>
+                <TextBox PlaceholderText="הקש תו" Name="textBlock_Left" KeyDown="TextBox_KeyDown"></TextBox>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock>אחורה</TextBlock>
+                <TextBox PlaceholderText="הקש תו"  Name="textBlock_Backward" KeyDown="TextBox_KeyDown"></TextBox>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock>קדימה</TextBlock>
+                <TextBox PlaceholderText="הקש תו" Name="textBlock_Forward" KeyDown="TextBox_KeyDown"></TextBox>
+            </StackPanel>
+        </StackPanel>
+        <Button x:Name="backButton" Margin="39,59,39,0" Command="{Binding NavigationHelper.GoBackCommand, ElementName=pageRoot}"
+                        Style="{StaticResource NavigationBackButtonNormalStyle}"
+                        VerticalAlignment="Top"
+                        AutomationProperties.Name="Back"
+                        AutomationProperties.AutomationId="BackButton"
+                        AutomationProperties.ItemType="Navigation Button"/>
+    </StackPanel>
+</SettingsFlyout>-->
+

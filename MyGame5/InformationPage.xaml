@@ -1,0 +1,858 @@
+﻿<Page
+    x:Name="pageRoot"
+    x:Class="Isometric.InformationPage"
+    DataContext="{Binding DefaultViewModel, RelativeSource={RelativeSource Self}}"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Isometric"
+    xmlns:common="using:Isometric.Common"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    FlowDirection="RightToLeft" Background="#cccccc">
+
+    <Page.Resources>
+        <!-- TODO: Delete this line if the key AppName is declared in App.xaml -->
+        <x:String x:Key="AppName">העמק את הבנתך</x:String>
+
+    </Page.Resources>
+
+    <!--
+        This grid acts as a root panel for the page that defines two rows:
+        * Row 0 contains the back button and page title
+        * Row 1 contains the rest of the page layout
+    -->
+    <Page.TopAppBar>
+        <AppBar RequestedTheme="Dark" Background="#333333">
+            <StackPanel >
+                <Rectangle Fill="#e71460" Height="9" Margin="-2"/>
+                <TextBlock Height="33" FontSize="15" Foreground="#8a8888" TextAlignment="Left" Style="{StaticResource TitleTextBlockStyle}" Width="1331"> איזומטריק- חשיבה בתוך הקופסה</TextBlock>
+                <StackPanel Orientation="Horizontal" Margin="10" Height="110" FlowDirection="RightToLeft">
+                    <StackPanel FlowDirection="LeftToRight" Name="buttonSP_Home" PointerMoved="buttonSP_PointerMoved" PointerExited="buttonSP_PointerExited" Margin="9,0" Width="150" Height="100" Background="#444444" Tapped="buttonSP_Tapped">
+                        <TextBlock FontSize="30" TextAlignment="Right" Text="&#x1F3e0;" FontFamily="Segoe UI Symbol" Height="40" Margin="10"></TextBlock>
+                        <TextBlock FontWeight="Bold" TextAlignment="Right" Height="16" Margin="10" TextTrimming="Clip" >דף הבית</TextBlock>
+                    </StackPanel>
+                    <StackPanel FlowDirection="LeftToRight" Name="buttonSP_Exp" PointerMoved="buttonSP_PointerMoved" PointerExited="buttonSP_PointerExited" Margin="9,0" Width="150" Height="100" Background="#444444"  Tapped="buttonSP_Tapped">
+                        <TextBlock FontSize="28" TextAlignment="Right" Text="&#xe152;" FontFamily="Segoe UI Symbol" Height="40" Margin="109,10,10,10" RenderTransformOrigin="0.5,0.5">
+                            <TextBlock.RenderTransform>
+                                <CompositeTransform Rotation="180"/>
+                            </TextBlock.RenderTransform></TextBlock>
+                        <TextBlock FontWeight="Bold" TextAlignment="Right" Height="16" Margin="10" TextTrimming="Clip" >התחל</TextBlock>
+                    </StackPanel >
+                    <StackPanel FlowDirection="LeftToRight" Name="buttonSP_Info" PointerMoved="buttonSP_PointerMoved" PointerExited="buttonSP_PointerExited" Margin="9,0" Width="150" Height="100" Background="#444444"  Tapped="buttonSP_Tapped">
+                        <TextBlock FontSize="28" TextAlignment="Right" Text="&#xE1D3;" FontFamily="Segoe UI Symbol" Height="40" Margin="10"></TextBlock>
+                        <TextBlock FontWeight="Bold" TextAlignment="Right" Height="16" Margin="10" TextTrimming="Clip" >מידע</TextBlock>
+                    </StackPanel>
+                    <StackPanel FlowDirection="LeftToRight" Name="buttonSP_Test" PointerMoved="buttonSP_PointerMoved" PointerExited="buttonSP_PointerExited" Margin="9,0" Width="150" Height="100" Background="#444444"  Tapped="buttonSP_Tapped">
+                        <TextBlock FontSize="28" TextAlignment="Right" Text="&#x1F557;" FontFamily="Segoe UI Symbol" Height="40" Margin="10"></TextBlock>
+                        <!--&#xe2ad;-->
+                        <TextBlock FontWeight="Bold" TextAlignment="Right" Height="16" Margin="10" TextTrimming="Clip" >טסט</TextBlock>
+                    </StackPanel>
+                </StackPanel>
+            </StackPanel>
+        </AppBar>
+    </Page.TopAppBar>
+    <Grid Background="#efefef">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <!-- Back button and page title -->
+        <Grid Background="#CCCCCC"  RequestedTheme="Dark" >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="120"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition Height="19"/>
+            </Grid.RowDefinitions>
+            <Button x:Name="backButton" Margin="39,31,0,0" Command="{Binding NavigationHelper.GoBackCommand, ElementName=pageRoot}"
+                        Style="{StaticResource NavigationBackButtonNormalStyle}"
+                        VerticalAlignment="Top"
+                        AutomationProperties.Name="Back"
+                        AutomationProperties.AutomationId="BackButton"
+                        AutomationProperties.ItemType="Navigation Button"/>
+            <TextBlock x:Name="pageTitle" Text="{StaticResource AppName}" Style="{StaticResource HeaderTextBlockStyle}" Grid.Column="1" 
+                        IsHitTestVisible="false" TextWrapping="NoWrap" VerticalAlignment="Bottom" Margin="0,0,30,15" Foreground="White" FontSize="40" FontWeight="Normal"
+                        />
+            <Rectangle Grid.Row="1" Fill="#7d7d93" Grid.ColumnSpan="2" Grid.Column="0" Margin="0,14,0,0"/>
+        </Grid>
+        <Grid Grid.Row="1" >
+            <Grid.Background>
+                <ImageBrush ImageSource="Images/GrayBackGround.jpg" Stretch="UniformToFill" Opacity="0.5"/>
+            </Grid.Background>
+            <SemanticZoom Name="zoom" Grid.Row="1">
+                <SemanticZoom.ZoomedInView >
+                    <GridView IsItemClickEnabled="False" SelectedItem="so" SelectionMode="Single" Height="661" Width="1360" Margin="0,0,0,1" >
+                        <GridView.Footer>
+                            <FlipView Name="flipView" Grid.RowSpan="2" Height="664" >
+                                  <StackPanel Orientation="Horizontal" Grid.Row="1" Margin="30"  >
+                                    <StackPanel Orientation="Vertical" Name="StackPanel_katA" Margin="40,10,10,10">
+                                        <Button Visibility="Collapsed" x:Name="button_Title_katA" Style="{StaticResource ButtonTitleConceptStyle}" Width="210" Height="60" FontSize="25" Background="#97a219" Foreground="White" Margin="10" Content="         מושגים"/>
+                                        <TextBlock x:Name="Title_katA" Style="{StaticResource HeaderTextBlockStyle}" FontSize="30" Width="210"  Foreground="#777777" Margin="10" Text="מושגים"/>
+                                        <Grid x:Name="Rect_concept_A1" Style="{StaticResource RectConceptStyle}" Tapped="Rect_concept_Tapped" PointerExited="Rect_concept_PointerExited" PointerMoved="Rect_concept_PointerMoved" >
+                                            <Rectangle Fill="#97a219" Style="{StaticResource RectConseptStyle}" />
+                                            <TextBlock Style="{StaticResource ConceptNameStyle }" >פרספקטיבה</TextBlock>
+                                        </Grid>
+                                        <Grid x:Name="Rect_concept_A2" Style="{StaticResource RectConceptStyle}" Tapped="Rect_concept_Tapped" PointerExited="Rect_concept_PointerExited" PointerMoved="Rect_concept_PointerMoved" >
+                                            <Rectangle Fill="#97a219" Style="{StaticResource RectConseptStyle}" />
+                                            <TextBlock Style="{StaticResource ConceptNameStyle }" >היטלים</TextBlock>
+                                        </Grid>
+                                        <Grid x:Name="Rect_concept_A3" Style="{StaticResource RectConceptStyle}" Tapped="Rect_concept_Tapped" PointerExited="Rect_concept_PointerExited" PointerMoved="Rect_concept_PointerMoved" >
+                                            <Rectangle Fill="#97a219" Style="{StaticResource RectConseptStyle}" />
+                                            <TextBlock Style="{StaticResource ConceptNameStyle }">איזומטריה</TextBlock>
+                                        </Grid>
+                                        <Grid x:Name="Rect_concept_A4" Style="{StaticResource RectConceptStyle}" Tapped="Rect_concept_Tapped" PointerExited="Rect_concept_PointerExited" PointerMoved="Rect_concept_PointerMoved" >
+                                            <Rectangle Fill="#97a219" Style="{StaticResource RectConseptStyle}" />
+                                            <TextBlock Style="{StaticResource ConceptNameStyle }" >התלכדות קווים</TextBlock>
+                                        </Grid>
+                                    </StackPanel>
+                                    <StackPanel Orientation="Vertical" Name="StackPanel_katB" Margin="10">
+                                        <TextBlock x:Name="Title_katB" Style="{StaticResource HeaderTextBlockStyle}" FontSize="30" Width="210"  Foreground="#777777" Margin="10" Text="כך מתחילים!"/>
+                                        <Grid x:Name="Rect_concept_B1" Style="{StaticResource RectConceptStyle}" Tapped="Rect_concept_Tapped" PointerExited="Rect_concept_PointerExited" PointerMoved="Rect_concept_PointerMoved" >
+                                            <Rectangle Fill="#e71460" Style="{StaticResource RectConseptStyle}" />
+                                            <TextBlock Style="{StaticResource ConceptNameStyle }" >שרטוט</TextBlock>
+                                        </Grid>
+                                        <Grid x:Name="Rect_concept_B2" Style="{StaticResource RectConceptStyle}" Tapped="Rect_concept_Tapped" PointerExited="Rect_concept_PointerExited" PointerMoved="Rect_concept_PointerMoved" >
+                                            <Rectangle Fill="#e71460" Style="{StaticResource RectConseptStyle}" />
+                                            <TextBlock Style="{StaticResource ConceptNameStyle }" >בנייה</TextBlock>
+                                        </Grid>
+                                        <Grid x:Name="Rect_concept_B3" Visibility="Collapsed" Style="{StaticResource RectConceptStyle}" Tapped="Rect_concept_Tapped" PointerExited="Rect_concept_PointerExited" PointerMoved="Rect_concept_PointerMoved" >
+                                            <Rectangle Fill="#e71460" Style="{StaticResource RectConseptStyle}" />
+                                            <TextBlock Style="{StaticResource ConceptNameStyle }">כלי עזר</TextBlock>
+                                        </Grid>
+                                        <Grid x:Name="Rect_concept_B4"  Visibility="Collapsed" Style="{StaticResource RectConceptStyle}" Tapped="Rect_concept_Tapped" PointerExited="Rect_concept_PointerExited" PointerMoved="Rect_concept_PointerMoved" >
+                                            <Rectangle Fill="#e71460" Style="{StaticResource RectConseptStyle}" />
+                                            <TextBlock Style="{StaticResource ConceptNameStyle }" >התמקצעות</TextBlock>
+                                        </Grid>
+                                    </StackPanel>
+                                    <StackPanel Orientation="Vertical" Name="StackPanel_katC" Margin="10">
+                                        <TextBlock x:Name="Title_katC" Style="{StaticResource HeaderTextBlockStyle}" FontSize="30" Width="210"  Foreground="#777777" Margin="10" Text="שרטוט"/>
+                                        <Grid x:Name="Rect_concept_C1" Style="{StaticResource RectConceptStyle}" Tapped="Rect_concept_Tapped" PointerExited="Rect_concept_PointerExited" PointerMoved="Rect_concept_PointerMoved" >
+                                            <Rectangle Fill="#424966" Style="{StaticResource RectConseptStyle}" />
+                                            <TextBlock Style="{StaticResource ConceptNameStyle }" >ציור</TextBlock>
+                                        </Grid>
+                                        <Grid x:Name="Rect_concept_C2" Style="{StaticResource RectConceptStyle}" Tapped="Rect_concept_Tapped" PointerExited="Rect_concept_PointerExited" PointerMoved="Rect_concept_PointerMoved" >
+                                            <Rectangle Fill="#424966" Style="{StaticResource RectConseptStyle}" />
+                                            <TextBlock Style="{StaticResource ConceptNameStyle }">מחיקה</TextBlock>
+                                        </Grid>
+                                        <Grid x:Name="Rect_concept_C3" Style="{StaticResource RectConceptStyle}" Tapped="Rect_concept_Tapped" PointerExited="Rect_concept_PointerExited" PointerMoved="Rect_concept_PointerMoved" >
+                                            <Rectangle Fill="#424966" Style="{StaticResource RectConseptStyle}" />
+                                            <TextBlock Style="{StaticResource ConceptNameStyle }" >השלמת ההיטל</TextBlock>
+                                        </Grid>
+                                    </StackPanel>
+                                    <StackPanel Orientation="Vertical" Name="StackPanel_katD" Margin="10">
+                                        <TextBlock x:Name="Title_katD" Style="{StaticResource HeaderTextBlockStyle}" FontSize="30" Width="210"  Foreground="#777777" Margin="10" Text="בנייה"/>
+                                        <Grid x:Name="Rect_concept_D1" Style="{StaticResource RectConceptStyle}" Tapped="Rect_concept_Tapped" PointerExited="Rect_concept_PointerExited" PointerMoved="Rect_concept_PointerMoved" >
+                                            <Rectangle Fill="#007f6a" Style="{StaticResource RectConseptStyle}" />
+                                            <TextBlock Style="{StaticResource ConceptNameStyle }" >תזוזה</TextBlock>
+                                        </Grid>
+                                        <Grid x:Name="Rect_concept_D2" Style="{StaticResource RectConceptStyle}" Tapped="Rect_concept_Tapped" PointerExited="Rect_concept_PointerExited" PointerMoved="Rect_concept_PointerMoved" >
+                                            <Rectangle Fill="#007f6a" Style="{StaticResource RectConseptStyle}" />
+                                            <TextBlock Style="{StaticResource ConceptNameStyle }">בנייה</TextBlock>
+                                        </Grid>
+                                        <Grid x:Name="Rect_concept_D3" Style="{StaticResource RectConceptStyle}" Tapped="Rect_concept_Tapped" PointerExited="Rect_concept_PointerExited" PointerMoved="Rect_concept_PointerMoved" >
+                                            <Rectangle Fill="#007f6a" Style="{StaticResource RectConseptStyle}" />
+                                            <TextBlock Style="{StaticResource ConceptNameStyle }" >מחיקה</TextBlock>
+                                        </Grid>
+                                        <Grid x:Name="Rect_concept_D4" Style="{StaticResource RectConceptStyle}" Tapped="Rect_concept_Tapped" PointerExited="Rect_concept_PointerExited" PointerMoved="Rect_concept_PointerMoved" >
+                                            <Rectangle Fill="#007f6a" Style="{StaticResource RectConseptStyle}" />
+                                            <TextBlock Style="{StaticResource ConceptNameStyle }" >רמז</TextBlock>
+                                        </Grid>
+                                        <Grid x:Name="Rect_concept_D5" Style="{StaticResource RectConceptStyle}" Tapped="Rect_concept_Tapped" PointerExited="Rect_concept_PointerExited" PointerMoved="Rect_concept_PointerMoved" >
+                                            <Rectangle Fill="#007f6a" Style="{StaticResource RectConseptStyle}" />
+                                            <TextBlock Style="{StaticResource ConceptNameStyle }" >סיום המבנה</TextBlock>
+                                        </Grid>
+                                    </StackPanel>
+                                    <StackPanel Orientation="Vertical" Name="StackPanel_katE" Margin="10">
+                                        <TextBlock x:Name="Title_katE" Style="{StaticResource HeaderTextBlockStyle}" FontSize="30" Width="210"  Foreground="#777777" Margin="10" Text="תצורה"/>
+                                        <Grid x:Name="Rect_concept_E1" Style="{StaticResource RectConceptStyle}" Tapped="Rect_concept_Tapped" PointerExited="Rect_concept_PointerExited" PointerMoved="Rect_concept_PointerMoved" >
+                                            <Rectangle Fill="#f7931d" Style="{StaticResource RectConseptStyle}" />
+                                            <TextBlock Style="{StaticResource ConceptNameStyle }" >סיבוב הקוביה</TextBlock>
+                                        </Grid>
+                                        <Grid x:Name="Rect_concept_E2" Style="{StaticResource RectConceptStyle}" Tapped="Rect_concept_Tapped" PointerExited="Rect_concept_PointerExited" PointerMoved="Rect_concept_PointerMoved" >
+                                            <Rectangle Fill="#f7931d" Style="{StaticResource RectConseptStyle}" />
+                                            <TextBlock Style="{StaticResource ConceptNameStyle }">שינוי הגדרות</TextBlock>
+                                        </Grid>
+                                        <Grid x:Name="Rect_concept_E3" Style="{StaticResource RectConceptStyle}" Tapped="Rect_concept_Tapped" PointerExited="Rect_concept_PointerExited" PointerMoved="Rect_concept_PointerMoved" >
+                                            <Rectangle Fill="#f7931d" Style="{StaticResource RectConseptStyle}" />
+                                            <TextBlock Style="{StaticResource ConceptNameStyle }">השלכת קווים </TextBlock>
+                                        </Grid>
+                                    </StackPanel>
+                                </StackPanel>
+                                <!--<FlipViewItem>-->
+                                  <Grid Name="Grid_katA">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="110*"/>
+                                        <RowDefinition Height="471*"/>
+                                        <RowDefinition Height="77*"/>
+                                    </Grid.RowDefinitions>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="284*"/>
+                                        <ColumnDefinition Width="41*"/>
+                                        <ColumnDefinition Width="893*"/>
+                                        <ColumnDefinition Width="142*"/>
+                                    </Grid.ColumnDefinitions>
+                                    <TextBlock Style="{StaticResource HeaderTextBlockStyle}" TextAlignment="Left" Foreground="#aab246" Margin="69,45,0,10" Name="Title_A" >מושגים</TextBlock>
+                                    <Rectangle Grid.Row="1" Fill="White" Margin="255,0,24,129"/>
+                                    <StackPanel Name="sp_A" Grid.Row="1">
+                                        <TextBlock x:Name="concept_A1" Foreground="#aab246" Style="{StaticResource ConceptNameStyle}" Margin="0,70,50,00" PointerExited="concept_PointerExited" PointerPressed="concept_PointerPressed" Tag="False" PointerEntered="concept_PointerEntered" TextAlignment="Right" Height="36" Width="190"  FontWeight="SemiBold">
+                                  		<Run Text="פרספקטיבה"/>
+                                        </TextBlock>
+                                        <TextBlock x:Name="concept_A2" Style="{StaticResource ConceptNameStyle}" Margin="0,25,50,00" PointerExited="concept_PointerExited" PointerPressed="concept_PointerPressed" Tag="False" PointerEntered="concept_PointerEntered" Foreground="#333333" TextAlignment="Right" Height="36" Width="190" FontWeight="SemiBold" >
+                                    		<Run Text="היטלים"/>
+                                        </TextBlock>
+                                        <TextBlock x:Name="concept_A3" Style="{StaticResource ConceptNameStyle}" Margin="0,25,50,00" PointerExited="concept_PointerExited" PointerPressed="concept_PointerPressed" Tag="False" PointerEntered="concept_PointerEntered" Foreground="#333333" TextAlignment="Right" Height="36" Width="190" FontWeight="SemiBold">
+                                    		<Run Text="איזומטריה"/>
+                                        </TextBlock>
+                                        <TextBlock x:Name="concept_A4" Style="{StaticResource ConceptNameStyle}" Margin="0,25,50,00" PointerExited="concept_PointerExited" PointerPressed="concept_PointerPressed" Tag="False" PointerEntered="concept_PointerEntered" Foreground="#333333" TextAlignment="Right" Height="36" Width="190" FontWeight="SemiBold" >
+                                    		<Run Text="התלכדות קווים"/>
+                                        </TextBlock>
+                                    </StackPanel>
+                                    <Border Grid.Column="2" Grid.Row="1" BorderBrush="LightGray" BorderThickness="2"   Grid.RowSpan="1">
+                                        <Canvas>
+                                            <Grid Name="grid_desrption_concept_A3" Style="{StaticResource GridConseptStyle}">
+                                                <Rectangle Fill="White" />
+                                                <StackPanel Orientation="Vertical" Background="White" Margin="30" >
+                                                    <ScrollViewer Height="400" ViewChanged="ScrollViewer_ViewChanged"  >
+                                                        <StackPanel>
+                                                            <TextBlock Style="{StaticResource SubheaderTextStyle}" FontSize="30" Margin="20">איזומטריה</TextBlock>
+                                                            <TextBlock Style="{StaticResource BodyTextStyle}" Margin="20"> הגדרה: שווה-אורך, זוהי שיטת שרטוט תלת-ממד המתייחדת ביחס אורכים נכון.</TextBlock>
+                                                            <TextBlock Style="{StaticResource BodyTextStyle}" Margin="20">פרוט:</TextBlock>
+                                                            <Image Source="InfoImage/Iso1.jpg" ></Image>
+                                                            <Image Source="InfoImage/Iso2.jpg" ></Image>
+                                                            <Image Source="InfoImage/Iso3.jpg" ></Image>
+                                                            <Image Source="InfoImage/Iso4.jpg" ></Image>
+                                                            <Image Source="InfoImage/Iso5.jpg" ></Image>
+
+                                                        </StackPanel>
+                                                    </ScrollViewer>
+                                                </StackPanel>
+                                            </Grid>
+                                            <Grid Name="grid_desrption_concept_A4" Style="{StaticResource GridConseptStyle}" >
+                                                <Rectangle Fill="#f9f9f9" />
+                                                <StackPanel Orientation="Vertical" Margin="30" >
+                                                    <TextBlock Style="{StaticResource SubheaderTextStyle}" FontSize="30" Margin="20" >התלכדות קווים</TextBlock>
+                                                    <TextBlock Style="{StaticResource BodyTextStyle}" Margin="20">
+                                                    	<Bold>הגדרה:</Bold> 
+                                                        מצב שבו קו מסתיר או מוסתר ע"י קו אחר (באחד ההיטלים).
+                                                    </TextBlock>
+                                                    <TextBlock Style="{StaticResource BodyTextStyle}" Margin="20">לדוגמא: ייתכן מצב שבו
+במבט מן הצד נראים שני קווים- גדול וקטן, אך במבט סכמתי מלפנים הקו הארוך 
+                                                        <Bold> מסתיר</Bold>
+                                                        את הקו הקצר. כלומר: במבט מלפנים הקו הארוך 
+                                                        <Bold>מ ת ל כ ד</Bold> 
+                                                        עם הקו הקצר והם נראים כקו אחד.
+                                                    </TextBlock>
+
+                                                    <TextBlock Style="{StaticResource BodyTextStyle}" Margin="20">
+                                                    	 במקרה כזה יש להסיק באחד מן ההיטלים האחרים- שבו נראים שני הקווים, לגבי מיקומם בציר האחר (שבו שניהם באותו משטח- קרוב/ חצי/ רחוק)</TextBlock>
+                                                </StackPanel>
+                                            </Grid>
+                                            <Grid Name="grid_desrption_concept_A2" Style="{StaticResource GridConseptStyle}">
+                                                <Rectangle Fill="White" />
+                                                <StackPanel Orientation="Vertical" Margin="30" >
+                                                    <ScrollViewer Height="400" ViewChanged="ScrollViewer_ViewChanged"  >
+                                                        <StackPanel>
+                                                            <TextBlock Style="{StaticResource SubheaderTextStyle}" FontSize="30" Margin="20">היטלים</TextBlock>
+                                                            <TextBlock Style="{StaticResource BodyTextStyle}" Margin="20,5" ><Bold>היטל</Bold>: שרטוט סכמתי של אחד מצידי חפץ תלת ממדי.</TextBlock>
+                                                            <TextBlock Style="{StaticResource BodyTextStyle}" Margin="43,15,20,15" >פרוט:</TextBlock>
+                                                            <Image Source="InfoImage/pro1 (2).jpg" ></Image>
+                                                            <Image Source="InfoImage/pro2.jpg" ></Image>
+                                                            <Image Source="InfoImage/pro3.jpg" ></Image>
+                                                            <Image Source="InfoImage/pro6.jpg" ></Image>
+                                                            <Image Source="InfoImage/pro7.jpg" ></Image>
+                                                            <Image Source="InfoImage/pro8.jpg" ></Image>
+                                                            <Image Source="InfoImage/pro8 (2).jpg" ></Image>
+                                                            <Image Source="InfoImage/pro9.jpg" ></Image>
+                                                            <TextBlock Style="{StaticResource BodyTextStyle}" Margin="20,5" ><Bold>הערה: הדוגמאות המובאות כאן הם לפי התקן הארופאי, אך חשוב להכיר את שני סוגי התקנים</Bold></TextBlock>
+                                                            <TextBlock Style="{StaticResource BodyTextStyle}" Margin="20,5" ><Bold>גרסה זו של "איזומטריק" תומכת בתצוגה עברית: מימין לשמאל. </Bold></TextBlock>
+                                                            <Image Source="InfoImage/pro10 (2).jpg" ></Image>
+                                                        </StackPanel>
+                                                    </ScrollViewer>
+                                                </StackPanel>
+                                            </Grid>
+                                            <Grid Name="grid_desrption_concept_A1" Style="{StaticResource GridConseptStyle}">
+                                                <Rectangle Fill="#f9f9f9"/>
+                                                <StackPanel Orientation="Vertical" Margin="30" >
+                                                    <TextBlock Style="{StaticResource SubheaderTextStyle}" FontSize="30" Margin="20">פרספקטיבה</TextBlock>
+                                                    <TextBlock Style="{StaticResource BodyTextStyle}" Margin="20,0" Height="23"><Bold>פרספקטיבה</Bold> 
+                                                        או
+                                                        <Bold>תשקופת קווית </Bold>
+                                                        היא טכניקת ציור שבה נוצרת אשליה של מרחק ושל עומק.</TextBlock>
+                                                    <TextBlock Style="{StaticResource BodyTextStyle}" Width="800" >
+
+ <LineBreak/>פרספקטיבה מתמטית (או גאומטרית) מבוססת על העובדה שכל עצם נראה קטן יותר ככל שהוא רחוק יותר מהעין.<LineBreak/> באמצעות הטכניקה אנו מצליחים לצייר גופים בחלל בגודל ובצורה שהם ייראו דומים לאופן בו העין הייתה רואה אותם במציאות.
+
+ניסיונותיהם של ציירים לתת תחושת מציאות לציור הדו-ממדי הביאו אותם לפתח טכניקות ציור המקנות תחושת עומק. אחד מן הכלים, וכנראה היעיל ביותר מביניהם הוא הפרספקטיבה.
+                                                    </TextBlock>
+                                                    <TextBlock Style="{StaticResource BodyTextStyle}" Width="800" >
+     טכניקת ציור בפרספקטיבה היא, למעשה, פשוטה מאד: בהתבסס על העקרון שעם המרחק העצמים נראים קטנים יותר, על כל קבוצת קווים המקבילים שבציור להתכנס לקראת נקודה כלשהי שעל קו האופק (נקודת המגוז)   
+ <LineBreak/>
+דוגמאות לכך- מימיל לשמאל: קוביה סכמתית- ללא פרספקטיבה, קוביה בעלת פרספקטיבה קלאסית, וקוביה בעלת פרספקטיבה מוגזמת .
+                                                   בקוביות בעלות הפרס' נראית בברור התכנסות הקווי המתאר של הדפנות (הנראים מקבילים לחלוטין בקוביה הראשונה) ,
+                                                    </TextBlock>
+                                                    <StackPanel Orientation="Horizontal" Margin="400,10,55,0">
+                                                        <Image Source="InfoImage/pr0.png" Width="100" Stretch="UniformToFill" Margin="10"/>
+                                                        <Image Source="InfoImage/pr1.png" Width="100" Margin="10"/>
+                                                        <Image Source="InfoImage/pr2.png" Width="100" Margin="10"/>
+                                                    </StackPanel>
+                                                </StackPanel>
+                                            </Grid>
+                                        </Canvas>
+                                    </Border>
+                                </Grid>
+                                <!-- </FlipViewItem>-->
+                                  <Grid Name="Grid_katB">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="110*"/>
+                                        <RowDefinition Height="471*"/>
+                                        <RowDefinition Height="77*"/>
+                                    </Grid.RowDefinitions>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="284*"/>
+                                        <ColumnDefinition Width="41*"/>
+                                        <ColumnDefinition Width="893*"/>
+                                        <ColumnDefinition Width="142*"/>
+                                    </Grid.ColumnDefinitions>
+                                    <TextBlock Style="{StaticResource HeaderTextBlockStyle}" TextAlignment="Left" Foreground="#e71460"  Margin="48,45,868,10" Name="Title_B" Grid.ColumnSpan="3" >כך מתחילים</TextBlock>
+                                    <Rectangle Grid.Row="1" Fill="White" Margin="255,0,24,129"/>
+                                    <StackPanel Name="sp_B" Grid.Row="1">
+                                        <TextBlock x:Name="concept_B1" Style="{StaticResource ConceptNameStyle}" Margin="0,70,50,00" PointerExited="concept_PointerExited" PointerPressed="concept_PointerPressed" Tag="False" PointerEntered="concept_PointerEntered" Foreground="#e71460" TextAlignment="Right" Height="36" Width="190"  FontWeight="SemiBold">
+                                    		<Run Text="שרטוט"/>
+                                        </TextBlock>
+                                        <TextBlock x:Name="concept_B2" Style="{StaticResource ConceptNameStyle}" Margin="0,25,50,00" PointerExited="concept_PointerExited" PointerPressed="concept_PointerPressed" Tag="False" PointerEntered="concept_PointerEntered" Foreground="#333333" TextAlignment="Right" Height="36" Width="190" FontWeight="SemiBold" >
+                                    		<Run Text="בנייה"/>
+                                        </TextBlock>
+                                        <TextBlock x:Name="concept_B3"  Visibility="Collapsed" Style="{StaticResource ConceptNameStyle}" Margin="0,25,50,00" PointerExited="concept_PointerExited" PointerPressed="concept_PointerPressed" Tag="False" PointerEntered="concept_PointerEntered" Foreground="#333333" TextAlignment="Right" Height="36" Width="190" FontWeight="SemiBold">
+                                    		<Run Text="כלי עזר"/>
+                                        </TextBlock>
+                                        <TextBlock x:Name="concept_B4"  Visibility="Collapsed" Style="{StaticResource ConceptNameStyle}" Margin="0,25,50,00" PointerExited="concept_PointerExited" PointerPressed="concept_PointerPressed" Tag="False" PointerEntered="concept_PointerEntered" Foreground="#333333" TextAlignment="Right" Height="36" Width="190" FontWeight="SemiBold" >
+                                    		<Run Text="התמקצעות "/>
+                                        </TextBlock>
+                                    </StackPanel>
+                                    <Border Grid.Column="2" Grid.Row="1" BorderBrush="LightGray" BorderThickness="2"   Grid.RowSpan="1">
+                                        <Canvas>
+                                          <Grid Name="grid_desrption_concept_B2" Background="#f9f9f9" Style="{StaticResource GridConseptStyle}">
+                                                <ScrollViewer Height="Auto" ViewChanged="ScrollViewer_ViewChanged" >
+                                                    <StackPanel Orientation="Vertical" Margin="30" >
+                                                        <TextBlock Style="{StaticResource SubheaderTextStyle}" FontSize="30" Margin="20">בנייה</TextBlock>
+                                                        <TextBlock Style="{StaticResource BodyTextStyle}" Margin="20.10">למען הבהירות, מוצגים כאן ההיטלים כשהם מוצמדים.</TextBlock>
+                                                        <TextBlock Style="{StaticResource BodyTextStyle}" Margin="20,0">* בחר קו מסויים באחד מן ההטלים. מומלץ לבחור בקו שבקצהו זווית עגולה- ממנו ייקל עליך להמשיך.</TextBlock>
+                                                        <Image Source="InfoImage/1.png" Width="100" NineGrid="2" Margin="0,-10,150,20" HorizontalAlignment="Right"/>
+                                                        <TextBlock Style="{StaticResource BodyTextStyle}" Margin="20,0">* חפש את המקביל לו באחד מן ההיטלים, ניתן להיעזר בהצמדת ההיטלים.  בדוק בהיטל המקביל לקו שאינו מתלכד עם קווים נוספים- ב"פירוק" קווים שהתלכדו נטפל בהמשך.
+                                                        </TextBlock>
+                                                        <Image Source="InfoImage/2.png" Width="100" NineGrid="2" Margin="0,-0,150,20" HorizontalAlignment="Right"/>
+                                                        <TextBlock Style="{StaticResource BodyTextStyle}" Margin="20,0">* כעת, שתי אפשרויות "שיבוץ" לפניך.
+                                                        </TextBlock>
+                                                        <Image Source="InfoImage/3.png" Width="100" NineGrid="2" Margin="0,-10,150,20" HorizontalAlignment="Right"/>
+                                                        <TextBlock Style="{StaticResource BodyTextStyle}" Margin="20,0">* זהה בדרך זו את מיקומם של כל הקווים הבודדים, בנה אותם.
+                                                        </TextBlock>
+                                                        <TextBlock Style="{StaticResource BodyTextStyle}" Margin="20,10">* כעת, לאחר שרוב המבנה זוהה, ייקל עליך לזהות ולבנות את חלקי המבנה הקשים יותר לפענוח.
+                                                        </TextBlock>
+                                                        <TextBlock Style="{StaticResource BodyTextStyle}" Margin="20,0">* בחר קו "מפוענח" כלשהו- שזיהית את מיקומו, התבונן בצורתה של הזווית שבסופו: אם היא עגולה, משמע שהקו האנך לה נמצא באותה "שכבה". אם היא ישרה- זהו סיום המבנה או שזהו ראשו של קו אחר, בדוק זאת בהיטלים האחרים.
+                                                        </TextBlock>
+                                                        <TextBlock Style="{StaticResource BodyTextStyle}" Margin="20,10">השתמש בכלי הבניה על מנת לבנות, למחוק ולזוז בתוך הקוביה.
+                                                        </TextBlock>
+
+                                                    </StackPanel>
+                                                    </ScrollViewer>
+                                            </Grid>
+                                          <Grid Name="grid_desrption_concept_B3" Style="{StaticResource GridConseptStyle}">
+                                                <Rectangle Fill="#f9f9f9" />
+                                                <StackPanel Orientation="Vertical" Margin="30" >
+                                                    <TextBlock Style="{StaticResource SubheaderTextStyle}" FontSize="30" Margin="20">כלי עזר</TextBlock>
+                                                </StackPanel>
+                                            </Grid>
+                                            <Grid Name="grid_desrption_concept_B4" Style="{StaticResource GridConseptStyle}">
+                                                <Rectangle Fill="#f9f9f9" />
+                                                <StackPanel Orientation="Vertical" Margin="30" >
+                                                    <TextBlock Style="{StaticResource SubheaderTextStyle}" FontSize="30" Margin="20">התמקצעות</TextBlock>
+                                                </StackPanel>
+                                            </Grid>
+                                            <Grid Name="grid_desrption_concept_B1" Style="{StaticResource GridConseptStyle}">
+                                                <Rectangle Fill="#f9f9f9"/>
+                                                <StackPanel Orientation="Vertical" Margin="30" >
+                                                    <TextBlock Style="{StaticResource SubheaderTextStyle}" FontSize="30" Margin="20">שרטוט</TextBlock>
+                                                    <TextBlock Style="{StaticResource BodyTextStyle}" Margin="20"> בחר אחד מן ההיטלים, וודא כי הקוביה מוצבת במקומה ושרטט את סכמת המבנה כפי שנראה במבט מהמימד הנבחר.<LineBreak></LineBreak>
+                                                   לתצוגה נוחה יותר, הצב את הקוביה כך שאחד המימדים יופנה לכיוונך. שים לב!  עליך לצייר את <Bold>סכמת</Bold> המבנה. כלומר: התעלם מהקווים המאונכים למימד.
+                                                 <LineBreak/>
+                                                        <LineBreak/> 
+                                                        * אין צורך לשרטט את מבנה הקוביה, היא נועדה רק כדי לסייע לך לזהות את מיקום המבנה במרחב.
+                                                        <LineBreak/>
+                                                        * קווים מתלכדים מיוצגים בקו אחד.
+                                                        <LineBreak/>
+                                                        * הזוויות תתיישרנה בסיום השרטוט.
+                                                     <LineBreak/>
+                                                        * לשם כך, השתמש בכלי הציור.
+                                                          <LineBreak/>
+                                                        </TextBlock>
+                                                </StackPanel>
+                                            </Grid>
+                                           
+                                        </Canvas>
+                                    </Border>
+                                </Grid>
+                                <!--</FlipViewItem>-->
+                                <Grid Name="Grid_katC">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="110*"/>
+                                        <RowDefinition Height="471*"/>
+                                        <RowDefinition Height="77*"/>
+                                    </Grid.RowDefinitions>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="284*"/>
+                                        <ColumnDefinition Width="41*"/>
+                                        <ColumnDefinition Width="893*"/>
+                                        <ColumnDefinition Width="142*"/>
+                                    </Grid.ColumnDefinitions>
+                                    <TextBlock Style="{StaticResource HeaderTextBlockStyle}" TextAlignment="Left" Foreground="#424966"  Margin="48,45,868,10" Name="Title_C" Grid.ColumnSpan="3" >שרטוט</TextBlock>
+                                    <Rectangle Grid.Row="1" Fill="White" Margin="255,0,24,129"/>
+                                    <StackPanel Name="sp_C" Grid.Row="1">
+                                        <TextBlock x:Name="concept_C1" Style="{StaticResource ConceptNameStyle}" Margin="0,70,50,00" PointerExited="concept_PointerExited" PointerPressed="concept_PointerPressed" Tag="False" PointerEntered="concept_PointerEntered" Foreground="#424966" TextAlignment="Right" Height="36" Width="190"  FontWeight="SemiBold">
+                                    		<Run Text="ציור"/>
+                                        </TextBlock>
+                                        <TextBlock x:Name="concept_C2" Style="{StaticResource ConceptNameStyle}" Margin="0,25,50,00" PointerExited="concept_PointerExited" PointerPressed="concept_PointerPressed" Tag="False" PointerEntered="concept_PointerEntered" Foreground="#333333" TextAlignment="Right" Height="36" Width="190" FontWeight="SemiBold" >
+                                    		<Run Text="מחיקה"/>
+                                        </TextBlock>
+                                        <TextBlock x:Name="concept_C3" Style="{StaticResource ConceptNameStyle}" Margin="0,25,50,00" PointerExited="concept_PointerExited" PointerPressed="concept_PointerPressed" Tag="False" PointerEntered="concept_PointerEntered" Foreground="#333333" TextAlignment="Right" Height="36" Width="190" FontWeight="SemiBold">
+                                    		<Run Text="השלמת היטל "/>
+                                        </TextBlock>
+                                    </StackPanel>
+                                    <Border Grid.Column="2" Grid.Row="1" BorderBrush="LightGray" BorderThickness="2"   Grid.RowSpan="1">
+                                        <Canvas>
+                                          <Grid Name="grid_desrption_concept_C2" Style="{StaticResource GridConseptStyle}">
+                                                <Rectangle Fill="#f9f9f9" />
+                                                <StackPanel Orientation="Vertical" Margin="30" >
+                                                    <TextBlock Style="{StaticResource SubheaderTextStyle}" FontSize="30" Margin="20">מחיקה</TextBlock>
+                                                    <StackPanel Orientation="Horizontal">
+                                                        <Ellipse  Style="{StaticResource Del_Pointer }" HorizontalAlignment="Left" Margin="20" Width="70" Height="70"></Ellipse>
+                                                        <TextBlock Style="{StaticResource BodyTextStyle}" Margin="10" >
+                                                        תפוס את הסמן הכחול ועבור באמצעותו על הקו השגוי .
+                                                    <LineBreak/>
+                                                       הסמן נעלם פתאום? מצויין. היעלמות הסמן מורה על סיום ציור ההיטל בהצלחה. עבור להיטל הבא!
+                                                             <LineBreak/>
+                                                             <LineBreak/>
+                                                        </TextBlock>
+                                                    </StackPanel>
+                                                    <TextBlock Margin="20" Style="{StaticResource SubtitleTextStyle}" FontWeight="SemiBold">   מעבר בין ברירות ציור/ מחיקה נעשה באמצעות נגיעה בודדת במקום פנוי כלשהו בשטח ההיטל
+                                                  <LineBreak/>
+                                                            חזרה למצב ציור יכולה להיעשות גם ע"י יציאה מההיטל וחזרה אליו.
+                                                    </TextBlock>
+                                                </StackPanel>
+                                        </Grid>
+                                            <Grid Name="grid_desrption_concept_C3" Style="{StaticResource GridConseptStyle}">
+                                                <Rectangle Fill="#f9f9f9" />
+                                                <StackPanel Orientation="Vertical" Margin="30" >
+                                                    <TextBlock Style="{StaticResource SubheaderTextStyle}" FontSize="30" Margin="20">השלמת היטל</TextBlock>
+                                                    <TextBlock Style="{StaticResource BodyTextStyle}" Margin="20"> 
+                                                        ברגע השלמת שרטוט ההיטל נכונה, מצטייר הקו מחדש ומתיישרות הזוויות במקומן.
+                                                        
+                                                        ההיטל ננעל מפני עריכה. עבור להיטל הבא!
+                                                         <LineBreak/>
+                                                      בעת השלמת שלשת ההיטלים- מסתיים התרגיל בהצלחה ומופיע מסך הניצחון.<LineBreak/>
+                                                         
+                                                        </TextBlock>
+                                                    <TextBlock Style="{StaticResource BodyTextStyle}" Margin="40,0">
+                                                          <Bold>
+                                                        סיימת היטל אך המערכת לא מזהה אותו?
+                                                         </Bold>
+                                                        <LineBreak/>
+                                                        <LineBreak/>
+                                                        * ודא  כי בכל היטל צויירו גם הקווים הצמודים לדופנה האחורי של הקוביה... וצייר אותם.
+                                                        <LineBreak/>
+                                                        *  ודא כי לא נותרו קצוות- שרטוט מיותרים, והקווים מצויירים בשלמותם, בדוק האם גם הקוויום הקצרים יותר שורטטו במלא- אורכם. 
+                                                     <LineBreak/>
+                                                        * ודא כי הקוביה תועדה במיקום הנכון- לחץ על "יישר קוביה" ובדוק כל היטל.
+                                                  <LineBreak/>
+                                                        * כשהיטל Z במצב "השלכת קווים" יש להטיל אליו את המבנה בסיבוב של 90 מעלות לשמאל. בדוק זאת!
+                                                    </TextBlock>
+                                                    <TextBlock Style="{StaticResource BodyTextStyle}" HorizontalAlignment="Center" FontWeight="SemiBold" Margin="10,30"> 
+                                                        
+                                                        ולאחר שסיימת בהצלחה שרטוט היטלים, עבור לבנייה אמיתית בתלת ממד!
+                                                      </TextBlock>
+                                                </StackPanel>
+                                            </Grid>
+                                            <Grid Name="grid_desrption_concept_C1" Style="{StaticResource GridConseptStyle}">
+                                                <Rectangle Fill="#f9f9f9"/>
+                                                <StackPanel Orientation="Vertical" Margin="30" >
+                                                    <TextBlock Style="{StaticResource SubheaderTextStyle}" FontSize="30" Margin="20">ציור</TextBlock>
+                                                    <StackPanel Orientation="Horizontal">
+                                                        <Ellipse  Style="{StaticResource Draw_Pointer}" HorizontalAlignment="Left" Margin="20" Width="50" Height="50"></Ellipse>
+                                                        <TextBlock Style="{StaticResource BodyTextStyle}" Margin="10" >
+                                                        תפוס את הסמן האדום וצייר באמצעותו על ההיטל.
+                                                   <LineBreak/>
+                                                        הסמן מופיע בעת כניסה להיטל. התאמן בשרטוט אדריכלי- הזהר לא לחרוג מגבולות ההיטל!
+                                                      <LineBreak/>
+                                                        ניתן להניח נקודות סימון בתוואי קו שלא הוכרע עדיין...
+                                                          <LineBreak/>  <LineBreak/>
+                                                        הסמן נעלם פתאום? מצויין. היעלמות הסמן מורה על סיום ציור ההיטל בהצלחה. עבור להיטל הבא!
+                                                        </TextBlock>
+
+                                                    </StackPanel>
+                                                    <TextBlock Margin="20" Style="{StaticResource SubtitleTextStyle}" FontWeight="SemiBold">   מעבר בין ברירות ציור/ מחיקה נעשה באמצעות נגיעה בודדת במקום פנוי כלשהו בשטח ההיטל
+                                                  <LineBreak/>
+                                                            חזרה למצב ציור יכולה להיעשות גם ע"י יציאה מההיטל וחזרה אליו.
+                                                    </TextBlock>
+
+                                                </StackPanel>
+                                            </Grid>
+
+                                        </Canvas>
+                                    </Border>
+                                </Grid>
+                                <!--  </FlipViewItem>-->
+                             <Grid Name="Grid_katD">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="110*"/>
+                                        <RowDefinition Height="471*"/>
+                                        <RowDefinition Height="77*"/>
+                                    </Grid.RowDefinitions>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="284*"/>
+                                        <ColumnDefinition Width="41*"/>
+                                        <ColumnDefinition Width="893*"/>
+                                        <ColumnDefinition Width="142*"/>
+                                    </Grid.ColumnDefinitions>
+                                    <TextBlock Style="{StaticResource HeaderTextBlockStyle}" TextAlignment="Left" Foreground="#007f6a"  Margin="48,45,868,10" Name="Title_D" Grid.ColumnSpan="3" >בנייה</TextBlock>
+                                    <Rectangle Grid.Row="1" Fill="White" Margin="255,0,24,85"/>
+                                    <StackPanel Name="sp_D" Grid.Row="1">
+                                        <TextBlock x:Name="concept_D1" Style="{StaticResource ConceptNameStyle}" Margin="0,70,50,00" PointerExited="concept_PointerExited" PointerPressed="concept_PointerPressed" Tag="False" PointerEntered="concept_PointerEntered" Foreground="#007f6a" TextAlignment="Right" Height="36" Width="190"  FontWeight="SemiBold">
+                                    		<Run Text="תזוזה"/>
+                                        </TextBlock>
+                                        <TextBlock x:Name="concept_D2" Style="{StaticResource ConceptNameStyle}" Margin="0,25,50,00" PointerExited="concept_PointerExited" PointerPressed="concept_PointerPressed" Tag="False" PointerEntered="concept_PointerEntered" Foreground="#333333" TextAlignment="Right" Height="36" Width="190" FontWeight="SemiBold" >
+                                    		<Run Text="בנייה"/>
+                                        </TextBlock>
+                                        <TextBlock x:Name="concept_D3" Style="{StaticResource ConceptNameStyle}" Margin="0,25,50,00" PointerExited="concept_PointerExited" PointerPressed="concept_PointerPressed" Tag="False" PointerEntered="concept_PointerEntered" Foreground="#333333" TextAlignment="Right" Height="36" Width="190" FontWeight="SemiBold">
+                                    		<Run Text="מחיקה"/>
+                                        </TextBlock>
+                                        <TextBlock x:Name="concept_D4" Style="{StaticResource ConceptNameStyle}" Margin="0,25,50,00" PointerExited="concept_PointerExited" PointerPressed="concept_PointerPressed" Tag="False" PointerEntered="concept_PointerEntered" Foreground="#333333" TextAlignment="Right" Height="36" Width="190" FontWeight="SemiBold" >
+                                    		<Run Text="רמז "/>
+                                        </TextBlock>
+                                        <TextBlock x:Name="concept_D5" Style="{StaticResource ConceptNameStyle}" Margin="0,25,50,00" PointerExited="concept_PointerExited" PointerPressed="concept_PointerPressed" Tag="False" PointerEntered="concept_PointerEntered" Foreground="#333333" TextAlignment="Right" Height="36" Width="190" FontWeight="SemiBold" >
+                                    		<Run Text="סיום מבנה "/>
+                                        </TextBlock>
+                                    </StackPanel>
+                                    <Border Grid.Column="2" Grid.Row="1" BorderBrush="LightGray" BorderThickness="2" Grid.RowSpan="1">
+                                        <Canvas>
+                                           <Grid Name="grid_desrption_concept_D2" Style="{StaticResource GridConseptStyle}">
+                                                <Rectangle Fill="#f9f9f9" />
+                                                <StackPanel Orientation="Vertical" Margin="30" >
+                                                    <TextBlock Style="{StaticResource SubheaderTextStyle}" FontSize="30" Margin="20">בנייה</TextBlock>
+                                                    <StackPanel Orientation="Horizontal">
+                                                        <Image Source="InfoImage/DrawPoi.png" Width="140" NineGrid="2" Margin="20,0" HorizontalAlignment="Right"/>
+                                                        <TextBlock Style="{StaticResource BodyTextStyle}" Margin="10" Width="537" >
+                                                      <Bold FontWeight="SemiBold"> סמן במצב יצירה מאפשר את בניית מוט המתכת בתוך הקוביה.
+                                                 </Bold>  
+                                                            <LineBreak/>
+                                                            תזוזת הסמן בונה מוט מתכת בתוואי המבוקש.
+                                                         <LineBreak/>
+                                                            התנועה- בנייה מתאפשרת בגבולות הקוביה
+                                                          , בתוואי המאופשר לבניה.
+                                                             <LineBreak/>
+                                                             אורך המוט הנבנה הוא כחצי ממקצוע הקוביה.
+                                                             <LineBreak/> 
+                                                            התזוזה נעשית בלחיצה על מקשי המקלדת שהוגדרו.
+                                                            
+                                                                <LineBreak/>
+                                                              <Bold FontWeight="ExtraLight"> ניתן לראות בכל עת את הלחצנים שהוגדרו לכל מימד בלחיצה על "מקשי מימדים".
+</Bold>
+                                                        </TextBlock>
+                                                    </StackPanel>
+                                                    <TextBlock Foreground="#007f6a" Style="{StaticResource BodyTextStyle}" FontSize="15" Margin="10,80" HorizontalAlignment="Center" >
+                                                      <Bold FontWeight="Bold">טיפ!  </Bold> 
+                                              
+                                                           לנוחות השימוש, עבור בין מצבי הסמן בלחיצה על מקש TAB
+
+                                                    </TextBlock>
+
+                                                </StackPanel>
+                                            </Grid>
+                                            <Grid Name="grid_desrption_concept_D3" Style="{StaticResource GridConseptStyle}">
+                                                <Rectangle Fill="#f9f9f9" />
+                                                <StackPanel Orientation="Vertical" Margin="30" >
+                                                    <TextBlock Style="{StaticResource SubheaderTextStyle}" FontSize="30" Margin="20">מחיקה</TextBlock>
+                                                    <StackPanel Orientation="Horizontal">
+                                                        <Image Source="InfoImage/DelPoi.png" Width="140" NineGrid="2" Margin="20,0" HorizontalAlignment="Right"/>
+                                                        <TextBlock Style="{StaticResource BodyTextStyle}" Margin="10" Width="537" >
+                                                      <Bold FontWeight="SemiBold"> סמן במצב מחיקה מאפשר את מחיקת המבנה שבתוך הקוביה.
+                                                 </Bold>  
+                                                            <LineBreak/>
+                                                            תזוזת הסמן מוחקת את מוט מתכת שבתוואי המבוקש.
+                                                         <LineBreak/>
+                                                            התנועה- מחיקה מתאפשרת בגבולות הקוביה
+                                                          , בתוואי מבנה קיים.
+                                                             <LineBreak/>
+                                                             אורך המוט הנמחק הוא כחצי ממקצוע הקוביה.
+                                                             <LineBreak/> 
+                                                            התזוזה נעשית בלחיצה על מקשי המקלדת שהוגדרו.
+                                                            
+                                                                <LineBreak/>
+                                                              <Bold FontWeight="ExtraLight"> ניתן לראות בכל עת את הלחצנים שהוגדרו לכל מימד בלחיצה על "מקשי מימדים".
+</Bold>
+                                                        </TextBlock>
+                                                    </StackPanel>
+                                                    <TextBlock Foreground="#007f6a" Style="{StaticResource BodyTextStyle}" FontSize="15" Margin="10,80" HorizontalAlignment="Center" >
+                                                      <Bold FontWeight="Bold" >טיפ!  </Bold> 
+                                              
+                                                           לנוחות השימוש, עבור בין מצבי הסמן בלחיצה על מקש TAB
+
+                                                    </TextBlock>
+
+                                                </StackPanel>
+                                            </Grid>
+                                            <Grid Name="grid_desrption_concept_D4" Style="{StaticResource GridConseptStyle}">
+                                                <Rectangle Fill="#f9f9f9" />
+                                                <StackPanel Orientation="Vertical" Margin="30" >
+                                                    <TextBlock Style="{StaticResource SubheaderTextStyle}" FontSize="30" Margin="20">רמז</TextBlock>
+                                                     <TextBlock Style="{StaticResource BodyTextStyle}" Margin="52,10,146,10" >
+                                                      <Bold FontWeight="SemiBold"> לחץ על אריח הרמז או על "הצג עזרה" לקבלת רמז.
+                                                 </Bold>  
+                                                            <LineBreak/>
+                                                  
+                                                        נוספים רמז מפענח מיקום קו באחד מן ההיטלים, באמצעות הסקה מהיטלים נוספים.
+                                                         <LineBreak/>
+                                                            ניתן לראות את הקו שאליו מכוון הרמז ע"י לחיצה על סימן ה"הצג" שבאריח הרמז. להסקה קלה ניתן להיעזר בהצמדת ההיטלים. 
+                                                             <LineBreak/>
+                                                         האופציה ממולצת למתחילים או בשלבים מתקדמים מאד. נסה לפענח בכוחות עצמך!
+                                                           <LineBreak/>
+                                                            
+                                                        </TextBlock>
+                                                    </StackPanel>
+                                                   
+
+                                            
+                                            </Grid>
+                                            <Grid Name="grid_desrption_concept_D5" Style="{StaticResource GridConseptStyle}">
+                                                <Rectangle Fill="#f9f9f9" />
+                                                <StackPanel Orientation="Vertical" Margin="30" >
+                                                    <TextBlock Style="{StaticResource SubheaderTextStyle}" FontSize="30" Margin="20">סיום מבנה</TextBlock>
+                                                    <TextBlock Style="{StaticResource BodyTextStyle}" Margin="20" FontWeight="Bold"> 
+                                                       <Bold >
+                                                      ברגע שהושלמה הבניה נכונה - הסתיים התרגיל בהצלחה, אז תרקוד הקוביה ריקוד נצחון!<LineBreak/>
+</Bold>
+                                                    </TextBlock>
+                                                    <TextBlock Style="{StaticResource BodyTextStyle}" Margin="40,0">
+                                                          <Bold FontWeight="SemiBold">
+                                                        סיימת לבנות נכונה והתרגיל לא נגמר?
+                                                         </Bold>
+                                                        <LineBreak/>
+                                                        <LineBreak/>
+                                                        * סובב את הקוביה וודא כי המבנה תואם במדוייק לשלשת ההיטלים.
+                                                        <LineBreak/>
+                                                        * בדוק האם לא נשכח פיענוח קו- מתלכד כלשהו. 
+                                                     <LineBreak/>
+                                                        * ודא כי המבנה נבנה בתנוחה הנכונה - לחץ על "יישר קוביה" ובדוק את המבנה מול כל היטל.
+                                                <LineBreak/>
+                                                        * באמצעות תצוגת הרמזים, ניתן לראות את מיקומו של כל קו בהיטלים, עבור על מלאי הרמזים וודא כי בנייתך נכונה.
+
+                                                    <LineBreak/>
+                                                        * 
+                                                        במצב "השלכת קווים" 
+                                                        היטל Z
+                                                        מוצב בסיבוב של 90 מעלות לשמאל. בדוק זאת!
+                                                    </TextBlock>
+                                                    
+                                                    <TextBlock Style="{StaticResource BodyTextStyle}" HorizontalAlignment="Center" FontWeight="SemiBold" Margin="10,30"> 
+                                                        
+                                                         כעת, בחן יכולות וקצור הישגים בתרגול מוגבל בזמן!
+                                                        עבור לאפשרות "טסט"...
+                                                    </TextBlock>
+                                                </StackPanel>
+                                            </Grid>
+  <Grid Name="grid_desrption_concept_D1" Style="{StaticResource GridConseptStyle}">
+                                                <Rectangle Fill="#f9f9f9"/>
+                                                <StackPanel Orientation="Vertical" Margin="30" >
+                                                    <TextBlock Style="{StaticResource SubheaderTextStyle}" FontSize="30" Margin="20">תזוזה</TextBlock>
+                                                        <StackPanel Orientation="Horizontal">
+                                                        <Image Source="InfoImage/MovePoi.png" Width="140" NineGrid="2" Margin="20,0" HorizontalAlignment="Right"/>
+                                                        <TextBlock Style="{StaticResource BodyTextStyle}" Margin="10" Width="537" >
+                                                      <Bold FontWeight="SemiBold">   סמן במצב תזוזה מאפשר תנועה בתוך הקוביה.
+                                                 </Bold>  
+                                                            <LineBreak/>
+                                                            התנועה מתאפשרת בגבולות הקוביה
+                                                            , על חלקי מבנה ובמקומות ריקים.
+                                                             <LineBreak/>
+                                                            התנועה נעשית בלחיצה על מקשי המקלדת שהוגדרו.
+                                                                <LineBreak/> 
+                                                            <Bold FontWeight="ExtraLight"> ניתן לראות בכל עת את הלחצנים שהוגדרו לכל מימד בלחיצה על "מקשי מימדים".
+</Bold>  
+                                                        </TextBlock>
+                                                            </StackPanel>
+                                                    <TextBlock Foreground="#007f6a" Style="{StaticResource BodyTextStyle}" FontSize="15" Margin="10,80" HorizontalAlignment="Center" >
+                                                      <Bold FontWeight="Bold">טיפ!  </Bold> 
+                                              
+                                                           לנוחות השימוש, עבור בין מצבי הסמן בלחיצה על מקש TAB
+                                                      
+                                                        </TextBlock>
+                                                    <TextBlock Style="{StaticResource BodyTextStyle}"  Margin="10" HorizontalAlignment="Center" >
+                                               </TextBlock>
+                                                </StackPanel>
+                                            </Grid>
+                                         
+                                        </Canvas>
+                                    </Border>
+                                </Grid>
+                                <!--  </FlipViewItem>-->
+                                <Grid Name="Grid_katE">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="110*"/>
+                                        <RowDefinition Height="471*"/>
+                                        <RowDefinition Height="77*"/>
+                                    </Grid.RowDefinitions>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="284*"/>
+                                        <ColumnDefinition Width="41*"/>
+                                        <ColumnDefinition Width="893*"/>
+                                        <ColumnDefinition Width="142*"/>
+                                    </Grid.ColumnDefinitions>
+                                    <TextBlock Style="{StaticResource HeaderTextBlockStyle}" TextAlignment="Left" Foreground="#f7931d"  Margin="48,45,868,10" Name="Title_E" Grid.ColumnSpan="3" >תצורה</TextBlock>
+                                    <Rectangle Grid.Row="1" Fill="White" Margin="255,0,24,173"/>
+                                    <StackPanel Name="sp_E" Grid.Row="1">
+                                        <TextBlock x:Name="concept_E1" Style="{StaticResource ConceptNameStyle}" Margin="0,70,50,00" PointerExited="concept_PointerExited" PointerPressed="concept_PointerPressed" Tag="False" PointerEntered="concept_PointerEntered" Foreground="#f7931d" TextAlignment="Right" Height="36" Width="190"  FontWeight="SemiBold"><!--FontWeight="{ThemeResource SemiBold}"-->
+                                    		<Run Text="סיבוב הקוביה"/>
+                                        </TextBlock>
+                                        <TextBlock x:Name="concept_E2" Style="{StaticResource ConceptNameStyle}" Margin="0,25,50,00" PointerExited="concept_PointerExited" PointerPressed="concept_PointerPressed" Tag="False" PointerEntered="concept_PointerEntered" Foreground="#333333" TextAlignment="Right" Height="36" Width="190" FontWeight="SemiBold" ><!--FontWeight="{ThemeResource SemiBold}" >-->
+                                    		<Run Text="שינוי הגדרות"/>
+                                        </TextBlock>
+                                        <TextBlock x:Name="concept_E3" Style="{StaticResource ConceptNameStyle}" Margin="0,25,50,00" PointerExited="concept_PointerExited" PointerPressed="concept_PointerPressed" Tag="False" PointerEntered="concept_PointerEntered" Foreground="#333333" TextAlignment="Right" Height="36" Width="190" FontWeight="SemiBold">
+                                    		<Run Text="השלכת קווים "/>
+                                        </TextBlock>
+                                    </StackPanel>
+                                    <Border Grid.Column="2" Grid.Row="1" BorderBrush="LightGray" BorderThickness="2"   Grid.RowSpan="1">
+                                        <Canvas>
+                                            <Grid Name="grid_desrption_concept_E2" Style="{StaticResource GridConseptStyle}">
+                                                <Rectangle Fill="#f9f9f9" />
+                                                <StackPanel Orientation="Vertical" Margin="30" >
+                                                    <TextBlock Style="{StaticResource SubheaderTextStyle}" FontSize="30" Margin="20">שינוי הגדרות</TextBlock>
+                                                    <TextBlock Style="{StaticResource BodyTextStyle}" Margin="20">
+                                                        ניתן לשנות את הגדרות מקשי החיצים בחלון "הגדרות" המובנה בצ'ארמס.
+                                                        <LineBreak />
+                                                       הגדרות נוכחיות מוצגות בלחיצה על "מקשי מימדים" במסך התרגיל.
+                                                    </TextBlock>
+
+                                                </StackPanel>
+                                            </Grid>
+                                            <Grid Name="grid_desrption_concept_E3" Background="White" Style="{StaticResource GridConseptStyle}">
+                                                <ScrollViewer Height="Auto"  ViewChanged="ScrollViewer_ViewChanged" >
+
+                                                <StackPanel Orientation="Vertical" Margin="30" >
+                                                        <TextBlock Style="{StaticResource SubheaderTextStyle}" FontSize="30" Margin="20">השלכת קווים- שיטת ה45 מעלות</TextBlock>
+                                                    <TextBlock Style="{StaticResource BodyTextStyle}" Margin="20">
+                                                       ניתן להשליך קווים מהיטל פנים להיטל צד בלחיצה על " השלכת קווים".
+                                                        <LineBreak />
+                                                      "השלכה" זו מאפשרת הסקה נוחה יותר מתצוגת ההיטלים, שכן אז ההיטלים מונחים כקוביה פרוסה- כביכול גזרו את הקוביה בפאתה הקדמית, בין שני מימדי החזית- X ו Z.
+                                                    </TextBlock>
+                                                        <StackPanel Orientation="Horizontal" Width="389" HorizontalAlignment="Right">
+                                                            <Image Source="InfoImage/As1.png" Width="150"  Margin="20"/>
+                                                            <Image Source="InfoImage/As0.png" Width="133" Margin="20,10"/>
+
+                                                        </StackPanel>
+                                                     <Image Source="InfoImage/45 (2).jpg"  Height="235"/>
+                                                    <Image Source="InfoImage/450.jpg"/>
+                                                    <Image Source="InfoImage/451.jpg"/>
+                                                    <Image Source="InfoImage/452.jpg"/>
+                                                    <Image Source="InfoImage/453.jpg"/>
+                                                    <Image Source="InfoImage/454.jpg"/>
+                                                </StackPanel>
+                                           </ScrollViewer>
+                                                </Grid>
+                                            <Grid Name="grid_desrption_concept_E1" Style="{StaticResource GridConseptStyle}">
+                                                <Rectangle Fill="#f9f9f9"/>
+                                                <StackPanel Orientation="Vertical" Margin="30" >
+                                                    <TextBlock Style="{StaticResource SubheaderTextStyle}" FontSize="30" Margin="20" >סיבוב הקוביה</TextBlock>
+                                                    <TextBlock Style="{StaticResource BodyTextStyle}" Margin="20">
+                                                         ניתן לסובב את הקוביה באמצעות העכבר. 
+                                                        <LineBreak />
+                                                        החזרת הקוביה למיקומה המקורי נעשית בלחיצה על כפתור היישור.
+                                                    </TextBlock>
+                                                    <TextBlock Style="{StaticResource BodyTextStyle}" Margin="610,80,80,80" FontSize="100" FontFamily="Segoe UI Symbol" Height="98">
+                                                        &#xE13F;
+                                                    </TextBlock>
+                                                </StackPanel>
+                                            </Grid>
+
+                                        </Canvas>
+                                    </Border>
+                                </Grid>
+                                <!--</FlipViewItem>-->
+                            </FlipView>
+                        </GridView.Footer>
+                    </GridView>
+                </SemanticZoom.ZoomedInView>
+                <SemanticZoom.ZoomedOutView>
+                    <GridView IsItemClickEnabled="True" SelectionMode="Extended" IsActiveView="True" ItemClick="GridView_ItemClick" SelectionChanged="GridView_SelectionChanged"  Padding="0,0,70,0" Margin="0" RenderTransformOrigin="0.5,0.5" >
+                        <GridView.RenderTransform>
+                            <CompositeTransform ScaleX="0.8" ScaleY="0.8" />
+                        </GridView.RenderTransform>
+                        <Grid Background="#97a219" Name="ButtonZoomOut_katA" Tapped="ButtonZoomOut_Tapped" HorizontalAlignment="Left" Width="250" Height="250" Margin="0,0,0,2" >
+                            <StackPanel VerticalAlignment="Bottom" Background="White">
+                                <TextBlock Text="מושגים" Foreground="#666666" FontSize="18" Style="{StaticResource TitleTextBlockStyle}" Height="60" Margin="15,0,15,0"/>
+                                <TextBlock Text=" Subtitle" Foreground="{ThemeResource ListViewItemOverlaySecondaryForegroundThemeBrush}" Style="{StaticResource CaptionTextBlockStyle}" TextWrapping="NoWrap" Margin="15,0,15,10"/>
+                            </StackPanel>
+                        </Grid>
+                        <Grid Background="#f7931d" Name="ButtonZoomOut_katE" Tapped="ButtonZoomOut_Tapped" HorizontalAlignment="Left" Width="250" Height="250" Margin="0,0,0,2" >
+                            <StackPanel VerticalAlignment="Bottom" Background="White">
+                                <TextBlock Text="הגדרות" Foreground="#666666" FontSize="18" Style="{StaticResource TitleTextBlockStyle}" Height="60" Margin="15,0,15,0"/>
+                                <TextBlock Text=" Subtitle" Foreground="{ThemeResource ListViewItemOverlaySecondaryForegroundThemeBrush}" Style="{StaticResource CaptionTextBlockStyle}" TextWrapping="NoWrap" Margin="15,0,15,10"/>
+                            </StackPanel>
+                        </Grid>
+                        <Grid Background="#e71460" Name="ButtonZoomOut_katB" Tapped="ButtonZoomOut_Tapped" HorizontalAlignment="Left" Width="250" Height="250" Margin="0,0,0,2" >
+                            <StackPanel VerticalAlignment="Bottom" Background="White">
+                                <TextBlock Text="מהלך הפתרון"  Foreground="#666666" FontSize="18"  Style="{StaticResource TitleTextBlockStyle}" Height="60" Margin="15,0,15,0"/>
+                                <TextBlock Text=" Subtitle" Foreground="{ThemeResource ListViewItemOverlaySecondaryForegroundThemeBrush}" Style="{StaticResource CaptionTextBlockStyle}" TextWrapping="NoWrap" Margin="15,0,15,10"/>
+                            </StackPanel>
+                        </Grid>
+                        <Grid Background="#007f6a" Name="ButtonZoomOut_katD" Tapped="ButtonZoomOut_Tapped" HorizontalAlignment="Left" Width="250" Height="250" Margin="0,0,0,2" >
+                            <StackPanel VerticalAlignment="Bottom" Background="White">
+                                <TextBlock Text="כלי בנייה" Foreground="#666666" FontSize="18" Style="{StaticResource TitleTextBlockStyle}" Height="60" Margin="15,0,15,0"/>
+                                <TextBlock Text=" Subtitle" Foreground="{ThemeResource ListViewItemOverlaySecondaryForegroundThemeBrush}" Style="{StaticResource CaptionTextBlockStyle}" TextWrapping="NoWrap" Margin="15,0,15,10"/>
+                            </StackPanel>
+                        </Grid>
+                        <Grid Background="#424966" Name="ButtonZoomOut_katC" Tapped="ButtonZoomOut_Tapped" HorizontalAlignment="Left" Width="250" Height="250" Margin="0,0,0,2" >
+                            <StackPanel VerticalAlignment="Bottom" Background="White">
+                                <TextBlock Text="כלי ציור" Foreground="#666666" FontSize="18" Style="{StaticResource TitleTextBlockStyle}" Height="60" Margin="15,0,15,0"/>
+                                <TextBlock Text=" Subtitle" Foreground="{ThemeResource ListViewItemOverlaySecondaryForegroundThemeBrush}" Style="{StaticResource CaptionTextBlockStyle}" TextWrapping="NoWrap" Margin="15,0,15,10"/>
+                            </StackPanel>
+                        </Grid>
+
+
+                        <!--<Button  Tapped="Button_concept_Tapped" Width="200" Height="60" FontSize="30" Foreground="#aab246" Background="#ffff"  Margin="10">מושגים</Button>
+                        <Button Name="ButtonZoomOut_katB"  Tapped="Button_concept_Tapped" Width="200" Height="60" FontSize="30" Foreground="#aab246" Background="#ffff"  Margin="10">מושגים</Button>-->
+                    </GridView>
+
+
+
+                </SemanticZoom.ZoomedOutView>
+            </SemanticZoom>
+        </Grid>
+    </Grid>
+</Page>
+
+<!--<TextBlock Style="{StaticResource BodyTextStyle}" Width="800" Height="338" Margin="15,0,14,0" >
+איזומטריה היא פונקציה משמרת מרחק ממרחב מטרי אחד על מרחב מטרי אחר. מרחבים שיש ביניהם איזומטריה הם איזומטריים, ויש להם אותן תכונות מטריות.
+
+כל איזומטריה היא חד-חד-ערכית (כי היא מעתיקה נקודות שהמרחק ביניהן חיובי לנקודות שהמרחק ביניהן חיובי). לכן איזומטריות הן האיזומורפיזמים של מרחבים מטריים.
+
+הגדרה פורמלית
+
+איזומטריה ממרחב מטרי S_1 (עם מטריקה d_1) למרחב המטרי S_2 ( עם המטריקה d_2 בהתאמה) היא פונקציה f: S_1 \to S_2 על, המקיימת \, d_2(f(x),f(y)) = d_1(x,y) לכל x, y \in S_1.
+
+שלוש נקודות שהיו על ישר אחד עוברות לאותו ישר לפי אי-שוויון המשולש. מכאן שאיזומטריה שומרת על ישרים. כמו כן, משולש עובר לאותו משולש לפי משפט החפיפה צלע-צלע-צלע, ומכאן שאיזומטריה שומרת על זוויות.
+
+איזומטריות במישור האוקלידי
+
+התכונה הבסיסית של איזומטריות של המישור היא שהן מוכרחות לשמור על הקווים הישרים (כלומר, קו ישר תמיד יעבור לקו ישר). בהתאם לכך, יש שלושה סוגים בסיסיים של איזומטריות: שיקוף, סיבוב, והזזה. בעזרת פעולות אלה אפשר לתאר את כל שאר האיזומטריות, השייכות (פרט להעתקת הזהות) לאחת מבין ארבע משפחות:
+
+הזזה - ישנו כיוון יחיד שכל הנקודות מוזזות בו. אין נקודות שבת. הישרים שבכיוון ההזזה נשמרים.
+שיקוף - ישר קבוע מתפקד כציר סימטריה; כל נקודה עוברת למקבילה לה מצידו השני. בצורה יותר מדויקת: ציר השיקוף הוא האנך האמצעי לקטע בין נקודה לתמונתה. כאן ציר השיקוף מהווה את אוסף נקודות השבת.
+סיבוב - מסובבים את המישור בזווית נתונה (לא טריויאלית) סביב נקודה קבועה. ישנה נקודת שבת אחת.
+החלקה - זוהי הרכבה של שיקוף ושל הזזה בכיוון ציר השיקוף. שתי העתקות כנ"ל מתחלפות בכפל, כלומר לא משנה איזו מהן מבוצעת קודם. אין נקודות שבת.
+ישנה איזומטריה נוספת והיא איזומטרית הזהות. באיזומטריה זו כל נקודה מועתקת אל עצמה ולכן למעשה כל הנקודות הן נקודות שבת.
+
+אחרי שקובעים את הראשית, אפשר לכתוב כל איזומטריה בצורה \ T(p)=Ap+v כאשר \ A היא מטריצה אורתוגונלית ו-\ v הוא וקטור ההזזה. כאן \ A היא איזומטריה שמשמרת את הראשית. לכן ניתן לחשוב על איזומטריה כאיבר ב- \ O(2)\times \mathbb{R}^2 (\ O(2) היא חבורת המטריצות האורתוגונליות)
+
+במכפלה הזו, המרכיב \ O(2) פועל על המישור לפי פעולת המטריצות. ביתר פירוט, אם \ T_i (p)=A_i p+v_i עבור \ i=1,2, אז \ T_2\cdot T_1 (p)=A_2 A_1 p+A_2 v_1+v_2.
+
+פרוש הדבר הוא שחבורת האיזומטריות של המישור היא מכפלה חצי ישרה של \ O(2) ושל \ \mathbb{R}^2.</TextBlock>-->

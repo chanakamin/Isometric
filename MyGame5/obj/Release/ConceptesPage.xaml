@@ -1,0 +1,180 @@
+﻿<Page
+    x:Name="pageRoot"
+    x:Class="Isometric.ConceptesPage"
+    DataContext="{Binding DefaultViewModel, RelativeSource={RelativeSource Self}}"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Isometric"
+    xmlns:common="using:Isometric.Common"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    FlowDirection="RightToLeft">
+
+    <Page.Resources>
+        <!-- TODO: Delete this line if the key AppName is declared in App.xaml -->
+        <x:String x:Key="AppName">העמק את הכרתך ולמד מושגים חדשים</x:String>
+        <Style x:Key="ButtonTitleConceptStyle" TargetType="Button">
+            <Setter Property="Width" Value="100"/>
+            <Setter Property="Height" Value="500"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="ButtonBase">
+                        <Grid Background="{TemplateBinding Background}" x:Name="grid">
+                            <VisualStateManager.VisualStateGroups>
+                                <VisualStateGroup x:Name="CommonStates">
+                                    <VisualState x:Name="Normal"/>
+                                    <VisualState x:Name="PointerOver">
+                                        <!--<Storyboard>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Foreground" Storyboard.TargetName="Text">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{CustomResource   Background}"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Background"  Storyboard.TargetName="grid" >
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="#c6c8ca"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                        </Storyboard>-->
+                                    </VisualState>
+                                    <VisualState x:Name="Pressed">
+                                        <Storyboard>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Foreground" Storyboard.TargetName="Text">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{TemplateBinding Background }"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Background"  Storyboard.TargetName="grid" >
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="#ffffff"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </VisualState>
+                                    <VisualState x:Name="Disabled">
+                                        <Storyboard>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Foreground" Storyboard.TargetName="Text">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource ApplicationPressedForegroundThemeBrush}"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </VisualState>
+                                </VisualStateGroup>
+                                <VisualStateGroup x:Name="FocusStates">
+                                    <VisualState x:Name="Focused">
+                                        <Storyboard>
+                                            <DoubleAnimation Duration="0" To="1" Storyboard.TargetProperty="Opacity" Storyboard.TargetName="FocusVisualWhite"/>
+                                            <DoubleAnimation Duration="0" To="1" Storyboard.TargetProperty="Opacity" Storyboard.TargetName="FocusVisualBlack"/>
+                                        </Storyboard>
+                                    </VisualState>
+                                    <VisualState x:Name="Unfocused"/>
+                                </VisualStateGroup>
+                                <VisualStateGroup x:Name="CheckStates">
+                                    <VisualState x:Name="Checked"/>
+                                    <VisualState x:Name="Unchecked">
+                                        <Storyboard>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Foreground" Storyboard.TargetName="Text">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource ApplicationSecondaryForegroundThemeBrush}"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </VisualState>
+                                    <VisualState x:Name="Indeterminate"/>
+                                </VisualStateGroup>
+                            </VisualStateManager.VisualStateGroups>
+                            <ContentPresenter x:Name="Text" Content="{TemplateBinding Content}"/>
+                            <Rectangle x:Name="FocusVisualWhite" IsHitTestVisible="False" Opacity="0" StrokeDashOffset="1.5" StrokeEndLineCap="Square" Stroke="{ThemeResource FocusVisualWhiteStrokeThemeBrush}" StrokeDashArray="1,1"/>
+                            <Rectangle x:Name="FocusVisualBlack" IsHitTestVisible="False" Opacity="0" StrokeDashOffset="0.5" StrokeEndLineCap="Square" Stroke="{ThemeResource FocusVisualBlackStrokeThemeBrush}" StrokeDashArray="1,1"/>
+                        </Grid>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Grid x:Name="grid_desrption_concept1">
+            <Viewbox>
+                <TextBlock>descreption for concept1😇⏰⏰😔😐😍😈😅😆😋😎😒😅😄😅😅😅😈😈😈😈😇</TextBlock> </Viewbox>
+        </Grid>
+    </Page.Resources>
+
+    <!--
+        This grid acts as a root panel for the page that defines two rows:
+        * Row 0 contains the back button and page title
+        * Row 1 contains the rest of the page layout
+    -->
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.ChildrenTransitions>
+            <TransitionCollection>
+                <EntranceThemeTransition/>
+            </TransitionCollection>
+        </Grid.ChildrenTransitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="140"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Back button and page title -->
+        <Grid Background="#c6c8ca" >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="120"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition Height="19"/>
+            </Grid.RowDefinitions>
+            <Button x:Name="backButton" Margin="39,59,39,0" Command="{Binding NavigationHelper.GoBackCommand, ElementName=pageRoot}"
+                        Style="{StaticResource NavigationBackButtonNormalStyle}"
+                        VerticalAlignment="Top"
+                        AutomationProperties.Name="Back"
+                        AutomationProperties.AutomationId="BackButton"
+                        AutomationProperties.ItemType="Navigation Button"/>
+            <TextBlock x:Name="pageTitle" Text="{StaticResource AppName}" Style="{StaticResource HeaderTextBlockStyle}" Grid.Column="1" 
+                        IsHitTestVisible="false" TextWrapping="NoWrap" VerticalAlignment="Bottom" Margin="0,0,30,40" FontSize="40" FontWeight="Medium"
+                        />
+            <Rectangle Grid.Row="1" Fill="#f9731d" Grid.ColumnSpan="2" Grid.Column="0"/>
+        </Grid>
+
+        <SemanticZoom Name="zoom" Grid.Row="1">
+            <SemanticZoom.ZoomedInView>
+                <GridView IsItemClickEnabled="False" SelectionMode="None">
+                    <FlipView Name="flipView" Grid.Row="1">
+                        <StackPanel Orientation="Horizontal" Grid.Row="1" Margin="43,5,-43,-5">
+                            <StackPanel Orientation="Vertical" Name="StackPanel_katA">
+                                <!---->
+                                <Button Name="button_Title_katA" Style="{StaticResource ButtonTitleConceptStyle}" Width="200" Height="60" FontSize="30" Background="#97a219" Margin="10">מושגים</Button>
+                                <Button x:ConnectionId='2' Name="button_concept1"                                Width="200" Height="60" FontSize="30" Foreground="#aab246" Background="#ffff"  Margin="10">מושגים</Button>
+                                <Button x:ConnectionId='3' Name="button_concept2"                                Width="200" Height="60" FontSize="30" Foreground="#aab246" Background="#ffff"  Margin="10">מושגים</Button>
+
+                            </StackPanel>
+                                 <StackPanel Orientation="Vertical" Name="StackPanel_katB">
+                                <!---->
+                                <Button   Name="button_Title_katB" Style="{StaticResource ButtonTitleConceptStyle}" Width="200" Height="60" FontSize="30" Background="#97a219" Margin="10">מושגים</Button>
+                                <Button x:ConnectionId='1' Name="button_concept5"                                Width="200" Height="60" FontSize="30" Foreground="#aab246" Background="#ffff"  Margin="10">מושגים</Button>
+
+                            </StackPanel>
+                        </StackPanel>
+                        <Grid Name="Grid_katA">
+                            <Viewbox><TextBox Text="katA"></TextBox></Viewbox>
+                            <ListBox SelectedIndex="1">
+                                <Button Background="Yellow" Name="option_concept1"/>
+                                <Button  Background="Red" Name="option_concept2"/>
+
+                            </ListBox>
+                        </Grid>
+                           <Grid Name="Grid_katB">
+                            <Viewbox>
+                                <TextBox Text="katB"></TextBox>
+                            </Viewbox>
+                            <ListBox SelectedIndex="1">
+                                <Button Background="Yellow" Name="option_concept5"/>
+                                <Button  Background="Red"/>
+
+                            </ListBox>
+                        </Grid>
+                    </FlipView>
+                </GridView>
+            </SemanticZoom.ZoomedInView>
+            <SemanticZoom.ZoomedOutView>
+                <GridView IsItemClickEnabled="False" SelectionMode="None" >
+                      <StackPanel>
+                        <Button x:ConnectionId='4' Name="ButtonZoomOut_katA"                                 Width="200" Height="60" FontSize="30" Foreground="#aab246" Background="#ffff"  Margin="10">מושגים</Button>
+                        <Button x:ConnectionId='5' Name="ButtonZoomOut_katB"                                 Width="200" Height="60" FontSize="30" Foreground="#aab246" Background="#ffff"  Margin="10">מושגים</Button>
+                    </StackPanel>
+                    </GridView>
+                    </SemanticZoom.ZoomedOutView>
+            </SemanticZoom>
+
+    </Grid>
+</Page>
+

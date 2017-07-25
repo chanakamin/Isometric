@@ -1,0 +1,181 @@
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\bin\Release\Content\Bloom.tkb
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\bin\Release\Content\Scene3.tkb
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\bin\Release\Content\MetaTunnel.tkb
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\bin\Release\Content\Arial16.tkb
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\bin\Release\Content\1Ship.tkb
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\bin\Release\Content\Scene1.tkb
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\bin\Release\Content\Cube.tkb
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\bin\Release\Content\lightCube.tkb
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\bin\Release\Content\Untitled.tkb
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\bin\Release\Content\Untitled1.tkb
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\bin\Release\Content\Scene2.tkb
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\bin\Release\Content\bsdd.tkb
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\bin\Release\Content\womm.tkb
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\bin\Release\Content\metal_glass_table.tkb
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\bin\Release\Content\smallGlass.tkb
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\bin\Release\Content\Ship.tkb
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\bin\Release\Content\Rubik's Cube.tkb
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\bin\Release\Content\texturableBox.tkb
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\bin\Release\Content\verreEau.tkb
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\bin\Release\Content\ShipDiffuse.tkb
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\bin\Release\Content\bsd.tkb
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\bin\Release\Content\bsd1.tkb
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\bin\Release\Content\blueCursor.tkb
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\bin\Release\Content\GreenCursor.tkb
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\bin\Release\Content\JustTransparents.tkb
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\bin\Release\Content\RedCursor.tkb
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\bin\Release\Content\mat.tkb
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\bin\Release\Content\תמונה1.tkb
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\bin\Release\Content\Glass.tkb
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\bin\Release\App.xbf
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\bin\Release\ConceptesPage.xbf
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\bin\Release\Dictionary.xbf
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\bin\Release\ExercisePage.xbf
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\bin\Release\OpensvedGamePage.xbf
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\bin\Release\SaveGameMessageDialog.xbf
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\bin\Release\Settings.xbf
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\bin\Release\StartPage.xbf
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\bin\Release\StatisticsPage.xbf
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\bin\Release\Themes\Generic.xbf
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\bin\Release\Isometric.exe
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\bin\Release\Isometric.pdb
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\bin\Release\resources.pri
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\bin\Release\AppxManifest.xml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\bin\Release\Isometric.build.appxrecipe
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\bin\Release\SharpDX.Direct2D1.dll
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\bin\Release\SharpDX.Direct3D11.dll
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\bin\Release\SharpDX.dll
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\bin\Release\SharpDX.DXGI.dll
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\bin\Release\SharpDX.Toolkit.Audio.dll
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\bin\Release\SharpDX.Toolkit.dll
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\bin\Release\SharpDX.Toolkit.Game.dll
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\bin\Release\SharpDX.Toolkit.Graphics.dll
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\bin\Release\SharpDX.Toolkit.Input.dll
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\bin\Release\SharpDX.XAudio2.dll
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\bin\Release\SharpDX.xml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\bin\Release\SharpDX.Direct3D11.xml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\bin\Release\SharpDX.DXGI.xml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\bin\Release\SharpDX.Toolkit.xml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\bin\Release\SharpDX.Toolkit.Audio.xml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\bin\Release\SharpDX.Toolkit.Game.xml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\bin\Release\SharpDX.Toolkit.Graphics.xml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\bin\Release\SharpDX.Toolkit.Input.xml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\bin\Release\SharpDX.XAudio2.xml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\bin\Release\SharpDX.Direct2D1.xml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Release\App.g.i.cs
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Release\App.g.cs
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Release\ConceptesPage.g.i.cs
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Release\ConceptesPage.g.cs
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Release\Dictionary.g.i.cs
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Release\Dictionary.g.cs
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Release\ExercisePage.g.i.cs
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Release\ExercisePage.g.cs
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Release\OpensvedGamePage.g.i.cs
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Release\OpensvedGamePage.g.cs
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Release\SaveGameMessageDialog.g.i.cs
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Release\SaveGameMessageDialog.g.cs
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Release\Settings.g.i.cs
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Release\Settings.g.cs
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Release\StartPage.g.i.cs
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Release\StartPage.g.cs
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Release\StatisticsPage.g.i.cs
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Release\StatisticsPage.g.cs
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Release\Themes\Generic.g.i.cs
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Release\Themes\Generic.g.cs
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Release\XamlTypeInfo.g.cs
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Release\App.xaml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Release\Dictionary.xaml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Release\ExercisePage.xaml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Release\OpensvedGamePage.xaml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Release\SaveGameMessageDialog.xaml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Release\Settings.xaml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Release\StartPage.xaml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Release\StatisticsPage.xaml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Release\Themes\Generic.xaml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Release\App.xbf
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Release\Dictionary.xbf
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Release\ExercisePage.xbf
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Release\OpensvedGamePage.xbf
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Release\SaveGameMessageDialog.xbf
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Release\Settings.xbf
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Release\StartPage.xbf
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Release\StatisticsPage.xbf
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Release\Themes\Generic.xbf
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Release\XamlSaveStateFile.xml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Release\ConceptesPage.xaml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Release\ConceptesPage.xbf
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Release\Isometric.exe
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Release\Isometric.pdb
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Release\SharpDX\en-us\SharpDX.Properties.Resources.resw
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Release\Isometric.csproj.GenerateResource.Cache
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Release\SharpDX\layout.resfiles
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Release\SharpDX\layout.resfiles.intermediate
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Release\SharpDX\Resources.resfiles
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Release\SharpDX\Resources.resfiles.intermediate
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Release\SharpDX\pri.resfiles
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Release\SharpDX\pri.resfiles.intermediate
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Release\SharpDX\priconfig.xml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Release\SharpDX\priconfig.xml.intermediate
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Release\SharpDX.pri
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Release\SharpDX\qualifiers.txt
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Release\priconfig.xml
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Release\priconfig.xml.intermediate
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Release\layout.resfiles
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Release\layout.resfiles.intermediate
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Release\resources.resfiles
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Release\resources.resfiles.intermediate
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Release\pri.resfiles
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Release\pri.resfiles.intermediate
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Release\qualifiers.txt
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Release\qualifiers.txt.intermediate
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Release\MultipleQualifiersPerDimensionFound.txt
+F:\פרוייקט\פרוייקט\ניסויים\ניסויים נוספים\Isometric\MyGame5\obj\Release\ProjectArchitectures.txt
+D:\Isometric\MyGame5\obj\Release\Isometric.csprojResolveAssemblyReference.cache
+D:\Isometric\MyGame5\obj\Release\App.g.i.cs
+D:\Isometric\MyGame5\obj\Release\App.g.cs
+D:\Isometric\MyGame5\obj\Release\InformationPage.g.i.cs
+D:\Isometric\MyGame5\obj\Release\InformationPage.g.cs
+D:\Isometric\MyGame5\obj\Release\Dictionary.g.i.cs
+D:\Isometric\MyGame5\obj\Release\Dictionary.g.cs
+D:\Isometric\MyGame5\obj\Release\ExercisePage.g.i.cs
+D:\Isometric\MyGame5\obj\Release\ExercisePage.g.cs
+D:\Isometric\MyGame5\obj\Release\OpensvedGamePage.g.i.cs
+D:\Isometric\MyGame5\obj\Release\OpensvedGamePage.g.cs
+D:\Isometric\MyGame5\obj\Release\SaveGameMessageDialog.g.i.cs
+D:\Isometric\MyGame5\obj\Release\SaveGameMessageDialog.g.cs
+D:\Isometric\MyGame5\obj\Release\Settings.g.i.cs
+D:\Isometric\MyGame5\obj\Release\Settings.g.cs
+D:\Isometric\MyGame5\obj\Release\StandardStyles.g.i.cs
+D:\Isometric\MyGame5\obj\Release\StandardStyles.g.cs
+D:\Isometric\MyGame5\obj\Release\StartPage.g.i.cs
+D:\Isometric\MyGame5\obj\Release\StartPage.g.cs
+D:\Isometric\MyGame5\obj\Release\StatisticsPage.g.i.cs
+D:\Isometric\MyGame5\obj\Release\StatisticsPage.g.cs
+D:\Isometric\MyGame5\obj\Release\SuccessedPage.g.i.cs
+D:\Isometric\MyGame5\obj\Release\SuccessedPage.g.cs
+D:\Isometric\MyGame5\obj\Release\XamlTypeInfo.g.cs
+D:\Isometric\MyGame5\obj\Release\App.xaml
+D:\Isometric\MyGame5\obj\Release\InformationPage.xaml
+D:\Isometric\MyGame5\obj\Release\Dictionary.xaml
+D:\Isometric\MyGame5\obj\Release\ExercisePage.xaml
+D:\Isometric\MyGame5\obj\Release\OpensvedGamePage.xaml
+D:\Isometric\MyGame5\obj\Release\SaveGameMessageDialog.xaml
+D:\Isometric\MyGame5\obj\Release\Settings.xaml
+D:\Isometric\MyGame5\obj\Release\StandardStyles.xaml
+D:\Isometric\MyGame5\obj\Release\StartPage.xaml
+D:\Isometric\MyGame5\obj\Release\StatisticsPage.xaml
+D:\Isometric\MyGame5\obj\Release\SuccessedPage.xaml
+D:\Isometric\MyGame5\obj\Release\App.xbf
+D:\Isometric\MyGame5\obj\Release\InformationPage.xbf
+D:\Isometric\MyGame5\obj\Release\Dictionary.xbf
+D:\Isometric\MyGame5\obj\Release\ExercisePage.xbf
+D:\Isometric\MyGame5\obj\Release\OpensvedGamePage.xbf
+D:\Isometric\MyGame5\obj\Release\SaveGameMessageDialog.xbf
+D:\Isometric\MyGame5\obj\Release\Settings.xbf
+D:\Isometric\MyGame5\obj\Release\StandardStyles.xbf
+D:\Isometric\MyGame5\obj\Release\StartPage.xbf
+D:\Isometric\MyGame5\obj\Release\StatisticsPage.xbf
+D:\Isometric\MyGame5\obj\Release\SuccessedPage.xbf
+D:\Isometric\MyGame5\obj\Release\XamlSaveStateFile.xml
+D:\Isometric\MyGame5\obj\Release\Isometric.exe
+D:\Isometric\MyGame5\obj\Release\Isometric.pdb
